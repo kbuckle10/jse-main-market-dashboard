@@ -33,4 +33,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-# Triggered after GitHub Pages source was enabled.
+# Manual redeploy trigger after GitHub Pages source was enabled.
