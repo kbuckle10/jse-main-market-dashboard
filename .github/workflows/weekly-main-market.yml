@@ -7,6 +7,7 @@ on:
       - '.github/workflows/weekly-main-market.yml'
       - 'scripts/refresh-jse-links.mjs'
       - 'scripts/refresh-jse-market.mjs'
+      - 'scripts/patch-dashboard-links.mjs'
   schedule:
     # 8:00 AM Jamaica (UTC-5) every Saturday
     - cron: '0 13 * * 6'
@@ -41,7 +42,6 @@ jobs:
         run: npm run apply:research
 
       - name: Collect JSE Main Market universe and direct instrument URLs
-        # Authoritative universe: JSE Listed Companies. Capture direct instrument=NN URLs.
         run: npm run refresh:jse-links
 
       - name: Make dashboard ticker links use captured JSE instrument URLs
@@ -51,7 +51,6 @@ jobs:
         run: npm run refresh:sa
 
       - name: Collect official JSE Trade Summary market data
-        # Run JSE after SA so official data overrides delayed SA quotes.
         run: npm run refresh:jse
         continue-on-error: true
 
