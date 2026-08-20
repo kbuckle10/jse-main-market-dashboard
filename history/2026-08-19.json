@@ -32,7 +32,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -1.74,
       "dayPct": -2.32,
-      "volume": 21194
+      "volume": 21194,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "KW",
@@ -63,7 +64,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.01,
       "dayPct": 0.03,
-      "volume": 33877
+      "volume": 33877,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "NCBFG",
@@ -94,7 +96,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 1.38,
       "dayPct": 2,
-      "volume": 547050
+      "volume": 547050,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "SJ",
@@ -125,7 +128,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.94,
       "dayPct": 2.35,
-      "volume": 68699
+      "volume": 68699,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "SGJ",
@@ -154,7 +158,8 @@
       "source": "JSE",
       "priceDate": "2026-08-19",
       "tradeDate": "2026-08-19",
-      "volume": 59323
+      "volume": 59323,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "TJH",
@@ -185,7 +190,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.07,
       "dayPct": -0.62,
-      "volume": 3800575
+      "volume": 3800575,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "CPJ",
@@ -216,7 +222,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.09,
       "dayPct": 1.75,
-      "volume": 163895
+      "volume": 163895,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "GK",
@@ -247,7 +254,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.19,
       "dayPct": 0.25,
-      "volume": 161711
+      "volume": 161711,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "GENAC",
@@ -278,7 +286,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.04,
       "dayPct": -0.45,
-      "volume": 1426
+      "volume": 1426,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "CAR",
@@ -309,7 +318,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.66,
       "dayPct": -1.94,
-      "volume": 1100676
+      "volume": 1100676,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "SALF",
@@ -340,7 +350,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.06,
       "dayPct": 2.32,
-      "volume": 69554
+      "volume": 69554,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "MASSY",
@@ -369,7 +380,8 @@
       "source": "JSE",
       "priceDate": "2026-08-19",
       "tradeDate": "2026-08-19",
-      "volume": 2333
+      "volume": 2333,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "BIL",
@@ -400,7 +412,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.06,
       "dayPct": 0.09,
-      "volume": 2027
+      "volume": 2027,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "JMMBGL",
@@ -431,7 +444,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.1,
       "dayPct": -0.68,
-      "volume": 770606
+      "volume": 770606,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "SCIJMD",
@@ -462,7 +476,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.01,
       "dayPct": 0.11,
-      "volume": 7921
+      "volume": 7921,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "JBG",
@@ -493,7 +508,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -1.22,
       "dayPct": -9.39,
-      "volume": 218992
+      "volume": 218992,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "WIG",
@@ -522,7 +538,8 @@
       "source": "JSE",
       "priceDate": "2026-08-19",
       "tradeDate": "2026-08-19",
-      "volume": 3331684
+      "volume": 3331684,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "138SL",
@@ -553,7 +570,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.08,
       "dayPct": -2.77,
-      "volume": 292
+      "volume": 292,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "ASBH",
@@ -582,7 +600,8 @@
       "performanceSource": "SA",
       "source": "JSE",
       "tradeDate": "2026-08-19",
-      "volume": 11
+      "volume": 11,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "BRG",
@@ -613,7 +632,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.43,
       "dayPct": 7.19,
-      "volume": 13979
+      "volume": 13979,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "CCC",
@@ -644,7 +664,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.31,
       "dayPct": 0.29,
-      "volume": 9841
+      "volume": 9841,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "CPFV",
@@ -675,7 +696,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.21,
       "dayPct": -0.48,
-      "volume": 482
+      "volume": 482,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "EPLY",
@@ -706,7 +728,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 1.33,
       "dayPct": 4.24,
-      "volume": 1750
+      "volume": 1750,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "FIRSTROCKJMD",
@@ -734,7 +757,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.7,
       "dayPct": -9.06,
-      "volume": 1485
+      "volume": 1485,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "GHL",
@@ -765,7 +789,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -5.04,
       "dayPct": -1.38,
-      "volume": 5802
+      "volume": 5802,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "ENERGY",
@@ -796,7 +821,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.11,
       "dayPct": -10.58,
-      "volume": 204217
+      "volume": 204217,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "JP",
@@ -827,7 +853,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.29,
       "dayPct": -1.33,
-      "volume": 152794
+      "volume": 152794,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "KPREIT",
@@ -858,7 +885,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 1,
       "dayPct": 10.32,
-      "volume": 2363
+      "volume": 2363,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "LASD",
@@ -889,7 +917,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.29,
       "dayPct": 9.32,
-      "volume": 77493
+      "volume": 77493,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "LASM",
@@ -920,7 +949,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.12,
       "dayPct": 1.49,
-      "volume": 2124
+      "volume": 2124,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "MTL",
@@ -948,7 +978,8 @@
       "w1": -33.42,
       "m1": -14.47,
       "m3": -29.42,
-      "performanceSource": "SA"
+      "performanceSource": "SA",
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "MGL",
@@ -979,7 +1010,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.18,
       "dayPct": 3.12,
-      "volume": 151
+      "volume": 151,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "MJE",
@@ -1010,7 +1042,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.17,
       "dayPct": 2.61,
-      "volume": 1846
+      "volume": 1846,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "MPCCEL",
@@ -1041,7 +1074,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.05,
       "dayPct": -0.2,
-      "volume": 3245
+      "volume": 3245,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "PAL",
@@ -1072,7 +1106,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.03,
       "dayPct": 6.38,
-      "volume": 321420
+      "volume": 321420,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "PJAM",
@@ -1103,7 +1138,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.59,
       "dayPct": -1.28,
-      "volume": 77274
+      "volume": 77274,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "PJX",
@@ -1128,7 +1164,8 @@
       "w1": 0,
       "m1": 15.05,
       "m3": -16.87,
-      "performanceSource": "SA"
+      "performanceSource": "SA",
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "PROVEN",
@@ -1160,7 +1197,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.49,
       "dayPct": 5.43,
-      "volume": 10375
+      "volume": 10375,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "PULS",
@@ -1191,7 +1229,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.04,
       "dayPct": -5.06,
-      "volume": 5561
+      "volume": 5561,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "QWI",
@@ -1222,7 +1261,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.05,
       "dayPct": 6.94,
-      "volume": 478757
+      "volume": 478757,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "RJR",
@@ -1253,7 +1293,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.03,
       "dayPct": 2.56,
-      "volume": 40000
+      "volume": 40000,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "XFUND",
@@ -1284,7 +1325,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.05,
       "dayPct": -0.58,
-      "volume": 604
+      "volume": 604,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "SELECTF",
@@ -1313,7 +1355,8 @@
       "source": "JSE",
       "priceDate": "2026-08-19",
       "tradeDate": "2026-08-19",
-      "volume": 165415
+      "volume": 165415,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "SELECTMD",
@@ -1344,7 +1387,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.01,
       "dayPct": -1.05,
-      "volume": 190122
+      "volume": 190122,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "TROPICAL",
@@ -1375,7 +1419,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.02,
       "dayPct": 1.43,
-      "volume": 3161194
+      "volume": 3161194,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "VMIL",
@@ -1406,7 +1451,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.05,
       "dayPct": 3.23,
-      "volume": 50533
+      "volume": 50533,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "WIPT",
@@ -1437,7 +1483,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.15,
       "dayPct": -1.64,
-      "volume": 2489
+      "volume": 2489,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "WISYNCO",
@@ -1468,7 +1515,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.02,
       "dayPct": 0.1,
-      "volume": 54876
+      "volume": 54876,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "JSE",
@@ -1499,7 +1547,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.15,
       "dayPct": -1.61,
-      "volume": 129775
+      "volume": 129775,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "SML",
@@ -1530,7 +1579,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.1,
       "dayPct": -1.34,
-      "volume": 16695
+      "volume": 16695,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "SIL",
@@ -1561,7 +1611,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -0.08,
       "dayPct": -2.58,
-      "volume": 11138
+      "volume": 11138,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "SVL",
@@ -1592,7 +1643,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": 0.13,
       "dayPct": 0.74,
-      "volume": 12857
+      "volume": 12857,
+      "fundamentalSource": "SA"
     },
     {
       "ticker": "SRFJMD",
@@ -1623,7 +1675,8 @@
       "tradeDate": "2026-08-19",
       "dayJmd": -1.27,
       "dayPct": -13.8,
-      "volume": 1091
+      "volume": 1091,
+      "fundamentalSource": "SA"
     }
   ],
   "portfolio": [
@@ -1658,8 +1711,9 @@
   ],
   "changes": [],
   "researchAsOf": "2026-08-18",
-  "instrumentLinksUpdated": "2026-08-20T02:00:00.911Z",
-  "saPerformanceUpdated": "2026-08-20T02:08:01.298Z",
+  "instrumentLinksUpdated": "2026-08-20T02:50:14.163Z",
+  "saPerformanceUpdated": "2026-08-20T03:00:18.379Z",
   "jseTradeDate": "2026-08-19",
-  "jseMarketUpdated": "2026-08-20T02:08:07.488Z"
+  "jseMarketUpdated": "2026-08-20T03:00:28.258Z",
+  "saFundamentalsUpdated": "2026-08-20T03:00:18.379Z"
 }
