@@ -36,15 +36,22 @@ jobs:
       - name: Merge latest research overlay
         run: npm run apply:research
 
-      - name: Capture authoritative JSE universe and direct instrument links
+      - name: Collect JSE Main Market universe and direct instrument URLs
+        # Reference strategy: kbuckle10/daily-jse-market-dashboard/scripts/refresh-jse-links.mjs
+        # Authoritative universe: JSE Listed Companies. Direct instrument URLs replace generic tag links.
         run: npm run refresh:jse-links
         continue-on-error: true
 
+      - name: Make dashboard ticker links use captured JSE instrument URLs
+        run: npm run patch:dashboard-links
+
       - name: Refresh StockAnalysis historical performance and fallback quotes
+        # SA supplies history/performance and remains an explicitly labelled fallback when JSE is unavailable.
         run: npm run refresh:sa
 
-      - name: Refresh official JSE Trade Summary last
-        # JSE runs after SA so an official captured close always overrides the delayed fallback.
+      - name: Collect official JSE Trade Summary market data
+        # Reference strategy: kbuckle10/daily-jse-market-dashboard/scripts/refresh-jse-market.mjs
+        # Run JSE after SA so official data always overrides a delayed SA quote.
         run: npm run refresh:jse
         continue-on-error: true
 
@@ -61,7 +68,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json history/ package.json scripts/ .github/workflows/weekly-main-market.yml
+          git add data.json index.html history/ package.json scripts/ .github/workflows/weekly-main-market.yml
           if git diff --cached --quiet; then
             echo "No dashboard changes to commit."
           else
