@@ -2,6 +2,11 @@ name: Weekly JSE Main Market Refresh
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/weekly-main-market.yml'
+      - 'scripts/refresh-jse-links.mjs'
+      - 'scripts/refresh-jse-market.mjs'
   schedule:
     # 8:00 AM Jamaica (UTC-5) every Saturday
     - cron: '0 13 * * 6'
@@ -36,21 +41,17 @@ jobs:
         run: npm run apply:research
 
       - name: Collect JSE Main Market universe and direct instrument URLs
-        # Reference strategy: kbuckle10/daily-jse-market-dashboard/scripts/refresh-jse-links.mjs
-        # Authoritative universe: JSE Listed Companies. Direct instrument URLs replace generic tag links.
+        # Authoritative universe: JSE Listed Companies. Capture direct instrument=NN URLs.
         run: npm run refresh:jse-links
-        continue-on-error: true
 
       - name: Make dashboard ticker links use captured JSE instrument URLs
         run: npm run patch:dashboard-links
 
       - name: Refresh StockAnalysis historical performance and fallback quotes
-        # SA supplies history/performance and remains an explicitly labelled fallback when JSE is unavailable.
         run: npm run refresh:sa
 
       - name: Collect official JSE Trade Summary market data
-        # Reference strategy: kbuckle10/daily-jse-market-dashboard/scripts/refresh-jse-market.mjs
-        # Run JSE after SA so official data always overrides a delayed SA quote.
+        # Run JSE after SA so official data overrides delayed SA quotes.
         run: npm run refresh:jse
         continue-on-error: true
 
