@@ -7,8 +7,9 @@
     "refresh:jse-links": "node scripts/refresh-jse-links.mjs",
     "patch:dashboard-links": "node scripts/patch-dashboard-direct-links.mjs",
     "refresh:sa": "node scripts/refresh-sa-performance.mjs",
+    "refresh:crosslisted": "node scripts/refresh-crosslisted-primary.mjs",
     "refresh:jse": "node scripts/refresh-jse-market.mjs",
-    "refresh:weekly": "npm run apply:research && npm run refresh:jse-links && npm run patch:dashboard-links && npm run refresh:sa && npm run refresh:jse"
+    "refresh:weekly": "npm run apply:research && npm run refresh:jse-links && npm run patch:dashboard-links && npm run refresh:sa && npm run refresh:crosslisted && npm run refresh:jse"
   },
   "devDependencies": {
     "playwright": "1.55.0"
