@@ -10,14 +10,14 @@
       "ratingBasis": "Growth + Value",
       "price": 73.58,
       "priceSource": "JSE",
-      "eps": 7.06,
-      "bvps": 43.89,
-      "dps": 1.74,
-      "pe": 10.42,
-      "pb": 1.68,
-      "roe": 13.43,
-      "epsGrowth": 135,
-      "divYield": 2.36,
+      "eps": 5.78,
+      "bvps": 43.7,
+      "dps": 1.82,
+      "pe": 12.12,
+      "pb": 1.35,
+      "roe": 12.48,
+      "epsGrowth": 137.5,
+      "divYield": 2.41,
       "fairValue": "J$80–95",
       "buyZone": "J$65–75",
       "score": 87,
@@ -34,26 +34,91 @@
       "dayPct": -1.66,
       "volume": 10611,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:42:39.292Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:42:39.292Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:42:39.292Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:42:39.292Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:42:39.292Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:42:39.292Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:42:39.292Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:42:39.292Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/SEP/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/SEP/",
+        "updatedAt": "2026-08-21T22:42:39.292Z",
+        "pe": 12.12,
+        "forwardPe": 0.45,
+        "ps": 0.45,
+        "pb": 1.35,
+        "pfcf": 7.15,
+        "peg": null,
+        "evSales": 0.85,
+        "evEbitda": 15.37,
+        "evFcf": 13.36,
+        "earningsYield": 7.72,
+        "fcfYield": 13.99,
+        "dividendYield": 2.41,
+        "roe": 12.48,
+        "roa": 1.7,
+        "roic": 3.4,
+        "currentRatio": 1.83,
+        "quickRatio": 0.95,
+        "debtEquity": 1.05,
+        "interestCoverage": 0.77,
+        "assetTurnover": 1.09,
+        "grossMargin": 28.72,
+        "operatingMargin": 2.5,
+        "netMargin": 3.51,
+        "eps": 5.78,
+        "bvps": 43.7,
+        "dps": 1.82,
+        "epsGrowth": 137.5
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "KW",
@@ -62,14 +127,14 @@
       "ratingBasis": "Quality + Growth",
       "price": 34.18,
       "priceSource": "JSE",
-      "eps": 2.45,
-      "bvps": 39.43,
-      "dps": 0.72,
-      "pe": 13.95,
-      "pb": 0.87,
-      "roe": 6.65,
-      "epsGrowth": 23,
-      "divYield": 2.11,
+      "eps": 2,
+      "bvps": 37.42,
+      "dps": 0.7,
+      "pe": 16.98,
+      "pb": 0.9,
+      "roe": 5.68,
+      "epsGrowth": -4.5,
+      "divYield": 2.12,
       "fairValue": "J$38–44",
       "buyZone": "J$31–35",
       "score": 84,
@@ -86,26 +151,91 @@
       "dayPct": 0.71,
       "volume": 9326,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:42:47.501Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:42:47.501Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:42:47.501Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:42:47.501Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:42:47.501Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:42:47.501Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:42:47.501Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:42:47.501Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/KW/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/KW/",
+        "updatedAt": "2026-08-21T22:42:47.501Z",
+        "pe": 16.98,
+        "forwardPe": 3.64,
+        "ps": 3.64,
+        "pb": 0.9,
+        "pfcf": 23.45,
+        "peg": null,
+        "evSales": 3.36,
+        "evEbitda": 9.46,
+        "evFcf": 21.64,
+        "earningsYield": 5.93,
+        "fcfYield": 4.26,
+        "dividendYield": 2.12,
+        "roe": 5.68,
+        "roa": 2.96,
+        "roic": 5.14,
+        "currentRatio": 4.36,
+        "quickRatio": 4.12,
+        "debtEquity": 0.15,
+        "interestCoverage": 7.56,
+        "assetTurnover": 0.21,
+        "grossMargin": 41.21,
+        "operatingMargin": 23.08,
+        "netMargin": 21.56,
+        "eps": 2,
+        "bvps": 37.42,
+        "dps": 0.7,
+        "epsGrowth": -4.5
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "NCBFG",
@@ -114,14 +244,14 @@
       "ratingBasis": "Recovery / Value",
       "price": 71.55,
       "priceSource": "JSE",
-      "eps": 7.02,
-      "bvps": 100.71,
+      "eps": 7.19,
+      "bvps": 88.61,
       "dps": 2,
-      "pe": 10.19,
-      "pb": 0.71,
-      "roe": 10.21,
-      "epsGrowth": -15,
-      "divYield": 2.8,
+      "pe": 9.87,
+      "pb": 0.63,
+      "roe": 9.75,
+      "epsGrowth": -15.2,
+      "divYield": 2.82,
       "fairValue": "J$78–90",
       "buyZone": "J$62–72",
       "score": 80,
@@ -138,26 +268,91 @@
       "dayPct": 0.36,
       "volume": 87329,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:42:55.807Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:42:55.807Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:42:55.807Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:42:55.807Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:42:55.807Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:42:55.807Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:42:55.807Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:42:55.807Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/NCBFG/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/NCBFG/",
+        "updatedAt": "2026-08-21T22:42:55.807Z",
+        "pe": 9.87,
+        "forwardPe": 1.32,
+        "ps": 1.32,
+        "pb": 0.63,
+        "pfcf": 14.89,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": 10.16,
+        "fcfYield": 6.72,
+        "dividendYield": 2.82,
+        "roe": 9.75,
+        "roa": 1.04,
+        "roic": null,
+        "currentRatio": null,
+        "quickRatio": null,
+        "debtEquity": 1.95,
+        "interestCoverage": null,
+        "assetTurnover": null,
+        "grossMargin": 26.36,
+        "operatingMargin": 26.36,
+        "netMargin": 13.4,
+        "eps": 7.19,
+        "bvps": 88.61,
+        "dps": 2,
+        "epsGrowth": -15.2
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "SJ",
@@ -166,14 +361,14 @@
       "ratingBasis": "Growth + Value",
       "price": 41.09,
       "priceSource": "JSE",
-      "eps": 3.93,
-      "bvps": 31.57,
-      "dps": 1.27,
-      "pe": 10.46,
-      "pb": 1.3,
-      "roe": 12.93,
-      "epsGrowth": 17,
-      "divYield": 3.09,
+      "eps": 3.17,
+      "bvps": 29.89,
+      "dps": 1.18,
+      "pe": 12.93,
+      "pb": 1.34,
+      "roe": 10.72,
+      "epsGrowth": -11.6,
+      "divYield": 2.94,
       "fairValue": "J$44–50",
       "buyZone": "J$36–41",
       "score": 80,
@@ -190,26 +385,91 @@
       "dayPct": 0.07,
       "volume": 23476,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:03.375Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:03.375Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:43:03.375Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:03.375Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:43:03.375Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:03.375Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:03.375Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:03.375Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/SJ/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/SJ/",
+        "updatedAt": "2026-08-21T22:43:03.375Z",
+        "pe": 12.93,
+        "forwardPe": 1.38,
+        "ps": 1.38,
+        "pb": 1.34,
+        "pfcf": 89.69,
+        "peg": null,
+        "evSales": 1.09,
+        "evEbitda": 4.34,
+        "evFcf": 92.46,
+        "earningsYield": 7.73,
+        "fcfYield": -12.07,
+        "dividendYield": 2.94,
+        "roe": 10.72,
+        "roa": 2.44,
+        "roic": 15.8,
+        "currentRatio": 214.13,
+        "quickRatio": 118.01,
+        "debtEquity": 0.05,
+        "interestCoverage": 2.75,
+        "assetTurnover": 0.17,
+        "grossMargin": 55.29,
+        "operatingMargin": 23.28,
+        "netMargin": 10.7,
+        "eps": 3.17,
+        "bvps": 29.89,
+        "dps": 1.18,
+        "epsGrowth": -11.6
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "SGJ",
@@ -219,13 +479,13 @@
       "price": 57.35,
       "priceSource": "JSE",
       "eps": 6.68,
-      "bvps": 54.7,
+      "bvps": 54.62,
       "dps": 1.8,
-      "pe": 8.59,
+      "pe": 8.54,
       "pb": 1.05,
       "roe": 12.76,
-      "epsGrowth": 0,
-      "divYield": 3.14,
+      "epsGrowth": -0.4,
+      "divYield": 3.16,
       "fairValue": "J$60–68",
       "buyZone": "J$50–57",
       "score": 76,
@@ -242,26 +502,91 @@
       "fundamentalSource": "SA",
       "dayJmd": 0.34,
       "dayPct": 0.6,
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:10.729Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:10.729Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:43:10.729Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:10.729Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:43:10.729Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:10.729Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:10.729Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:10.729Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/SGJ/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/SGJ/",
+        "updatedAt": "2026-08-21T22:43:10.729Z",
+        "pe": 8.54,
+        "forwardPe": 2.61,
+        "ps": 2.61,
+        "pb": 1.05,
+        "pfcf": 16.85,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": 11.72,
+        "fcfYield": -27.51,
+        "dividendYield": 3.16,
+        "roe": 12.76,
+        "roa": 2.59,
+        "roic": null,
+        "currentRatio": null,
+        "quickRatio": null,
+        "debtEquity": 0.01,
+        "interestCoverage": null,
+        "assetTurnover": null,
+        "grossMargin": 45.6,
+        "operatingMargin": 45.6,
+        "netMargin": 30.54,
+        "eps": 6.68,
+        "bvps": 54.62,
+        "dps": 1.8,
+        "epsGrowth": -0.4
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "TJH",
@@ -271,13 +596,13 @@
       "price": 11.2,
       "priceSource": "JSE",
       "eps": 0.55,
-      "bvps": 1.26,
-      "dps": 0.26,
-      "pe": 20.36,
-      "pb": 8.89,
-      "roe": 55.31,
-      "epsGrowth": 24,
-      "divYield": 2.32,
+      "bvps": 1.19,
+      "dps": 0.29,
+      "pe": 20.41,
+      "pb": 9.4,
+      "roe": 52.1,
+      "epsGrowth": 24.1,
+      "divYield": 2.6,
       "fairValue": "J$8.50–10.50",
       "buyZone": "J$7.50–9.00",
       "score": 73,
@@ -294,26 +619,91 @@
       "dayPct": 0.18,
       "volume": 3278348,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:18.258Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:18.258Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.000Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:43:18.258Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:18.258Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:43:18.258Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:18.258Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:18.258Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:18.258Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/TJH/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/TJH/",
+        "updatedAt": "2026-08-21T22:43:18.258Z",
+        "pe": 20.41,
+        "forwardPe": 8.2,
+        "ps": 8.2,
+        "pb": 9.4,
+        "pfcf": 13.77,
+        "peg": null,
+        "evSales": 9.87,
+        "evEbitda": 12.21,
+        "evFcf": 16.56,
+        "earningsYield": 4.9,
+        "fcfYield": 7.26,
+        "dividendYield": 2.6,
+        "roe": 52.1,
+        "roa": 15.05,
+        "roic": 19.94,
+        "currentRatio": 1.15,
+        "quickRatio": 1.14,
+        "debtEquity": 2.1,
+        "interestCoverage": 5.62,
+        "assetTurnover": 0.36,
+        "grossMargin": 77.74,
+        "operatingMargin": 66.29,
+        "netMargin": 40.18,
+        "eps": 0.55,
+        "bvps": 1.19,
+        "dps": 0.29,
+        "epsGrowth": 24.1
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "CPJ",
@@ -322,13 +712,13 @@
       "ratingBasis": "Deep Value / Earnings Quality Watch",
       "price": 5.3,
       "priceSource": "JSE",
-      "eps": 1.08,
-      "bvps": 7.32,
+      "eps": 0.81,
+      "bvps": 7.5,
       "dps": 0,
-      "pe": 4.91,
-      "pb": 0.72,
-      "roe": 16.67,
-      "epsGrowth": 20,
+      "pe": 6.43,
+      "pb": 0.73,
+      "roe": 12.35,
+      "epsGrowth": -4.8,
       "divYield": 0,
       "fairValue": "J$7–9",
       "buyZone": "J$5–6",
@@ -346,26 +736,90 @@
       "dayPct": 1.15,
       "volume": 2748,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:25.317Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:25.317Z"
         },
         "divYield": {
           "state": "fallback",
           "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "checkedAt": "2026-08-21T22:49:36.685Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:25.317Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:43:25.317Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:25.317Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:25.317Z"
+        },
+        "dps": {
+          "state": "fallback",
+          "detail": "Retaining previously sourced DPS",
+          "checkedAt": "2026-08-21T22:43:25.317Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "CALC",
+      "saUrl": "https://stockanalysis.com/quote/jmse/CPJ/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/CPJ/",
+        "updatedAt": "2026-08-21T22:43:25.317Z",
+        "pe": 6.43,
+        "forwardPe": 0.28,
+        "ps": 0.28,
+        "pb": 0.73,
+        "pfcf": 2.99,
+        "peg": null,
+        "evSales": 0.66,
+        "evEbitda": 7.36,
+        "evFcf": 6.89,
+        "earningsYield": 15.49,
+        "fcfYield": 33.44,
+        "dividendYield": null,
+        "roe": 12.35,
+        "roa": -9.75,
+        "roic": -17.86,
+        "currentRatio": 2.78,
+        "quickRatio": 1.3,
+        "debtEquity": 0.95,
+        "interestCoverage": -4.55,
+        "assetTurnover": 1.2,
+        "grossMargin": 24.36,
+        "operatingMargin": -13.02,
+        "netMargin": 4.41,
+        "eps": 0.81,
+        "bvps": 7.5,
+        "dps": null,
+        "epsGrowth": -4.8
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "GK",
@@ -374,14 +828,14 @@
       "ratingBasis": "Quality / Earnings Watch",
       "price": 75.41,
       "priceSource": "JSE",
-      "eps": 7.18,
-      "bvps": 101.35,
-      "dps": 2.4,
-      "pe": 10.5,
-      "pb": 0.74,
-      "roe": 7.66,
-      "epsGrowth": -17,
-      "divYield": 3.18,
+      "eps": 7.47,
+      "bvps": 96.25,
+      "dps": 2.37,
+      "pe": 10.04,
+      "pb": 0.75,
+      "roe": 7.97,
+      "epsGrowth": -9.4,
+      "divYield": 3.16,
       "fairValue": "J$85–95",
       "buyZone": "J$70–78",
       "score": 72,
@@ -398,26 +852,91 @@
       "dayPct": -1.15,
       "volume": 48395,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:32.794Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:32.794Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:43:32.794Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:32.794Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:43:32.794Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:32.794Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:32.794Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:32.794Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/GK/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/GK/",
+        "updatedAt": "2026-08-21T22:43:32.794Z",
+        "pe": 10.04,
+        "forwardPe": 0.41,
+        "ps": 0.41,
+        "pb": 0.75,
+        "pfcf": 4.67,
+        "peg": null,
+        "evSales": 0.45,
+        "evEbitda": 5.03,
+        "evFcf": 5.22,
+        "earningsYield": 9.99,
+        "fcfYield": 21.4,
+        "dividendYield": 3.16,
+        "roe": 7.97,
+        "roa": 2.61,
+        "roic": 7.62,
+        "currentRatio": 4.24,
+        "quickRatio": 1.99,
+        "debtEquity": 0.39,
+        "interestCoverage": 2.79,
+        "assetTurnover": 0.67,
+        "grossMargin": 38.08,
+        "operatingMargin": 6.22,
+        "netMargin": 4.06,
+        "eps": 7.47,
+        "bvps": 96.25,
+        "dps": 2.37,
+        "epsGrowth": -9.4
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "GENAC",
@@ -427,13 +946,13 @@
       "price": 8.32,
       "priceSource": "JSE",
       "eps": 0.51,
-      "bvps": 4.74,
+      "bvps": 5.51,
       "dps": 0.08,
-      "pe": 16.31,
-      "pb": 1.76,
-      "roe": 11.99,
-      "epsGrowth": 56,
-      "divYield": 0.96,
+      "pe": 16.94,
+      "pb": 1.18,
+      "roe": 9.71,
+      "epsGrowth": 99.7,
+      "divYield": 0.87,
       "fairValue": "J$9–11",
       "buyZone": "J$7.50–9.00",
       "score": 71,
@@ -450,26 +969,91 @@
       "dayPct": -6.41,
       "volume": 25692,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:40.398Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:40.398Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:43:40.398Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:40.398Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:43:40.398Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:40.398Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:40.398Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:40.398Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/GENAC/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/GENAC/",
+        "updatedAt": "2026-08-21T22:43:40.398Z",
+        "pe": 16.94,
+        "forwardPe": 0.62,
+        "ps": 0.62,
+        "pb": 1.18,
+        "pfcf": 15.94,
+        "peg": null,
+        "evSales": 0.47,
+        "evEbitda": 7.24,
+        "evFcf": 12.01,
+        "earningsYield": 5.96,
+        "fcfYield": 6.27,
+        "dividendYield": 0.87,
+        "roe": 9.71,
+        "roa": 2.24,
+        "roic": 8.7,
+        "currentRatio": 364.47,
+        "quickRatio": 157.89,
+        "debtEquity": 0.02,
+        "interestCoverage": null,
+        "assetTurnover": 0.74,
+        "grossMargin": 9.03,
+        "operatingMargin": 4.84,
+        "netMargin": 3.7,
+        "eps": 0.51,
+        "bvps": 5.51,
+        "dps": 0.08,
+        "epsGrowth": 99.7
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "CAR",
@@ -478,14 +1062,14 @@
       "ratingBasis": "Quality / Overvalued",
       "price": 33.7,
       "priceSource": "JSE",
-      "eps": 1.59,
-      "bvps": null,
-      "dps": 1.37,
-      "pe": 21.19,
-      "pb": null,
-      "roe": null,
-      "epsGrowth": 9,
-      "divYield": 4.07,
+      "eps": 1.64,
+      "bvps": 0.7,
+      "dps": 1.35,
+      "pe": 21.36,
+      "pb": 49.68,
+      "roe": 247,
+      "epsGrowth": 8.2,
+      "divYield": 3.86,
       "fairValue": "J$25–30",
       "buyZone": "J$22–26",
       "score": 70,
@@ -502,20 +1086,91 @@
       "dayPct": -3.55,
       "volume": 401091,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:47.753Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:43:47.753Z"
+        },
+        "pb": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:47.753Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:47.753Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:43:47.753Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:47.753Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:47.753Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:47.753Z"
         }
       },
-      "divYieldSource": "CALC"
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/CAR/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/CAR/",
+        "updatedAt": "2026-08-21T22:43:47.753Z",
+        "pe": 21.36,
+        "forwardPe": 7.18,
+        "ps": 7.18,
+        "pb": 49.68,
+        "pfcf": 19.73,
+        "peg": null,
+        "evSales": 7.07,
+        "evEbitda": 15.57,
+        "evFcf": 19.44,
+        "earningsYield": 4.68,
+        "fcfYield": 5.07,
+        "dividendYield": 3.86,
+        "roe": 247,
+        "roa": 89.58,
+        "roic": 772.69,
+        "currentRatio": 1.99,
+        "quickRatio": 1.72,
+        "debtEquity": 0.22,
+        "interestCoverage": 155.66,
+        "assetTurnover": 3.23,
+        "grossMargin": 57.8,
+        "operatingMargin": 44.44,
+        "netMargin": 33.6,
+        "eps": 1.64,
+        "bvps": 0.7,
+        "dps": 1.35,
+        "epsGrowth": 8.2
+      },
+      "pbSource": "SA",
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "SALF",
@@ -524,14 +1179,14 @@
       "ratingBasis": "Quality Balance Sheet / Slow EPS",
       "price": 2.49,
       "priceSource": "JSE",
-      "eps": 0.18,
-      "bvps": 1.19,
+      "eps": 0.21,
+      "bvps": 1.2,
       "dps": 0.13,
-      "pe": 13.83,
-      "pb": 2.09,
-      "roe": 15.05,
-      "epsGrowth": 2,
-      "divYield": 5.22,
+      "pe": 12.41,
+      "pb": 2.19,
+      "roe": 18.38,
+      "epsGrowth": 49.2,
+      "divYield": 5.04,
       "fairValue": "J$3.00–3.50",
       "buyZone": "J$2.40–2.50",
       "score": 68,
@@ -548,26 +1203,91 @@
       "dayPct": -4.23,
       "volume": 151986,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:55.345Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:55.345Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:43:55.345Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:43:55.345Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:43:55.345Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:55.345Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:55.345Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:43:55.345Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/SALF/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/SALF/",
+        "updatedAt": "2026-08-21T22:43:55.345Z",
+        "pe": 12.41,
+        "forwardPe": 1.58,
+        "ps": 1.58,
+        "pb": 2.19,
+        "pfcf": 11.37,
+        "peg": null,
+        "evSales": 1.31,
+        "evEbitda": 7.19,
+        "evFcf": 9.47,
+        "earningsYield": 8.06,
+        "fcfYield": 8.79,
+        "dividendYield": 5.04,
+        "roe": 18.38,
+        "roa": 12.03,
+        "roic": 26.32,
+        "currentRatio": 4.12,
+        "quickRatio": 2.46,
+        "debtEquity": 0.02,
+        "interestCoverage": 102.12,
+        "assetTurnover": 1.14,
+        "grossMargin": 31.54,
+        "operatingMargin": 16.83,
+        "netMargin": 12.71,
+        "eps": 0.21,
+        "bvps": 1.2,
+        "dps": 0.13,
+        "epsGrowth": 49.2
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "MASSY",
@@ -576,14 +1296,14 @@
       "ratingBasis": "Income / Below Book",
       "price": 72.23,
       "priceSource": "JSE",
-      "eps": 5.71,
+      "eps": 6.38,
       "bvps": 91.77,
-      "dps": 4.14,
-      "pe": 12.65,
+      "dps": 4.15,
+      "pe": 12.57,
       "pb": 0.79,
       "roe": 9.5,
-      "epsGrowth": -25,
-      "divYield": 5.73,
+      "epsGrowth": -25.3,
+      "divYield": 5.72,
       "fairValue": "J$75–85",
       "buyZone": "J$65–72",
       "score": 68,
@@ -600,26 +1320,89 @@
       "fundamentalSource": "SA",
       "dayJmd": -0.27,
       "dayPct": -0.37,
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:02.027Z"
         },
         "pb": {
           "state": "fallback",
           "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "checkedAt": "2026-08-21T22:49:36.685Z"
         },
         "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:44:02.027Z"
+        },
+        "roe": {
           "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "detail": "Retaining previously sourced ROE",
+          "checkedAt": "2026-08-21T22:44:02.027Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:44:02.027Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:02.027Z"
+        },
+        "bvps": {
+          "state": "fallback",
+          "detail": "Retaining previously sourced BVPS",
+          "checkedAt": "2026-08-21T22:44:02.027Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:02.027Z"
         }
       },
       "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/MASSY/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/MASSY/",
+        "updatedAt": "2026-08-21T22:44:02.027Z",
+        "pe": 12.57,
+        "forwardPe": 4.15,
+        "ps": null,
+        "pb": null,
+        "pfcf": null,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": null,
+        "fcfYield": null,
+        "dividendYield": 5.72,
+        "roe": null,
+        "roa": null,
+        "roic": null,
+        "currentRatio": null,
+        "quickRatio": null,
+        "debtEquity": null,
+        "interestCoverage": null,
+        "assetTurnover": null,
+        "grossMargin": null,
+        "operatingMargin": null,
+        "netMargin": null,
+        "eps": 6.38,
+        "bvps": null,
+        "dps": 4.15,
+        "epsGrowth": -25.3
+      },
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "BIL",
@@ -628,14 +1411,14 @@
       "ratingBasis": "Quality / ROE Does Not Justify Premium",
       "price": 64.34,
       "priceSource": "JSE",
-      "eps": 2.69,
-      "bvps": 30.53,
-      "dps": 2.41,
-      "pe": 23.92,
-      "pb": 2.11,
-      "roe": 8.85,
-      "epsGrowth": 4.3,
-      "divYield": 3.75,
+      "eps": 2.89,
+      "bvps": 31.63,
+      "dps": 2.4,
+      "pe": 22.86,
+      "pb": 2.09,
+      "roe": 9.18,
+      "epsGrowth": 9.4,
+      "divYield": 3.63,
       "fairValue": "J$55–62",
       "buyZone": "J$48–55",
       "score": 59,
@@ -652,26 +1435,91 @@
       "dayPct": -0.73,
       "volume": 3554,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:09.487Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:09.487Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:44:09.487Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:09.487Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:44:09.487Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:09.487Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:09.487Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:09.487Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/BIL/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/BIL/",
+        "updatedAt": "2026-08-21T22:44:09.487Z",
+        "pe": 22.86,
+        "forwardPe": 6.41,
+        "ps": 6.41,
+        "pb": 2.09,
+        "pfcf": 23.53,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": 4.38,
+        "fcfYield": -7.02,
+        "dividendYield": 3.63,
+        "roe": 9.18,
+        "roa": 2.08,
+        "roic": 2.59,
+        "currentRatio": 0.14,
+        "quickRatio": 0.14,
+        "debtEquity": 2.81,
+        "interestCoverage": null,
+        "assetTurnover": 0.07,
+        "grossMargin": 99.84,
+        "operatingMargin": 41.53,
+        "netMargin": 28.04,
+        "eps": 2.89,
+        "bvps": 31.63,
+        "dps": 2.4,
+        "epsGrowth": 9.4
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "JMMBGL",
@@ -681,13 +1529,13 @@
       "price": 15.15,
       "priceSource": "JSE",
       "eps": 2.2,
-      "bvps": 32.95,
+      "bvps": 31.12,
       "dps": 0.2,
-      "pe": 6.89,
-      "pb": 0.46,
+      "pe": 6.96,
+      "pb": 0.47,
       "roe": 7.51,
-      "epsGrowth": -56,
-      "divYield": 1.32,
+      "epsGrowth": 0.1,
+      "divYield": 1.31,
       "fairValue": "J$16–20",
       "buyZone": "J$13–15",
       "score": 57,
@@ -704,26 +1552,91 @@
       "dayPct": 2.23,
       "volume": 330116,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:16.450Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:16.450Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:44:16.450Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:16.450Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:44:16.450Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:16.450Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:16.450Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:16.450Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/JMMBGL/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/JMMBGL/",
+        "updatedAt": "2026-08-21T22:44:16.450Z",
+        "pe": 6.96,
+        "forwardPe": 1.31,
+        "ps": 1.31,
+        "pb": 0.47,
+        "pfcf": 2.95,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": 14.47,
+        "fcfYield": 33.84,
+        "dividendYield": 1.31,
+        "roe": 7.51,
+        "roa": 0.61,
+        "roic": -0.59,
+        "currentRatio": 14.92,
+        "quickRatio": 14.92,
+        "debtEquity": 6.66,
+        "interestCoverage": null,
+        "assetTurnover": 0.03,
+        "grossMargin": 94.84,
+        "operatingMargin": -14.07,
+        "netMargin": 19.03,
+        "eps": 2.2,
+        "bvps": 31.12,
+        "dps": 0.2,
+        "epsGrowth": 0.1
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "SCIJMD",
@@ -732,14 +1645,14 @@
       "ratingBasis": "Deep P/B Discount / Very Weak ROE",
       "price": 9.61,
       "priceSource": "JSE",
-      "eps": 0.57,
-      "bvps": 19.66,
+      "eps": 0.58,
+      "bvps": 20.7,
       "dps": 0.71,
-      "pe": 16.86,
-      "pb": 0.49,
+      "pe": 16.29,
+      "pb": 0.45,
       "roe": 2.85,
-      "epsGrowth": -75,
-      "divYield": 7.39,
+      "epsGrowth": -75.1,
+      "divYield": 7.45,
       "fairValue": "J$9–11",
       "buyZone": "J$8–9",
       "score": 50,
@@ -756,26 +1669,91 @@
       "dayPct": 1.37,
       "volume": 14166,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:24.096Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:24.096Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:44:24.096Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:24.096Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:44:24.096Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:24.096Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:24.096Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:24.096Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/SCIJMD/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/SCIJMD/",
+        "updatedAt": "2026-08-21T22:44:24.096Z",
+        "pe": 16.29,
+        "forwardPe": 1.31,
+        "ps": 1.31,
+        "pb": 0.45,
+        "pfcf": null,
+        "peg": null,
+        "evSales": 7.4,
+        "evEbitda": 11.54,
+        "evFcf": null,
+        "earningsYield": 6.27,
+        "fcfYield": null,
+        "dividendYield": 7.45,
+        "roe": 2.85,
+        "roa": 4.47,
+        "roic": 6.04,
+        "currentRatio": 1.67,
+        "quickRatio": 1.67,
+        "debtEquity": 2.14,
+        "interestCoverage": 1.19,
+        "assetTurnover": 0.11,
+        "grossMargin": 100,
+        "operatingMargin": 64.17,
+        "netMargin": 8.23,
+        "eps": 0.58,
+        "bvps": 20.7,
+        "dps": 0.71,
+        "epsGrowth": -75.1
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "JBG",
@@ -784,11 +1762,11 @@
       "ratingBasis": "Below Book / Loss-Making",
       "price": 12.33,
       "priceSource": "JSE",
-      "eps": null,
-      "bvps": 29.33,
+      "eps": -4.69,
+      "bvps": 29.6,
       "dps": 0,
-      "pe": null,
-      "pb": 0.42,
+      "pe": 8.33,
+      "pb": 0.41,
       "roe": -15.33,
       "epsGrowth": null,
       "divYield": 0,
@@ -808,20 +1786,89 @@
       "dayPct": -1.2,
       "volume": 117981,
       "fundamentalSource": "SA",
-      "pbSource": "CALC",
+      "pbSource": "SA",
       "metricStatus": {
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:31.363Z"
         },
         "divYield": {
           "state": "fallback",
           "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "checkedAt": "2026-08-21T22:49:36.685Z"
+        },
+        "pe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:31.363Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:31.363Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:44:31.363Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:31.363Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:31.363Z"
+        },
+        "dps": {
+          "state": "fallback",
+          "detail": "Retaining previously sourced DPS",
+          "checkedAt": "2026-08-21T22:44:31.363Z"
         }
       },
-      "divYieldSource": "CALC"
+      "divYieldSource": "CALC",
+      "saUrl": "https://stockanalysis.com/quote/jmse/JBG/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/JBG/",
+        "updatedAt": "2026-08-21T22:44:31.363Z",
+        "pe": 8.33,
+        "forwardPe": 0.12,
+        "ps": 0.12,
+        "pb": 0.41,
+        "pfcf": null,
+        "peg": null,
+        "evSales": 0.55,
+        "evEbitda": 22.02,
+        "evFcf": null,
+        "earningsYield": -38.2,
+        "fcfYield": -13.83,
+        "dividendYield": null,
+        "roe": -15.33,
+        "roa": -0.12,
+        "roic": -0.26,
+        "currentRatio": 0.74,
+        "quickRatio": 0.28,
+        "debtEquity": 1.51,
+        "interestCoverage": -0.05,
+        "assetTurnover": 1.02,
+        "grossMargin": 16.19,
+        "operatingMargin": -0.19,
+        "netMargin": -4.7,
+        "eps": -4.69,
+        "bvps": 29.6,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "peSource": "SA",
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "WIG",
@@ -830,14 +1877,14 @@
       "ratingBasis": "High P/B / Weak ROE",
       "price": 1.03,
       "priceSource": "JSE",
-      "eps": 0.02,
-      "bvps": 0.5,
-      "dps": 0.003,
-      "pe": 51.5,
-      "pb": 2.06,
-      "roe": 3.85,
-      "epsGrowth": -70,
-      "divYield": 0.29,
+      "eps": 0.01,
+      "bvps": 0.52,
+      "dps": 0,
+      "pe": 95.76,
+      "pb": 2,
+      "roe": 2.1,
+      "epsGrowth": -70.1,
+      "divYield": 0.25,
       "fairValue": null,
       "buyZone": null,
       "score": 26,
@@ -852,26 +1899,91 @@
       "tradeDate": "2026-08-21",
       "volume": 3429516,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:38.561Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:38.561Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:44:38.561Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:38.561Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:44:38.561Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:38.561Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:38.561Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:38.561Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/WIG/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/WIG/",
+        "updatedAt": "2026-08-21T22:44:38.561Z",
+        "pe": 95.76,
+        "forwardPe": 5.88,
+        "ps": 5.88,
+        "pb": 2,
+        "pfcf": 38.74,
+        "peg": null,
+        "evSales": 5.43,
+        "evEbitda": 11.41,
+        "evFcf": 35.76,
+        "earningsYield": 1.04,
+        "fcfYield": 2.58,
+        "dividendYield": 0.25,
+        "roe": 2.1,
+        "roa": 0.32,
+        "roic": 0.37,
+        "currentRatio": 1.69,
+        "quickRatio": 1.65,
+        "debtEquity": 0.38,
+        "interestCoverage": 0.19,
+        "assetTurnover": 0.2,
+        "grossMargin": 45.2,
+        "operatingMargin": 2.48,
+        "netMargin": 6.14,
+        "eps": 0.01,
+        "bvps": 0.52,
+        "dps": 0,
+        "epsGrowth": -70.1
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "138SL",
@@ -882,10 +1994,10 @@
       "priceSource": "JSE",
       "priceDate": "2026-08-21",
       "eps": 0.61,
-      "bvps": 8.8,
+      "bvps": 9.23,
       "dps": 0,
-      "pe": 4.13,
-      "pb": 0.29,
+      "pe": 4.59,
+      "pb": 0.3,
       "roe": 5.81,
       "epsGrowth": null,
       "divYield": 0,
@@ -904,26 +2016,89 @@
       "dayPct": -11.89,
       "volume": 1000952,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:45.358Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:45.358Z"
         },
         "divYield": {
           "state": "fallback",
           "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "checkedAt": "2026-08-21T22:49:36.685Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:45.358Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:44:45.358Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:45.358Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:45.358Z"
+        },
+        "dps": {
+          "state": "fallback",
+          "detail": "Retaining previously sourced DPS",
+          "checkedAt": "2026-08-21T22:44:45.358Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "CALC",
+      "saUrl": "https://stockanalysis.com/quote/jmse/138SL/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/138SL/",
+        "updatedAt": "2026-08-21T22:44:45.358Z",
+        "pe": 4.59,
+        "forwardPe": 1.08,
+        "ps": 1.08,
+        "pb": 0.3,
+        "pfcf": 2.4,
+        "peg": null,
+        "evSales": 3.29,
+        "evEbitda": 7.72,
+        "evFcf": null,
+        "earningsYield": 21.77,
+        "fcfYield": null,
+        "dividendYield": null,
+        "roe": 5.81,
+        "roa": 3.83,
+        "roic": 7.36,
+        "currentRatio": 0.48,
+        "quickRatio": 0.48,
+        "debtEquity": 0.63,
+        "interestCoverage": 2.2,
+        "assetTurnover": 0.14,
+        "grossMargin": 97.55,
+        "operatingMargin": 42.66,
+        "netMargin": 23.53,
+        "eps": 0.61,
+        "bvps": 9.23,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "ASBH",
@@ -936,11 +2111,11 @@
       "eps": 0.56,
       "bvps": 10.48,
       "dps": 0.62,
-      "pe": 44.62,
-      "pb": 2.38,
+      "pe": 44.28,
+      "pb": 1.55,
       "roe": 5.85,
-      "epsGrowth": null,
-      "divYield": 2.48,
+      "epsGrowth": -21.9,
+      "divYield": 2.49,
       "fairValue": "J$14–18",
       "buyZone": "J$12–15",
       "score": 43,
@@ -956,26 +2131,91 @@
       "fundamentalSource": "SA",
       "dayJmd": 0.01,
       "dayPct": 0.04,
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:52.609Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:52.609Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:44:52.609Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:52.609Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:44:52.609Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:52.609Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:52.609Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:52.609Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/ASBH/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/ASBH/",
+        "updatedAt": "2026-08-21T22:44:52.609Z",
+        "pe": 44.28,
+        "forwardPe": 0.4,
+        "ps": 0.4,
+        "pb": 1.55,
+        "pfcf": 6.05,
+        "peg": null,
+        "evSales": 0.88,
+        "evEbitda": 8.06,
+        "evFcf": 13.19,
+        "earningsYield": 2.26,
+        "fcfYield": 16.52,
+        "dividendYield": 2.49,
+        "roe": 5.85,
+        "roa": 2.79,
+        "roic": 2.79,
+        "currentRatio": 2.11,
+        "quickRatio": 1.19,
+        "debtEquity": 1.62,
+        "interestCoverage": 1.07,
+        "assetTurnover": 1.16,
+        "grossMargin": 26.61,
+        "operatingMargin": 3.07,
+        "netMargin": 1.22,
+        "eps": 0.56,
+        "bvps": 10.48,
+        "dps": 0.62,
+        "epsGrowth": -21.9
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "BRG",
@@ -984,17 +2224,17 @@
       "ratingBasis": "Weak ROE / Rich Earnings Multiple",
       "price": 5.5,
       "priceSource": "JSE",
-      "pe": 39.29,
-      "pb": 1.07,
-      "roe": 2.54,
-      "epsGrowth": -57.58,
-      "divYield": 2.36,
+      "pe": 26.68,
+      "pb": 1.05,
+      "roe": 3.84,
+      "epsGrowth": -35.3,
+      "divYield": 2.19,
       "fairValue": "J$3.50–4.50",
       "buyZone": "J$3.20–3.80",
       "score": 37,
       "rating": "AVOID",
-      "eps": 0.14,
-      "bvps": 5.13,
+      "eps": 0.2,
+      "bvps": 5.17,
       "dps": 0.13,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=23",
       "w1": -1.8,
@@ -1008,26 +2248,91 @@
       "dayPct": 0.18,
       "volume": 3799,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:59.903Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:59.903Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:44:59.903Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:44:59.903Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:44:59.903Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:59.903Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:59.903Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:44:59.903Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/BRG/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/BRG/",
+        "updatedAt": "2026-08-21T22:44:59.903Z",
+        "pe": 26.68,
+        "forwardPe": 0.33,
+        "ps": 0.33,
+        "pb": 1.05,
+        "pfcf": 9.58,
+        "peg": null,
+        "evSales": 0.32,
+        "evEbitda": 7.82,
+        "evFcf": 9.07,
+        "earningsYield": 3.75,
+        "fcfYield": -7.87,
+        "dividendYield": 2.19,
+        "roe": 3.84,
+        "roa": 0.76,
+        "roic": 1.66,
+        "currentRatio": 1.54,
+        "quickRatio": 0.68,
+        "debtEquity": 0.05,
+        "interestCoverage": 6.21,
+        "assetTurnover": 1.29,
+        "grossMargin": 50.34,
+        "operatingMargin": 0.94,
+        "netMargin": 1.25,
+        "eps": 0.2,
+        "bvps": 5.17,
+        "dps": 0.13,
+        "epsGrowth": -35.3
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "CCC",
@@ -1036,11 +2341,11 @@
       "ratingBasis": "Quality + Cash Flow + Strong ROE",
       "price": 107.15,
       "priceSource": "JSE",
-      "pe": 10,
-      "pb": 2.39,
+      "pe": 9.98,
+      "pb": 2.38,
       "roe": 26.43,
-      "epsGrowth": 15.9,
-      "divYield": 1.96,
+      "epsGrowth": 116.9,
+      "divYield": 1.84,
       "fairValue": "J$125–145",
       "buyZone": "J$100–115",
       "score": 84,
@@ -1060,26 +2365,91 @@
       "dayPct": -0.64,
       "volume": 64375,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:07.467Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:07.467Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:45:07.467Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:07.467Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:45:07.467Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:07.467Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:07.467Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:07.467Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/CCC/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/CCC/",
+        "updatedAt": "2026-08-21T22:45:07.467Z",
+        "pe": 9.98,
+        "forwardPe": 2.7,
+        "ps": 2.7,
+        "pb": 2.38,
+        "pfcf": 8.65,
+        "peg": null,
+        "evSales": 2.15,
+        "evEbitda": 5.21,
+        "evFcf": 6.91,
+        "earningsYield": 10.02,
+        "fcfYield": 11.56,
+        "dividendYield": 1.84,
+        "roe": 26.43,
+        "roa": 15.11,
+        "roic": 45.64,
+        "currentRatio": 2.33,
+        "quickRatio": 1.87,
+        "debtEquity": 0,
+        "interestCoverage": null,
+        "assetTurnover": 0.68,
+        "grossMargin": 48.51,
+        "operatingMargin": 35.34,
+        "netMargin": 27.01,
+        "eps": 10.72,
+        "bvps": 44.87,
+        "dps": 2.1,
+        "epsGrowth": 116.9
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "CPFV",
@@ -1092,7 +2462,7 @@
       "pb": null,
       "roe": null,
       "epsGrowth": null,
-      "divYield": 3.59,
+      "divYield": 3.58,
       "fairValue": null,
       "buyZone": null,
       "score": 56,
@@ -1112,14 +2482,85 @@
       "dayPct": -0.02,
       "volume": 2926,
       "fundamentalSource": "SA",
-      "divYieldSource": "CALC",
+      "divYieldSource": "SA",
       "metricStatus": {
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:45:13.813Z"
+        },
+        "pe": {
+          "state": "na",
+          "detail": "StockAnalysis checked; P/E not published and no fallback",
+          "checkedAt": "2026-08-21T22:45:13.813Z"
+        },
+        "pb": {
+          "state": "na",
+          "detail": "StockAnalysis checked; P/B not published and no fallback",
+          "checkedAt": "2026-08-21T22:45:13.813Z"
+        },
+        "roe": {
+          "state": "na",
+          "detail": "StockAnalysis checked; ROE not published",
+          "checkedAt": "2026-08-21T22:45:13.813Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:45:13.813Z"
+        },
+        "eps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; EPS not published",
+          "checkedAt": "2026-08-21T22:45:13.813Z"
+        },
+        "bvps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; BVPS not published",
+          "checkedAt": "2026-08-21T22:45:13.813Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:13.813Z"
         }
-      }
+      },
+      "saUrl": "https://stockanalysis.com/quote/jmse/CPFV/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/CPFV/",
+        "updatedAt": "2026-08-21T22:45:13.813Z",
+        "pe": null,
+        "forwardPe": null,
+        "ps": null,
+        "pb": null,
+        "pfcf": null,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": null,
+        "fcfYield": null,
+        "dividendYield": 3.58,
+        "roe": null,
+        "roa": null,
+        "roic": null,
+        "currentRatio": null,
+        "quickRatio": null,
+        "debtEquity": null,
+        "interestCoverage": null,
+        "assetTurnover": null,
+        "grossMargin": null,
+        "operatingMargin": null,
+        "netMargin": null,
+        "eps": null,
+        "bvps": null,
+        "dps": 1.58,
+        "epsGrowth": null
+      },
+      "dpsSource": "SA"
     },
     {
       "ticker": "EPLY",
@@ -1128,18 +2569,18 @@
       "ratingBasis": "Profitable / Leverage & Book-Premium Watch",
       "price": 32.69,
       "priceSource": "JSE",
-      "pe": 8.01,
-      "pb": 2.4,
+      "pe": 8.02,
+      "pb": 0.52,
       "roe": 15.45,
-      "epsGrowth": null,
-      "divYield": null,
+      "epsGrowth": -21.2,
+      "divYield": 3.9,
       "fairValue": "J$34–40",
       "buyZone": "J$28–32",
       "score": 70,
       "rating": "HOLD",
       "eps": 4.08,
       "bvps": 13.63,
-      "dps": null,
+      "dps": 1.28,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=279",
       "w1": -0.21,
       "m1": -0.67,
@@ -1152,20 +2593,91 @@
       "dayPct": -1.89,
       "volume": 2556,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:21.388Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:21.388Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:21.388Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:45:21.388Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:45:21.388Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:21.388Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:21.388Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:21.388Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/EPLY/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/EPLY/",
+        "updatedAt": "2026-08-21T22:45:21.388Z",
+        "pe": 8.02,
+        "forwardPe": 4.87,
+        "ps": 4.87,
+        "pb": 0.52,
+        "pfcf": 7.95,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": 12.48,
+        "fcfYield": -0.12,
+        "dividendYield": 3.9,
+        "roe": 15.45,
+        "roa": 8.11,
+        "roic": 3.01,
+        "currentRatio": 287.57,
+        "quickRatio": 223.63,
+        "debtEquity": 0.81,
+        "interestCoverage": null,
+        "assetTurnover": 0.06,
+        "grossMargin": 99.21,
+        "operatingMargin": 52.38,
+        "netMargin": 60.8,
+        "eps": 4.08,
+        "bvps": 13.63,
+        "dps": 1.28,
+        "epsGrowth": -21.2
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "divYieldSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "FIRSTROCKJMD",
@@ -1174,7 +2686,7 @@
       "ratingBasis": "Deep Book Discount / Negative Returns",
       "price": 5.57,
       "priceSource": "JSE",
-      "pe": null,
+      "pe": 5946.99,
       "pb": 0.38,
       "roe": -0.93,
       "epsGrowth": null,
@@ -1194,7 +2706,91 @@
       "dayJmd": -0.15,
       "dayPct": -2.62,
       "volume": 2551,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/FIRSTROCKJMD/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/FIRSTROCKJMD/",
+        "updatedAt": "2026-08-21T22:45:28.255Z",
+        "pe": 5946.99,
+        "forwardPe": 23.64,
+        "ps": 23.64,
+        "pb": 0.38,
+        "pfcf": null,
+        "peg": null,
+        "evSales": 108.74,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": -2.47,
+        "fcfYield": -40.32,
+        "dividendYield": null,
+        "roe": -0.93,
+        "roa": -1.82,
+        "roic": -3.04,
+        "currentRatio": 1.95,
+        "quickRatio": 0.08,
+        "debtEquity": 1.41,
+        "interestCoverage": -0.95,
+        "assetTurnover": 0.01,
+        "grossMargin": 100,
+        "operatingMargin": -445.94,
+        "netMargin": -58.36,
+        "eps": -0.12,
+        "bvps": 14.38,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "peSource": "SA",
+      "metricStatus": {
+        "pe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:28.255Z"
+        },
+        "pb": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:28.255Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:28.255Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:45:28.255Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:45:28.255Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:28.255Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:28.255Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:45:28.255Z"
+        }
+      },
+      "pbSource": "SA",
+      "roeSource": "SA",
+      "eps": -0.12,
+      "epsSource": "SA",
+      "bvps": 14.38,
+      "bvpsSource": "SA"
     },
     {
       "ticker": "GHL",
@@ -1255,8 +2851,83 @@
       "peSource": "SA TTSE",
       "pbSource": "SA TTSE",
       "roeSource": "SA TTSE",
-      "epsGrowthSource": "SA TTSE overview",
-      "divYieldSource": "SA TTSE"
+      "epsGrowthSource": "SA TTSE",
+      "divYieldSource": "SA TTSE",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "TTSE",
+        "url": "https://stockanalysis.com/quote/ttse/GHL/",
+        "updatedAt": "2026-08-21T22:45:36.044Z",
+        "pe": 4.39,
+        "forwardPe": 0.54,
+        "ps": 0.54,
+        "pb": 0.59,
+        "pfcf": 3.59,
+        "peg": null,
+        "evSales": 0.5,
+        "evEbitda": 2.66,
+        "evFcf": 3.34,
+        "earningsYield": 22.85,
+        "fcfYield": 27.86,
+        "dividendYield": 5.58,
+        "roe": 14.67,
+        "roa": 1.91,
+        "roic": 9.7,
+        "currentRatio": 3.15,
+        "quickRatio": 2.03,
+        "debtEquity": 0.55,
+        "interestCoverage": 6.36,
+        "assetTurnover": 0.18,
+        "grossMargin": 27.84,
+        "operatingMargin": 17.01,
+        "netMargin": 12.27,
+        "eps": 3.72,
+        "bvps": 27.44,
+        "dps": 0.91,
+        "epsGrowth": -37.8
+      },
+      "metricStatus": {
+        "pe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis TTSE Statistics",
+          "checkedAt": "2026-08-21T22:45:36.044Z"
+        },
+        "pb": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis TTSE Statistics",
+          "checkedAt": "2026-08-21T22:45:36.044Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis TTSE Statistics",
+          "checkedAt": "2026-08-21T22:45:36.044Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis TTSE Overview",
+          "checkedAt": "2026-08-21T22:45:36.044Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis TTSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:45:36.044Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis TTSE Statistics",
+          "checkedAt": "2026-08-21T22:45:36.044Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis TTSE Statistics",
+          "checkedAt": "2026-08-21T22:45:36.044Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis TTSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:45:36.044Z"
+        }
+      }
     },
     {
       "ticker": "ENERGY",
@@ -1265,8 +2936,8 @@
       "ratingBasis": "Weak Returns / Expensive Earnings",
       "price": 1.04,
       "priceSource": "JSE",
-      "pe": 40,
-      "pb": 1.32,
+      "pe": 39.81,
+      "pb": 1.3,
       "roe": 3.33,
       "epsGrowth": null,
       "divYield": null,
@@ -1274,8 +2945,8 @@
       "buyZone": "J$0.65–0.75",
       "score": 31,
       "rating": "AVOID",
-      "eps": 0.026,
-      "bvps": 0.79,
+      "eps": 0.03,
+      "bvps": 0.8,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=41",
       "w1": 15.56,
@@ -1289,20 +2960,88 @@
       "dayPct": -10.58,
       "volume": 2410,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:43.037Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:43.037Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:43.037Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:45:43.037Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:45:43.037Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:43.037Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:43.037Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:45:43.037Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/ENERGY/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/ENERGY/",
+        "updatedAt": "2026-08-21T22:45:43.037Z",
+        "pe": 39.81,
+        "forwardPe": 4.02,
+        "ps": 4.02,
+        "pb": 1.3,
+        "pfcf": 32.54,
+        "peg": null,
+        "evSales": 4.61,
+        "evEbitda": 19.59,
+        "evFcf": 37.32,
+        "earningsYield": 2.51,
+        "fcfYield": 3.07,
+        "dividendYield": null,
+        "roe": 3.33,
+        "roa": 1.14,
+        "roic": 4.06,
+        "currentRatio": 1.58,
+        "quickRatio": 0.8,
+        "debtEquity": 0.21,
+        "interestCoverage": 3.12,
+        "assetTurnover": 0.1,
+        "grossMargin": 47.43,
+        "operatingMargin": 17.76,
+        "netMargin": 10.1,
+        "eps": 0.03,
+        "bvps": 0.8,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "JP",
@@ -1311,18 +3050,18 @@
       "ratingBasis": "Asset Value / Low ROE & Earnings-Quality Watch",
       "price": 19.03,
       "priceSource": "JSE",
-      "pe": 14.2,
-      "pb": 0.48,
+      "pe": 16.06,
+      "pb": 0.55,
       "roe": 3.76,
-      "epsGrowth": null,
-      "divYield": null,
+      "epsGrowth": -32.4,
+      "divYield": 1.46,
       "fairValue": "J$20–25",
       "buyZone": "J$18–21",
       "score": 59,
       "rating": "WATCH",
       "eps": 1.34,
-      "bvps": 39.29,
-      "dps": null,
+      "bvps": 38.74,
+      "dps": 0.3,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=75",
       "w1": 5.34,
       "m1": -6.32,
@@ -1335,20 +3074,91 @@
       "dayPct": -11.49,
       "volume": 12050,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:50.518Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:50.518Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:50.518Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:45:50.518Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:45:50.518Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:50.518Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:50.518Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:50.518Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/JP/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/JP/",
+        "updatedAt": "2026-08-21T22:45:50.518Z",
+        "pe": 16.06,
+        "forwardPe": 219.05,
+        "ps": 219.05,
+        "pb": 0.55,
+        "pfcf": 51.69,
+        "peg": null,
+        "evSales": 215.76,
+        "evEbitda": 14.84,
+        "evFcf": 92.59,
+        "earningsYield": 6.68,
+        "fcfYield": -2.47,
+        "dividendYield": 1.46,
+        "roe": 3.76,
+        "roa": 0.12,
+        "roic": 0.19,
+        "currentRatio": 2.18,
+        "quickRatio": 1.62,
+        "debtEquity": 0.01,
+        "interestCoverage": 3.5,
+        "assetTurnover": 0,
+        "grossMargin": 100,
+        "operatingMargin": 75.74,
+        "netMargin": 1464.13,
+        "eps": 1.34,
+        "bvps": 38.74,
+        "dps": 0.3,
+        "epsGrowth": -32.4
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "divYieldSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "KPREIT",
@@ -1357,18 +3167,18 @@
       "ratingBasis": "Near-Book Property Value / Moderate ROE",
       "price": 11.62,
       "priceSource": "JSE",
-      "pe": 16.37,
-      "pb": 1.16,
+      "pe": 15.95,
+      "pb": 1.13,
       "roe": 7.27,
-      "epsGrowth": null,
-      "divYield": null,
+      "epsGrowth": -28.5,
+      "divYield": 1.58,
       "fairValue": "J$10.50–12.50",
       "buyZone": "J$9.00–10.50",
       "score": 65,
       "rating": "HOLD",
       "eps": 0.71,
       "bvps": 10.01,
-      "dps": null,
+      "dps": 0.18,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=89",
       "w1": 18.95,
       "m1": 13.34,
@@ -1381,20 +3191,91 @@
       "dayPct": -1.86,
       "volume": 10995,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:57.982Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:57.982Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:45:57.982Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:45:57.982Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:45:57.982Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:57.982Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:57.982Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:45:57.982Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/KPREIT/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/KPREIT/",
+        "updatedAt": "2026-08-21T22:45:57.982Z",
+        "pe": 15.95,
+        "forwardPe": 9.04,
+        "ps": 9.04,
+        "pb": 1.13,
+        "pfcf": 14.11,
+        "peg": null,
+        "evSales": 14.21,
+        "evEbitda": 21.54,
+        "evFcf": 22.17,
+        "earningsYield": 6.27,
+        "fcfYield": 7.09,
+        "dividendYield": 1.58,
+        "roe": 7.27,
+        "roa": 3.1,
+        "roic": 4.6,
+        "currentRatio": 1.49,
+        "quickRatio": 0.74,
+        "debtEquity": 0.7,
+        "interestCoverage": 2.2,
+        "assetTurnover": 0.08,
+        "grossMargin": 89.49,
+        "operatingMargin": 65.75,
+        "netMargin": 56.67,
+        "eps": 0.71,
+        "bvps": 10.01,
+        "dps": 0.18,
+        "epsGrowth": -28.5
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "divYieldSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "LASD",
@@ -1403,17 +3284,17 @@
       "ratingBasis": "Value + Net Cash / Earnings Reset",
       "price": 3.14,
       "priceSource": "JSE",
-      "pe": 10.47,
-      "pb": 1.03,
+      "pe": 9.21,
+      "pb": 0.95,
       "roe": 10.77,
-      "epsGrowth": -20.9,
-      "divYield": 3.82,
+      "epsGrowth": -8.4,
+      "divYield": 3.85,
       "fairValue": "J$3.50–4.00",
       "buyZone": "J$2.70–3.10",
       "score": 76,
       "rating": "BUY",
-      "eps": 0.3,
-      "bvps": 3.04,
+      "eps": 0.34,
+      "bvps": 3.27,
       "dps": 0.12,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=99",
       "w1": -6.02,
@@ -1427,26 +3308,91 @@
       "dayPct": -1.57,
       "volume": 1082413,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:05.105Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:05.105Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.001Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:46:05.105Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:05.105Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:46:05.105Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:05.105Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:05.105Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:05.105Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/LASD/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/LASD/",
+        "updatedAt": "2026-08-21T22:46:05.105Z",
+        "pe": 9.21,
+        "forwardPe": 0.34,
+        "ps": 0.34,
+        "pb": 0.95,
+        "pfcf": 8.34,
+        "peg": null,
+        "evSales": 0.24,
+        "evEbitda": 5.09,
+        "evFcf": 6.08,
+        "earningsYield": 10.91,
+        "fcfYield": 12,
+        "dividendYield": 3.85,
+        "roe": 10.77,
+        "roa": 5.06,
+        "roic": 13.3,
+        "currentRatio": 2.61,
+        "quickRatio": 1.58,
+        "debtEquity": 0.07,
+        "interestCoverage": 25.71,
+        "assetTurnover": 1.9,
+        "grossMargin": 16.85,
+        "operatingMargin": 4.26,
+        "netMargin": 3.66,
+        "eps": 0.34,
+        "bvps": 3.27,
+        "dps": 0.12,
+        "epsGrowth": -8.4
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "LASM",
@@ -1455,17 +3401,17 @@
       "ratingBasis": "High ROE + Net Cash + Reasonable P/E",
       "price": 7.87,
       "priceSource": "JSE",
-      "pe": 11.75,
-      "pb": 1.96,
+      "pe": 11.94,
+      "pb": 1.91,
       "roe": 17.04,
-      "epsGrowth": 7.4,
-      "divYield": 2.41,
+      "epsGrowth": 12.6,
+      "divYield": 2.35,
       "fairValue": "J$8.20–9.50",
       "buyZone": "J$6.50–7.80",
       "score": 80,
       "rating": "BUY",
-      "eps": 0.67,
-      "bvps": 4.01,
+      "eps": 0.68,
+      "bvps": 4.23,
       "dps": 0.19,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=103",
       "w1": 1,
@@ -1479,26 +3425,91 @@
       "dayPct": -3.44,
       "volume": 66306,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:12.139Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:12.139Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:46:12.139Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:12.139Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:46:12.139Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:12.139Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:12.139Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:12.139Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/LASM/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/LASM/",
+        "updatedAt": "2026-08-21T22:46:12.139Z",
+        "pe": 11.94,
+        "forwardPe": 2.6,
+        "ps": 2.6,
+        "pb": 1.91,
+        "pfcf": 20.22,
+        "peg": null,
+        "evSales": 1.97,
+        "evEbitda": 7.31,
+        "evFcf": 15.31,
+        "earningsYield": 8.41,
+        "fcfYield": 4.95,
+        "dividendYield": 2.35,
+        "roe": 17.04,
+        "roa": 9.53,
+        "roic": 27.24,
+        "currentRatio": 6.94,
+        "quickRatio": 5.66,
+        "debtEquity": 0.06,
+        "interestCoverage": 46.36,
+        "assetTurnover": 0.62,
+        "grossMargin": 38.27,
+        "operatingMargin": 24.63,
+        "netMargin": 21.86,
+        "eps": 0.68,
+        "bvps": 4.23,
+        "dps": 0.19,
+        "epsGrowth": 12.6
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "MTL",
@@ -1508,10 +3519,10 @@
       "ratingBasis": "Deep Value / Currency & Liquidity Risk",
       "price": 0.0501,
       "priceSource": "SA",
-      "pe": 2.02,
+      "pe": 2.03,
       "pb": 0.47,
       "roe": 26.19,
-      "epsGrowth": null,
+      "epsGrowth": 49.4,
       "divYield": null,
       "fairValue": null,
       "buyZone": null,
@@ -1519,7 +3530,7 @@
       "rating": "WATCH",
       "currency": "USD",
       "priceDate": "2026-08-12",
-      "eps": 0.0248,
+      "eps": 3.89,
       "bvps": 0.1066,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600081",
@@ -1527,7 +3538,88 @@
       "m1": -14.47,
       "m3": -29.42,
       "performanceSource": "SA",
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/MTLJA/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/MTLJA/",
+        "updatedAt": "2026-08-21T22:46:17.677Z",
+        "pe": 2.03,
+        "forwardPe": null,
+        "ps": null,
+        "pb": null,
+        "pfcf": null,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": null,
+        "fcfYield": null,
+        "dividendYield": null,
+        "roe": null,
+        "roa": null,
+        "roic": null,
+        "currentRatio": null,
+        "quickRatio": null,
+        "debtEquity": null,
+        "interestCoverage": null,
+        "assetTurnover": null,
+        "grossMargin": null,
+        "operatingMargin": null,
+        "netMargin": null,
+        "eps": 3.89,
+        "bvps": null,
+        "dps": null,
+        "epsGrowth": 49.4
+      },
+      "peSource": "SA",
+      "metricStatus": {
+        "pe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:17.677Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B not published; calculated fallback used",
+          "checkedAt": "2026-08-21T22:46:17.677Z"
+        },
+        "roe": {
+          "state": "fallback",
+          "detail": "Retaining previously sourced ROE",
+          "checkedAt": "2026-08-21T22:46:17.677Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:46:17.677Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:46:17.677Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:17.677Z"
+        },
+        "bvps": {
+          "state": "fallback",
+          "detail": "Retaining previously sourced BVPS",
+          "checkedAt": "2026-08-21T22:46:17.677Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:46:17.677Z"
+        }
+      },
+      "pbSource": "CALC",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA"
     },
     {
       "ticker": "MGL",
@@ -1537,17 +3629,17 @@
       "price": 5.7,
       "priceSource": "JSE",
       "pe": -2.85,
-      "pb": 0.39,
+      "pb": 0.43,
       "roe": -19.42,
       "epsGrowth": null,
-      "divYield": null,
+      "divYield": 9.09,
       "fairValue": null,
       "buyZone": null,
       "score": 22,
       "rating": "AVOID",
       "eps": -2,
-      "bvps": 14.47,
-      "dps": null,
+      "bvps": 9.03,
+      "dps": 0.5,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600150",
       "w1": 0,
       "m1": 9.4,
@@ -1565,15 +3657,85 @@
         "pe": {
           "state": "fallback",
           "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "checkedAt": "2026-08-21T22:49:36.685Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:24.590Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:24.590Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:46:24.590Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:46:24.590Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:24.590Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:24.590Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:24.590Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/MGL/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/MGL/",
+        "updatedAt": "2026-08-21T22:46:24.590Z",
+        "pe": null,
+        "forwardPe": -16,
+        "ps": -16,
+        "pb": 0.43,
+        "pfcf": 1.13,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": -35.13,
+        "fcfYield": 88.15,
+        "dividendYield": 9.09,
+        "roe": -19.42,
+        "roa": -5.98,
+        "roic": -7.98,
+        "currentRatio": 0.94,
+        "quickRatio": 0.94,
+        "debtEquity": 1.79,
+        "interestCoverage": null,
+        "assetTurnover": 0.02,
+        "grossMargin": 821.41,
+        "operatingMargin": 821.41,
+        "netMargin": null,
+        "eps": -2,
+        "bvps": 9.03,
+        "dps": 0.5,
+        "epsGrowth": null
+      },
+      "roeSource": "SA",
+      "divYieldSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "MJE",
@@ -1582,8 +3744,8 @@
       "ratingBasis": "Loss-Making / Negative ROE",
       "price": 6.36,
       "priceSource": "JSE",
-      "pe": -2.96,
-      "pb": 0.72,
+      "pe": 3.23,
+      "pb": 0.74,
       "roe": -21.18,
       "epsGrowth": null,
       "divYield": null,
@@ -1592,7 +3754,7 @@
       "score": 24,
       "rating": "AVOID",
       "eps": -2.15,
-      "bvps": 8.88,
+      "bvps": 8.79,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600072",
       "w1": -0.76,
@@ -1606,20 +3768,88 @@
       "dayPct": -2.3,
       "volume": 5500,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:31.606Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:31.606Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:31.606Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:46:31.606Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:46:31.606Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:31.606Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:31.606Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:46:31.606Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/MJE/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/MJE/",
+        "updatedAt": "2026-08-21T22:46:31.606Z",
+        "pe": 3.23,
+        "forwardPe": -4.76,
+        "ps": -4.76,
+        "pb": 0.74,
+        "pfcf": null,
+        "peg": null,
+        "evSales": 19.69,
+        "evEbitda": 3.72,
+        "evFcf": null,
+        "earningsYield": -32.64,
+        "fcfYield": null,
+        "dividendYield": null,
+        "roe": -21.18,
+        "roa": -6.21,
+        "roic": -11.4,
+        "currentRatio": 0.69,
+        "quickRatio": 0.69,
+        "debtEquity": 0.57,
+        "interestCoverage": -2.48,
+        "assetTurnover": 0.04,
+        "grossMargin": 110.94,
+        "operatingMargin": 110.94,
+        "netMargin": null,
+        "eps": -2.15,
+        "bvps": 8.79,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "MPCCEL",
@@ -1628,8 +3858,8 @@
       "ratingBasis": "Deep Book Discount / Negative Returns",
       "price": 29,
       "priceSource": "SA",
-      "pe": null,
-      "pb": 0.23,
+      "pe": 7.89,
+      "pb": 0.31,
       "roe": -13.89,
       "epsGrowth": null,
       "divYield": null,
@@ -1637,8 +3867,8 @@
       "buyZone": null,
       "score": 25,
       "rating": "AVOID",
-      "eps": null,
-      "bvps": 126.09,
+      "eps": -16.26,
+      "bvps": 108.98,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600078",
       "w1": -13.79,
@@ -1651,7 +3881,89 @@
       "dayJmd": -0.05,
       "dayPct": -0.2,
       "volume": 3245,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/MPCCEL/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/MPCCEL/",
+        "updatedAt": "2026-08-21T22:46:38.111Z",
+        "pe": 7.89,
+        "forwardPe": -3.08,
+        "ps": -3.08,
+        "pb": 0.31,
+        "pfcf": null,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": -47.44,
+        "fcfYield": null,
+        "dividendYield": null,
+        "roe": -13.89,
+        "roa": -5.73,
+        "roic": -5.73,
+        "currentRatio": 633.15,
+        "quickRatio": 631.17,
+        "debtEquity": 0.53,
+        "interestCoverage": null,
+        "assetTurnover": 0.06,
+        "grossMargin": 144.72,
+        "operatingMargin": 144.72,
+        "netMargin": null,
+        "eps": -16.26,
+        "bvps": 108.98,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "peSource": "SA",
+      "metricStatus": {
+        "pe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:38.111Z"
+        },
+        "pb": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:38.111Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:38.111Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:46:38.111Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:46:38.111Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:38.111Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:38.111Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:46:38.111Z"
+        }
+      },
+      "pbSource": "SA",
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "PAL",
@@ -1660,8 +3972,8 @@
       "ratingBasis": "Loss-Making / Weak Liquidity",
       "price": 0.5,
       "priceSource": "JSE",
-      "pe": -3.13,
-      "pb": 0.89,
+      "pe": 16.85,
+      "pb": 0.49,
       "roe": -14.63,
       "epsGrowth": null,
       "divYield": null,
@@ -1670,7 +3982,7 @@
       "score": 20,
       "rating": "AVOID",
       "eps": -0.16,
-      "bvps": 0.56,
+      "bvps": 1.01,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=113",
       "w1": -18.03,
@@ -1684,20 +3996,88 @@
       "dayPct": 6.38,
       "volume": 119940,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:51.486Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:51.486Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:51.486Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:46:51.486Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:46:51.486Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:51.486Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:51.486Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:46:51.486Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/PAL/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/PAL/",
+        "updatedAt": "2026-08-21T22:46:51.486Z",
+        "pe": 16.85,
+        "forwardPe": 0.32,
+        "ps": 0.32,
+        "pb": 0.49,
+        "pfcf": 12.92,
+        "peg": null,
+        "evSales": 0.73,
+        "evEbitda": 53.39,
+        "evFcf": 17.06,
+        "earningsYield": -32.12,
+        "fcfYield": -10.72,
+        "dividendYield": null,
+        "roe": -14.63,
+        "roa": -4.04,
+        "roic": -9.23,
+        "currentRatio": 0.52,
+        "quickRatio": 0.33,
+        "debtEquity": 0.77,
+        "interestCoverage": -2.46,
+        "assetTurnover": 0.66,
+        "grossMargin": 9.19,
+        "operatingMargin": -9.85,
+        "netMargin": -10.38,
+        "eps": -0.16,
+        "bvps": 1.01,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "PJAM",
@@ -1706,18 +4086,18 @@
       "ratingBasis": "Below Book + FCF / Low ROE",
       "price": 42.87,
       "priceSource": "JSE",
-      "pe": 13.7,
-      "pb": 0.82,
+      "pe": 14.69,
+      "pb": 0.65,
       "roe": 6.18,
-      "epsGrowth": null,
-      "divYield": null,
+      "epsGrowth": -7.7,
+      "divYield": 1.69,
       "fairValue": "J$48–55",
       "buyZone": "J$40–46",
       "score": 70,
       "rating": "HOLD",
       "eps": 3.13,
       "bvps": 52.6,
-      "dps": null,
+      "dps": 0.78,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=121",
       "w1": 1.81,
       "m1": 6.48,
@@ -1730,20 +4110,91 @@
       "dayPct": -2.1,
       "volume": 11065,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:58.485Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:58.485Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:46:58.485Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:46:58.485Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:46:58.485Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:58.485Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:58.485Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:46:58.485Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/PJAM/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/PJAM/",
+        "updatedAt": "2026-08-21T22:46:58.485Z",
+        "pe": 14.69,
+        "forwardPe": 1.46,
+        "ps": 1.46,
+        "pb": 0.65,
+        "pfcf": 9.92,
+        "peg": null,
+        "evSales": 2.34,
+        "evEbitda": 10.66,
+        "evFcf": 15.93,
+        "earningsYield": 6.79,
+        "fcfYield": 10.08,
+        "dividendYield": 1.69,
+        "roe": 6.18,
+        "roa": 3.45,
+        "roic": 5.28,
+        "currentRatio": 75.32,
+        "quickRatio": 64.59,
+        "debtEquity": 0.22,
+        "interestCoverage": 4.57,
+        "assetTurnover": 0.35,
+        "grossMargin": 35.46,
+        "operatingMargin": 15.93,
+        "netMargin": 9.88,
+        "eps": 3.13,
+        "bvps": 52.6,
+        "dps": 0.78,
+        "epsGrowth": -7.7
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "divYieldSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "PJX",
@@ -1752,7 +4203,7 @@
       "ratingBasis": "Deep Losses / Negative ROE",
       "price": 6.65,
       "priceSource": "SA",
-      "pe": null,
+      "pe": 3.77,
       "pb": 0.8,
       "roe": -36.55,
       "epsGrowth": null,
@@ -1762,14 +4213,96 @@
       "score": 15,
       "rating": "AVOID",
       "eps": -3.71,
-      "bvps": 8.31,
+      "bvps": 8.29,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=337",
       "w1": 0,
       "m1": 15.05,
       "m3": -16.87,
       "performanceSource": "SA",
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/PJX/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/PJX/",
+        "updatedAt": "2026-08-21T22:47:05.163Z",
+        "pe": 3.77,
+        "forwardPe": -2.17,
+        "ps": -2.17,
+        "pb": 0.8,
+        "pfcf": 6.48,
+        "peg": null,
+        "evSales": 242.97,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": -55.79,
+        "fcfYield": null,
+        "dividendYield": null,
+        "roe": -36.55,
+        "roa": -17.75,
+        "roic": -41.56,
+        "currentRatio": 1.04,
+        "quickRatio": 0.96,
+        "debtEquity": 0.23,
+        "interestCoverage": -22.83,
+        "assetTurnover": 0,
+        "grossMargin": 116.97,
+        "operatingMargin": 116.97,
+        "netMargin": null,
+        "eps": -3.71,
+        "bvps": 8.29,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "peSource": "SA",
+      "metricStatus": {
+        "pe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:05.163Z"
+        },
+        "pb": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:05.164Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:05.164Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:47:05.164Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:47:05.164Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:05.164Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:05.164Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:47:05.164Z"
+        }
+      },
+      "pbSource": "SA",
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "PROVEN",
@@ -1779,18 +4312,18 @@
       "ratingBasis": "Low Book Multiple / Leverage & Currency Complexity",
       "price": 9.07,
       "priceSource": "JSE",
-      "pe": null,
-      "pb": 0.42,
+      "pe": 30.12,
+      "pb": 0.34,
       "roe": 2.12,
       "epsGrowth": null,
-      "divYield": null,
+      "divYield": 6.37,
       "fairValue": null,
       "buyZone": null,
       "score": 38,
       "rating": "WATCH",
-      "eps": null,
-      "bvps": 21.65,
-      "dps": null,
+      "eps": 0.31,
+      "bvps": 23.12,
+      "dps": 0.63,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=321",
       "w1": 2.78,
       "m1": 3.24,
@@ -1803,14 +4336,90 @@
       "dayPct": -3.41,
       "volume": 42884,
       "fundamentalSource": "SA",
-      "pbSource": "CALC",
+      "pbSource": "SA",
       "metricStatus": {
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:12.117Z"
+        },
+        "pe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:12.117Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:12.117Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:47:12.117Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:47:12.117Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:12.117Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:12.117Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:12.117Z"
         }
-      }
+      },
+      "saUrl": "https://stockanalysis.com/quote/jmse/PROVENJA/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/PROVENJA/",
+        "updatedAt": "2026-08-21T22:47:12.117Z",
+        "pe": 30.12,
+        "forwardPe": 0.39,
+        "ps": 0.39,
+        "pb": 0.34,
+        "pfcf": 4.17,
+        "peg": null,
+        "evSales": 2.5,
+        "evEbitda": 10.78,
+        "evFcf": 26.93,
+        "earningsYield": 3.35,
+        "fcfYield": 23.98,
+        "dividendYield": 6.37,
+        "roe": 2.12,
+        "roa": 0.88,
+        "roic": 5.05,
+        "currentRatio": 5.65,
+        "quickRatio": 2.23,
+        "debtEquity": 2.53,
+        "interestCoverage": 0.61,
+        "assetTurnover": 0.1,
+        "grossMargin": 58.46,
+        "operatingMargin": 13.51,
+        "netMargin": 1.3,
+        "eps": 0.31,
+        "bvps": 23.12,
+        "dps": 0.63,
+        "epsGrowth": null
+      },
+      "peSource": "SA",
+      "roeSource": "SA",
+      "divYieldSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "PULS",
@@ -1819,8 +4428,8 @@
       "ratingBasis": "Low ROE / Earnings Multiple Too High",
       "price": 0.84,
       "priceSource": "JSE",
-      "pe": 22.7,
-      "pb": 0.54,
+      "pe": 22.36,
+      "pb": 0.53,
       "roe": 2.41,
       "epsGrowth": null,
       "divYield": null,
@@ -1828,8 +4437,8 @@
       "buyZone": "J$0.50–0.60",
       "score": 30,
       "rating": "AVOID",
-      "eps": 0.037,
-      "bvps": 1.56,
+      "eps": 0.04,
+      "bvps": 1.53,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=125",
       "w1": -3.57,
@@ -1843,20 +4452,88 @@
       "dayPct": 3.7,
       "volume": 1513,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:18.986Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:18.986Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:18.986Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:47:18.986Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:47:18.986Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:18.986Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:18.986Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:47:18.986Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/PULS/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/PULS/",
+        "updatedAt": "2026-08-21T22:47:18.986Z",
+        "pe": 22.36,
+        "forwardPe": -43.67,
+        "ps": -43.67,
+        "pb": 0.53,
+        "pfcf": 63.47,
+        "peg": null,
+        "evSales": 45.79,
+        "evEbitda": 46.34,
+        "evFcf": 65.17,
+        "earningsYield": 4.5,
+        "fcfYield": -0.23,
+        "dividendYield": null,
+        "roe": 2.41,
+        "roa": -0.99,
+        "roic": -1.83,
+        "currentRatio": 0.17,
+        "quickRatio": 0.17,
+        "debtEquity": 0.08,
+        "interestCoverage": -16.13,
+        "assetTurnover": 0.01,
+        "grossMargin": 161.39,
+        "operatingMargin": 161.39,
+        "netMargin": null,
+        "eps": 0.04,
+        "bvps": 1.53,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "QWI",
@@ -1865,8 +4542,8 @@
       "ratingBasis": "NAV Value + Low Leverage",
       "price": 0.69,
       "priceSource": "JSE",
-      "pe": 7.42,
-      "pb": 0.57,
+      "pe": 7.33,
+      "pb": 0.56,
       "roe": 7.99,
       "epsGrowth": null,
       "divYield": null,
@@ -1874,8 +4551,8 @@
       "buyZone": "J$0.60–0.72",
       "score": 75,
       "rating": "BUY",
-      "eps": 0.093,
-      "bvps": 1.2,
+      "eps": 0.1,
+      "bvps": 1.33,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600092",
       "w1": 4.17,
@@ -1889,20 +4566,88 @@
       "dayPct": 6.94,
       "volume": 33587,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:25.913Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:25.913Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:25.913Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:47:25.913Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:47:25.913Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:25.913Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:25.913Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:47:25.913Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/QWI/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/QWI/",
+        "updatedAt": "2026-08-21T22:47:25.913Z",
+        "pe": 7.33,
+        "forwardPe": 3.26,
+        "ps": 3.26,
+        "pb": 0.56,
+        "pfcf": 3.83,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": 13.65,
+        "fcfYield": null,
+        "dividendYield": null,
+        "roe": 7.99,
+        "roa": 7.71,
+        "roic": 21.11,
+        "currentRatio": 8.59,
+        "quickRatio": 8.59,
+        "debtEquity": 0.16,
+        "interestCoverage": 7.74,
+        "assetTurnover": 0.15,
+        "grossMargin": 100,
+        "operatingMargin": 83.55,
+        "netMargin": 44.57,
+        "eps": 0.1,
+        "bvps": 1.33,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "RJR",
@@ -1911,8 +4656,8 @@
       "ratingBasis": "Negative ROE / Loss-Making",
       "price": 1.11,
       "priceSource": "JSE",
-      "pe": -3.96,
-      "pb": 1.18,
+      "pe": 27.07,
+      "pb": 1.16,
       "roe": -25.09,
       "epsGrowth": null,
       "divYield": null,
@@ -1921,7 +4666,7 @@
       "score": 15,
       "rating": "AVOID",
       "eps": -0.28,
-      "bvps": 0.94,
+      "bvps": 0.96,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=127",
       "w1": -5.13,
@@ -1935,20 +4680,88 @@
       "dayPct": 2.78,
       "volume": 4497,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:33.050Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:33.050Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:33.050Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:47:33.050Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:47:33.050Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:33.050Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:33.050Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:47:33.050Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/RJR/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/RJR/",
+        "updatedAt": "2026-08-21T22:47:33.050Z",
+        "pe": 27.07,
+        "forwardPe": 0.69,
+        "ps": 0.69,
+        "pb": 1.16,
+        "pfcf": 1435.92,
+        "peg": null,
+        "evSales": 0.83,
+        "evEbitda": 79.23,
+        "evFcf": 1415.02,
+        "earningsYield": -25.18,
+        "fcfYield": -2.76,
+        "dividendYield": null,
+        "roe": -25.09,
+        "roa": -7.12,
+        "roic": -18.26,
+        "currentRatio": 1.12,
+        "quickRatio": 1.1,
+        "debtEquity": 0.33,
+        "interestCoverage": -5.69,
+        "assetTurnover": 0.83,
+        "grossMargin": 42.4,
+        "operatingMargin": -13.65,
+        "netMargin": -17.41,
+        "eps": -0.28,
+        "bvps": 0.96,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "XFUND",
@@ -1961,7 +4774,7 @@
       "pb": null,
       "roe": null,
       "epsGrowth": null,
-      "divYield": 1.28,
+      "divYield": 1.16,
       "fairValue": null,
       "buyZone": null,
       "score": 55,
@@ -1980,7 +4793,86 @@
       "dayJmd": -0.05,
       "dayPct": -0.58,
       "volume": 604,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/XFUND/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/XFUND/",
+        "updatedAt": "2026-08-21T22:47:39.036Z",
+        "pe": null,
+        "forwardPe": null,
+        "ps": null,
+        "pb": null,
+        "pfcf": null,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": null,
+        "fcfYield": null,
+        "dividendYield": 1.16,
+        "roe": null,
+        "roa": null,
+        "roic": null,
+        "currentRatio": null,
+        "quickRatio": null,
+        "debtEquity": null,
+        "interestCoverage": null,
+        "assetTurnover": null,
+        "grossMargin": null,
+        "operatingMargin": null,
+        "netMargin": null,
+        "eps": null,
+        "bvps": null,
+        "dps": 0.1,
+        "epsGrowth": null
+      },
+      "metricStatus": {
+        "pe": {
+          "state": "na",
+          "detail": "StockAnalysis checked; P/E not published and no fallback",
+          "checkedAt": "2026-08-21T22:47:39.036Z"
+        },
+        "pb": {
+          "state": "na",
+          "detail": "StockAnalysis checked; P/B not published and no fallback",
+          "checkedAt": "2026-08-21T22:47:39.036Z"
+        },
+        "roe": {
+          "state": "na",
+          "detail": "StockAnalysis checked; ROE not published",
+          "checkedAt": "2026-08-21T22:47:39.036Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:47:39.036Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:47:39.036Z"
+        },
+        "eps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; EPS not published",
+          "checkedAt": "2026-08-21T22:47:39.036Z"
+        },
+        "bvps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; BVPS not published",
+          "checkedAt": "2026-08-21T22:47:39.036Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:39.036Z"
+        }
+      },
+      "divYieldSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "SELECTF",
@@ -1989,17 +4881,17 @@
       "ratingBasis": "Fund Discount / Weak ROE",
       "price": 0.43,
       "priceSource": "JSE",
-      "pe": 21.5,
-      "pb": 0.69,
-      "roe": 4.15,
+      "pe": 12.15,
+      "pb": 0.74,
+      "roe": -3.65,
       "epsGrowth": null,
       "divYield": null,
       "fairValue": "J$0.40–0.50",
       "buyZone": "≤J$0.42",
       "score": 50,
       "rating": "WATCH",
-      "eps": 0.02,
-      "bvps": 0.62,
+      "eps": 0.04,
+      "bvps": 0.6,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600090",
       "w1": -6.38,
@@ -2013,20 +4905,88 @@
       "fundamentalSource": "SA",
       "dayJmd": -0.02,
       "dayPct": -4.44,
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:46.374Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:46.374Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:46.374Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:47:46.374Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:47:46.374Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:46.374Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:46.374Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:47:46.374Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/SELECTF/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/SELECTF/",
+        "updatedAt": "2026-08-21T22:47:46.374Z",
+        "pe": 12.15,
+        "forwardPe": 11.55,
+        "ps": 11.55,
+        "pb": 0.74,
+        "pfcf": 26.31,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": 7.47,
+        "fcfYield": null,
+        "dividendYield": null,
+        "roe": -3.65,
+        "roa": -2.26,
+        "roic": null,
+        "currentRatio": 112.13,
+        "quickRatio": 112.13,
+        "debtEquity": null,
+        "interestCoverage": null,
+        "assetTurnover": 0.01,
+        "grossMargin": 100,
+        "operatingMargin": 86.41,
+        "netMargin": 86.32,
+        "eps": 0.04,
+        "bvps": 0.6,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "SELECTMD",
@@ -2035,7 +4995,7 @@
       "ratingBasis": "Fund Discount / Low ROE",
       "price": 0.92,
       "priceSource": "JSE",
-      "pe": 18.4,
+      "pe": 13.38,
       "pb": 0.75,
       "roe": 4.15,
       "epsGrowth": null,
@@ -2044,7 +5004,7 @@
       "buyZone": "≤J$0.80",
       "score": 52,
       "rating": "WATCH",
-      "eps": 0.05,
+      "eps": 0.04,
       "bvps": 1.23,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600096",
@@ -2059,20 +5019,86 @@
       "dayPct": -1.08,
       "volume": 542214,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:52.590Z"
         },
         "pb": {
           "state": "fallback",
           "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "checkedAt": "2026-08-21T22:49:36.686Z"
+        },
+        "roe": {
+          "state": "fallback",
+          "detail": "Retaining previously sourced ROE",
+          "checkedAt": "2026-08-21T22:47:52.590Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:47:52.590Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:47:52.590Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:52.590Z"
+        },
+        "bvps": {
+          "state": "fallback",
+          "detail": "Retaining previously sourced BVPS",
+          "checkedAt": "2026-08-21T22:47:52.590Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:47:52.590Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "CALC",
+      "saUrl": "https://stockanalysis.com/quote/jmse/SELECTMD/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/SELECTMD/",
+        "updatedAt": "2026-08-21T22:47:52.590Z",
+        "pe": 13.38,
+        "forwardPe": null,
+        "ps": null,
+        "pb": null,
+        "pfcf": null,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": null,
+        "fcfYield": null,
+        "dividendYield": null,
+        "roe": null,
+        "roa": null,
+        "roic": null,
+        "currentRatio": null,
+        "quickRatio": null,
+        "debtEquity": null,
+        "interestCoverage": null,
+        "assetTurnover": null,
+        "grossMargin": null,
+        "operatingMargin": null,
+        "netMargin": null,
+        "eps": 0.04,
+        "bvps": null,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "epsSource": "SA"
     },
     {
       "ticker": "TROPICAL",
@@ -2081,9 +5107,9 @@
       "ratingBasis": "Data-Quality Risk / Valuation Needs Verification",
       "price": 1.46,
       "priceSource": "JSE",
-      "pe": 29.2,
-      "pb": 1.51,
-      "roe": null,
+      "pe": 28.68,
+      "pb": 1.39,
+      "roe": 6514,
       "epsGrowth": null,
       "divYield": null,
       "fairValue": null,
@@ -2091,7 +5117,7 @@
       "score": 40,
       "rating": "WATCH",
       "eps": 0.05,
-      "bvps": 0.97,
+      "bvps": 0.96,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600104",
       "w1": 4.48,
@@ -2105,20 +5131,88 @@
       "dayPct": -3.31,
       "volume": 511977,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:59.671Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:59.671Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:47:59.671Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:47:59.671Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:47:59.671Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:59.671Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:47:59.671Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:47:59.671Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/TROPICAL/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/TROPICAL/",
+        "updatedAt": "2026-08-21T22:47:59.671Z",
+        "pe": 28.68,
+        "forwardPe": 0,
+        "ps": 0,
+        "pb": 1.39,
+        "pfcf": null,
+        "peg": null,
+        "evSales": 0,
+        "evEbitda": 0.02,
+        "evFcf": null,
+        "earningsYield": 2628.79,
+        "fcfYield": -2.7,
+        "dividendYield": null,
+        "roe": 6514,
+        "roa": 3249.17,
+        "roic": 5284.72,
+        "currentRatio": 1.37,
+        "quickRatio": 0.83,
+        "debtEquity": 2.8,
+        "interestCoverage": 1.01,
+        "assetTurnover": 604.06,
+        "grossMargin": 39.43,
+        "operatingMargin": 8.61,
+        "netMargin": 1.31,
+        "eps": 0.05,
+        "bvps": 0.96,
+        "dps": null,
+        "epsGrowth": null
+      },
+      "roeSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "VMIL",
@@ -2127,18 +5221,18 @@
       "ratingBasis": "Cheap P/E & P/B / High Leverage",
       "price": 1.61,
       "priceSource": "JSE",
-      "pe": 7.67,
-      "pb": 0.56,
+      "pe": 7.35,
+      "pb": 0.54,
       "roe": 7.02,
       "epsGrowth": null,
-      "divYield": null,
+      "divYield": 2.63,
       "fairValue": "J$1.70–2.00",
       "buyZone": "J$1.40–1.60",
       "score": 58,
       "rating": "WATCH",
       "eps": 0.21,
-      "bvps": 2.89,
-      "dps": null,
+      "bvps": 1.79,
+      "dps": 0.04,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600034",
       "w1": -5,
       "m1": -5,
@@ -2151,20 +5245,90 @@
       "dayPct": 5.23,
       "volume": 26468,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:10.205Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:10.205Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:10.205Z"
+        },
+        "epsGrowth": {
+          "state": "na",
+          "detail": "StockAnalysis Overview checked; EPS growth not published",
+          "checkedAt": "2026-08-21T22:48:10.205Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:48:10.205Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:10.205Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:10.205Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:10.205Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/VMIL/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/VMIL/",
+        "updatedAt": "2026-08-21T22:48:10.205Z",
+        "pe": 7.35,
+        "forwardPe": 0.9,
+        "ps": 0.9,
+        "pb": 0.54,
+        "pfcf": 0.24,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": 13.64,
+        "fcfYield": 413.25,
+        "dividendYield": 2.63,
+        "roe": 7.02,
+        "roa": 0.84,
+        "roic": 0.39,
+        "currentRatio": 0.19,
+        "quickRatio": 0.19,
+        "debtEquity": 7.86,
+        "interestCoverage": null,
+        "assetTurnover": 0.07,
+        "grossMargin": 100,
+        "operatingMargin": 7.76,
+        "netMargin": 12.27,
+        "eps": 0.21,
+        "bvps": 1.79,
+        "dps": 0.04,
+        "epsGrowth": null
+      },
+      "roeSource": "SA",
+      "divYieldSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "WIPT",
@@ -2173,17 +5337,17 @@
       "ratingBasis": "Extreme P/E & P/B / New-Listing Risk",
       "price": 10.4,
       "priceSource": "JSE",
-      "pe": 241.86,
-      "pb": 23.64,
-      "roe": null,
-      "epsGrowth": null,
+      "pe": 228.64,
+      "pb": 22.52,
+      "roe": 8.69,
+      "epsGrowth": 182.7,
       "divYield": null,
       "fairValue": null,
       "buyZone": null,
       "score": 18,
       "rating": "AVOID",
       "priceDate": "2026-08-21",
-      "eps": 0.043,
+      "eps": 0.04,
       "bvps": 0.44,
       "dps": null,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600179",
@@ -2197,20 +5361,89 @@
       "dayPct": 11.95,
       "volume": 12416,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:24.039Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:24.039Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:24.039Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:48:24.039Z"
+        },
+        "divYield": {
+          "state": "na",
+          "detail": "StockAnalysis checked; dividend yield not published",
+          "checkedAt": "2026-08-21T22:48:24.039Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:24.039Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:24.039Z"
+        },
+        "dps": {
+          "state": "na",
+          "detail": "StockAnalysis checked; DPS not published",
+          "checkedAt": "2026-08-21T22:48:24.039Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/WIPT/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/WIPT/",
+        "updatedAt": "2026-08-21T22:48:24.039Z",
+        "pe": 228.64,
+        "forwardPe": 72.96,
+        "ps": 72.96,
+        "pb": 22.52,
+        "pfcf": 209.32,
+        "peg": null,
+        "evSales": 73.29,
+        "evEbitda": 115.16,
+        "evFcf": 210.27,
+        "earningsYield": 0.44,
+        "fcfYield": 0.48,
+        "dividendYield": null,
+        "roe": 8.69,
+        "roa": 11,
+        "roic": 11,
+        "currentRatio": 1.04,
+        "quickRatio": 1.04,
+        "debtEquity": 0.16,
+        "interestCoverage": 5.75,
+        "assetTurnover": 0.21,
+        "grossMargin": 95.73,
+        "operatingMargin": 44.44,
+        "netMargin": 32,
+        "eps": 0.04,
+        "bvps": 0.44,
+        "dps": null,
+        "epsGrowth": 182.7
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA"
     },
     {
       "ticker": "WISYNCO",
@@ -2219,17 +5452,17 @@
       "ratingBasis": "Quality + Strong Balance Sheet / Fair Value",
       "price": 19.81,
       "priceSource": "JSE",
-      "pe": 16.37,
+      "pe": 16.42,
       "pb": 2.45,
       "roe": 15.77,
-      "epsGrowth": -3,
+      "epsGrowth": -3.2,
       "divYield": 2.32,
       "fairValue": "J$20–23",
       "buyZone": "J$17–19.50",
       "score": 74,
       "rating": "HOLD",
       "eps": 1.21,
-      "bvps": 8.1,
+      "bvps": 8.08,
       "dps": 0.46,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600033",
       "w1": 0.15,
@@ -2243,26 +5476,91 @@
       "dayPct": -0.25,
       "volume": 1138399,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:39.054Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:39.054Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:48:39.054Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:39.054Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:48:39.054Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:39.054Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:39.054Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:39.054Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/WISYNCO/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/WISYNCO/",
+        "updatedAt": "2026-08-21T22:48:39.054Z",
+        "pe": 16.42,
+        "forwardPe": 1.19,
+        "ps": 1.19,
+        "pb": 2.45,
+        "pfcf": 31.39,
+        "peg": null,
+        "evSales": 1.2,
+        "evEbitda": 9.19,
+        "evFcf": 31.46,
+        "earningsYield": 6.11,
+        "fcfYield": 3.19,
+        "dividendYield": 2.32,
+        "roe": 15.77,
+        "roa": 8.74,
+        "roic": 15.02,
+        "currentRatio": 2.57,
+        "quickRatio": 1.65,
+        "debtEquity": 0.24,
+        "interestCoverage": 8.34,
+        "assetTurnover": 1.51,
+        "grossMargin": 34.31,
+        "operatingMargin": 9.25,
+        "netMargin": 7.3,
+        "eps": 1.21,
+        "bvps": 8.08,
+        "dps": 0.46,
+        "epsGrowth": -3.2
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "JSE",
@@ -2271,11 +5569,11 @@
       "ratingBasis": "Quality Franchise / Earnings Normalization",
       "price": 9.15,
       "priceSource": "JSE",
-      "pe": 15,
+      "pe": 15.07,
       "pb": 1.96,
       "roe": 13.71,
-      "epsGrowth": -30,
-      "divYield": 5.46,
+      "epsGrowth": -30.2,
+      "divYield": 5.49,
       "fairValue": "J$9–11",
       "buyZone": "J$8–9",
       "score": 65,
@@ -2295,26 +5593,91 @@
       "dayPct": -1.61,
       "volume": 11892,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:48.688Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:48.688Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:48:48.688Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:48.688Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:48:48.688Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:48.688Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:48.688Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:48.688Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/JSE/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/JSE/",
+        "updatedAt": "2026-08-21T22:48:48.688Z",
+        "pe": 15.07,
+        "forwardPe": 2.39,
+        "ps": 2.39,
+        "pb": 1.96,
+        "pfcf": 12.18,
+        "peg": null,
+        "evSales": 2.28,
+        "evEbitda": 8.61,
+        "evFcf": 11.61,
+        "earningsYield": 6.64,
+        "fcfYield": 8.21,
+        "dividendYield": 5.49,
+        "roe": 13.71,
+        "roa": 9.74,
+        "roic": 13.57,
+        "currentRatio": 2.96,
+        "quickRatio": 1.2,
+        "debtEquity": null,
+        "interestCoverage": null,
+        "assetTurnover": 0.67,
+        "grossMargin": 81.1,
+        "operatingMargin": 23.17,
+        "netMargin": 15.88,
+        "eps": 0.61,
+        "bvps": 4.66,
+        "dps": 0.5,
+        "epsGrowth": -30.2
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "SML",
@@ -2323,18 +5686,18 @@
       "ratingBasis": "Asset Value + High ROE / Revaluation-Gain Risk",
       "price": 7.44,
       "priceSource": "JSE",
-      "pe": 2.61,
-      "pb": 0.53,
-      "roe": 22.11,
-      "epsGrowth": null,
-      "divYield": null,
+      "pe": 2.72,
+      "pb": 0.52,
+      "roe": 21.19,
+      "epsGrowth": 81.1,
+      "divYield": 3.62,
       "fairValue": "J$8–10",
       "buyZone": "J$6.50–7.50",
       "score": 76,
       "rating": "BUY",
-      "eps": 2.85,
-      "bvps": 14.1,
-      "dps": null,
+      "eps": 2.74,
+      "bvps": 14.25,
+      "dps": 0.26,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600074",
       "w1": 0,
       "m1": 2.05,
@@ -2347,20 +5710,91 @@
       "dayPct": 1.36,
       "volume": 364,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:57.948Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:57.948Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:48:57.948Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:48:57.948Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:48:57.948Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:57.948Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:57.948Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:48:57.948Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/SML/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/SML/",
+        "updatedAt": "2026-08-21T22:48:57.948Z",
+        "pe": 2.72,
+        "forwardPe": 4.92,
+        "ps": 4.92,
+        "pb": 0.52,
+        "pfcf": 12.85,
+        "peg": null,
+        "evSales": 7.2,
+        "evEbitda": 10.73,
+        "evFcf": 18.8,
+        "earningsYield": 36.74,
+        "fcfYield": 7.78,
+        "dividendYield": 3.62,
+        "roe": 21.19,
+        "roa": 3.57,
+        "roic": 5.39,
+        "currentRatio": 0.71,
+        "quickRatio": 0.69,
+        "debtEquity": 0.27,
+        "interestCoverage": 3.64,
+        "assetTurnover": 0.09,
+        "grossMargin": 92.82,
+        "operatingMargin": 64.92,
+        "netMargin": 180.88,
+        "eps": 2.74,
+        "bvps": 14.25,
+        "dps": 0.26,
+        "epsGrowth": 81.1
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "divYieldSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "SIL",
@@ -2369,18 +5803,18 @@
       "ratingBasis": "Below Book / Modest ROE",
       "price": 3.19,
       "priceSource": "JSE",
-      "pe": 15.95,
-      "pb": 0.89,
-      "roe": 5.41,
-      "epsGrowth": null,
-      "divYield": null,
+      "pe": 9.75,
+      "pb": 0.72,
+      "roe": 8.29,
+      "epsGrowth": 22.8,
+      "divYield": 4.58,
       "fairValue": "J$3.00–3.50",
       "buyZone": "J$2.60–3.00",
       "score": 58,
       "rating": "HOLD",
-      "eps": 0.2,
-      "bvps": 3.59,
-      "dps": null,
+      "eps": 0.34,
+      "bvps": 4.59,
+      "dps": 0.15,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=309",
       "w1": 2.5,
       "m1": -0.61,
@@ -2393,20 +5827,91 @@
       "dayPct": -2.45,
       "volume": 4814,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:49:06.412Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:49:06.412Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:49:06.412Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:49:06.412Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:49:06.412Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:49:06.412Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:49:06.412Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:49:06.412Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/SIL/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/SIL/",
+        "updatedAt": "2026-08-21T22:49:06.412Z",
+        "pe": 9.75,
+        "forwardPe": 13.05,
+        "ps": 13.05,
+        "pb": 0.72,
+        "pfcf": 30.22,
+        "peg": null,
+        "evSales": 12.49,
+        "evEbitda": 30.87,
+        "evFcf": null,
+        "earningsYield": 10.25,
+        "fcfYield": null,
+        "dividendYield": 4.58,
+        "roe": 8.29,
+        "roa": 1.4,
+        "roic": 2.34,
+        "currentRatio": 1.71,
+        "quickRatio": 1.71,
+        "debtEquity": 0.11,
+        "interestCoverage": 3.24,
+        "assetTurnover": 0.06,
+        "grossMargin": 100,
+        "operatingMargin": 40.46,
+        "netMargin": 133.75,
+        "eps": 0.34,
+        "bvps": 4.59,
+        "dps": 0.15,
+        "epsGrowth": 22.8
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "divYieldSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "SVL",
@@ -2415,17 +5920,17 @@
       "ratingBasis": "High ROE / Expensive P/B & P/E",
       "price": 17.38,
       "priceSource": "JSE",
-      "pe": 22.57,
-      "pb": 7.86,
+      "pe": 23.16,
+      "pb": 8.25,
       "roe": 34.84,
-      "epsGrowth": 40,
-      "divYield": 3.22,
+      "epsGrowth": 40.1,
+      "divYield": 3.13,
       "fairValue": "J$16–19",
       "buyZone": "J$14–16.50",
       "score": 69,
       "rating": "WATCH",
       "eps": 0.77,
-      "bvps": 2.21,
+      "bvps": 1.92,
       "dps": 0.56,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=139",
       "w1": -0.45,
@@ -2439,26 +5944,91 @@
       "dayPct": -2.63,
       "volume": 154772,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:49:15.953Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:49:15.953Z"
         },
         "divYield": {
-          "state": "fallback",
-          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:49:15.953Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:49:15.953Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:49:15.953Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:49:15.953Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:49:15.953Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:49:15.953Z"
         }
       },
-      "pbSource": "CALC",
-      "divYieldSource": "CALC"
+      "pbSource": "SA",
+      "divYieldSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/SVL/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/SVL/",
+        "updatedAt": "2026-08-21T22:49:15.953Z",
+        "pe": 23.16,
+        "forwardPe": 0.85,
+        "ps": 0.85,
+        "pb": 8.25,
+        "pfcf": 18.46,
+        "peg": null,
+        "evSales": 1.01,
+        "evEbitda": 11.75,
+        "evFcf": 21.91,
+        "earningsYield": 4.34,
+        "fcfYield": 5.42,
+        "dividendYield": 3.13,
+        "roe": 34.84,
+        "roa": 9.78,
+        "roic": 18.59,
+        "currentRatio": 0.98,
+        "quickRatio": 0.73,
+        "debtEquity": 1.84,
+        "interestCoverage": 3.57,
+        "assetTurnover": 2.47,
+        "grossMargin": 21.29,
+        "operatingMargin": 6.33,
+        "netMargin": 3.69,
+        "eps": 0.77,
+        "bvps": 1.92,
+        "dps": 0.56,
+        "epsGrowth": 40.1
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     },
     {
       "ticker": "SRFJMD",
@@ -2468,17 +6038,17 @@
       "price": 7.82,
       "priceSource": "JSE",
       "pe": 3.09,
-      "pb": 0.2,
+      "pb": 0.21,
       "roe": 9.96,
-      "epsGrowth": null,
-      "divYield": null,
+      "epsGrowth": 23.2,
+      "divYield": 2.57,
       "fairValue": "J$10–13",
       "buyZone": "J$8–10",
       "score": 63,
       "rating": "WATCH",
       "eps": 2.53,
-      "bvps": 39.92,
-      "dps": null,
+      "bvps": 26.67,
+      "dps": 0.2,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=1600118",
       "w1": -17.68,
       "m1": -21.01,
@@ -2491,20 +6061,91 @@
       "dayPct": -1.39,
       "volume": 40798,
       "fundamentalSource": "SA",
-      "peSource": "CALC",
+      "peSource": "SA",
       "metricStatus": {
         "pe": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:49:31.068Z"
         },
         "pb": {
-          "state": "fallback",
-          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:27:49.002Z"
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:49:31.068Z"
+        },
+        "roe": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics",
+          "checkedAt": "2026-08-21T22:49:31.068Z"
+        },
+        "epsGrowth": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Overview",
+          "checkedAt": "2026-08-21T22:49:31.068Z"
+        },
+        "divYield": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
+          "checkedAt": "2026-08-21T22:49:31.068Z"
+        },
+        "eps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:49:31.068Z"
+        },
+        "bvps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:49:31.068Z"
+        },
+        "dps": {
+          "state": "ok",
+          "detail": "Published by StockAnalysis",
+          "checkedAt": "2026-08-21T22:49:31.068Z"
         }
       },
-      "pbSource": "CALC"
+      "pbSource": "SA",
+      "saUrl": "https://stockanalysis.com/quote/jmse/SRFJMD/",
+      "saMarket": "jmse",
+      "saAnalystMetrics": {
+        "source": "StockAnalysis",
+        "market": "JMSE",
+        "url": "https://stockanalysis.com/quote/jmse/SRFJMD/",
+        "updatedAt": "2026-08-21T22:49:31.068Z",
+        "pe": 3.09,
+        "forwardPe": -2.48,
+        "ps": -2.48,
+        "pb": 0.21,
+        "pfcf": null,
+        "peg": null,
+        "evSales": null,
+        "evEbitda": null,
+        "evFcf": null,
+        "earningsYield": 45.84,
+        "fcfYield": null,
+        "dividendYield": 2.57,
+        "roe": 9.96,
+        "roa": 5.14,
+        "roic": -8.22,
+        "currentRatio": 3.35,
+        "quickRatio": 0.05,
+        "debtEquity": 0.79,
+        "interestCoverage": null,
+        "assetTurnover": 0.01,
+        "grossMargin": 172.99,
+        "operatingMargin": 172.99,
+        "netMargin": null,
+        "eps": 2.53,
+        "bvps": 26.67,
+        "dps": 0.2,
+        "epsGrowth": 23.2
+      },
+      "roeSource": "SA",
+      "epsGrowthSource": "SA",
+      "divYieldSource": "SA",
+      "epsSource": "SA",
+      "bvpsSource": "SA",
+      "dpsSource": "SA"
     }
   ],
   "portfolio": [
@@ -2539,11 +6180,12 @@
   ],
   "changes": [],
   "researchAsOf": "2026-08-18",
-  "instrumentLinksUpdated": "2026-08-21T22:16:26.837Z",
-  "saPerformanceUpdated": "2026-08-21T22:27:19.191Z",
+  "instrumentLinksUpdated": "2026-08-21T22:34:29.587Z",
+  "saPerformanceUpdated": "2026-08-21T22:42:13.486Z",
   "jseTradeDate": "2026-08-21",
-  "jseMarketUpdated": "2026-08-21T22:27:49.002Z",
-  "saFundamentalsUpdated": "2026-08-21T22:27:19.191Z",
-  "crossListedPrimaryUpdated": "2026-08-21T22:27:43.360Z",
-  "refreshedAt": "2026-08-21T22:27:49.002Z"
+  "jseMarketUpdated": "2026-08-21T22:49:36.686Z",
+  "saFundamentalsUpdated": "2026-08-21T22:42:13.486Z",
+  "crossListedPrimaryUpdated": "2026-08-21T22:42:27.423Z",
+  "refreshedAt": "2026-08-21T22:49:36.686Z",
+  "saRatiosUpdated": "2026-08-21T22:49:31.130Z"
 }
