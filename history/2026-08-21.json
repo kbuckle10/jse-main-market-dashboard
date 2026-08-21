@@ -1,7 +1,7 @@
 {
   "asOf": "2026-08-21",
   "universeSource": "https://www.jamstockex.com/listings/listed-companies/",
-  "sourceNote": "Official JSE Trade Summary is authoritative for latest closing price, daily change, percentage change and volume where captured; StockAnalysis remains the historical-performance source and explicit fallback.",
+  "sourceNote": "Official JSE Trade Summary is authoritative for latest closing price, daily change, percentage change and volume. StockAnalysis-published valuation ratios are preserved and preferred; CALC is used only where SA does not publish the ratio.",
   "stocks": [
     {
       "ticker": "SEP",
@@ -33,7 +33,27 @@
       "dayJmd": -1.24,
       "dayPct": -1.66,
       "volume": 10611,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "KW",
@@ -65,7 +85,27 @@
       "dayJmd": 0.24,
       "dayPct": 0.71,
       "volume": 9326,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "NCBFG",
@@ -97,7 +137,27 @@
       "dayJmd": 0.26,
       "dayPct": 0.36,
       "volume": 87329,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "SJ",
@@ -129,7 +189,27 @@
       "dayJmd": 0.03,
       "dayPct": 0.07,
       "volume": 23476,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "SGJ",
@@ -161,7 +241,27 @@
       "volume": 132796,
       "fundamentalSource": "SA",
       "dayJmd": 0.34,
-      "dayPct": 0.6
+      "dayPct": 0.6,
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "TJH",
@@ -193,7 +293,27 @@
       "dayJmd": 0.02,
       "dayPct": 0.18,
       "volume": 3278348,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.000Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "CPJ",
@@ -225,7 +345,27 @@
       "dayJmd": 0.06,
       "dayPct": 1.15,
       "volume": 2748,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "GK",
@@ -257,7 +397,27 @@
       "dayJmd": -0.88,
       "dayPct": -1.15,
       "volume": 48395,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "GENAC",
@@ -289,7 +449,27 @@
       "dayJmd": -0.57,
       "dayPct": -6.41,
       "volume": 25692,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "CAR",
@@ -321,7 +501,21 @@
       "dayJmd": -1.24,
       "dayPct": -3.55,
       "volume": 401091,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "SALF",
@@ -353,7 +547,27 @@
       "dayJmd": -0.11,
       "dayPct": -4.23,
       "volume": 151986,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "MASSY",
@@ -385,7 +599,27 @@
       "volume": 340,
       "fundamentalSource": "SA",
       "dayJmd": -0.27,
-      "dayPct": -0.37
+      "dayPct": -0.37,
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "BIL",
@@ -417,7 +651,27 @@
       "dayJmd": -0.47,
       "dayPct": -0.73,
       "volume": 3554,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "JMMBGL",
@@ -449,7 +703,27 @@
       "dayJmd": 0.33,
       "dayPct": 2.23,
       "volume": 330116,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "SCIJMD",
@@ -481,7 +755,27 @@
       "dayJmd": 0.13,
       "dayPct": 1.37,
       "volume": 14166,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "JBG",
@@ -513,7 +807,21 @@
       "dayJmd": -0.15,
       "dayPct": -1.2,
       "volume": 117981,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "pbSource": "CALC",
+      "metricStatus": {
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "WIG",
@@ -543,7 +851,27 @@
       "priceDate": "2026-08-21",
       "tradeDate": "2026-08-21",
       "volume": 3429516,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "138SL",
@@ -575,7 +903,27 @@
       "dayJmd": -0.34,
       "dayPct": -11.89,
       "volume": 1000952,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "ASBH",
@@ -607,7 +955,27 @@
       "volume": 929,
       "fundamentalSource": "SA",
       "dayJmd": 0.01,
-      "dayPct": 0.04
+      "dayPct": 0.04,
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "BRG",
@@ -639,7 +1007,27 @@
       "dayJmd": 0.01,
       "dayPct": 0.18,
       "volume": 3799,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "CCC",
@@ -671,7 +1059,27 @@
       "dayJmd": -0.69,
       "dayPct": -0.64,
       "volume": 64375,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "CPFV",
@@ -703,7 +1111,15 @@
       "dayJmd": -0.01,
       "dayPct": -0.02,
       "volume": 2926,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "divYieldSource": "CALC",
+      "metricStatus": {
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      }
     },
     {
       "ticker": "EPLY",
@@ -735,7 +1151,21 @@
       "dayJmd": -0.63,
       "dayPct": -1.89,
       "volume": 2556,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "FIRSTROCKJMD",
@@ -773,18 +1203,18 @@
       "ratingBasis": "Low Earnings Multiple + Income / Earnings Decline",
       "price": 347.96,
       "priceSource": "JSE",
-      "pe": 4.24,
-      "pb": 0.57,
+      "pe": 4.39,
+      "pb": 0.59,
       "roe": 14.67,
-      "epsGrowth": -37.76,
-      "divYield": 5.77,
+      "epsGrowth": -37.8,
+      "divYield": 5.58,
       "fairValue": "J$390–450",
       "buyZone": "J$320–370",
       "score": 76,
       "rating": "BUY",
-      "eps": 82.0046,
-      "bvps": 610.1695,
-      "dps": 20.088,
+      "eps": 3.72,
+      "bvps": 27.44,
+      "dps": 0.91,
       "jseUrl": "https://www.jamstockex.com/trading/instruments/?instrument=57",
       "w1": 0.31,
       "m1": -0.37,
@@ -814,11 +1244,19 @@
       "nativeEps": 3.72,
       "nativeBvps": 27.44,
       "nativeDps": 0.91,
-      "epsSource": "SA TTSE ratio-equivalent",
-      "bvpsSource": "SA TTSE ratio-equivalent",
-      "dpsSource": "SA TTSE yield-equivalent",
+      "epsSource": "SA TTSE",
+      "bvpsSource": "SA TTSE",
+      "dpsSource": "SA TTSE",
       "crossListed": true,
-      "crossListedNote": "JSE price; StockAnalysis TTSE primary-listing fundamentals/history"
+      "crossListedNote": "Official JSE price; StockAnalysis TTSE primary-listing fundamentals, ratios and history. Native per-share fundamentals are TTD.",
+      "epsCurrency": "TTD",
+      "bvpsCurrency": "TTD",
+      "dpsCurrency": "TTD",
+      "peSource": "SA TTSE",
+      "pbSource": "SA TTSE",
+      "roeSource": "SA TTSE",
+      "epsGrowthSource": "SA TTSE overview",
+      "divYieldSource": "SA TTSE"
     },
     {
       "ticker": "ENERGY",
@@ -850,7 +1288,21 @@
       "dayJmd": -0.11,
       "dayPct": -10.58,
       "volume": 2410,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "JP",
@@ -882,7 +1334,21 @@
       "dayJmd": -2.47,
       "dayPct": -11.49,
       "volume": 12050,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "KPREIT",
@@ -914,7 +1380,21 @@
       "dayJmd": -0.22,
       "dayPct": -1.86,
       "volume": 10995,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "LASD",
@@ -946,7 +1426,27 @@
       "dayJmd": -0.05,
       "dayPct": -1.57,
       "volume": 1082413,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.001Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "LASM",
@@ -978,7 +1478,27 @@
       "dayJmd": -0.28,
       "dayPct": -3.44,
       "volume": 66306,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "MTL",
@@ -1039,7 +1559,21 @@
       "dayJmd": 0.01,
       "dayPct": 0.18,
       "volume": 25128,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "MJE",
@@ -1071,7 +1605,21 @@
       "dayJmd": -0.15,
       "dayPct": -2.3,
       "volume": 5500,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "MPCCEL",
@@ -1135,7 +1683,21 @@
       "dayJmd": 0.03,
       "dayPct": 6.38,
       "volume": 119940,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "PJAM",
@@ -1167,7 +1729,21 @@
       "dayJmd": -0.92,
       "dayPct": -2.1,
       "volume": 11065,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "PJX",
@@ -1226,7 +1802,15 @@
       "dayJmd": -0.32,
       "dayPct": -3.41,
       "volume": 42884,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "pbSource": "CALC",
+      "metricStatus": {
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      }
     },
     {
       "ticker": "PULS",
@@ -1258,7 +1842,21 @@
       "dayJmd": 0.03,
       "dayPct": 3.7,
       "volume": 1513,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "QWI",
@@ -1290,7 +1888,21 @@
       "dayJmd": 0.05,
       "dayPct": 6.94,
       "volume": 33587,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "RJR",
@@ -1322,7 +1934,21 @@
       "dayJmd": 0.03,
       "dayPct": 2.78,
       "volume": 4497,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "XFUND",
@@ -1386,7 +2012,21 @@
       "volume": 4226167,
       "fundamentalSource": "SA",
       "dayJmd": -0.02,
-      "dayPct": -4.44
+      "dayPct": -4.44,
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "SELECTMD",
@@ -1418,7 +2058,21 @@
       "dayJmd": -0.01,
       "dayPct": -1.08,
       "volume": 542214,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "TROPICAL",
@@ -1450,7 +2104,21 @@
       "dayJmd": -0.05,
       "dayPct": -3.31,
       "volume": 511977,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "VMIL",
@@ -1482,7 +2150,21 @@
       "dayJmd": 0.08,
       "dayPct": 5.23,
       "volume": 26468,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "WIPT",
@@ -1514,7 +2196,21 @@
       "dayJmd": 1.11,
       "dayPct": 11.95,
       "volume": 12416,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "WISYNCO",
@@ -1546,7 +2242,27 @@
       "dayJmd": -0.05,
       "dayPct": -0.25,
       "volume": 1138399,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "JSE",
@@ -1578,7 +2294,27 @@
       "dayJmd": -0.15,
       "dayPct": -1.61,
       "volume": 11892,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "SML",
@@ -1610,7 +2346,21 @@
       "dayJmd": 0.1,
       "dayPct": 1.36,
       "volume": 364,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "SIL",
@@ -1642,7 +2392,21 @@
       "dayJmd": -0.08,
       "dayPct": -2.45,
       "volume": 4814,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     },
     {
       "ticker": "SVL",
@@ -1674,7 +2438,27 @@
       "dayJmd": -0.47,
       "dayPct": -2.63,
       "volume": 154772,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "divYield": {
+          "state": "fallback",
+          "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC",
+      "divYieldSource": "CALC"
     },
     {
       "ticker": "SRFJMD",
@@ -1706,7 +2490,21 @@
       "dayJmd": -0.11,
       "dayPct": -1.39,
       "volume": 40798,
-      "fundamentalSource": "SA"
+      "fundamentalSource": "SA",
+      "peSource": "CALC",
+      "metricStatus": {
+        "pe": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        },
+        "pb": {
+          "state": "fallback",
+          "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
+          "checkedAt": "2026-08-21T22:27:49.002Z"
+        }
+      },
+      "pbSource": "CALC"
     }
   ],
   "portfolio": [
@@ -1741,10 +2539,11 @@
   ],
   "changes": [],
   "researchAsOf": "2026-08-18",
-  "instrumentLinksUpdated": "2026-08-21T21:38:52.083Z",
-  "saPerformanceUpdated": "2026-08-21T21:47:52.302Z",
+  "instrumentLinksUpdated": "2026-08-21T22:16:26.837Z",
+  "saPerformanceUpdated": "2026-08-21T22:27:19.191Z",
   "jseTradeDate": "2026-08-21",
-  "jseMarketUpdated": "2026-08-21T21:48:15.251Z",
-  "saFundamentalsUpdated": "2026-08-21T21:47:52.302Z",
-  "crossListedPrimaryUpdated": "2026-08-21T21:48:09.796Z"
+  "jseMarketUpdated": "2026-08-21T22:27:49.002Z",
+  "saFundamentalsUpdated": "2026-08-21T22:27:19.191Z",
+  "crossListedPrimaryUpdated": "2026-08-21T22:27:43.360Z",
+  "refreshedAt": "2026-08-21T22:27:49.002Z"
 }
