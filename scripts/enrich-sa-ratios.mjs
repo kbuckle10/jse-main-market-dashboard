@@ -16,7 +16,8 @@ function valueByLabel(text,labels,{percent=false}={}){
       if(norm===label||norm.startsWith(label+' ')||cleanLabel(raw).startsWith(label+' |')){
         const pipe=raw.indexOf('|');
         if(pipe>=0){const v=firstNumeric(raw.slice(pipe+1),{percent});if(v!=null)return v;if(/n\/?a/i.test(raw.slice(pipe+1)))return null}
-        const after=raw.replace(new RegExp('^'+labels.find(x=>cleanLabel(x)===label)?.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'i'),'').replace(/^\s*[|:]?\s*/,'');
+        const sourceLabel=labels.find(x=>cleanLabel(x)===label);
+        const after=sourceLabel?raw.replace(new RegExp('^'+sourceLabel.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'i'),'').replace(/^\s*[|:]?\s*/,''):raw;
         const same=firstNumeric(after,{percent});if(same!=null)return same;
         for(let j=i+1;j<=Math.min(i+2,ls.length-1);j++){
           if(/^[A-Za-z]/.test(ls[j])&&!/[0-9]/.test(ls[j]))break;
@@ -124,4 +125,4 @@ await browser.close();
 data.saRatiosUpdated=new Date().toISOString();data.refreshedAt=data.saRatiosUpdated;
 fs.writeFileSync(FILE,JSON.stringify(data,null,2)+'\n');
 console.log(`SUCCESS: SA enrichment checked ${checked}/${data.stocks.length}; core page failures ${failed}. SA-published values take precedence; CALC is fallback only.`);
-// Collector self-test trigger: label/value parser revision 2026-08-21
+// Collector self-test trigger: explicit push after workflow trigger activation 2026-08-21
