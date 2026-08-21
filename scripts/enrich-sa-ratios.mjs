@@ -124,3 +124,4 @@ await browser.close();
 data.saRatiosUpdated=new Date().toISOString();data.refreshedAt=data.saRatiosUpdated;
 fs.writeFileSync(FILE,JSON.stringify(data,null,2)+'\n');
 console.log(`SUCCESS: SA enrichment checked ${checked}/${data.stocks.length}; core page failures ${failed}. SA-published values take precedence; CALC is fallback only.`);
+// Collector self-test trigger: label/value parser revision 2026-08-21
