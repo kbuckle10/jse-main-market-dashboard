@@ -39,42 +39,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:42:39.292Z"
+          "checkedAt": "2026-08-21T23:30:36.628Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:42:39.292Z"
+          "checkedAt": "2026-08-21T23:30:36.628Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:42:39.292Z"
+          "checkedAt": "2026-08-21T23:30:36.628Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:42:39.292Z"
+          "checkedAt": "2026-08-21T23:30:36.628Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:42:39.292Z"
+          "checkedAt": "2026-08-21T23:30:36.628Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:42:39.292Z"
+          "checkedAt": "2026-08-21T23:30:36.628Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:42:39.292Z"
+          "checkedAt": "2026-08-21T23:30:36.628Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:42:39.292Z"
+          "checkedAt": "2026-08-21T23:30:36.628Z"
         }
       },
       "pbSource": "SA",
@@ -85,7 +85,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/SEP/",
-        "updatedAt": "2026-08-21T22:42:39.292Z",
+        "updatedAt": "2026-08-21T23:30:36.627Z",
         "pe": 12.12,
         "forwardPe": 0.45,
         "ps": 0.45,
@@ -156,42 +156,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:42:47.501Z"
+          "checkedAt": "2026-08-21T23:30:54.770Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:42:47.501Z"
+          "checkedAt": "2026-08-21T23:30:54.770Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:42:47.501Z"
+          "checkedAt": "2026-08-21T23:30:54.770Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:42:47.501Z"
+          "checkedAt": "2026-08-21T23:30:54.770Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:42:47.501Z"
+          "checkedAt": "2026-08-21T23:30:54.770Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:42:47.501Z"
+          "checkedAt": "2026-08-21T23:30:54.770Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:42:47.501Z"
+          "checkedAt": "2026-08-21T23:30:54.770Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:42:47.501Z"
+          "checkedAt": "2026-08-21T23:30:54.770Z"
         }
       },
       "pbSource": "SA",
@@ -202,7 +202,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/KW/",
-        "updatedAt": "2026-08-21T22:42:47.501Z",
+        "updatedAt": "2026-08-21T23:30:54.770Z",
         "pe": 16.98,
         "forwardPe": 3.64,
         "ps": 3.64,
@@ -273,42 +273,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:42:55.807Z"
+          "checkedAt": "2026-08-21T23:31:07.109Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:42:55.807Z"
+          "checkedAt": "2026-08-21T23:31:07.109Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:42:55.807Z"
+          "checkedAt": "2026-08-21T23:31:07.109Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:42:55.807Z"
+          "checkedAt": "2026-08-21T23:31:07.109Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:42:55.807Z"
+          "checkedAt": "2026-08-21T23:31:07.109Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:42:55.807Z"
+          "checkedAt": "2026-08-21T23:31:07.109Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:42:55.807Z"
+          "checkedAt": "2026-08-21T23:31:07.109Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:42:55.807Z"
+          "checkedAt": "2026-08-21T23:31:07.109Z"
         }
       },
       "pbSource": "SA",
@@ -319,7 +319,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/NCBFG/",
-        "updatedAt": "2026-08-21T22:42:55.807Z",
+        "updatedAt": "2026-08-21T23:31:07.109Z",
         "pe": 9.87,
         "forwardPe": 1.32,
         "ps": 1.32,
@@ -390,42 +390,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:03.375Z"
+          "checkedAt": "2026-08-21T23:31:24.045Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:03.375Z"
+          "checkedAt": "2026-08-21T23:31:24.045Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:43:03.375Z"
+          "checkedAt": "2026-08-21T23:31:24.045Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:03.375Z"
+          "checkedAt": "2026-08-21T23:31:24.045Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:43:03.375Z"
+          "checkedAt": "2026-08-21T23:31:24.045Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:03.375Z"
+          "checkedAt": "2026-08-21T23:31:24.045Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:03.375Z"
+          "checkedAt": "2026-08-21T23:31:24.045Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:03.375Z"
+          "checkedAt": "2026-08-21T23:31:24.045Z"
         }
       },
       "pbSource": "SA",
@@ -436,7 +436,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/SJ/",
-        "updatedAt": "2026-08-21T22:43:03.375Z",
+        "updatedAt": "2026-08-21T23:31:24.045Z",
         "pe": 12.93,
         "forwardPe": 1.38,
         "ps": 1.38,
@@ -507,42 +507,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:10.729Z"
+          "checkedAt": "2026-08-21T23:31:41.628Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:10.729Z"
+          "checkedAt": "2026-08-21T23:31:41.628Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:43:10.729Z"
+          "checkedAt": "2026-08-21T23:31:41.628Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:10.729Z"
+          "checkedAt": "2026-08-21T23:31:41.628Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:43:10.729Z"
+          "checkedAt": "2026-08-21T23:31:41.628Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:10.729Z"
+          "checkedAt": "2026-08-21T23:31:41.628Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:10.729Z"
+          "checkedAt": "2026-08-21T23:31:41.628Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:10.729Z"
+          "checkedAt": "2026-08-21T23:31:41.628Z"
         }
       },
       "pbSource": "SA",
@@ -553,7 +553,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/SGJ/",
-        "updatedAt": "2026-08-21T22:43:10.729Z",
+        "updatedAt": "2026-08-21T23:31:41.628Z",
         "pe": 8.54,
         "forwardPe": 2.61,
         "ps": 2.61,
@@ -624,42 +624,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:18.258Z"
+          "checkedAt": "2026-08-21T23:31:54.003Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:18.258Z"
+          "checkedAt": "2026-08-21T23:31:54.003Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:43:18.258Z"
+          "checkedAt": "2026-08-21T23:31:54.003Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:18.258Z"
+          "checkedAt": "2026-08-21T23:31:54.003Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:43:18.258Z"
+          "checkedAt": "2026-08-21T23:31:54.003Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:18.258Z"
+          "checkedAt": "2026-08-21T23:31:54.003Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:18.258Z"
+          "checkedAt": "2026-08-21T23:31:54.003Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:18.258Z"
+          "checkedAt": "2026-08-21T23:31:54.003Z"
         }
       },
       "pbSource": "SA",
@@ -670,7 +670,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/TJH/",
-        "updatedAt": "2026-08-21T22:43:18.258Z",
+        "updatedAt": "2026-08-21T23:31:54.003Z",
         "pe": 20.41,
         "forwardPe": 8.2,
         "ps": 8.2,
@@ -741,42 +741,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:25.317Z"
+          "checkedAt": "2026-08-21T23:32:06.157Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:25.317Z"
+          "checkedAt": "2026-08-21T23:32:06.157Z"
         },
         "divYield": {
           "state": "fallback",
           "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:49:36.685Z"
+          "checkedAt": "2026-08-21T23:40:35.151Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:25.317Z"
+          "checkedAt": "2026-08-21T23:32:06.157Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:43:25.317Z"
+          "checkedAt": "2026-08-21T23:32:06.157Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:25.317Z"
+          "checkedAt": "2026-08-21T23:32:06.157Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:25.317Z"
+          "checkedAt": "2026-08-21T23:32:06.157Z"
         },
         "dps": {
           "state": "fallback",
           "detail": "Retaining previously sourced DPS",
-          "checkedAt": "2026-08-21T22:43:25.317Z"
+          "checkedAt": "2026-08-21T23:32:06.157Z"
         }
       },
       "pbSource": "SA",
@@ -787,7 +787,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/CPJ/",
-        "updatedAt": "2026-08-21T22:43:25.317Z",
+        "updatedAt": "2026-08-21T23:32:06.157Z",
         "pe": 6.43,
         "forwardPe": 0.28,
         "ps": 0.28,
@@ -857,42 +857,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:32.794Z"
+          "checkedAt": "2026-08-21T23:32:17.209Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:32.794Z"
+          "checkedAt": "2026-08-21T23:32:17.209Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:43:32.794Z"
+          "checkedAt": "2026-08-21T23:32:17.209Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:32.794Z"
+          "checkedAt": "2026-08-21T23:32:17.209Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:43:32.794Z"
+          "checkedAt": "2026-08-21T23:32:17.209Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:32.794Z"
+          "checkedAt": "2026-08-21T23:32:17.209Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:32.794Z"
+          "checkedAt": "2026-08-21T23:32:17.209Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:32.794Z"
+          "checkedAt": "2026-08-21T23:32:17.209Z"
         }
       },
       "pbSource": "SA",
@@ -903,7 +903,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/GK/",
-        "updatedAt": "2026-08-21T22:43:32.794Z",
+        "updatedAt": "2026-08-21T23:32:17.209Z",
         "pe": 10.04,
         "forwardPe": 0.41,
         "ps": 0.41,
@@ -974,42 +974,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:40.398Z"
+          "checkedAt": "2026-08-21T23:32:28.448Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:40.398Z"
+          "checkedAt": "2026-08-21T23:32:28.448Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:43:40.398Z"
+          "checkedAt": "2026-08-21T23:32:28.448Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:40.398Z"
+          "checkedAt": "2026-08-21T23:32:28.448Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:43:40.398Z"
+          "checkedAt": "2026-08-21T23:32:28.448Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:40.398Z"
+          "checkedAt": "2026-08-21T23:32:28.448Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:40.398Z"
+          "checkedAt": "2026-08-21T23:32:28.448Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:40.398Z"
+          "checkedAt": "2026-08-21T23:32:28.448Z"
         }
       },
       "pbSource": "SA",
@@ -1020,7 +1020,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/GENAC/",
-        "updatedAt": "2026-08-21T22:43:40.398Z",
+        "updatedAt": "2026-08-21T23:32:28.448Z",
         "pe": 16.94,
         "forwardPe": 0.62,
         "ps": 0.62,
@@ -1091,42 +1091,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:47.753Z"
+          "checkedAt": "2026-08-21T23:32:39.566Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:43:47.753Z"
+          "checkedAt": "2026-08-21T23:32:39.566Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:47.753Z"
+          "checkedAt": "2026-08-21T23:32:39.566Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:47.753Z"
+          "checkedAt": "2026-08-21T23:32:39.566Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:43:47.753Z"
+          "checkedAt": "2026-08-21T23:32:39.566Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:47.753Z"
+          "checkedAt": "2026-08-21T23:32:39.566Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:47.753Z"
+          "checkedAt": "2026-08-21T23:32:39.566Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:47.753Z"
+          "checkedAt": "2026-08-21T23:32:39.566Z"
         }
       },
       "divYieldSource": "SA",
@@ -1136,7 +1136,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/CAR/",
-        "updatedAt": "2026-08-21T22:43:47.753Z",
+        "updatedAt": "2026-08-21T23:32:39.566Z",
         "pe": 21.36,
         "forwardPe": 7.18,
         "ps": 7.18,
@@ -1208,42 +1208,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:55.345Z"
+          "checkedAt": "2026-08-21T23:32:50.294Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:55.345Z"
+          "checkedAt": "2026-08-21T23:32:50.294Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:43:55.345Z"
+          "checkedAt": "2026-08-21T23:32:50.294Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:43:55.345Z"
+          "checkedAt": "2026-08-21T23:32:50.294Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:43:55.345Z"
+          "checkedAt": "2026-08-21T23:32:50.294Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:55.345Z"
+          "checkedAt": "2026-08-21T23:32:50.294Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:55.345Z"
+          "checkedAt": "2026-08-21T23:32:50.294Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:43:55.345Z"
+          "checkedAt": "2026-08-21T23:32:50.294Z"
         }
       },
       "pbSource": "SA",
@@ -1254,7 +1254,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/SALF/",
-        "updatedAt": "2026-08-21T22:43:55.345Z",
+        "updatedAt": "2026-08-21T23:32:50.294Z",
         "pe": 12.41,
         "forwardPe": 1.58,
         "ps": 1.58,
@@ -1325,42 +1325,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:02.027Z"
+          "checkedAt": "2026-08-21T23:32:59.001Z"
         },
         "pb": {
           "state": "fallback",
           "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:49:36.685Z"
+          "checkedAt": "2026-08-21T23:40:35.152Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:44:02.027Z"
+          "checkedAt": "2026-08-21T23:32:59.001Z"
         },
         "roe": {
           "state": "fallback",
           "detail": "Retaining previously sourced ROE",
-          "checkedAt": "2026-08-21T22:44:02.027Z"
+          "checkedAt": "2026-08-21T23:32:59.001Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:44:02.027Z"
+          "checkedAt": "2026-08-21T23:32:59.001Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:02.027Z"
+          "checkedAt": "2026-08-21T23:32:59.001Z"
         },
         "bvps": {
           "state": "fallback",
           "detail": "Retaining previously sourced BVPS",
-          "checkedAt": "2026-08-21T22:44:02.027Z"
+          "checkedAt": "2026-08-21T23:32:59.001Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:02.027Z"
+          "checkedAt": "2026-08-21T23:32:59.001Z"
         }
       },
       "pbSource": "CALC",
@@ -1371,7 +1371,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/MASSY/",
-        "updatedAt": "2026-08-21T22:44:02.027Z",
+        "updatedAt": "2026-08-21T23:32:59.000Z",
         "pe": 12.57,
         "forwardPe": 4.15,
         "ps": null,
@@ -1440,42 +1440,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:09.487Z"
+          "checkedAt": "2026-08-21T23:33:09.189Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:09.487Z"
+          "checkedAt": "2026-08-21T23:33:09.189Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:44:09.487Z"
+          "checkedAt": "2026-08-21T23:33:09.189Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:09.487Z"
+          "checkedAt": "2026-08-21T23:33:09.189Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:44:09.487Z"
+          "checkedAt": "2026-08-21T23:33:09.189Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:09.487Z"
+          "checkedAt": "2026-08-21T23:33:09.189Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:09.487Z"
+          "checkedAt": "2026-08-21T23:33:09.189Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:09.487Z"
+          "checkedAt": "2026-08-21T23:33:09.189Z"
         }
       },
       "pbSource": "SA",
@@ -1486,7 +1486,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/BIL/",
-        "updatedAt": "2026-08-21T22:44:09.487Z",
+        "updatedAt": "2026-08-21T23:33:09.189Z",
         "pe": 22.86,
         "forwardPe": 6.41,
         "ps": 6.41,
@@ -1557,42 +1557,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:16.450Z"
+          "checkedAt": "2026-08-21T23:33:20.681Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:16.450Z"
+          "checkedAt": "2026-08-21T23:33:20.681Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:44:16.450Z"
+          "checkedAt": "2026-08-21T23:33:20.681Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:16.450Z"
+          "checkedAt": "2026-08-21T23:33:20.681Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:44:16.450Z"
+          "checkedAt": "2026-08-21T23:33:20.681Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:16.450Z"
+          "checkedAt": "2026-08-21T23:33:20.681Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:16.450Z"
+          "checkedAt": "2026-08-21T23:33:20.681Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:16.450Z"
+          "checkedAt": "2026-08-21T23:33:20.681Z"
         }
       },
       "pbSource": "SA",
@@ -1603,7 +1603,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/JMMBGL/",
-        "updatedAt": "2026-08-21T22:44:16.450Z",
+        "updatedAt": "2026-08-21T23:33:20.681Z",
         "pe": 6.96,
         "forwardPe": 1.31,
         "ps": 1.31,
@@ -1674,42 +1674,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:24.096Z"
+          "checkedAt": "2026-08-21T23:33:31.061Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:24.096Z"
+          "checkedAt": "2026-08-21T23:33:31.061Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:44:24.096Z"
+          "checkedAt": "2026-08-21T23:33:31.061Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:24.096Z"
+          "checkedAt": "2026-08-21T23:33:31.061Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:44:24.096Z"
+          "checkedAt": "2026-08-21T23:33:31.061Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:24.096Z"
+          "checkedAt": "2026-08-21T23:33:31.061Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:24.096Z"
+          "checkedAt": "2026-08-21T23:33:31.061Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:24.096Z"
+          "checkedAt": "2026-08-21T23:33:31.061Z"
         }
       },
       "pbSource": "SA",
@@ -1720,7 +1720,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/SCIJMD/",
-        "updatedAt": "2026-08-21T22:44:24.096Z",
+        "updatedAt": "2026-08-21T23:33:31.061Z",
         "pe": 16.29,
         "forwardPe": 1.31,
         "ps": 1.31,
@@ -1791,42 +1791,42 @@
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:31.363Z"
+          "checkedAt": "2026-08-21T23:33:41.917Z"
         },
         "divYield": {
           "state": "fallback",
           "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:49:36.685Z"
+          "checkedAt": "2026-08-21T23:40:35.152Z"
         },
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:31.363Z"
+          "checkedAt": "2026-08-21T23:33:41.917Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:31.363Z"
+          "checkedAt": "2026-08-21T23:33:41.917Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:44:31.363Z"
+          "checkedAt": "2026-08-21T23:33:41.917Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:31.363Z"
+          "checkedAt": "2026-08-21T23:33:41.917Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:31.363Z"
+          "checkedAt": "2026-08-21T23:33:41.917Z"
         },
         "dps": {
           "state": "fallback",
           "detail": "Retaining previously sourced DPS",
-          "checkedAt": "2026-08-21T22:44:31.363Z"
+          "checkedAt": "2026-08-21T23:33:41.917Z"
         }
       },
       "divYieldSource": "CALC",
@@ -1836,7 +1836,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/JBG/",
-        "updatedAt": "2026-08-21T22:44:31.363Z",
+        "updatedAt": "2026-08-21T23:33:41.917Z",
         "pe": 8.33,
         "forwardPe": 0.12,
         "ps": 0.12,
@@ -1904,42 +1904,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:38.561Z"
+          "checkedAt": "2026-08-21T23:33:52.497Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:38.561Z"
+          "checkedAt": "2026-08-21T23:33:52.497Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:44:38.561Z"
+          "checkedAt": "2026-08-21T23:33:52.497Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:38.561Z"
+          "checkedAt": "2026-08-21T23:33:52.497Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:44:38.561Z"
+          "checkedAt": "2026-08-21T23:33:52.497Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:38.561Z"
+          "checkedAt": "2026-08-21T23:33:52.497Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:38.561Z"
+          "checkedAt": "2026-08-21T23:33:52.497Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:38.561Z"
+          "checkedAt": "2026-08-21T23:33:52.497Z"
         }
       },
       "pbSource": "SA",
@@ -1950,7 +1950,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/WIG/",
-        "updatedAt": "2026-08-21T22:44:38.561Z",
+        "updatedAt": "2026-08-21T23:33:52.497Z",
         "pe": 95.76,
         "forwardPe": 5.88,
         "ps": 5.88,
@@ -2021,42 +2021,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:45.358Z"
+          "checkedAt": "2026-08-21T23:34:02.096Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:45.358Z"
+          "checkedAt": "2026-08-21T23:34:02.096Z"
         },
         "divYield": {
           "state": "fallback",
           "detail": "StockAnalysis dividend yield unavailable; calculated from official JSE close and SA trailing DPS",
-          "checkedAt": "2026-08-21T22:49:36.685Z"
+          "checkedAt": "2026-08-21T23:40:35.152Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:45.358Z"
+          "checkedAt": "2026-08-21T23:34:02.096Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:44:45.358Z"
+          "checkedAt": "2026-08-21T23:34:02.096Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:45.358Z"
+          "checkedAt": "2026-08-21T23:34:02.096Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:45.358Z"
+          "checkedAt": "2026-08-21T23:34:02.096Z"
         },
         "dps": {
           "state": "fallback",
           "detail": "Retaining previously sourced DPS",
-          "checkedAt": "2026-08-21T22:44:45.358Z"
+          "checkedAt": "2026-08-21T23:34:02.096Z"
         }
       },
       "pbSource": "SA",
@@ -2067,7 +2067,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/138SL/",
-        "updatedAt": "2026-08-21T22:44:45.358Z",
+        "updatedAt": "2026-08-21T23:34:02.096Z",
         "pe": 4.59,
         "forwardPe": 1.08,
         "ps": 1.08,
@@ -2136,42 +2136,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:52.609Z"
+          "checkedAt": "2026-08-21T23:34:14.816Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:52.609Z"
+          "checkedAt": "2026-08-21T23:34:14.816Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:44:52.609Z"
+          "checkedAt": "2026-08-21T23:34:14.816Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:52.609Z"
+          "checkedAt": "2026-08-21T23:34:14.816Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:44:52.609Z"
+          "checkedAt": "2026-08-21T23:34:14.816Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:52.609Z"
+          "checkedAt": "2026-08-21T23:34:14.816Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:52.609Z"
+          "checkedAt": "2026-08-21T23:34:14.816Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:52.609Z"
+          "checkedAt": "2026-08-21T23:34:14.816Z"
         }
       },
       "pbSource": "SA",
@@ -2182,7 +2182,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/ASBH/",
-        "updatedAt": "2026-08-21T22:44:52.609Z",
+        "updatedAt": "2026-08-21T23:34:14.816Z",
         "pe": 44.28,
         "forwardPe": 0.4,
         "ps": 0.4,
@@ -2253,42 +2253,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:59.903Z"
+          "checkedAt": "2026-08-21T23:34:25.787Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:59.903Z"
+          "checkedAt": "2026-08-21T23:34:25.787Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:44:59.903Z"
+          "checkedAt": "2026-08-21T23:34:25.787Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:44:59.903Z"
+          "checkedAt": "2026-08-21T23:34:25.787Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:44:59.903Z"
+          "checkedAt": "2026-08-21T23:34:25.787Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:59.903Z"
+          "checkedAt": "2026-08-21T23:34:25.787Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:59.903Z"
+          "checkedAt": "2026-08-21T23:34:25.787Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:44:59.903Z"
+          "checkedAt": "2026-08-21T23:34:25.787Z"
         }
       },
       "pbSource": "SA",
@@ -2299,7 +2299,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/BRG/",
-        "updatedAt": "2026-08-21T22:44:59.903Z",
+        "updatedAt": "2026-08-21T23:34:25.787Z",
         "pe": 26.68,
         "forwardPe": 0.33,
         "ps": 0.33,
@@ -2370,42 +2370,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:07.467Z"
+          "checkedAt": "2026-08-21T23:34:36.591Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:07.467Z"
+          "checkedAt": "2026-08-21T23:34:36.591Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:45:07.467Z"
+          "checkedAt": "2026-08-21T23:34:36.591Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:07.467Z"
+          "checkedAt": "2026-08-21T23:34:36.591Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:45:07.467Z"
+          "checkedAt": "2026-08-21T23:34:36.591Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:07.467Z"
+          "checkedAt": "2026-08-21T23:34:36.591Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:07.467Z"
+          "checkedAt": "2026-08-21T23:34:36.591Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:07.467Z"
+          "checkedAt": "2026-08-21T23:34:36.591Z"
         }
       },
       "pbSource": "SA",
@@ -2416,7 +2416,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/CCC/",
-        "updatedAt": "2026-08-21T22:45:07.467Z",
+        "updatedAt": "2026-08-21T23:34:36.591Z",
         "pe": 9.98,
         "forwardPe": 2.7,
         "ps": 2.7,
@@ -2487,42 +2487,42 @@
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:45:13.813Z"
+          "checkedAt": "2026-08-21T23:34:45.776Z"
         },
         "pe": {
           "state": "na",
           "detail": "StockAnalysis checked; P/E not published and no fallback",
-          "checkedAt": "2026-08-21T22:45:13.813Z"
+          "checkedAt": "2026-08-21T23:34:45.776Z"
         },
         "pb": {
           "state": "na",
           "detail": "StockAnalysis checked; P/B not published and no fallback",
-          "checkedAt": "2026-08-21T22:45:13.813Z"
+          "checkedAt": "2026-08-21T23:34:45.776Z"
         },
         "roe": {
           "state": "na",
           "detail": "StockAnalysis checked; ROE not published",
-          "checkedAt": "2026-08-21T22:45:13.813Z"
+          "checkedAt": "2026-08-21T23:34:45.776Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:45:13.813Z"
+          "checkedAt": "2026-08-21T23:34:45.776Z"
         },
         "eps": {
           "state": "na",
           "detail": "StockAnalysis checked; EPS not published",
-          "checkedAt": "2026-08-21T22:45:13.813Z"
+          "checkedAt": "2026-08-21T23:34:45.776Z"
         },
         "bvps": {
           "state": "na",
           "detail": "StockAnalysis checked; BVPS not published",
-          "checkedAt": "2026-08-21T22:45:13.813Z"
+          "checkedAt": "2026-08-21T23:34:45.776Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:13.813Z"
+          "checkedAt": "2026-08-21T23:34:45.776Z"
         }
       },
       "saUrl": "https://stockanalysis.com/quote/jmse/CPFV/",
@@ -2531,7 +2531,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/CPFV/",
-        "updatedAt": "2026-08-21T22:45:13.813Z",
+        "updatedAt": "2026-08-21T23:34:45.776Z",
         "pe": null,
         "forwardPe": null,
         "ps": null,
@@ -2598,42 +2598,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:21.388Z"
+          "checkedAt": "2026-08-21T23:34:56.906Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:21.388Z"
+          "checkedAt": "2026-08-21T23:34:56.906Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:21.388Z"
+          "checkedAt": "2026-08-21T23:34:56.906Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:45:21.388Z"
+          "checkedAt": "2026-08-21T23:34:56.906Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:45:21.388Z"
+          "checkedAt": "2026-08-21T23:34:56.906Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:21.388Z"
+          "checkedAt": "2026-08-21T23:34:56.906Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:21.388Z"
+          "checkedAt": "2026-08-21T23:34:56.906Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:21.388Z"
+          "checkedAt": "2026-08-21T23:34:56.906Z"
         }
       },
       "pbSource": "SA",
@@ -2643,7 +2643,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/EPLY/",
-        "updatedAt": "2026-08-21T22:45:21.388Z",
+        "updatedAt": "2026-08-21T23:34:56.906Z",
         "pe": 8.02,
         "forwardPe": 4.87,
         "ps": 4.87,
@@ -2713,7 +2713,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/FIRSTROCKJMD/",
-        "updatedAt": "2026-08-21T22:45:28.255Z",
+        "updatedAt": "2026-08-21T23:35:06.949Z",
         "pe": 5946.99,
         "forwardPe": 23.64,
         "ps": 23.64,
@@ -2747,42 +2747,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:28.255Z"
+          "checkedAt": "2026-08-21T23:35:06.949Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:28.255Z"
+          "checkedAt": "2026-08-21T23:35:06.949Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:28.255Z"
+          "checkedAt": "2026-08-21T23:35:06.949Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:45:28.255Z"
+          "checkedAt": "2026-08-21T23:35:06.949Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:45:28.255Z"
+          "checkedAt": "2026-08-21T23:35:06.949Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:28.255Z"
+          "checkedAt": "2026-08-21T23:35:06.949Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:28.255Z"
+          "checkedAt": "2026-08-21T23:35:06.949Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:45:28.255Z"
+          "checkedAt": "2026-08-21T23:35:06.949Z"
         }
       },
       "pbSource": "SA",
@@ -2857,7 +2857,7 @@
         "source": "StockAnalysis",
         "market": "TTSE",
         "url": "https://stockanalysis.com/quote/ttse/GHL/",
-        "updatedAt": "2026-08-21T22:45:36.044Z",
+        "updatedAt": "2026-08-21T23:35:17.056Z",
         "pe": 4.39,
         "forwardPe": 0.54,
         "ps": 0.54,
@@ -2890,42 +2890,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis TTSE Statistics",
-          "checkedAt": "2026-08-21T22:45:36.044Z"
+          "checkedAt": "2026-08-21T23:35:17.056Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis TTSE Statistics",
-          "checkedAt": "2026-08-21T22:45:36.044Z"
+          "checkedAt": "2026-08-21T23:35:17.056Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis TTSE Statistics",
-          "checkedAt": "2026-08-21T22:45:36.044Z"
+          "checkedAt": "2026-08-21T23:35:17.056Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis TTSE Overview",
-          "checkedAt": "2026-08-21T22:45:36.044Z"
+          "checkedAt": "2026-08-21T23:35:17.056Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis TTSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:45:36.044Z"
+          "checkedAt": "2026-08-21T23:35:17.056Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis TTSE Statistics",
-          "checkedAt": "2026-08-21T22:45:36.044Z"
+          "checkedAt": "2026-08-21T23:35:17.056Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis TTSE Statistics",
-          "checkedAt": "2026-08-21T22:45:36.044Z"
+          "checkedAt": "2026-08-21T23:35:17.056Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis TTSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:45:36.044Z"
+          "checkedAt": "2026-08-21T23:35:17.056Z"
         }
       }
     },
@@ -2965,42 +2965,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:43.037Z"
+          "checkedAt": "2026-08-21T23:35:27.595Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:43.037Z"
+          "checkedAt": "2026-08-21T23:35:27.595Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:43.037Z"
+          "checkedAt": "2026-08-21T23:35:27.595Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:45:43.037Z"
+          "checkedAt": "2026-08-21T23:35:27.595Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:45:43.037Z"
+          "checkedAt": "2026-08-21T23:35:27.595Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:43.037Z"
+          "checkedAt": "2026-08-21T23:35:27.595Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:43.037Z"
+          "checkedAt": "2026-08-21T23:35:27.595Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:45:43.037Z"
+          "checkedAt": "2026-08-21T23:35:27.595Z"
         }
       },
       "pbSource": "SA",
@@ -3010,7 +3010,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/ENERGY/",
-        "updatedAt": "2026-08-21T22:45:43.037Z",
+        "updatedAt": "2026-08-21T23:35:27.595Z",
         "pe": 39.81,
         "forwardPe": 4.02,
         "ps": 4.02,
@@ -3079,42 +3079,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:50.518Z"
+          "checkedAt": "2026-08-21T23:35:37.334Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:50.518Z"
+          "checkedAt": "2026-08-21T23:35:37.334Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:50.518Z"
+          "checkedAt": "2026-08-21T23:35:37.334Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:45:50.518Z"
+          "checkedAt": "2026-08-21T23:35:37.334Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:45:50.518Z"
+          "checkedAt": "2026-08-21T23:35:37.334Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:50.518Z"
+          "checkedAt": "2026-08-21T23:35:37.334Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:50.518Z"
+          "checkedAt": "2026-08-21T23:35:37.334Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:50.518Z"
+          "checkedAt": "2026-08-21T23:35:37.334Z"
         }
       },
       "pbSource": "SA",
@@ -3124,7 +3124,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/JP/",
-        "updatedAt": "2026-08-21T22:45:50.518Z",
+        "updatedAt": "2026-08-21T23:35:37.334Z",
         "pe": 16.06,
         "forwardPe": 219.05,
         "ps": 219.05,
@@ -3196,42 +3196,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:57.982Z"
+          "checkedAt": "2026-08-21T23:35:48.511Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:57.982Z"
+          "checkedAt": "2026-08-21T23:35:48.511Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:45:57.982Z"
+          "checkedAt": "2026-08-21T23:35:48.511Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:45:57.982Z"
+          "checkedAt": "2026-08-21T23:35:48.511Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:45:57.982Z"
+          "checkedAt": "2026-08-21T23:35:48.511Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:57.982Z"
+          "checkedAt": "2026-08-21T23:35:48.511Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:57.982Z"
+          "checkedAt": "2026-08-21T23:35:48.511Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:45:57.982Z"
+          "checkedAt": "2026-08-21T23:35:48.511Z"
         }
       },
       "pbSource": "SA",
@@ -3241,7 +3241,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/KPREIT/",
-        "updatedAt": "2026-08-21T22:45:57.982Z",
+        "updatedAt": "2026-08-21T23:35:48.511Z",
         "pe": 15.95,
         "forwardPe": 9.04,
         "ps": 9.04,
@@ -3313,42 +3313,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:05.105Z"
+          "checkedAt": "2026-08-21T23:35:59.744Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:05.105Z"
+          "checkedAt": "2026-08-21T23:35:59.744Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:46:05.105Z"
+          "checkedAt": "2026-08-21T23:35:59.745Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:05.105Z"
+          "checkedAt": "2026-08-21T23:35:59.744Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:46:05.105Z"
+          "checkedAt": "2026-08-21T23:35:59.745Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:05.105Z"
+          "checkedAt": "2026-08-21T23:35:59.745Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:05.105Z"
+          "checkedAt": "2026-08-21T23:35:59.745Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:05.105Z"
+          "checkedAt": "2026-08-21T23:35:59.745Z"
         }
       },
       "pbSource": "SA",
@@ -3359,7 +3359,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/LASD/",
-        "updatedAt": "2026-08-21T22:46:05.105Z",
+        "updatedAt": "2026-08-21T23:35:59.744Z",
         "pe": 9.21,
         "forwardPe": 0.34,
         "ps": 0.34,
@@ -3430,42 +3430,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:12.139Z"
+          "checkedAt": "2026-08-21T23:36:11.129Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:12.139Z"
+          "checkedAt": "2026-08-21T23:36:11.129Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:46:12.139Z"
+          "checkedAt": "2026-08-21T23:36:11.129Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:12.139Z"
+          "checkedAt": "2026-08-21T23:36:11.129Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:46:12.139Z"
+          "checkedAt": "2026-08-21T23:36:11.129Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:12.139Z"
+          "checkedAt": "2026-08-21T23:36:11.129Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:12.139Z"
+          "checkedAt": "2026-08-21T23:36:11.129Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:12.139Z"
+          "checkedAt": "2026-08-21T23:36:11.129Z"
         }
       },
       "pbSource": "SA",
@@ -3476,7 +3476,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/LASM/",
-        "updatedAt": "2026-08-21T22:46:12.139Z",
+        "updatedAt": "2026-08-21T23:36:11.129Z",
         "pe": 11.94,
         "forwardPe": 2.6,
         "ps": 2.6,
@@ -3545,7 +3545,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/MTLJA/",
-        "updatedAt": "2026-08-21T22:46:17.677Z",
+        "updatedAt": "2026-08-21T23:36:19.773Z",
         "pe": 2.03,
         "forwardPe": null,
         "ps": null,
@@ -3579,42 +3579,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:17.677Z"
+          "checkedAt": "2026-08-21T23:36:19.773Z"
         },
         "pb": {
           "state": "fallback",
           "detail": "StockAnalysis P/B not published; calculated fallback used",
-          "checkedAt": "2026-08-21T22:46:17.677Z"
+          "checkedAt": "2026-08-21T23:36:19.773Z"
         },
         "roe": {
           "state": "fallback",
           "detail": "Retaining previously sourced ROE",
-          "checkedAt": "2026-08-21T22:46:17.677Z"
+          "checkedAt": "2026-08-21T23:36:19.773Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:46:17.677Z"
+          "checkedAt": "2026-08-21T23:36:19.773Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:46:17.677Z"
+          "checkedAt": "2026-08-21T23:36:19.773Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:17.677Z"
+          "checkedAt": "2026-08-21T23:36:19.773Z"
         },
         "bvps": {
           "state": "fallback",
           "detail": "Retaining previously sourced BVPS",
-          "checkedAt": "2026-08-21T22:46:17.677Z"
+          "checkedAt": "2026-08-21T23:36:19.773Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:46:17.677Z"
+          "checkedAt": "2026-08-21T23:36:19.773Z"
         }
       },
       "pbSource": "CALC",
@@ -3657,42 +3657,42 @@
         "pe": {
           "state": "fallback",
           "detail": "StockAnalysis P/E unavailable; calculated from official JSE close and SA EPS",
-          "checkedAt": "2026-08-21T22:49:36.685Z"
+          "checkedAt": "2026-08-21T23:40:35.152Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:24.590Z"
+          "checkedAt": "2026-08-21T23:36:31.062Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:24.590Z"
+          "checkedAt": "2026-08-21T23:36:31.062Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:46:24.590Z"
+          "checkedAt": "2026-08-21T23:36:31.062Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:46:24.590Z"
+          "checkedAt": "2026-08-21T23:36:31.062Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:24.590Z"
+          "checkedAt": "2026-08-21T23:36:31.062Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:24.590Z"
+          "checkedAt": "2026-08-21T23:36:31.062Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:24.590Z"
+          "checkedAt": "2026-08-21T23:36:31.062Z"
         }
       },
       "pbSource": "SA",
@@ -3702,7 +3702,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/MGL/",
-        "updatedAt": "2026-08-21T22:46:24.590Z",
+        "updatedAt": "2026-08-21T23:36:31.062Z",
         "pe": null,
         "forwardPe": -16,
         "ps": -16,
@@ -3773,42 +3773,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:31.606Z"
+          "checkedAt": "2026-08-21T23:36:47.830Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:31.606Z"
+          "checkedAt": "2026-08-21T23:36:47.830Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:31.606Z"
+          "checkedAt": "2026-08-21T23:36:47.830Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:46:31.606Z"
+          "checkedAt": "2026-08-21T23:36:47.830Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:46:31.606Z"
+          "checkedAt": "2026-08-21T23:36:47.830Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:31.606Z"
+          "checkedAt": "2026-08-21T23:36:47.830Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:31.606Z"
+          "checkedAt": "2026-08-21T23:36:47.830Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:46:31.606Z"
+          "checkedAt": "2026-08-21T23:36:47.830Z"
         }
       },
       "pbSource": "SA",
@@ -3818,7 +3818,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/MJE/",
-        "updatedAt": "2026-08-21T22:46:31.606Z",
+        "updatedAt": "2026-08-21T23:36:47.830Z",
         "pe": 3.23,
         "forwardPe": -4.76,
         "ps": -4.76,
@@ -3888,7 +3888,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/MPCCEL/",
-        "updatedAt": "2026-08-21T22:46:38.111Z",
+        "updatedAt": "2026-08-21T23:36:57.668Z",
         "pe": 7.89,
         "forwardPe": -3.08,
         "ps": -3.08,
@@ -3922,42 +3922,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:38.111Z"
+          "checkedAt": "2026-08-21T23:36:57.668Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:38.111Z"
+          "checkedAt": "2026-08-21T23:36:57.668Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:38.111Z"
+          "checkedAt": "2026-08-21T23:36:57.668Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:46:38.111Z"
+          "checkedAt": "2026-08-21T23:36:57.668Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:46:38.111Z"
+          "checkedAt": "2026-08-21T23:36:57.668Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:38.111Z"
+          "checkedAt": "2026-08-21T23:36:57.668Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:38.111Z"
+          "checkedAt": "2026-08-21T23:36:57.668Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:46:38.111Z"
+          "checkedAt": "2026-08-21T23:36:57.668Z"
         }
       },
       "pbSource": "SA",
@@ -4001,42 +4001,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:51.486Z"
+          "checkedAt": "2026-08-21T23:37:07.406Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:51.486Z"
+          "checkedAt": "2026-08-21T23:37:07.406Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:51.486Z"
+          "checkedAt": "2026-08-21T23:37:07.406Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:46:51.486Z"
+          "checkedAt": "2026-08-21T23:37:07.406Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:46:51.486Z"
+          "checkedAt": "2026-08-21T23:37:07.406Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:51.486Z"
+          "checkedAt": "2026-08-21T23:37:07.406Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:51.486Z"
+          "checkedAt": "2026-08-21T23:37:07.406Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:46:51.486Z"
+          "checkedAt": "2026-08-21T23:37:07.406Z"
         }
       },
       "pbSource": "SA",
@@ -4046,7 +4046,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/PAL/",
-        "updatedAt": "2026-08-21T22:46:51.486Z",
+        "updatedAt": "2026-08-21T23:37:07.406Z",
         "pe": 16.85,
         "forwardPe": 0.32,
         "ps": 0.32,
@@ -4115,42 +4115,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:58.485Z"
+          "checkedAt": "2026-08-21T23:37:19.095Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:58.485Z"
+          "checkedAt": "2026-08-21T23:37:19.095Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:46:58.485Z"
+          "checkedAt": "2026-08-21T23:37:19.095Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:46:58.485Z"
+          "checkedAt": "2026-08-21T23:37:19.095Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:46:58.485Z"
+          "checkedAt": "2026-08-21T23:37:19.095Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:58.485Z"
+          "checkedAt": "2026-08-21T23:37:19.095Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:58.485Z"
+          "checkedAt": "2026-08-21T23:37:19.095Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:46:58.485Z"
+          "checkedAt": "2026-08-21T23:37:19.095Z"
         }
       },
       "pbSource": "SA",
@@ -4160,7 +4160,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/PJAM/",
-        "updatedAt": "2026-08-21T22:46:58.485Z",
+        "updatedAt": "2026-08-21T23:37:19.095Z",
         "pe": 14.69,
         "forwardPe": 1.46,
         "ps": 1.46,
@@ -4227,7 +4227,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/PJX/",
-        "updatedAt": "2026-08-21T22:47:05.163Z",
+        "updatedAt": "2026-08-21T23:37:29.964Z",
         "pe": 3.77,
         "forwardPe": -2.17,
         "ps": -2.17,
@@ -4261,42 +4261,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:05.163Z"
+          "checkedAt": "2026-08-21T23:37:29.964Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:05.164Z"
+          "checkedAt": "2026-08-21T23:37:29.964Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:05.164Z"
+          "checkedAt": "2026-08-21T23:37:29.964Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:47:05.164Z"
+          "checkedAt": "2026-08-21T23:37:29.964Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:47:05.164Z"
+          "checkedAt": "2026-08-21T23:37:29.964Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:05.164Z"
+          "checkedAt": "2026-08-21T23:37:29.964Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:05.164Z"
+          "checkedAt": "2026-08-21T23:37:29.964Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:47:05.164Z"
+          "checkedAt": "2026-08-21T23:37:29.964Z"
         }
       },
       "pbSource": "SA",
@@ -4341,42 +4341,42 @@
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:12.117Z"
+          "checkedAt": "2026-08-21T23:37:41.286Z"
         },
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:12.117Z"
+          "checkedAt": "2026-08-21T23:37:41.286Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:12.117Z"
+          "checkedAt": "2026-08-21T23:37:41.286Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:47:12.117Z"
+          "checkedAt": "2026-08-21T23:37:41.286Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:47:12.117Z"
+          "checkedAt": "2026-08-21T23:37:41.286Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:12.117Z"
+          "checkedAt": "2026-08-21T23:37:41.286Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:12.117Z"
+          "checkedAt": "2026-08-21T23:37:41.286Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:12.117Z"
+          "checkedAt": "2026-08-21T23:37:41.286Z"
         }
       },
       "saUrl": "https://stockanalysis.com/quote/jmse/PROVENJA/",
@@ -4385,7 +4385,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/PROVENJA/",
-        "updatedAt": "2026-08-21T22:47:12.117Z",
+        "updatedAt": "2026-08-21T23:37:41.286Z",
         "pe": 30.12,
         "forwardPe": 0.39,
         "ps": 0.39,
@@ -4457,42 +4457,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:18.986Z"
+          "checkedAt": "2026-08-21T23:37:57.800Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:18.986Z"
+          "checkedAt": "2026-08-21T23:37:57.801Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:18.986Z"
+          "checkedAt": "2026-08-21T23:37:57.801Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:47:18.986Z"
+          "checkedAt": "2026-08-21T23:37:57.801Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:47:18.986Z"
+          "checkedAt": "2026-08-21T23:37:57.801Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:18.986Z"
+          "checkedAt": "2026-08-21T23:37:57.801Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:18.986Z"
+          "checkedAt": "2026-08-21T23:37:57.801Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:47:18.986Z"
+          "checkedAt": "2026-08-21T23:37:57.801Z"
         }
       },
       "pbSource": "SA",
@@ -4502,7 +4502,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/PULS/",
-        "updatedAt": "2026-08-21T22:47:18.986Z",
+        "updatedAt": "2026-08-21T23:37:57.800Z",
         "pe": 22.36,
         "forwardPe": -43.67,
         "ps": -43.67,
@@ -4571,42 +4571,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:25.913Z"
+          "checkedAt": "2026-08-21T23:38:09.808Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:25.913Z"
+          "checkedAt": "2026-08-21T23:38:09.808Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:25.913Z"
+          "checkedAt": "2026-08-21T23:38:09.808Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:47:25.913Z"
+          "checkedAt": "2026-08-21T23:38:09.808Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:47:25.913Z"
+          "checkedAt": "2026-08-21T23:38:09.808Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:25.913Z"
+          "checkedAt": "2026-08-21T23:38:09.808Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:25.913Z"
+          "checkedAt": "2026-08-21T23:38:09.808Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:47:25.913Z"
+          "checkedAt": "2026-08-21T23:38:09.808Z"
         }
       },
       "pbSource": "SA",
@@ -4616,7 +4616,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/QWI/",
-        "updatedAt": "2026-08-21T22:47:25.913Z",
+        "updatedAt": "2026-08-21T23:38:09.808Z",
         "pe": 7.33,
         "forwardPe": 3.26,
         "ps": 3.26,
@@ -4685,42 +4685,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:33.050Z"
+          "checkedAt": "2026-08-21T23:38:21.896Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:33.050Z"
+          "checkedAt": "2026-08-21T23:38:21.896Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:33.050Z"
+          "checkedAt": "2026-08-21T23:38:21.896Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:47:33.050Z"
+          "checkedAt": "2026-08-21T23:38:21.896Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:47:33.050Z"
+          "checkedAt": "2026-08-21T23:38:21.896Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:33.050Z"
+          "checkedAt": "2026-08-21T23:38:21.896Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:33.050Z"
+          "checkedAt": "2026-08-21T23:38:21.896Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:47:33.050Z"
+          "checkedAt": "2026-08-21T23:38:21.896Z"
         }
       },
       "pbSource": "SA",
@@ -4730,7 +4730,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/RJR/",
-        "updatedAt": "2026-08-21T22:47:33.050Z",
+        "updatedAt": "2026-08-21T23:38:21.896Z",
         "pe": 27.07,
         "forwardPe": 0.69,
         "ps": 0.69,
@@ -4800,7 +4800,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/XFUND/",
-        "updatedAt": "2026-08-21T22:47:39.036Z",
+        "updatedAt": "2026-08-21T23:38:31.252Z",
         "pe": null,
         "forwardPe": null,
         "ps": null,
@@ -4833,42 +4833,42 @@
         "pe": {
           "state": "na",
           "detail": "StockAnalysis checked; P/E not published and no fallback",
-          "checkedAt": "2026-08-21T22:47:39.036Z"
+          "checkedAt": "2026-08-21T23:38:31.252Z"
         },
         "pb": {
           "state": "na",
           "detail": "StockAnalysis checked; P/B not published and no fallback",
-          "checkedAt": "2026-08-21T22:47:39.036Z"
+          "checkedAt": "2026-08-21T23:38:31.252Z"
         },
         "roe": {
           "state": "na",
           "detail": "StockAnalysis checked; ROE not published",
-          "checkedAt": "2026-08-21T22:47:39.036Z"
+          "checkedAt": "2026-08-21T23:38:31.252Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:47:39.036Z"
+          "checkedAt": "2026-08-21T23:38:31.252Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:47:39.036Z"
+          "checkedAt": "2026-08-21T23:38:31.252Z"
         },
         "eps": {
           "state": "na",
           "detail": "StockAnalysis checked; EPS not published",
-          "checkedAt": "2026-08-21T22:47:39.036Z"
+          "checkedAt": "2026-08-21T23:38:31.252Z"
         },
         "bvps": {
           "state": "na",
           "detail": "StockAnalysis checked; BVPS not published",
-          "checkedAt": "2026-08-21T22:47:39.036Z"
+          "checkedAt": "2026-08-21T23:38:31.252Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:39.036Z"
+          "checkedAt": "2026-08-21T23:38:31.252Z"
         }
       },
       "divYieldSource": "SA",
@@ -4910,42 +4910,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:46.374Z"
+          "checkedAt": "2026-08-21T23:38:42.414Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:46.374Z"
+          "checkedAt": "2026-08-21T23:38:42.414Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:46.374Z"
+          "checkedAt": "2026-08-21T23:38:42.414Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:47:46.374Z"
+          "checkedAt": "2026-08-21T23:38:42.414Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:47:46.374Z"
+          "checkedAt": "2026-08-21T23:38:42.414Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:46.374Z"
+          "checkedAt": "2026-08-21T23:38:42.414Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:46.374Z"
+          "checkedAt": "2026-08-21T23:38:42.414Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:47:46.374Z"
+          "checkedAt": "2026-08-21T23:38:42.414Z"
         }
       },
       "pbSource": "SA",
@@ -4955,7 +4955,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/SELECTF/",
-        "updatedAt": "2026-08-21T22:47:46.374Z",
+        "updatedAt": "2026-08-21T23:38:42.414Z",
         "pe": 12.15,
         "forwardPe": 11.55,
         "ps": 11.55,
@@ -5024,42 +5024,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:52.590Z"
+          "checkedAt": "2026-08-21T23:38:51.950Z"
         },
         "pb": {
           "state": "fallback",
           "detail": "StockAnalysis P/B unavailable; calculated from official JSE close and SA BVPS",
-          "checkedAt": "2026-08-21T22:49:36.686Z"
+          "checkedAt": "2026-08-21T23:40:35.153Z"
         },
         "roe": {
           "state": "fallback",
           "detail": "Retaining previously sourced ROE",
-          "checkedAt": "2026-08-21T22:47:52.590Z"
+          "checkedAt": "2026-08-21T23:38:51.950Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:47:52.590Z"
+          "checkedAt": "2026-08-21T23:38:51.950Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:47:52.590Z"
+          "checkedAt": "2026-08-21T23:38:51.950Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:52.590Z"
+          "checkedAt": "2026-08-21T23:38:51.950Z"
         },
         "bvps": {
           "state": "fallback",
           "detail": "Retaining previously sourced BVPS",
-          "checkedAt": "2026-08-21T22:47:52.590Z"
+          "checkedAt": "2026-08-21T23:38:51.950Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:47:52.590Z"
+          "checkedAt": "2026-08-21T23:38:51.950Z"
         }
       },
       "pbSource": "CALC",
@@ -5069,7 +5069,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/SELECTMD/",
-        "updatedAt": "2026-08-21T22:47:52.590Z",
+        "updatedAt": "2026-08-21T23:38:51.950Z",
         "pe": 13.38,
         "forwardPe": null,
         "ps": null,
@@ -5136,42 +5136,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:59.671Z"
+          "checkedAt": "2026-08-21T23:39:03.727Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:59.671Z"
+          "checkedAt": "2026-08-21T23:39:03.727Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:47:59.671Z"
+          "checkedAt": "2026-08-21T23:39:03.727Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:47:59.671Z"
+          "checkedAt": "2026-08-21T23:39:03.727Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:47:59.671Z"
+          "checkedAt": "2026-08-21T23:39:03.727Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:59.671Z"
+          "checkedAt": "2026-08-21T23:39:03.727Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:47:59.671Z"
+          "checkedAt": "2026-08-21T23:39:03.727Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:47:59.671Z"
+          "checkedAt": "2026-08-21T23:39:03.727Z"
         }
       },
       "pbSource": "SA",
@@ -5181,7 +5181,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/TROPICAL/",
-        "updatedAt": "2026-08-21T22:47:59.671Z",
+        "updatedAt": "2026-08-21T23:39:03.727Z",
         "pe": 28.68,
         "forwardPe": 0,
         "ps": 0,
@@ -5250,42 +5250,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:10.205Z"
+          "checkedAt": "2026-08-21T23:39:13.954Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:10.205Z"
+          "checkedAt": "2026-08-21T23:39:13.954Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:10.205Z"
+          "checkedAt": "2026-08-21T23:39:13.954Z"
         },
         "epsGrowth": {
           "state": "na",
           "detail": "StockAnalysis Overview checked; EPS growth not published",
-          "checkedAt": "2026-08-21T22:48:10.205Z"
+          "checkedAt": "2026-08-21T23:39:13.954Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:48:10.205Z"
+          "checkedAt": "2026-08-21T23:39:13.954Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:10.205Z"
+          "checkedAt": "2026-08-21T23:39:13.954Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:10.205Z"
+          "checkedAt": "2026-08-21T23:39:13.954Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:10.205Z"
+          "checkedAt": "2026-08-21T23:39:13.954Z"
         }
       },
       "pbSource": "SA",
@@ -5295,7 +5295,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/VMIL/",
-        "updatedAt": "2026-08-21T22:48:10.205Z",
+        "updatedAt": "2026-08-21T23:39:13.954Z",
         "pe": 7.35,
         "forwardPe": 0.9,
         "ps": 0.9,
@@ -5366,42 +5366,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:24.039Z"
+          "checkedAt": "2026-08-21T23:39:23.811Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:24.039Z"
+          "checkedAt": "2026-08-21T23:39:23.811Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:24.039Z"
+          "checkedAt": "2026-08-21T23:39:23.811Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:48:24.039Z"
+          "checkedAt": "2026-08-21T23:39:23.811Z"
         },
         "divYield": {
           "state": "na",
           "detail": "StockAnalysis checked; dividend yield not published",
-          "checkedAt": "2026-08-21T22:48:24.039Z"
+          "checkedAt": "2026-08-21T23:39:23.811Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:24.039Z"
+          "checkedAt": "2026-08-21T23:39:23.811Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:24.039Z"
+          "checkedAt": "2026-08-21T23:39:23.811Z"
         },
         "dps": {
           "state": "na",
           "detail": "StockAnalysis checked; DPS not published",
-          "checkedAt": "2026-08-21T22:48:24.039Z"
+          "checkedAt": "2026-08-21T23:39:23.811Z"
         }
       },
       "pbSource": "SA",
@@ -5411,7 +5411,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/WIPT/",
-        "updatedAt": "2026-08-21T22:48:24.039Z",
+        "updatedAt": "2026-08-21T23:39:23.811Z",
         "pe": 228.64,
         "forwardPe": 72.96,
         "ps": 72.96,
@@ -5481,42 +5481,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:39.054Z"
+          "checkedAt": "2026-08-21T23:39:34.988Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:39.054Z"
+          "checkedAt": "2026-08-21T23:39:34.988Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:48:39.054Z"
+          "checkedAt": "2026-08-21T23:39:34.988Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:39.054Z"
+          "checkedAt": "2026-08-21T23:39:34.988Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:48:39.054Z"
+          "checkedAt": "2026-08-21T23:39:34.988Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:39.054Z"
+          "checkedAt": "2026-08-21T23:39:34.988Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:39.054Z"
+          "checkedAt": "2026-08-21T23:39:34.988Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:39.054Z"
+          "checkedAt": "2026-08-21T23:39:34.988Z"
         }
       },
       "pbSource": "SA",
@@ -5527,7 +5527,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/WISYNCO/",
-        "updatedAt": "2026-08-21T22:48:39.054Z",
+        "updatedAt": "2026-08-21T23:39:34.988Z",
         "pe": 16.42,
         "forwardPe": 1.19,
         "ps": 1.19,
@@ -5598,42 +5598,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:48.688Z"
+          "checkedAt": "2026-08-21T23:39:46.847Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:48.688Z"
+          "checkedAt": "2026-08-21T23:39:46.847Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:48:48.688Z"
+          "checkedAt": "2026-08-21T23:39:46.847Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:48.688Z"
+          "checkedAt": "2026-08-21T23:39:46.847Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:48:48.688Z"
+          "checkedAt": "2026-08-21T23:39:46.847Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:48.688Z"
+          "checkedAt": "2026-08-21T23:39:46.847Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:48.688Z"
+          "checkedAt": "2026-08-21T23:39:46.847Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:48.688Z"
+          "checkedAt": "2026-08-21T23:39:46.847Z"
         }
       },
       "pbSource": "SA",
@@ -5644,7 +5644,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/JSE/",
-        "updatedAt": "2026-08-21T22:48:48.688Z",
+        "updatedAt": "2026-08-21T23:39:46.847Z",
         "pe": 15.07,
         "forwardPe": 2.39,
         "ps": 2.39,
@@ -5715,42 +5715,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:57.948Z"
+          "checkedAt": "2026-08-21T23:39:58.220Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:57.948Z"
+          "checkedAt": "2026-08-21T23:39:58.220Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:48:57.948Z"
+          "checkedAt": "2026-08-21T23:39:58.220Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:48:57.948Z"
+          "checkedAt": "2026-08-21T23:39:58.220Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:48:57.948Z"
+          "checkedAt": "2026-08-21T23:39:58.220Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:57.948Z"
+          "checkedAt": "2026-08-21T23:39:58.220Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:57.948Z"
+          "checkedAt": "2026-08-21T23:39:58.220Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:48:57.948Z"
+          "checkedAt": "2026-08-21T23:39:58.220Z"
         }
       },
       "pbSource": "SA",
@@ -5760,7 +5760,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/SML/",
-        "updatedAt": "2026-08-21T22:48:57.948Z",
+        "updatedAt": "2026-08-21T23:39:58.220Z",
         "pe": 2.72,
         "forwardPe": 4.92,
         "ps": 4.92,
@@ -5832,42 +5832,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:49:06.412Z"
+          "checkedAt": "2026-08-21T23:40:07.916Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:49:06.412Z"
+          "checkedAt": "2026-08-21T23:40:07.916Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:49:06.412Z"
+          "checkedAt": "2026-08-21T23:40:07.916Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:49:06.412Z"
+          "checkedAt": "2026-08-21T23:40:07.916Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:49:06.412Z"
+          "checkedAt": "2026-08-21T23:40:07.916Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:49:06.412Z"
+          "checkedAt": "2026-08-21T23:40:07.916Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:49:06.412Z"
+          "checkedAt": "2026-08-21T23:40:07.916Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:49:06.412Z"
+          "checkedAt": "2026-08-21T23:40:07.916Z"
         }
       },
       "pbSource": "SA",
@@ -5877,7 +5877,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/SIL/",
-        "updatedAt": "2026-08-21T22:49:06.412Z",
+        "updatedAt": "2026-08-21T23:40:07.916Z",
         "pe": 9.75,
         "forwardPe": 13.05,
         "ps": 13.05,
@@ -5949,42 +5949,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:49:15.953Z"
+          "checkedAt": "2026-08-21T23:40:18.339Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:49:15.953Z"
+          "checkedAt": "2026-08-21T23:40:18.339Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:49:15.953Z"
+          "checkedAt": "2026-08-21T23:40:18.339Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:49:15.953Z"
+          "checkedAt": "2026-08-21T23:40:18.339Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:49:15.953Z"
+          "checkedAt": "2026-08-21T23:40:18.339Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:49:15.953Z"
+          "checkedAt": "2026-08-21T23:40:18.339Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:49:15.953Z"
+          "checkedAt": "2026-08-21T23:40:18.339Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:49:15.953Z"
+          "checkedAt": "2026-08-21T23:40:18.339Z"
         }
       },
       "pbSource": "SA",
@@ -5995,7 +5995,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/SVL/",
-        "updatedAt": "2026-08-21T22:49:15.953Z",
+        "updatedAt": "2026-08-21T23:40:18.339Z",
         "pe": 23.16,
         "forwardPe": 0.85,
         "ps": 0.85,
@@ -6066,42 +6066,42 @@
         "pe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:49:31.068Z"
+          "checkedAt": "2026-08-21T23:40:28.764Z"
         },
         "pb": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:49:31.068Z"
+          "checkedAt": "2026-08-21T23:40:28.764Z"
         },
         "roe": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics",
-          "checkedAt": "2026-08-21T22:49:31.068Z"
+          "checkedAt": "2026-08-21T23:40:28.764Z"
         },
         "epsGrowth": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Overview",
-          "checkedAt": "2026-08-21T22:49:31.068Z"
+          "checkedAt": "2026-08-21T23:40:28.764Z"
         },
         "divYield": {
           "state": "ok",
           "detail": "Published by StockAnalysis JMSE Statistics/Dividend",
-          "checkedAt": "2026-08-21T22:49:31.068Z"
+          "checkedAt": "2026-08-21T23:40:28.764Z"
         },
         "eps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:49:31.068Z"
+          "checkedAt": "2026-08-21T23:40:28.764Z"
         },
         "bvps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:49:31.068Z"
+          "checkedAt": "2026-08-21T23:40:28.764Z"
         },
         "dps": {
           "state": "ok",
           "detail": "Published by StockAnalysis",
-          "checkedAt": "2026-08-21T22:49:31.068Z"
+          "checkedAt": "2026-08-21T23:40:28.764Z"
         }
       },
       "pbSource": "SA",
@@ -6111,7 +6111,7 @@
         "source": "StockAnalysis",
         "market": "JMSE",
         "url": "https://stockanalysis.com/quote/jmse/SRFJMD/",
-        "updatedAt": "2026-08-21T22:49:31.068Z",
+        "updatedAt": "2026-08-21T23:40:28.764Z",
         "pe": 3.09,
         "forwardPe": -2.48,
         "ps": -2.48,
@@ -6180,12 +6180,12 @@
   ],
   "changes": [],
   "researchAsOf": "2026-08-18",
-  "instrumentLinksUpdated": "2026-08-21T22:34:29.587Z",
-  "saPerformanceUpdated": "2026-08-21T22:42:13.486Z",
+  "instrumentLinksUpdated": "2026-08-21T23:19:27.408Z",
+  "saPerformanceUpdated": "2026-08-21T23:29:59.254Z",
   "jseTradeDate": "2026-08-21",
-  "jseMarketUpdated": "2026-08-21T22:49:36.686Z",
-  "saFundamentalsUpdated": "2026-08-21T22:42:13.486Z",
-  "crossListedPrimaryUpdated": "2026-08-21T22:42:27.423Z",
-  "refreshedAt": "2026-08-21T22:49:36.686Z",
-  "saRatiosUpdated": "2026-08-21T22:49:31.130Z"
+  "jseMarketUpdated": "2026-08-21T23:40:35.153Z",
+  "saFundamentalsUpdated": "2026-08-21T23:29:59.254Z",
+  "crossListedPrimaryUpdated": "2026-08-21T23:30:19.996Z",
+  "refreshedAt": "2026-08-21T23:40:35.153Z",
+  "saRatiosUpdated": "2026-08-21T23:40:28.841Z"
 }
