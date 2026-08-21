@@ -43,8 +43,11 @@ jobs:
       - name: Make dashboard ticker links use captured JSE instrument URLs
         run: npm run patch:dashboard-links
 
-      - name: Refresh StockAnalysis historical performance and fallback quotes
+      - name: Refresh StockAnalysis historical performance and fundamentals
         run: npm run refresh:sa
+
+      - name: Override cross-listed stocks from StockAnalysis primary listings
+        run: npm run refresh:crosslisted
 
       - name: Collect official JSE Trade Summary market data
         run: npm run refresh:jse
@@ -70,8 +73,6 @@ jobs:
           else
             DATE=$(TZ=America/Jamaica date +%F)
             git commit -m "Weekly JSE Main Market refresh ${DATE}"
-            # Another commit may have landed while the collectors were running.
-            # Rebase our generated refresh commit onto current main, then push.
             git pull --rebase origin main
             git push origin HEAD:main
           fi
