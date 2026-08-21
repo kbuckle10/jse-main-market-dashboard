@@ -18,7 +18,7 @@ permissions:
 
 concurrency:
   group: weekly-jse-main-market
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   refresh:
@@ -74,15 +74,28 @@ jobs:
       - name: Commit refreshed dashboard data
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json index.html history/ package.json package-lock.json scripts/
+
+          # Save generated outputs before synchronizing with the latest branch tip.
+          cp data.json /tmp/data.json
+          DATE=$(TZ=America/Jamaica date +%F)
+          cp "history/${DATE}.json" "/tmp/history-${DATE}.json"
+
+          # Move cleanly to the current main tip instead of rebasing generated JSON.
+          git fetch origin main
+          git reset --hard origin/main
+
+          # Re-apply only this run's generated outputs on top of the latest branch.
+          cp /tmp/data.json data.json
+          mkdir -p history
+          cp "/tmp/history-${DATE}.json" "history/${DATE}.json"
+
+          git add data.json "history/${DATE}.json"
           if git diff --cached --quiet; then
-            echo "No dashboard changes to commit."
+            echo "No dashboard data changes to commit."
           else
-            DATE=$(TZ=America/Jamaica date +%F)
             git commit -m "Weekly JSE Main Market refresh ${DATE}"
-            git pull --rebase origin main
             git push origin HEAD:main
           fi
