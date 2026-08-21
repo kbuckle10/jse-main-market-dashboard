@@ -5,6 +5,13 @@ on:
   schedule:
     # 8:00 AM Jamaica (UTC-5) every Saturday
     - cron: '0 13 * * 6'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/weekly-main-market.yml'
+      - 'package.json'
+      - 'package-lock.json'
 
 permissions:
   contents: write
@@ -48,6 +55,9 @@ jobs:
 
       - name: Override cross-listed stocks from StockAnalysis primary listings
         run: npm run refresh:crosslisted
+
+      - name: Enrich StockAnalysis published ratios and analyst metrics
+        run: npm run refresh:sa-ratios
 
       - name: Collect official JSE Trade Summary market data
         run: npm run refresh:jse
