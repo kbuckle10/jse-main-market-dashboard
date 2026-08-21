@@ -1,37 +1,223 @@
-let stocks=[],view=localStorage.getItem('jse-main-view')||'table',activeTab=localStorage.getItem('jse-main-tab')||'overview';
-const $=id=>document.getElementById(id);const fmt=v=>v==null?'N/A':Number(v).toFixed(2);const unit=x=>x.currency==='USD'?'US$':'J$';
-const directJse=x=>typeof x?.jseUrl==='string'&&/^https:\/\/www\.jamstockex\.com\/trading\/instruments\/\?instrument=\d+$/.test(x.jseUrl)?x.jseUrl:null;
-const saUrl=x=>`https://stockanalysis.com/quote/jmse/${encodeURIComponent(x.saTicker||x.ticker)}/`;
-const src=(t,title,url)=>url?`<a class="src ${t.toLowerCase()}" href="${url}" target="_blank" rel="noopener" title="${title}">${t}</a>`:`<span class="src ${t.toLowerCase()}" title="${title}">${t}</span>`;
-const pLabel=x=>(x.priceSource||x.source||'JSE').toUpperCase()==='SA'?'Delayed SA price':'Official JSE close';
-const calcTip=(k,x)=>k==='pe'&&x.eps!=null?`${pLabel(x)} ${unit(x)}${fmt(x.price)} ÷ EPS ${unit(x)}${fmt(x.eps)} = ${fmt(x.pe)}×`:k==='pb'&&x.bvps!=null?`${pLabel(x)} ${unit(x)}${fmt(x.price)} ÷ BVPS ${unit(x)}${fmt(x.bvps)} = ${fmt(x.pb)}×`:k==='yield'&&x.dps!=null?`TTM DPS ${unit(x)}${fmt(x.dps)} ÷ ${pLabel(x)} ${unit(x)}${fmt(x.price)} × 100 = ${fmt(x.divYield)}%`:'Calculated metric';
-function badges(x){const ps=(x.priceSource||x.source||'JSE').toUpperCase(),ju=directJse(x);return{price:x.price==null?'':ps==='SA'?src('SA','Delayed StockAnalysis price',saUrl(x)):src('JSE','Official JSE closing price',ju),eps:x.eps==null?'':src('SA','EPS fundamental source: StockAnalysis',saUrl(x)),pe:x.pe==null?'':src('CALC',calcTip('pe',x)),pb:x.pb==null?'':src('CALC',calcTip('pb',x)),roe:x.roe==null?'':src('SA','ROE fundamental source: StockAnalysis',saUrl(x)),eg:x.epsGrowth==null?'':src('SA','EPS growth source: StockAnalysis',saUrl(x)),yield:x.divYield==null?'':src('CALC',calcTip('yield',x))}}
-const tickerHtml=x=>directJse(x)?`<a class="ticker" href="${directJse(x)}" target="_blank" rel="noopener">${x.ticker} ↗</a>`:`<span class="ticker">${x.ticker}</span>`;
-async function load(){const d=await(await fetch(`data.json?v=${Date.now()}`,{cache:'no-store'})).json();let base=d.stocks||[];try{const rr=await fetch(`research.json?v=${Date.now()}`,{cache:'no-store'});if(rr.ok){const rd=await rr.json(),m=new Map((rd.stocks||[]).map(x=>[x.ticker,x]));base=base.map(x=>m.has(x.ticker)?{...x,...m.get(x.ticker),jseUrl:x.jseUrl,price:x.price,priceSource:x.priceSource,source:x.source,priceDate:x.priceDate,tradeDate:x.tradeDate,eps:x.eps??m.get(x.ticker).eps,bvps:x.bvps??m.get(x.ticker).bvps,roe:x.roe??m.get(x.ticker).roe,epsGrowth:x.epsGrowth??m.get(x.ticker).epsGrowth,dps:x.dps??m.get(x.ticker).dps,pe:x.pe,pb:x.pb,divYield:x.divYield}:x)}}catch{}stocks=base;const jseLinks=stocks.filter(x=>directJse(x)).length;const asOf=d.asOf||d.jseTradeDate||'';$('updatedPill').textContent=asOf?`Market data ${asOf}`:'Latest available data';$('subtitle').textContent=`${stocks.length} ordinary shares • ${jseLinks}/${stocks.length} direct JSE instrument links • valuation-aware research`;[...new Set(stocks.map(x=>x.sector).filter(Boolean))].sort().forEach(s=>$('sectorFilter').insertAdjacentHTML('beforeend',`<option>${s}</option>`));renderAll();setTab(activeTab)}
-function filtered(){let a=stocks.filter(x=>(!$('search').value||`${x.ticker} ${x.company}`.toLowerCase().includes($('search').value.toLowerCase()))&&(!$('ratingFilter').value||x.rating===$('ratingFilter').value)&&(!$('sectorFilter').value||x.sector===$('sectorFilter').value));const k=$('sortSelect').value;a.sort((x,y)=>k==='score'?(y.score??-999)-(x.score??-999):k==='pb'?(x.pb??999)-(y.pb??999):k==='roe'?(y.roe??-999)-(x.roe??-999):k==='pe'?(x.pe??999)-(y.pe??999):(y.divYield??-999)-(x.divYield??-999));return a}
-function ratingBadge(r){return `<span class="rating ${r||'WATCH'}">${r||'N/A'}</span>`}
-function row(x){const z=badges(x);return`<tr><td>${tickerHtml(x)}</td><td>${x.company}<a class="sa-link" href="${saUrl(x)}" target="_blank">SA↗</a></td><td>${x.sector||'N/A'}</td><td>${x.ratingBasis||'N/A'}</td><td>${x.price==null?'N/A':unit(x)+fmt(x.price)+z.price}</td><td>${x.eps==null?'N/A':fmt(x.eps)+z.eps}</td><td>${x.pe==null?'N/A':fmt(x.pe)+z.pe}</td><td>${x.pb==null?'N/A':fmt(x.pb)+z.pb}</td><td class="${x.roe>12?'positive':x.roe<5?'negative':''}">${x.roe==null?'N/A':fmt(x.roe)+'%'+z.roe}</td><td class="${x.epsGrowth>0?'positive':x.epsGrowth<0?'negative':''}">${x.epsGrowth==null?'N/A':fmt(x.epsGrowth)+'%'+z.eg}</td><td>${x.divYield==null?'N/A':fmt(x.divYield)+'%'+z.yield}</td><td>${x.fairValue||'N/A'}</td><td>${x.buyZone||'N/A'}</td><td><strong>${x.score??'N/A'}</strong></td><td>${ratingBadge(x.rating)}</td></tr>`}
-function card(x){const z=badges(x);return`<article class="stock-card"><div class="stock-head"><div style="min-width:0">${tickerHtml(x)}<div class="company">${x.company}</div></div><div><div class="price">${x.price==null?'N/A':unit(x)+fmt(x.price)}</div><div style="text-align:right">${z.price}</div></div></div><div class="basis">${x.ratingBasis||'N/A'} • ${x.sector||'N/A'}</div><div class="metric-grid"><div class="metric"><span>EPS</span><strong>${x.eps==null?'N/A':fmt(x.eps)}</strong></div><div class="metric"><span>P/E</span><strong>${x.pe==null?'N/A':fmt(x.pe)}</strong></div><div class="metric"><span>P/B</span><strong>${x.pb==null?'N/A':fmt(x.pb)}</strong></div><div class="metric"><span>ROE</span><strong class="${x.roe>12?'positive':x.roe<5?'negative':''}">${x.roe==null?'N/A':fmt(x.roe)+'%'}</strong></div><div class="metric"><span>EPS Growth</span><strong class="${x.epsGrowth>0?'positive':x.epsGrowth<0?'negative':''}">${x.epsGrowth==null?'N/A':fmt(x.epsGrowth)+'%'}</strong></div><div class="metric"><span>Yield</span><strong>${x.divYield==null?'N/A':fmt(x.divYield)+'%'}</strong></div><div class="metric"><span>Score</span><strong>${x.score??'N/A'}</strong></div><div class="metric"><span>Rating</span><strong>${ratingBadge(x.rating)}</strong></div></div><div class="range-grid"><div class="range-box"><span>Fair Value</span><strong>${x.fairValue||'N/A'}</strong></div><div class="range-box"><span>Buy Zone</span><strong>${x.buyZone||'N/A'}</strong></div></div><div class="card-footer"><div class="card-actions">${directJse(x)?`<a href="${directJse(x)}" target="_blank">JSE ↗</a>`:''}<a href="${saUrl(x)}" target="_blank">SA ↗</a></div>${ratingBadge(x.rating)}</div></article>`}
-function renderKpis(){const c={BUY:0,HOLD:0,WATCH:0,AVOID:0};stocks.forEach(x=>{if(c[x.rating]!=null)c[x.rating]++});const active=$('ratingFilter').value||'ALL';const html=[['Universe',stocks.length,'ALL',''],['BUY',c.BUY,'BUY','buy'],['HOLD',c.HOLD,'HOLD','hold'],['WATCH',c.WATCH,'WATCH','watch'],['AVOID',c.AVOID,'AVOID','avoid']].map(v=>`<button class="kpi ${v[3]} ${active===v[2]?'active':''}" data-rating="${v[2]}"><span class="label">${v[0]}</span><span class="value">${v[1]}</span></button>`).join('');$('kpis').innerHTML=html;$('kpisStocks').innerHTML=html;document.querySelectorAll('.kpi').forEach(b=>b.onclick=()=>{$('ratingFilter').value=b.dataset.rating==='ALL'?'':b.dataset.rating;setTab('stocks');renderKpis();renderStocks()})}
-function renderStocks(){const a=filtered();$('stockRows').innerHTML=a.map(row).join('');$('desktopCards').innerHTML=a.map(card).join('');$('mobileList').innerHTML=a.map(card).join('');setView(view)}
-function setView(v){view=v;localStorage.setItem('jse-main-view',v);$('tableViewBtn').classList.toggle('active',v==='table');$('cardViewBtn').classList.toggle('active',v==='cards');$('tableView').classList.toggle('hidden',v!=='table');$('desktopCards').classList.toggle('hidden',v!=='cards')}
-function rankStocks(mode){const a=[...stocks];if(mode==='dividend')return a.filter(x=>x.divYield!=null).sort((x,y)=>(y.divYield??-99)-(x.divYield??-99)).slice(0,10);if(mode==='growth')return a.filter(x=>x.epsGrowth!=null).sort((x,y)=>(y.epsGrowth??-999)-(x.epsGrowth??-999)).slice(0,10);if(mode==='value')return a.filter(x=>x.pe!=null&&x.pe>0).sort((x,y)=>(x.pe??999)-(y.pe??999)).slice(0,10);return a.filter(x=>x.score!=null).sort((x,y)=>(y.score??-999)-(x.score??-999)).slice(0,10)}
-function rankBlock(title,mode,sub){const arr=rankStocks(mode);return`<article class="panel section-card"><p class="eyebrow">${sub}</p><h2>${title}</h2><div class="rank-list">${arr.map((x,i)=>`<div class="rank-row"><div class="rank-no">${i+1}</div><div class="rank-main"><strong>${x.ticker} • ${x.company}</strong><span>${x.ratingBasis||x.sector||''}</span></div><div class="rank-score">${mode==='dividend'?fmt(x.divYield)+'%':mode==='growth'?fmt(x.epsGrowth)+'%':mode==='value'?fmt(x.pe)+'×':x.score}</div></div>`).join('')}</div></article>`}
-function renderRankings(){$('rankingsGrid').innerHTML=rankBlock('Top Overall','score','Opportunity score')+rankBlock('Dividend Opportunities','dividend','Income')+rankBlock('Growth Opportunities','growth','EPS growth')+rankBlock('Value Stocks','value','Low positive P/E')}
-function portfolioSet(type){let pool=[...stocks].filter(x=>x.rating==='BUY'||x.rating==='HOLD');if(type==='income')pool.sort((a,b)=>(b.divYield??-1)-(a.divYield??-1));else if(type==='growth')pool.sort((a,b)=>(b.epsGrowth??-999)-(a.epsGrowth??-999));else pool.sort((a,b)=>(b.score??-999)-(a.score??-999));pool=pool.slice(0,7);const raw=pool.map(x=>type==='income'?Math.max(1,x.divYield||1):type==='growth'?Math.max(1,Math.min(30,(x.epsGrowth||0)+10)):Math.max(1,x.score||1));const total=raw.reduce((a,b)=>a+b,0);return pool.map((x,i)=>({x,pct:Math.round(raw[i]/total*100)}))}
-function portfolioCard(title,type,copy){const a=portfolioSet(type);let diff=100-a.reduce((s,o)=>s+o.pct,0);if(a[0])a[0].pct+=diff;return`<article class="panel portfolio-card"><p class="eyebrow">Model portfolio</p><h3>${title}</h3><p class="section-copy">${copy}</p>${a.map(o=>`<div class="alloc-row"><div><div class="alloc-label"><span>${o.x.ticker}</span><span>${ratingBadge(o.x.rating)}</span></div><div class="alloc-track"><div class="alloc-fill" style="width:${o.pct}%"></div></div></div><div class="alloc-pct">${o.pct}%</div></div>`).join('')}</article>`}
-function renderPortfolios(){$('portfolioGrid').innerHTML=portfolioCard('Dividend / Income','income','Prioritizes stronger trailing yield while retaining BUY/HOLD discipline.')+portfolioCard('Growth & Appreciation','growth','Leans toward positive EPS-growth opportunities, capped to reduce concentration.')+portfolioCard('Balanced Total Return','balanced','Uses the composite Opportunity Score as the primary allocation signal.')}
-const glossary=[['EPS','Earnings Per Share','Net income attributable to ordinary shareholders ÷ weighted-average ordinary shares','Profit earned for each ordinary share. Higher is not automatically better; trend and quality matter.'],['EPS Growth','Earnings growth','(Current EPS ÷ Prior comparable EPS − 1) × 100','Shows how quickly earnings per share are growing or shrinking. Large one-off gains should be normalized.'],['BVPS','Book Value Per Share','Common equity attributable to ordinary shareholders ÷ ordinary shares outstanding','Accounting net asset value per ordinary share. Especially useful for banks, insurers and asset-heavy companies.'],['P/B','Price-to-Book','Latest JSE close ÷ BVPS','How much investors pay for each J$1 of book value. A low P/B is attractive only if ROE and asset quality are acceptable.'],['P/E','Price-to-Earnings','Latest JSE close ÷ trailing or normalized EPS','How much investors pay for each J$1 of annual earnings. Compare with growth, quality, history and sector peers.'],['ROE','Return on Equity','Net income ÷ average common shareholders’ equity × 100','Measures how effectively equity capital produces profit. For financial companies, interpret together with P/B and capital strength.'],['Dividend Yield','Income yield','Trailing 12-month DPS ÷ latest JSE close × 100','Cash dividend return at the current share price. A high yield may be a trap if earnings do not cover the dividend.'],['Earnings Yield','Inverse P/E','EPS ÷ latest JSE close × 100','The earnings generated for each dollar invested at the current market price. It is the inverse of P/E.'],['Fair Value','Analyst valuation range','Sector-appropriate valuation methods → estimated reasonable value range','Not a market-data field. It combines normalized earnings/book value/dividends/cash flow, peers, history, growth and risk.'],['Buy Zone','Margin-of-safety range','Fair value adjusted downward for required margin of safety','The range where expected return and downside protection are attractive enough for new money.'],['Opportunity Score','Composite score','Valuation 25 + Quality 20 + Growth 20 + Financial strength 15 + Dividend 10 + Momentum/Catalysts 10','Ranks opportunities, but does not override valuation. Momentum cannot turn an expensive stock into a Strong Buy.'],['CALC','Calculated metric','JSE price input + SA/company fundamental input','A dashboard-derived value. Hover the CALC badge beside P/E, P/B or Yield to see the arithmetic used.']];
-function renderGlossary(){$('glossaryGrid').innerHTML=glossary.map(g=>`<article class="panel glossary-card"><div class="term">${g[0]}</div><h3>${g[1]}</h3><div class="formula">${g[2]}</div><p class="interpretation">${g[3]}</p></article>`).join('')}
-function renderOverview(){const buys=stocks.filter(x=>x.rating==='BUY').sort((a,b)=>(b.score??0)-(a.score??0)).slice(0,5);const risks=stocks.filter(x=>x.rating==='AVOID').sort((a,b)=>(a.score??999)-(b.score??999)).slice(0,5);$('overviewGrid').innerHTML=`<article class="panel section-card"><p class="eyebrow">Best current opportunities</p><h2>Highest-scoring BUYs</h2><div class="rank-list">${buys.map((x,i)=>`<div class="rank-row"><div class="rank-no">${i+1}</div><div class="rank-main"><strong>${x.ticker} • ${x.company}</strong><span>${x.ratingBasis||''}</span></div><div class="rank-score">${x.score}</div></div>`).join('')}</div></article><article class="panel section-card"><p class="eyebrow">Risk watch</p><h2>Lowest-scoring AVOIDs</h2><div class="rank-list">${risks.map((x,i)=>`<div class="rank-row"><div class="rank-no">${i+1}</div><div class="rank-main"><strong>${x.ticker} • ${x.company}</strong><span>${x.ratingBasis||''}</span></div><div class="rank-score">${x.score}</div></div>`).join('')}</div></article><article class="panel section-card"><p class="eyebrow">Valuation discipline</p><h2>How to read the dashboard</h2><p class="section-copy">JSE closing price is the authoritative market-price input. StockAnalysis/company filings provide fundamental inputs. CALC values are derived from those inputs. Fair Value and Buy Zone are analyst judgments, not scraped fields.</p><div class="mini-note">Use the Rating Case tab to see why each primary rating holds, and the Glossary for formulas.</div></article>`}
-const isBookHeavy=x=>/(bank|financial|insurance|investment|securit|real estate|property)/i.test(`${x.sector||''} ${x.company||''}`);
-function parseRange(s){if(!s||typeof s!=='string')return null;const n=(s.match(/\d+(?:\.\d+)?/g)||[]).map(Number);return n.length?{lo:n[0],hi:n.length>1?n[1]:n[0],mid:(n[0]+(n.length>1?n[1]:n[0]))/2}:null}
-function sig(kind,x){let v=x[kind];if(v==null)return{level:'na',label:'N/A',note:'Data unavailable'};if(kind==='pe'){if(v<=0)return{level:'bad',label:`${fmt(v)}×`,note:'Loss / unusable P/E'};if(v<10)return{level:'good',label:`${fmt(v)}×`,note:'Low earnings multiple'};if(v<=15)return{level:'neutral',label:`${fmt(v)}×`,note:'Reasonable multiple'};if(v<=20)return{level:'caution',label:`${fmt(v)}×`,note:'Premium multiple'};return{level:'bad',label:`${fmt(v)}×`,note:'High earnings multiple'}}if(kind==='pb'){const heavy=isBookHeavy(x);if(v<.8)return{level:'good',label:`${fmt(v)}×`,note:heavy?'Discount to book; verify ROE':'Below book; lower sector weight'};if(v<=1.2)return{level:'neutral',label:`${fmt(v)}×`,note:'Near book value'};if(v<=2)return{level:heavy?'caution':'neutral',label:`${fmt(v)}×`,note:heavy?'Premium requires ROE support':'Moderate premium'};return{level:'bad',label:`${fmt(v)}×`,note:'High premium to book'}}if(kind==='roe'){if(v>=15)return{level:'good',label:`${fmt(v)}%`,note:'Strong capital efficiency'};if(v>=10)return{level:'neutral',label:`${fmt(v)}%`,note:'Acceptable profitability'};if(v>=5)return{level:'caution',label:`${fmt(v)}%`,note:'Weak/modest ROE'};return{level:'bad',label:`${fmt(v)}%`,note:'Poor capital efficiency'}}if(kind==='epsGrowth'){if(v>=15)return{level:'good',label:`${fmt(v)}%`,note:'Strong earnings growth'};if(v>=0)return{level:'neutral',label:`${fmt(v)}%`,note:'Positive/flat growth'};if(v>-20)return{level:'caution',label:`${fmt(v)}%`,note:'Earnings contracting'};return{level:'bad',label:`${fmt(v)}%`,note:'Sharp earnings decline'}}if(kind==='divYield'){if(v>=5)return{level:'good',label:`${fmt(v)}%`,note:'Strong income support'};if(v>=3)return{level:'neutral',label:`${fmt(v)}%`,note:'Useful income support'};if(v>0)return{level:'caution',label:`${fmt(v)}%`,note:'Low income contribution'};return{level:'caution',label:`${fmt(v)}%`,note:'No current income'}}return{level:'na',label:'N/A',note:'Unavailable'}}
-function valuationSignal(x){const fv=parseRange(x.fairValue),bz=parseRange(x.buyZone),p=Number(x.price);if(!Number.isFinite(p)||(!fv&&!bz))return{level:'na',label:'N/A',note:'No defensible range'};if(bz&&p<=bz.hi)return{level:'good',label:'IN / BELOW ZONE',note:`Price ${unit(x)}${fmt(p)} vs buy zone ${x.buyZone}`};if(fv&&p<=fv.mid)return{level:'neutral',label:'BELOW FAIR MID',note:`Price remains below fair-value midpoint`};if(fv&&p<=fv.hi)return{level:'caution',label:'NEAR FAIR VALUE',note:'Limited margin of safety'};return{level:'bad',label:'ABOVE FAIR VALUE',note:'Valuation risk dominates'}}
-function comp(label,s){return`<div class="comparator"><div class="comp-label"><span>${label}</span><i class="signal ${s.level}"></i></div><div class="comp-value">${s.label}</div><div class="comp-note">${s.note}</div></div>`}
-function caseNarrative(x,signals){const good=signals.filter(s=>s.level==='good').length,bad=signals.filter(s=>s.level==='bad').length;const core=x.ratingBasis?`Analyst basis: ${x.ratingBasis}. `:'';if(x.rating==='BUY')return `${core}BUY holds because the current price offers an acceptable margin of safety and the supporting fundamentals outweigh the cautions (${good} strong signals vs ${bad} major red flags). A BUY does not require every metric to be positive.`;if(x.rating==='HOLD')return `${core}HOLD means the business/fundamentals are investable, but current valuation or mixed operating signals do not provide enough margin of safety for aggressive new buying.`;if(x.rating==='WATCH')return `${core}WATCH means there is a potentially attractive element, but valuation, earnings direction, profitability or data quality still needs improvement before the risk/reward becomes compelling.`;if(x.rating==='AVOID')return `${core}AVOID reflects an unfavorable current risk/reward: weak fundamentals, excessive valuation, losses, poor returns on equity or insufficient evidence of a durable margin of safety.`;return `${core}The rating remains under review.`}
-function caseCard(x){const pe=sig('pe',x),pb=sig('pb',x),roe=sig('roe',x),eg=sig('epsGrowth',x),dy=sig('divYield',x),val=valuationSignal(x),signals=[pe,pb,roe,eg,dy,val],heavy=isBookHeavy(x);return`<article class="panel case-card case-${x.rating||'WATCH'}"><div class="case-head"><div><h3>${tickerHtml(x)} • ${x.company}</h3><div class="case-sub">${x.sector||'N/A'} • Score ${x.score??'N/A'}/100</div></div>${ratingBadge(x.rating)}</div><div class="case-verdict">${caseNarrative(x,signals)}</div><div class="comparator-grid">${comp('P/E',pe)}${comp('P/B',pb)}${comp('ROE',roe)}${comp('EPS Growth',eg)}${comp('Yield',dy)}</div><div class="case-bottom"><div><span>Price vs Value</span><strong class="${val.level==='good'?'positive':val.level==='bad'?'negative':''}">${val.label}</strong><small>${val.note}</small></div><div><span>Fair Value / Buy Zone</span><strong>${x.fairValue||'N/A'} / ${x.buyZone||'N/A'}</strong></div><div><span>Primary Rating</span><strong>${x.rating||'N/A'}</strong></div></div><div class="sector-weight">${heavy?'High book-value relevance: P/B must be interpreted together with ROE, asset quality and capital strength.':'Operating-company lens: P/E, EPS growth and ROE carry more weight; P/B is supporting context rather than the primary decision rule.'}</div></article>`}
-function renderRatingCases(){const q=($('caseSearch')?.value||'').toLowerCase(),r=$('caseRating')?.value||'';const a=stocks.filter(x=>(!q||`${x.ticker} ${x.company}`.toLowerCase().includes(q))&&(!r||x.rating===r)).sort((a,b)=>(b.score??-999)-(a.score??-999));$('ratingCaseGrid').innerHTML=a.map(caseCard).join('')}
-function renderAll(){renderKpis();renderStocks();renderOverview();renderRatingCases();renderRankings();renderPortfolios();renderGlossary()}
-function setTab(name){activeTab=name;localStorage.setItem('jse-main-tab',name);document.querySelectorAll('.tab-btn').forEach(b=>b.classList.toggle('active',b.dataset.tab===name));document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active',p.id===`tab-${name}`))}
-document.querySelectorAll('.tab-btn').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));['search','ratingFilter','sectorFilter','sortSelect'].forEach(id=>$(id).oninput=()=>{renderKpis();renderStocks()});if($('caseSearch'))$('caseSearch').oninput=renderRatingCases;if($('caseRating'))$('caseRating').oninput=renderRatingCases;$('tableViewBtn').onclick=()=>setView('table');$('cardViewBtn').onclick=()=>setView('cards');load();
+let stocks = [];
+let view = localStorage.getItem('jse-main-view') || 'table';
+let activeTab = localStorage.getItem('jse-main-tab') || 'overview';
+
+const $ = id => document.getElementById(id);
+const fmt = (v, d = 2) => v == null || Number.isNaN(Number(v)) ? 'N/A' : Number(v).toFixed(d);
+const unit = x => x.currency === 'USD' ? 'US$' : 'J$';
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const directJse = x => typeof x?.jseUrl === 'string' && /^https:\/\/www\.jamstockex\.com\/trading\/instruments\/\?instrument=\d+$/.test(x.jseUrl) ? x.jseUrl : null;
+const saUrl = x => x?.saUrl || `https://stockanalysis.com/quote/${(x?.saMarket || 'jmse').toLowerCase()}/${encodeURIComponent(x?.saTicker || x?.ticker || '')}/`;
+const sourceName = (x, key, fallback) => String(x?.[`${key}Source`] || fallback || '').toUpperCase();
+const src = (label, title, url) => url
+  ? `<a class="src ${label.toLowerCase().replace(/\s+/g,'-')}" href="${url}" target="_blank" rel="noopener" title="${esc(title)}">${esc(label)}</a>`
+  : `<span class="src ${label.toLowerCase().replace(/\s+/g,'-')}" title="${esc(title)}">${esc(label)}</span>`;
+
+function metricBadge(x, key, calcTitle = 'Calculated fallback') {
+  const s = sourceName(x, key, key === 'roe' || key === 'epsGrowth' || key === 'eps' || key === 'bvps' ? 'SA' : 'CALC');
+  if (s.startsWith('SA')) return src(s.includes('TTSE') ? 'SA TTSE' : 'SA', `Published by StockAnalysis${s.includes('TTSE') ? ' TTSE' : ''}`, saUrl(x));
+  if (s === 'JSE') return src('JSE', 'Official JSE value', directJse(x));
+  if (s === 'CALC') return src('CALC', calcTitle);
+  return s ? src(s, s) : '';
+}
+
+function tickerHtml(x) {
+  const u = directJse(x);
+  return u ? `<a class="ticker" href="${u}" target="_blank" rel="noopener">${esc(x.ticker)} ↗</a>` : `<span class="ticker">${esc(x.ticker)}</span>`;
+}
+
+function ratingBadge(r) {
+  const v = r || 'WATCH';
+  return `<span class="rating ${esc(v)}">${esc(v)}</span>`;
+}
+
+function scoreCell(x) {
+  return `<button type="button" class="score-detail-btn compact" data-score-ticker="${esc(x.ticker)}"><strong>${x.score ?? 'N/A'}</strong><span>/100</span><i>ⓘ</i></button>`;
+}
+
+function statusText(x, key) {
+  const s = x?.metricStatus?.[key]?.state;
+  if (s === 'error') return '<span class="negative">ERROR</span>';
+  return 'N/A';
+}
+
+function row(x) {
+  const priceBadge = x.price == null ? '' : ((x.priceSource || x.source || 'JSE').toUpperCase() === 'JSE' ? src('JSE','Official JSE closing price',directJse(x)) : src('SA','Delayed StockAnalysis price',saUrl(x)));
+  return `<tr><td>${tickerHtml(x)}</td><td>${esc(x.company)} <a class="sa-link" href="${saUrl(x)}" target="_blank" rel="noopener">SA↗</a></td><td>${esc(x.sector || 'N/A')}</td><td>${esc(x.ratingBasis || 'N/A')}</td><td>${x.price == null ? 'N/A' : unit(x)+fmt(x.price)+priceBadge}</td><td>${x.eps == null ? statusText(x,'eps') : fmt(x.eps)+metricBadge(x,'eps')}</td><td>${x.pe == null ? statusText(x,'pe') : fmt(x.pe)+metricBadge(x,'pe')}</td><td>${x.pb == null ? statusText(x,'pb') : fmt(x.pb)+metricBadge(x,'pb')}</td><td class="${x.roe > 12 ? 'positive' : x.roe != null && x.roe < 5 ? 'negative' : ''}">${x.roe == null ? statusText(x,'roe') : fmt(x.roe)+'%'+metricBadge(x,'roe')}</td><td class="${x.epsGrowth > 0 ? 'positive' : x.epsGrowth < 0 ? 'negative' : ''}">${x.epsGrowth == null ? statusText(x,'epsGrowth') : fmt(x.epsGrowth)+'%'+metricBadge(x,'epsGrowth')}</td><td>${x.divYield == null ? statusText(x,'divYield') : fmt(x.divYield)+'%'+metricBadge(x,'divYield')}</td><td>${esc(x.fairValue || 'N/A')}</td><td>${esc(x.buyZone || 'N/A')}</td><td>${scoreCell(x)}</td><td>${ratingBadge(x.rating)}</td></tr>`;
+}
+
+function card(x) {
+  const priceBadge = x.price == null ? '' : ((x.priceSource || x.source || 'JSE').toUpperCase() === 'JSE' ? src('JSE','Official JSE closing price',directJse(x)) : src('SA','Delayed StockAnalysis price',saUrl(x)));
+  return `<article class="stock-card"><div class="stock-head"><div style="min-width:0">${tickerHtml(x)}<div class="company">${esc(x.company)}</div></div><div><div class="price">${x.price==null?'N/A':unit(x)+fmt(x.price)}</div><div style="text-align:right">${priceBadge}</div></div></div><div class="basis">${esc(x.ratingBasis || 'N/A')} • ${esc(x.sector || 'N/A')}</div><div class="metric-grid"><div class="metric"><span>EPS</span><strong>${x.eps==null?statusText(x,'eps'):fmt(x.eps)}</strong></div><div class="metric"><span>P/E</span><strong>${x.pe==null?statusText(x,'pe'):fmt(x.pe)}</strong></div><div class="metric"><span>P/B</span><strong>${x.pb==null?statusText(x,'pb'):fmt(x.pb)}</strong></div><div class="metric"><span>ROE</span><strong class="${x.roe>12?'positive':x.roe!=null&&x.roe<5?'negative':''}">${x.roe==null?statusText(x,'roe'):fmt(x.roe)+'%'}</strong></div><div class="metric"><span>EPS Growth</span><strong class="${x.epsGrowth>0?'positive':x.epsGrowth<0?'negative':''}">${x.epsGrowth==null?statusText(x,'epsGrowth'):fmt(x.epsGrowth)+'%'}</strong></div><div class="metric"><span>Yield</span><strong>${x.divYield==null?statusText(x,'divYield'):fmt(x.divYield)+'%'}</strong></div><div class="metric"><span>Score</span>${scoreCell(x)}</div><div class="metric"><span>Rating</span><strong>${ratingBadge(x.rating)}</strong></div></div><div class="range-grid"><div class="range-box"><span>Fair Value</span><strong>${esc(x.fairValue||'N/A')}</strong></div><div class="range-box"><span>Buy Zone</span><strong>${esc(x.buyZone||'N/A')}</strong></div></div><div class="card-footer"><div class="card-actions">${directJse(x)?`<a href="${directJse(x)}" target="_blank" rel="noopener">JSE ↗</a>`:''}<a href="${saUrl(x)}" target="_blank" rel="noopener">SA ↗</a></div>${ratingBadge(x.rating)}</div></article>`;
+}
+
+function filtered() {
+  const search = ($('search')?.value || '').toLowerCase();
+  const rating = $('ratingFilter')?.value || '';
+  const sector = $('sectorFilter')?.value || '';
+  let a = stocks.filter(x => (!search || `${x.ticker} ${x.company}`.toLowerCase().includes(search)) && (!rating || x.rating === rating) && (!sector || x.sector === sector));
+  const k = $('sortSelect')?.value || 'score';
+  a.sort((x,y) => k==='pb' ? (x.pb??999)-(y.pb??999) : k==='roe' ? (y.roe??-999)-(x.roe??-999) : k==='pe' ? (x.pe??999)-(y.pe??999) : k==='yield' ? (y.divYield??-999)-(x.divYield??-999) : (y.score??-999)-(x.score??-999));
+  return a;
+}
+
+function renderKpis() {
+  const counts = {BUY:0,HOLD:0,WATCH:0,AVOID:0};
+  for (const x of stocks) if (counts[x.rating] != null) counts[x.rating]++;
+  const active = $('ratingFilter')?.value || 'ALL';
+  const specs = [['Universe',stocks.length,'ALL','universe'],['BUY',counts.BUY,'BUY','buy'],['HOLD',counts.HOLD,'HOLD','hold'],['WATCH',counts.WATCH,'WATCH','watch'],['AVOID',counts.AVOID,'AVOID','avoid']];
+  const html = specs.map(v=>`<button class="kpi ${v[3]} ${active===v[2]?'active':''}" data-rating="${v[2]}"><span class="label">${v[0]}</span><span class="value">${v[1]}</span></button>`).join('');
+  if ($('kpis')) $('kpis').innerHTML = html;
+  if ($('kpisStocks')) $('kpisStocks').innerHTML = html;
+  document.querySelectorAll('.kpi').forEach(b => b.onclick = () => { if ($('ratingFilter')) $('ratingFilter').value = b.dataset.rating === 'ALL' ? '' : b.dataset.rating; setTab('stocks'); renderKpis(); renderStocks(); });
+}
+
+function renderStocks() {
+  const a = filtered();
+  if ($('stockRows')) $('stockRows').innerHTML = a.map(row).join('');
+  if ($('desktopCards')) $('desktopCards').innerHTML = a.map(card).join('');
+  if ($('mobileList')) $('mobileList').innerHTML = a.map(card).join('');
+  setView(view);
+}
+
+function setView(v) {
+  view = v; localStorage.setItem('jse-main-view',v);
+  $('tableViewBtn')?.classList.toggle('active',v==='table');
+  $('cardViewBtn')?.classList.toggle('active',v==='cards');
+  $('tableView')?.classList.toggle('hidden',v!=='table');
+  $('desktopCards')?.classList.toggle('hidden',v!=='cards');
+}
+
+function rankStocks(mode) {
+  const a = [...stocks];
+  if (mode==='dividend') return a.filter(x=>x.divYield!=null).sort((x,y)=>(y.divYield??-99)-(x.divYield??-99)).slice(0,10);
+  if (mode==='growth') return a.filter(x=>x.epsGrowth!=null).sort((x,y)=>(y.epsGrowth??-999)-(x.epsGrowth??-999)).slice(0,10);
+  if (mode==='value') return a.filter(x=>x.pe!=null&&x.pe>0).sort((x,y)=>x.pe-y.pe).slice(0,10);
+  return a.filter(x=>x.score!=null).sort((x,y)=>(y.score??-999)-(x.score??-999)).slice(0,10);
+}
+
+function rankBlock(title, mode, sub) {
+  return `<article class="panel section-card"><p class="eyebrow">${esc(sub)}</p><h2>${esc(title)}</h2><div class="rank-list">${rankStocks(mode).map((x,i)=>`<div class="rank-row"><div class="rank-no">${i+1}</div><div class="rank-main"><strong>${esc(x.ticker)} • ${esc(x.company)}</strong><span>${esc(x.ratingBasis||x.sector||'')}</span></div><div class="rank-score">${mode==='dividend'?fmt(x.divYield)+'%':mode==='growth'?fmt(x.epsGrowth)+'%':mode==='value'?fmt(x.pe)+'×':x.score}</div></div>`).join('')}</div></article>`;
+}
+
+function renderRankings() {
+  if ($('rankingsGrid')) $('rankingsGrid').innerHTML = rankBlock('Top Overall','score','Opportunity score') + rankBlock('Dividend Opportunities','dividend','Income') + rankBlock('Growth Opportunities','growth','EPS growth') + rankBlock('Value Stocks','value','Low positive P/E');
+}
+
+function portfolioSet(type) {
+  let pool = stocks.filter(x=>x.rating==='BUY'||x.rating==='HOLD');
+  pool.sort((a,b)=>type==='income'?(b.divYield??-1)-(a.divYield??-1):type==='growth'?(b.epsGrowth??-999)-(a.epsGrowth??-999):(b.score??-999)-(a.score??-999));
+  pool = pool.slice(0,7);
+  const raw = pool.map(x=>type==='income'?Math.max(1,x.divYield||1):type==='growth'?Math.max(1,Math.min(30,(x.epsGrowth||0)+10)):Math.max(1,x.score||1));
+  const total = raw.reduce((a,b)=>a+b,0)||1;
+  const out = pool.map((x,i)=>({x,pct:Math.round(raw[i]/total*100)}));
+  const diff = 100-out.reduce((s,o)=>s+o.pct,0); if (out[0]) out[0].pct += diff;
+  return out;
+}
+
+function portfolioCard(title,type,copy) {
+  return `<article class="panel portfolio-card"><p class="eyebrow">Model portfolio</p><h3>${esc(title)}</h3><p class="section-copy">${esc(copy)}</p>${portfolioSet(type).map(o=>`<div class="alloc-row"><div><div class="alloc-label"><span>${esc(o.x.ticker)}</span><span>${ratingBadge(o.x.rating)}</span></div><div class="alloc-track"><div class="alloc-fill" style="width:${o.pct}%"></div></div></div><div class="alloc-pct">${o.pct}%</div></div>`).join('')}</article>`;
+}
+
+function renderPortfolios() {
+  if ($('portfolioGrid')) $('portfolioGrid').innerHTML = portfolioCard('Dividend / Income','income','Prioritizes stronger trailing yield while retaining BUY/HOLD discipline.') + portfolioCard('Growth & Appreciation','growth','Leans toward positive EPS-growth opportunities, capped to reduce concentration.') + portfolioCard('Balanced Total Return','balanced','Uses the composite Opportunity Score as the primary allocation signal.');
+}
+
+const glossary = [
+ ['EPS','Earnings Per Share','Net income attributable to ordinary shareholders ÷ weighted-average ordinary shares','Profit earned for each ordinary share. Trend and earnings quality matter.'],
+ ['EPS Growth','Earnings growth','(Current EPS ÷ Prior comparable EPS − 1) × 100','Shows how quickly earnings per share are growing or shrinking.'],
+ ['BVPS','Book Value Per Share','Common equity attributable to ordinary shareholders ÷ ordinary shares outstanding','Especially useful for banks, insurers and asset-heavy companies.'],
+ ['P/B','Price-to-Book','Published StockAnalysis P/B preferred; otherwise JSE close ÷ BVPS','Read together with ROE. Low P/B plus weak ROE can be a value trap.'],
+ ['P/E','Price-to-Earnings','Published StockAnalysis P/E preferred; otherwise JSE close ÷ EPS','Compare with growth, quality, history and peers.'],
+ ['ROE','Return on Equity','Net income ÷ average common shareholders’ equity × 100','For financial companies, interpret together with P/B and capital strength.'],
+ ['Dividend Yield','Income yield','Published StockAnalysis yield preferred; otherwise trailing DPS ÷ JSE close × 100','High yield is not automatically attractive if coverage is weak.'],
+ ['Earnings Yield','Inverse P/E','EPS ÷ share price × 100','Earnings generated for each dollar invested.'],
+ ['Fair Value','Analyst valuation range','Sector-appropriate normalized valuation methods','Analyst-reviewed rather than mechanically scraped.'],
+ ['Buy Zone','Margin-of-safety range','Fair value adjusted for required margin of safety','Target range for attractive new-money entry.'],
+ ['Opportunity Score','Composite score','Valuation 25 + Quality 20 + Growth 20 + Financial Strength 15 + Dividend 10 + Momentum/Catalysts 10','The score supports, but does not replace, the valuation-aware rating.'],
+ ['CALC','Calculated fallback','Used only when a published source ratio is unavailable','SA-published ratios take precedence over dashboard arithmetic.']
+];
+
+function renderGlossary() {
+  if ($('glossaryGrid')) $('glossaryGrid').innerHTML = glossary.map(g=>`<article class="panel glossary-card"><div class="term">${esc(g[0])}</div><h3>${esc(g[1])}</h3><div class="formula">${esc(g[2])}</div><p class="interpretation">${esc(g[3])}</p></article>`).join('');
+}
+
+function signalClass(kind,v,x) {
+  if (v == null) return 'neutral';
+  if (kind==='roe') return v>=15?'good':v>=8?'neutral':'bad';
+  if (kind==='growth') return v>=10?'good':v>=0?'neutral':'bad';
+  if (kind==='yield') return v>=4?'good':v>=2?'neutral':'warn';
+  if (kind==='pe') return v>0&&v<=12?'good':v<=20?'neutral':'warn';
+  if (kind==='pb') { const financial=/bank|financial|insurance|investment|real estate|fund/i.test(x.sector||''); return financial ? (v<=1?'good':v<=1.5?'neutral':'warn') : (v<=2?'neutral':'warn'); }
+  return 'neutral';
+}
+
+function caseCard(x) {
+  const metrics = [['P/E',x.pe,'pe',x.pe==null?statusText(x,'pe'):fmt(x.pe)+'×'],['P/B',x.pb,'pb',x.pb==null?statusText(x,'pb'):fmt(x.pb)+'×'],['ROE',x.roe,'roe',x.roe==null?statusText(x,'roe'):fmt(x.roe)+'%'],['EPS Growth',x.epsGrowth,'growth',x.epsGrowth==null?statusText(x,'epsGrowth'):fmt(x.epsGrowth)+'%'],['Yield',x.divYield,'yield',x.divYield==null?statusText(x,'divYield'):fmt(x.divYield)+'%']];
+  return `<article class="panel case-card"><div class="case-head"><div>${tickerHtml(x)}<h3>${esc(x.company)}</h3><small>${esc(x.sector||'')}</small></div>${ratingBadge(x.rating)}</div><p class="case-thesis">${esc(x.ratingBasis||'No rating basis available')}</p><div class="case-metrics">${metrics.map(m=>`<div class="case-metric ${signalClass(m[2],m[1],x)}"><span>${m[0]}</span><strong>${m[3]}</strong></div>`).join('')}</div><div class="case-footer"><span>Fair Value <strong>${esc(x.fairValue||'N/A')}</strong></span><span>Buy Zone <strong>${esc(x.buyZone||'N/A')}</strong></span><span>Score <strong>${x.score??'N/A'}/100</strong></span></div></article>`;
+}
+
+function renderRatingCase() {
+  if (!$('ratingCaseGrid')) return;
+  const q = ($('caseSearch')?.value||'').toLowerCase();
+  const r = $('caseRating')?.value||'';
+  $('ratingCaseGrid').innerHTML = stocks.filter(x=>(!q||`${x.ticker} ${x.company}`.toLowerCase().includes(q))&&(!r||x.rating===r)).sort((a,b)=>(b.score??-999)-(a.score??-999)).map(caseCard).join('');
+}
+
+function renderOverview() {
+  if (!$('overviewGrid')) return;
+  const top = [...stocks].filter(x=>x.rating==='BUY').sort((a,b)=>(b.score??-999)-(a.score??-999)).slice(0,5);
+  const avoid = [...stocks].filter(x=>x.rating==='AVOID').sort((a,b)=>(a.score??999)-(b.score??999)).slice(0,5);
+  $('overviewGrid').innerHTML = `<article class="panel section-card"><p class="eyebrow">Current opportunities</p><h2>Highest-ranked BUYs</h2><div class="rank-list">${top.map((x,i)=>`<div class="rank-row"><div class="rank-no">${i+1}</div><div class="rank-main"><strong>${esc(x.ticker)} • ${esc(x.company)}</strong><span>${esc(x.ratingBasis||'')}</span></div><div class="rank-score">${x.score}/100</div></div>`).join('')}</div></article><article class="panel section-card"><p class="eyebrow">Risk control</p><h2>Lowest-ranked AVOIDs</h2><div class="rank-list">${avoid.map((x,i)=>`<div class="rank-row"><div class="rank-no">${i+1}</div><div class="rank-main"><strong>${esc(x.ticker)} • ${esc(x.company)}</strong><span>${esc(x.ratingBasis||'')}</span></div><div class="rank-score">${x.score}/100</div></div>`).join('')}</div></article><article class="panel section-card"><p class="eyebrow">Methodology</p><h2>Source hierarchy</h2><p class="section-copy">Official JSE close is authoritative for Jamaica-market price. StockAnalysis-published ratios and fundamentals are preferred where available. CALC is a fallback only. Fair Value, Buy Zone, rating and score remain analyst-reviewed.</p></article>`;
+}
+
+function renderAll() { renderKpis(); renderOverview(); renderStocks(); renderRatingCase(); renderRankings(); renderPortfolios(); renderGlossary(); }
+
+function setTab(name) {
+  const valid = ['overview','stocks','ratingcase','rankings','portfolios','glossary'];
+  if (!valid.includes(name)) name = 'overview';
+  activeTab = name; localStorage.setItem('jse-main-tab',name);
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.toggle('active',b.dataset.tab===name));
+  document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active',p.id===`tab-${name}`));
+}
+
+function showLoadError(err) {
+  console.error('Dashboard load failed',err);
+  if ($('subtitle')) $('subtitle').textContent = 'Unable to load dashboard data';
+  if ($('updatedPill')) $('updatedPill').textContent = 'DATA ERROR';
+  if ($('overviewGrid')) $('overviewGrid').innerHTML = `<article class="panel section-card"><p class="eyebrow">Data load error</p><h2>Dashboard data could not be loaded</h2><p class="section-copy">${esc(err?.message || String(err))}. Refresh the page; if this persists, the data/deployment pipeline requires review.</p></article>`;
+}
+
+async function load() {
+  try {
+    const res = await fetch(`data.json?v=${Date.now()}`,{cache:'no-store'});
+    if (!res.ok) throw new Error(`data.json HTTP ${res.status}`);
+    const d = await res.json();
+    if (!Array.isArray(d.stocks)) throw new Error('data.json does not contain a stocks array');
+    let base = d.stocks;
+    try {
+      const rr = await fetch(`research.json?v=${Date.now()}`,{cache:'no-store'});
+      if (rr.ok) {
+        const rd = await rr.json();
+        const m = new Map((rd.stocks||[]).map(x=>[x.ticker,x]));
+        base = base.map(x => m.has(x.ticker) ? {...m.get(x.ticker),...x, scoreComponents:x.scoreComponents??m.get(x.ticker).scoreComponents, scoreBreakdown:x.scoreBreakdown??m.get(x.ticker).scoreBreakdown} : x);
+      }
+    } catch (e) { console.warn('research overlay unavailable',e); }
+    stocks = base;
+    const jseLinks = stocks.filter(directJse).length;
+    const asOf = d.asOf || d.jseTradeDate || '';
+    if ($('updatedPill')) $('updatedPill').textContent = asOf ? `Market data ${asOf}` : 'Latest available data';
+    if ($('subtitle')) $('subtitle').textContent = `${stocks.length} ordinary shares • ${jseLinks}/${stocks.length} direct JSE instrument links • valuation-aware research`;
+    if ($('sectorFilter')) { $('sectorFilter').innerHTML = '<option value="">All sectors</option>'; [...new Set(stocks.map(x=>x.sector).filter(Boolean))].sort().forEach(s=>$('sectorFilter').insertAdjacentHTML('beforeend',`<option>${esc(s)}</option>`)); }
+    renderAll(); setTab(activeTab);
+  } catch (e) { showLoadError(e); }
+}
+
+document.querySelectorAll('.tab-btn').forEach(b=>b.addEventListener('click',()=>setTab(b.dataset.tab)));
+['search','ratingFilter','sectorFilter','sortSelect'].forEach(id=>$(id)?.addEventListener(id==='search'?'input':'change',()=>{renderKpis();renderStocks()}));
+$('tableViewBtn')?.addEventListener('click',()=>setView('table'));
+$('cardViewBtn')?.addEventListener('click',()=>setView('cards'));
+$('caseSearch')?.addEventListener('input',renderRatingCase);
+$('caseRating')?.addEventListener('change',renderRatingCase);
+
+load();
