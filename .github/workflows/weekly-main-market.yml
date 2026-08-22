@@ -63,6 +63,25 @@ jobs:
         run: npm run refresh:jse
         continue-on-error: true
 
+      - name: Persist auditable six-part Opportunity Scores
+        run: npm run refresh:scores
+
+      - name: Validate refreshed dataset
+        shell: bash
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const d=JSON.parse(fs.readFileSync('data.json','utf8'));
+          if(!Array.isArray(d.stocks)||!d.stocks.length) throw new Error('stocks missing');
+          const badLinks=d.stocks.filter(x=>!/^https:\/\/www\.jamstockex\.com\/trading\/instruments\/\?instrument=\d+$/.test(x.jseUrl||''));
+          if(badLinks.length) throw new Error('Missing direct JSE instrument URLs: '+badLinks.map(x=>x.ticker).join(','));
+          const badScores=d.stocks.filter(x=>{const c=x.scoreComponents||{};const vals=[c.valuation,c.quality,c.growth,c.financialStrength,c.dividend,c.momentum];return vals.some(v=>!Number.isFinite(Number(v)))||vals.reduce((a,b)=>a+Number(b),0)!==Math.round(Number(x.score));});
+          if(badScores.length) throw new Error('Invalid scoreComponents: '+badScores.map(x=>x.ticker).join(','));
+          const ghl=d.stocks.find(x=>x.ticker==='GHL');
+          if(ghl && !String(ghl.saUrl||'').includes('/quote/ttse/GHL/')) throw new Error('GHL is not using TTSE StockAnalysis primary listing');
+          console.log(`Validated ${d.stocks.length} stocks, direct links, scoreComponents and GHL provenance`);
+          NODE
+
       - name: Archive weekly snapshot
         shell: bash
         run: |
@@ -78,16 +97,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Save generated outputs before synchronizing with the latest branch tip.
           cp data.json /tmp/data.json
           DATE=$(TZ=America/Jamaica date +%F)
           cp "history/${DATE}.json" "/tmp/history-${DATE}.json"
 
-          # Move cleanly to the current main tip instead of rebasing generated JSON.
           git fetch origin main
           git reset --hard origin/main
 
-          # Re-apply only this run's generated outputs on top of the latest branch.
           cp /tmp/data.json data.json
           mkdir -p history
           cp "/tmp/history-${DATE}.json" "history/${DATE}.json"
