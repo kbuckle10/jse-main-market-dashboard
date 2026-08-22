@@ -66,6 +66,9 @@ jobs:
       - name: Persist auditable six-part Opportunity Scores
         run: npm run refresh:scores
 
+      - name: Generate material weekly analyst delta report
+        run: npm run report:weekly
+
       - name: Validate refreshed dataset
         shell: bash
         run: |
@@ -98,6 +101,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           cp data.json /tmp/data.json
+          cp weekly-report.json /tmp/weekly-report.json
           DATE=$(TZ=America/Jamaica date +%F)
           cp "history/${DATE}.json" "/tmp/history-${DATE}.json"
 
@@ -105,10 +109,11 @@ jobs:
           git reset --hard origin/main
 
           cp /tmp/data.json data.json
+          cp /tmp/weekly-report.json weekly-report.json
           mkdir -p history
           cp "/tmp/history-${DATE}.json" "history/${DATE}.json"
 
-          git add data.json "history/${DATE}.json"
+          git add data.json weekly-report.json "history/${DATE}.json"
           if git diff --cached --quiet; then
             echo "No dashboard data changes to commit."
           else
