@@ -34,9 +34,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          node --check score-engine.js
           node --check app.js
           node -e "const fs=require('fs'); const d=JSON.parse(fs.readFileSync('data.json','utf8')); if(!Array.isArray(d.stocks)||!d.stocks.length) throw new Error('data.json stocks missing/empty'); console.log('Validated',d.stocks.length,'stocks');"
-          node -e "const fs=require('fs'); const h=fs.readFileSync('index.html','utf8'); const scripts=[...h.matchAll(/<script[^>]+src=\"([^\"]+)\"/g)].map(m=>m[1]); if(scripts.length!==1||!scripts[0].startsWith('app.js?')) throw new Error('index.html must load exactly one versioned app.js renderer: '+JSON.stringify(scripts)); console.log('Validated single renderer',scripts[0]);"
+          node -e "const fs=require('fs'); const h=fs.readFileSync('index.html','utf8'); const scripts=[...h.matchAll(/<script[^>]+src=\"([^\"]+)\"/g)].map(m=>m[1]); if(scripts.length!==2||!scripts[0].startsWith('score-engine.js?')||!scripts[1].startsWith('app.js?')) throw new Error('index.html must load score engine then app renderer: '+JSON.stringify(scripts)); console.log('Validated score engine + renderer',scripts);"
           if [ -f research.json ]; then
             node -e "const fs=require('fs'); const d=JSON.parse(fs.readFileSync('research.json','utf8')); if(!Array.isArray(d.stocks)) throw new Error('research.json stocks missing'); console.log('Validated research overlay',d.stocks.length);"
           fi
