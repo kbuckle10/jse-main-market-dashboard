@@ -1,3 +1,4 @@
+import './normalize-metric-states.mjs';
 import fs from 'node:fs';
 const n=v=>v==null||v===''||Number.isNaN(Number(v))?null:Number(v);
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
