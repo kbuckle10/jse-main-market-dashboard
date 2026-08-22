@@ -23,14 +23,50 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Validate dashboard assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s index.html
+          test -s styles.css
+          test -s app.js
+          test -s data.json
+          node --check app.js
+          python - <<'PY'
+          import json
+          with open('data.json', encoding='utf-8') as f:
+              d=json.load(f)
+          stocks=d.get('stocks')
+          assert isinstance(stocks,list) and stocks, 'data.json stocks array missing/empty'
+          print(f'Validated data.json: {len(stocks)} stocks; asOf={d.get("asOf")}')
+          PY
+
+      - name: Build clean Pages site
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf _site
+          mkdir -p _site
+          cp index.html styles.css app.js data.json _site/
+          for f in research.json score-details.css score-details.js crosslisted-ui.js data-quality-ui.js refresh-meta-ui.js; do
+            if [ -f "$f" ]; then cp "$f" _site/; fi
+          done
+          touch _site/.nojekyll
+          printf 'JSE Main Market dashboard deployment\n' > _site/deploy-health.txt
+          printf 'commit=%s\n' "${GITHUB_SHA}" >> _site/deploy-health.txt
+          printf 'built_at=%s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> _site/deploy-health.txt
+          echo 'Published files:'
+          find _site -maxdepth 1 -type f -printf '%f %s bytes\n' | sort
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
+
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-# Manual redeploy trigger after GitHub Pages source was enabled.
