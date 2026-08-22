@@ -9,10 +9,11 @@
     "refresh:sa": "node scripts/refresh-sa-performance.mjs",
     "refresh:crosslisted": "node scripts/refresh-crosslisted-primary.mjs",
     "refresh:sa-ratios": "node scripts/enrich-sa-ratios.mjs",
+    "normalize:states": "node scripts/normalize-metric-states.mjs",
     "refresh:jse": "node scripts/refresh-jse-market.mjs",
     "refresh:scores": "node scripts/persist-score-components.mjs",
     "report:weekly": "node scripts/generate-weekly-material-report.mjs",
-    "refresh:weekly": "npm run apply:research && npm run refresh:jse-links && npm run patch:dashboard-links && npm run refresh:sa && npm run refresh:crosslisted && npm run refresh:sa-ratios && npm run refresh:jse && npm run refresh:scores && npm run report:weekly"
+    "refresh:weekly": "npm run apply:research && npm run refresh:jse-links && npm run patch:dashboard-links && npm run refresh:sa && npm run refresh:crosslisted && npm run refresh:sa-ratios && npm run normalize:states && npm run refresh:jse && npm run refresh:scores && npm run report:weekly"
   },
   "devDependencies": {
     "playwright": "1.55.0"
