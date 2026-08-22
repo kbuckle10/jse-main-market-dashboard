@@ -1,10 +1,53 @@
 {
-  "generatedAt": "2026-08-22T13:22:54.406Z",
-  "marketDataDate": "2026-08-22",
-  "previousSnapshot": "2026-08-21.json",
+  "generatedAt": "2026-08-22T13:48:33.607Z",
+  "marketDataDate": "2026-08-21",
+  "previousSnapshot": "2026-08-19.json",
   "universeCount": 53,
   "ratingChanges": [],
-  "zoneChanges": [],
+  "zoneChanges": [
+    {
+      "ticker": "SJ",
+      "from": "IN",
+      "to": "ABOVE",
+      "price": 41.09,
+      "buyZone": "J$36–41"
+    },
+    {
+      "ticker": "SALF",
+      "from": "ABOVE",
+      "to": "IN",
+      "price": 2.49,
+      "buyZone": "J$2.40–2.50"
+    },
+    {
+      "ticker": "JMMBGL",
+      "from": "IN",
+      "to": "ABOVE",
+      "price": 15.15,
+      "buyZone": "J$13–15"
+    },
+    {
+      "ticker": "JP",
+      "from": "ABOVE",
+      "to": "IN",
+      "price": 19.03,
+      "buyZone": "J$18–21"
+    },
+    {
+      "ticker": "QWI",
+      "from": "ABOVE",
+      "to": "IN",
+      "price": 0.69,
+      "buyZone": "J$0.60–0.72"
+    },
+    {
+      "ticker": "VMIL",
+      "from": "IN",
+      "to": "ABOVE",
+      "price": 1.61,
+      "buyZone": "J$1.40–1.60"
+    }
+  ],
   "weeklyMoves": [
     {
       "ticker": "MTL",
@@ -188,8 +231,36 @@
           "pct": 11
         }
       ],
-      "changes": [],
-      "exits": []
+      "changes": [
+        {
+          "ticker": "GHL",
+          "pct": 16,
+          "previousPct": 19,
+          "delta": -3
+        },
+        {
+          "ticker": "SIL",
+          "pct": 13,
+          "previousPct": 0,
+          "delta": 13
+        },
+        {
+          "ticker": "EPLY",
+          "pct": 11,
+          "previousPct": 0,
+          "delta": 11
+        }
+      ],
+      "exits": [
+        {
+          "ticker": "GK",
+          "previousPct": 10
+        },
+        {
+          "ticker": "SGJ",
+          "previousPct": 10
+        }
+      ]
     },
     "growth": {
       "now": [
@@ -222,8 +293,40 @@
           "pct": 11
         }
       ],
-      "changes": [],
-      "exits": []
+      "changes": [
+        {
+          "ticker": "SML",
+          "pct": 15,
+          "previousPct": 0,
+          "delta": 15
+        },
+        {
+          "ticker": "SALF",
+          "pct": 15,
+          "previousPct": 0,
+          "delta": 15
+        },
+        {
+          "ticker": "SIL",
+          "pct": 15,
+          "previousPct": 0,
+          "delta": 15
+        }
+      ],
+      "exits": [
+        {
+          "ticker": "KW",
+          "previousPct": 16
+        },
+        {
+          "ticker": "CPJ",
+          "previousPct": 16
+        },
+        {
+          "ticker": "SJ",
+          "previousPct": 14
+        }
+      ]
     },
     "balanced": {
       "now": [
