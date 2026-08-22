@@ -10,12 +10,25 @@ function growth(x){const g=n(x.epsGrowth),m=x.saAnalystMetrics||{},margin=n(m.op
 function strength(x){const m=x.saAnalystMetrics||{},fin=isFin(x);if(fin){const roe=n(x.roe),roa=n(m.roa),nm=n(m.netMargin),a=roe==null?.5:clamp(roe/15,0,1),b=roa==null?.5:clamp(roa/2,0,1),c=nm==null?.5:clamp(nm/18,0,1);return clamp(Math.round((a*.45+b*.25+c*.3)*15),0,15)}const cr=n(m.currentRatio),de=n(m.debtEquity),ic=n(m.interestCoverage),a=cr==null?.5:cr>=2?1:cr>=1.5?.85:cr>=1?.6:.25,b=de==null?.5:de<=.3?1:de<=.7?.8:de<=1.2?.55:.25,c=ic==null?.5:ic>=6?1:ic>=3?.8:ic>=1.5?.55:.2;return clamp(Math.round((a*.34+b*.33+c*.33)*15),0,15)}
 const dividend=x=>{const y=n(x.divYield);return y==null?5:y>=6?10:y>=4?8:y>=2?6:y>0?4:1};
 function momentum(x){const vals=[[x.w1,.2],[x.m1,.3],[x.m3,.5]];let sum=0,w=0;for(const [v,wt] of vals){const z=n(v);if(z==null)continue;sum+=clamp((z+10)/20,0,1)*wt;w+=wt}return Math.round((w?sum/w:.5)*10)}
-const MAX={valuation:25,quality:20,growth:20,financialStrength:15,dividend:10,momentum:10};
-function calibrate(base,target){target=n(target);if(target==null)return base;target=clamp(Math.round(target),0,100);let out={...base},sum=Object.values(out).reduce((a,b)=>a+b,0);if(!sum)return out;const factor=target/sum;for(const k of Object.keys(out))out[k]=clamp(Math.round(out[k]*factor),0,MAX[k]);sum=Object.values(out).reduce((a,b)=>a+b,0);let diff=target-sum,guard=0;while(diff!==0&&guard++<300){const keys=Object.keys(out).sort((a,b)=>diff>0?(MAX[b]-out[b])-(MAX[a]-out[a]):out[b]-out[a]);let moved=false;for(const k of keys){if(diff>0&&out[k]<MAX[k]){out[k]++;diff--;moved=true}else if(diff<0&&out[k]>0){out[k]--;diff++;moved=true}if(diff===0)break}if(!moved)break}return out}
 const d=JSON.parse(fs.readFileSync('data.json','utf8'));
-let derived=0,explicit=0;
-for(const x of d.stocks||[]){if(x.scoreComponents&&Object.keys(x.scoreComponents).length>=6){explicit++;continue}const base={valuation:valuation(x),quality:quality(x),growth:growth(x),financialStrength:strength(x),dividend:dividend(x),momentum:momentum(x)};x.scoreComponents=calibrate(base,x.score);x.scoreComponentMethod='metric-calibrated-v1';derived++;}
+let derived=0,explicit=0,revised=0;
+for(const x of d.stocks||[]){
+  let c=x.scoreComponents;
+  const valid=c&&['valuation','quality','growth','financialStrength','dividend','momentum'].every(k=>Number.isFinite(Number(c[k])));
+  if(valid){explicit++;c={valuation:Number(c.valuation),quality:Number(c.quality),growth:Number(c.growth),financialStrength:Number(c.financialStrength),dividend:Number(c.dividend),momentum:Number(c.momentum)};x.scoreComponents=c;x.scoreComponentMethod=x.scoreComponentMethod||'analyst-explicit';}
+  else {c={valuation:valuation(x),quality:quality(x),growth:growth(x),financialStrength:strength(x),dividend:dividend(x),momentum:momentum(x)};x.scoreComponents=c;x.scoreComponentMethod='metric-evidence-v2';derived++;}
+  const sum=Object.values(c).reduce((a,b)=>a+Number(b),0);
+  if(Math.round(Number(x.score))!==sum){x.priorScore=x.score;x.score=sum;revised++;}
+  x.scoreComponentEvidence={
+    valuation:`${isFin(x)?'financial-sector P/B-led':'P/E-led'} valuation; P/E ${x.pe??'N/A'}, P/B ${x.pb??'N/A'}, price ${x.price??'N/A'}, buy zone ${x.buyZone??'N/A'}, fair value ${x.fairValue??'N/A'}`,
+    quality:`ROE ${x.roe??'N/A'}%; ROIC ${x.saAnalystMetrics?.roic??'N/A'}%; net margin ${x.saAnalystMetrics?.netMargin??'N/A'}%`,
+    growth:`EPS growth ${x.epsGrowth??'N/A'}%; operating margin ${x.saAnalystMetrics?.operatingMargin??'N/A'}%`,
+    financialStrength:isFin(x)?`Financial-sector capital-return proxy: ROE ${x.roe??'N/A'}%, ROA ${x.saAnalystMetrics?.roa??'N/A'}%, net margin ${x.saAnalystMetrics?.netMargin??'N/A'}%`:`Current ratio ${x.saAnalystMetrics?.currentRatio??'N/A'}, debt/equity ${x.saAnalystMetrics?.debtEquity??'N/A'}, interest coverage ${x.saAnalystMetrics?.interestCoverage??'N/A'}`,
+    dividend:`Trailing dividend yield ${x.divYield??'N/A'}%`,
+    momentum:`1W ${x.w1??'N/A'}%, 1M ${x.m1??'N/A'}%, 3M ${x.m3??'N/A'}%`
+  };
+}
 d.scoreComponentsUpdated=new Date().toISOString();
 fs.writeFileSync('data.json',JSON.stringify(d,null,2)+'\n');
-console.log(`scoreComponents: explicit=${explicit} derived=${derived} total=${(d.stocks||[]).length}`);
+console.log(`scoreComponents: explicit=${explicit} derived=${derived} revisedTotals=${revised} total=${(d.stocks||[]).length}`);
 for(const x of d.stocks||[]){const c=x.scoreComponents||{};const sum=(c.valuation||0)+(c.quality||0)+(c.growth||0)+(c.financialStrength||0)+(c.dividend||0)+(c.momentum||0);if(sum!==Math.round(Number(x.score))) throw new Error(`${x.ticker}: components ${sum} != score ${x.score}`)}
