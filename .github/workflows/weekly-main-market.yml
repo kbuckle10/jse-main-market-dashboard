@@ -3,7 +3,7 @@ name: Weekly JSE Main Market Refresh
 on:
   workflow_dispatch:
   schedule:
-    # 8:00 AM Jamaica (UTC-5) every Saturday
+    # 8:00 AM Jamaica (UTC-5) every Saturday; analyst-coordinated refresh 2026-08-29
     - cron: '0 13 * * 6'
   push:
     branches: [main]
