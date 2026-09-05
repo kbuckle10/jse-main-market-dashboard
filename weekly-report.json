@@ -1,65 +1,103 @@
 {
-  "generatedAt": "2026-08-29T17:17:15.289Z",
-  "marketDataDate": "2026-08-28",
-  "previousSnapshot": "2026-08-22.json",
+  "generatedAt": "2026-09-05T13:26:46.113Z",
+  "marketDataDate": "2026-09-04",
+  "previousSnapshot": "2026-08-29.json",
   "universeCount": 53,
   "ratingChanges": [],
   "zoneChanges": [
     {
       "ticker": "SJ",
-      "from": "ABOVE",
-      "to": "IN",
-      "price": 40.25,
+      "from": "IN",
+      "to": "ABOVE",
+      "price": 42.99,
       "buyZone": "J$36–41"
     },
     {
-      "ticker": "SALF",
+      "ticker": "CPJ",
       "from": "IN",
       "to": "ABOVE",
-      "price": 2.65,
-      "buyZone": "J$2.40–2.50"
+      "price": 6.78,
+      "buyZone": "J$5–6"
+    },
+    {
+      "ticker": "MASSY",
+      "from": "ABOVE",
+      "to": "IN",
+      "price": 70,
+      "buyZone": "J$65–72"
+    },
+    {
+      "ticker": "JP",
+      "from": "IN",
+      "to": "BELOW",
+      "price": 17.81,
+      "buyZone": "J$18–21"
+    },
+    {
+      "ticker": "KPREIT",
+      "from": "ABOVE",
+      "to": "IN",
+      "price": 10.5,
+      "buyZone": "J$9.00–10.50"
     },
     {
       "ticker": "LASM",
-      "from": "ABOVE",
-      "to": "IN",
-      "price": 7.8,
+      "from": "IN",
+      "to": "ABOVE",
+      "price": 7.81,
       "buyZone": "J$6.50–7.80"
     },
     {
-      "ticker": "QWI",
-      "from": "IN",
-      "to": "ABOVE",
-      "price": 0.74,
-      "buyZone": "J$0.60–0.72"
-    },
-    {
-      "ticker": "SELECTF",
+      "ticker": "VMIL",
       "from": "ABOVE",
       "to": "IN",
-      "price": 0.4,
-      "buyZone": "≤J$0.42"
+      "price": 1.5,
+      "buyZone": "J$1.40–1.60"
     },
     {
       "ticker": "SRFJMD",
-      "from": "BELOW",
-      "to": "IN",
-      "price": 8.59,
+      "from": "IN",
+      "to": "BELOW",
+      "price": 7.31,
       "buyZone": "J$8–10"
     }
   ],
   "weeklyMoves": [
     {
-      "ticker": "MTL",
-      "w1": 29.57,
-      "price": 0.0501,
+      "ticker": "PAL",
+      "w1": 25.53,
+      "price": 0.45,
+      "rating": "AVOID"
+    },
+    {
+      "ticker": "CPJ",
+      "w1": 21.85,
+      "price": 6.78,
+      "rating": "BUY"
+    },
+    {
+      "ticker": "JP",
+      "w1": -19.78,
+      "price": 17.81,
       "rating": "WATCH"
     },
     {
-      "ticker": "BRG",
-      "w1": 14.68,
-      "price": 6.21,
-      "rating": "AVOID"
+      "ticker": "MTL",
+      "w1": 15.16,
+      "price": 10.76,
+      "rating": "WATCH"
+    },
+    {
+      "ticker": "CAR",
+      "w1": -14.18,
+      "price": 29.33,
+      "rating": "WATCH"
+    },
+    {
+      "ticker": "ASBH",
+      "w1": -14.08,
+      "price": 25,
+      "rating": "WATCH"
     },
     {
       "ticker": "MPCCEL",
@@ -68,88 +106,76 @@
       "rating": "AVOID"
     },
     {
-      "ticker": "ENERGY",
-      "w1": -13.46,
-      "price": 1.03,
-      "rating": "AVOID"
-    },
-    {
-      "ticker": "PROVEN",
-      "w1": 11.89,
-      "price": 10.13,
-      "rating": "WATCH"
-    },
-    {
-      "ticker": "GENAC",
-      "w1": -10.4,
-      "price": 8.05,
-      "rating": "HOLD"
-    },
-    {
-      "ticker": "SRFJMD",
-      "w1": 9.85,
-      "price": 8.59,
+      "ticker": "SELECTF",
+      "w1": -13.64,
+      "price": 0.42,
       "rating": "WATCH"
     },
     {
       "ticker": "WIPT",
-      "w1": -9.16,
-      "price": 9.15,
+      "w1": 10.86,
+      "price": 9.54,
       "rating": "AVOID"
     },
     {
-      "ticker": "LASD",
-      "w1": 8.65,
-      "price": 3.12,
-      "rating": "BUY"
-    },
-    {
-      "ticker": "JMMBGL",
-      "w1": 7.91,
-      "price": 16.86,
-      "rating": "WATCH"
-    },
-    {
-      "ticker": "MJE",
-      "w1": -7.54,
-      "price": 6.5,
-      "rating": "AVOID"
-    },
-    {
-      "ticker": "VMIL",
-      "w1": 7.24,
-      "price": 1.63,
-      "rating": "WATCH"
-    },
-    {
-      "ticker": "MGL",
-      "w1": 7.02,
-      "price": 5.18,
-      "rating": "AVOID"
-    },
-    {
-      "ticker": "EPLY",
-      "w1": 6.79,
-      "price": 33.92,
+      "ticker": "GENAC",
+      "w1": 10.32,
+      "price": 8.89,
       "rating": "HOLD"
     },
     {
-      "ticker": "BIL",
-      "w1": 6.09,
-      "price": 67.9,
+      "ticker": "PROVEN",
+      "w1": -10.24,
+      "price": 8.92,
       "rating": "WATCH"
     },
     {
-      "ticker": "PAL",
-      "w1": -6,
-      "price": 0.56,
-      "rating": "AVOID"
+      "ticker": "PJAM",
+      "w1": -9.09,
+      "price": 41.02,
+      "rating": "HOLD"
+    },
+    {
+      "ticker": "XFUND",
+      "w1": 9.01,
+      "price": 7.84,
+      "rating": "WATCH"
     },
     {
       "ticker": "KW",
-      "w1": -5.88,
-      "price": 33.66,
+      "w1": 7.78,
+      "price": 34.06,
       "rating": "BUY"
+    },
+    {
+      "ticker": "FIRSTROCKJMD",
+      "w1": -7.41,
+      "price": 6.25,
+      "rating": "AVOID"
+    },
+    {
+      "ticker": "QWI",
+      "w1": -6.76,
+      "price": 0.73,
+      "rating": "BUY"
+    },
+    {
+      "ticker": "SALF",
+      "w1": -5.75,
+      "price": 2.55,
+      "rating": "HOLD"
+    },
+    {
+      "ticker": "ENERGY",
+      "w1": 5.56,
+      "price": 1,
+      "rating": "AVOID"
+    },
+    {
+      "ticker": "TJH",
+      "w1": -5.41,
+      "price": 10.36,
+      "rating": "WATCH"
     }
   ],
   "valuationChanges": [],
@@ -186,11 +212,11 @@
       "now": [
         {
           "ticker": "MASSY",
-          "pct": 17
+          "pct": 18
         },
         {
           "ticker": "GHL",
-          "pct": 16
+          "pct": 17
         },
         {
           "ticker": "JSE",
@@ -202,7 +228,7 @@
         },
         {
           "ticker": "SIL",
-          "pct": 14
+          "pct": 13
         },
         {
           "ticker": "EPLY",
@@ -210,7 +236,7 @@
         },
         {
           "ticker": "LASD",
-          "pct": 11
+          "pct": 10
         }
       ],
       "changes": [],
