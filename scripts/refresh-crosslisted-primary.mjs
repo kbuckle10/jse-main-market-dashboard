@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import { chromium } from 'playwright';
 
 const DATA_FILE='data.json';
-const CONFIG={GHL:{market:'ttse',primaryTicker:'GHL',nativeCurrency:'TTD'}};
+const CONFIG={GHL:{market:'ttse',primaryTicker:'GHL',nativeCurrency:'TTD',country:'Trinidad & Tobago'},MASSY:{market:'ttse',primaryTicker:'MASSY',nativeCurrency:'TTD',country:'Trinidad & Tobago'}};
 const PERIODS=[['m1','1M'],['ytd','YTD'],['m3','3M'],['m6','6M'],['y1','1Y']];
 const read=()=>JSON.parse(fs.readFileSync(DATA_FILE,'utf8'));
 const write=d=>fs.writeFileSync(DATA_FILE,JSON.stringify(d,null,2)+'\n');
@@ -28,7 +28,7 @@ for(const [ticker,cfg] of Object.entries(CONFIG)){
   const hp=await ctx.newPage();try{if(await go(hp,`https://stockanalysis.com/quote/${cfg.market}/${cfg.primaryTicker}/history/`)){await hp.waitForSelector('table tbody tr',{timeout:12000}).catch(()=>{});const rows=await historyRows(hp),w1=histReturn(rows,7);if(Number.isFinite(w1))s.w1=Number(w1.toFixed(2))}}finally{await hp.close()}
   const st=parseStats(statsText+'\n'+overviewText),ov=parseStats(overviewText),dv=parseDividend(statsText+'\n'+dividend);
   s.saMarket=cfg.market;s.saTicker=cfg.primaryTicker;s.saUrl=`https://stockanalysis.com/quote/${cfg.market}/${cfg.primaryTicker}/`;
-  s.primaryListing={market:cfg.market.toUpperCase(),ticker:cfg.primaryTicker,currency:cfg.nativeCurrency,source:'StockAnalysis',url:s.saUrl};
+  s.domicile=cfg.country;s.saCountry=cfg.country;s.domicileStatus='verified-primary-listing';s.primaryListing={market:cfg.market.toUpperCase(),ticker:cfg.primaryTicker,currency:cfg.nativeCurrency,source:'StockAnalysis',url:s.saUrl};
   s.fundamentalSource=`SA ${cfg.market.toUpperCase()} primary`;s.performanceSource=`SA ${cfg.market.toUpperCase()} primary`;s.nativeCurrency=cfg.nativeCurrency;
   // Preserve the actual primary-listing StockAnalysis fundamentals in their native currency.
   if(st.eps!=null){s.eps=Number(st.eps.toFixed(4));s.epsSource=`SA ${cfg.market.toUpperCase()}`;s.epsCurrency=cfg.nativeCurrency;}
