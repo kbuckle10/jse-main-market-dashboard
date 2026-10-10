@@ -51,4 +51,4 @@ try {
 }finally{await browser.close()}
 await fs.mkdir('research',{recursive:true});
 await fs.writeFile('research/sa-cashflows-batch.json',JSON.stringify({generatedAt:new Date().toISOString(),results},null,2)+'\n');
-if(results.some(r=>r.status==='error')) process.exitCode=1;
+if(results.some(r=>r.status==='error')) { console.error('Some StockAnalysis pages unavailable; valid records will still be published.'); if(process.env.STRICT_SA_COLLECTION==='1') process.exitCode=1; }
