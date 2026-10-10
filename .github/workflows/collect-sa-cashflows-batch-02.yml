@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
-      contents: read
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -19,6 +19,13 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - name: Parse five additional cash-flow statements
         run: node scripts/collect-sa-cashflows.mjs SEP KW SJ SGJ CPJ
+      - name: Validate and publish collected cash flows
+        run: |
+          node scripts/merge-sa-cashflows.mjs research/sa-cashflows-batch.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cashflow-data.json
+          git diff --cached --quiet || (git commit -m "Update dashboard with validated SA cash-flow Batch 2" && git push)
       - uses: actions/upload-artifact@v4
         if: always()
         with:
