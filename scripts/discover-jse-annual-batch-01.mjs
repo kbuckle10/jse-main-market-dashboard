@@ -11,12 +11,12 @@ for (const ticker of tickers) {
     entry.httpStatus=response.status;
     if (!response.ok) throw Error('HTTP '+response.status);
     const html=await response.text();
-    const matches=[...html.matchAll(/href=["'](https?:\\/\\/[^"']+|\\/[^"']+)["'][^>]*>([\\s\\S]{0,300}?)<\\/a>/gi)];
+    const matches=[...html.matchAll(/href=["'](https?:\/\/[^"']+|\/[^"']+)["'][^>]*>([\s\S]{0,300}?)<\/a>/gi)];
     const seen=new Set();
     for(const m of matches){
-      const label=m[2].replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim();
+      const label=m[2].replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
       const url=new URL(m[1],archiveUrl).href;
-      if (!url.startsWith('https://www.jamstockex.com/') || !/annual.report|annual-report|\\.pdf/i.test(label+' '+url) || seen.has(url)) continue;
+      if (!url.startsWith('https://www.jamstockex.com/') || !/annual.report|annual-report|\.pdf/i.test(label+' '+url) || seen.has(url)) continue;
       seen.add(url);
       entry.reports.push({url,title:label,verifiedTicker:false,statementExtracted:false});
     }
@@ -26,4 +26,4 @@ for (const ticker of tickers) {
   console.log(ticker,entry.status,entry.reports.length);
 }
 await fs.mkdir('research',{recursive:true});
-await fs.writeFile('research/jse-annual-batch-01.json',JSON.stringify(output,null,2)+'\\n');
+await fs.writeFile('research/jse-annual-batch-01.json',JSON.stringify(output,null,2)+'\n');
