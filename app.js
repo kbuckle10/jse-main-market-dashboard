@@ -74,7 +74,7 @@ function row(x){
     : src('SA','StockAnalysis price',saUrl(x)));
   return `<tr>
     <td>${tickerHtml(x)}</td>
-    <td>${esc(x.company)} <a class="sa-link" href="${saUrl(x)}" target="_blank" rel="noopener">SA↗</a></td>
+    <td>${esc(x.company)} <a class="sa-link" href="${saUrl(x)}" target="_blank" rel="noopener">SA↗</a> <button type="button" class="cashflow-jump" data-cf-ticker="${esc(x.ticker)}" style="color:#22c55e;cursor:pointer;background:none;border:0;text-decoration:underline">Cash Flow ↗</button></td>
     <td>${esc(x.sector || 'N/A')}</td><td>${esc(x.ratingBasis || 'N/A')}</td>
     <td>${x.price==null?'N/A':unit(x)+fmt(x.price)+priceBadge}</td>
     <td>${x.eps==null?statusText(x,'eps'):fmt(x.eps)+metricBadge(x,'eps')}</td>
@@ -100,7 +100,7 @@ function card(x){
       <div class="metric"><span>Score</span>${scoreCell(x)}</div><div class="metric"><span>Rating</span><strong>${ratingBadge(x.rating)}</strong></div>
     </div>
     <div class="range-grid"><div class="range-box"><span>Fair Value</span><strong>${esc(x.fairValue||'N/A')}</strong></div><div class="range-box"><span>Buy Zone</span><strong>${esc(x.buyZone||'N/A')}</strong></div></div>
-    <div class="card-footer"><div class="card-actions">${directJse(x)?`<a href="${directJse(x)}" target="_blank" rel="noopener">JSE ↗</a>`:''}<a href="${saUrl(x)}" target="_blank" rel="noopener">SA ↗</a></div>${ratingBadge(x.rating)}</div>
+    <div class="card-footer"><div class="card-actions">${directJse(x)?`<a href="${directJse(x)}" target="_blank" rel="noopener">JSE ↗</a>`:''}<a href="${saUrl(x)}" target="_blank" rel="noopener">SA ↗</a><button type="button" class="cashflow-jump" data-cf-ticker="${esc(x.ticker)}" style="color:#22c55e;cursor:pointer;background:none;border:0;text-decoration:underline">Cash Flow ↗</button></div>${ratingBadge(x.rating)}</div>
   </article>`;
 }
 function renderKpis(){
