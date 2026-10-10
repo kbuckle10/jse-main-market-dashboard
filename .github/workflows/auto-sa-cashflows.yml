@@ -1,4 +1,5 @@
 name: Collect All 54 StockAnalysis Cash Flows
+# Rerun after TTSE ticker routing update (2026-10-10)
 on:
   workflow_dispatch:
   schedule:
