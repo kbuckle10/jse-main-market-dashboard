@@ -1,0 +1,27 @@
+name: Collect StockAnalysis Cash Flows (Batch 1)
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/collect-sa-cashflows.yml'
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Parse cash-flow statements
+        run: node scripts/collect-sa-cashflows.mjs CCC CAR GK TJH NCBFG
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sa-cashflows-batch-01
+          path: research/sa-cashflows-batch.json
+          if-no-files-found: warn
