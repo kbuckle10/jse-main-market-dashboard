@@ -1,0 +1,48 @@
+name: Auto Collect and Publish SA Cash Flows
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 7 * * *'
+  push:
+    paths:
+      - '.github/workflows/auto-sa-cashflows.yml'
+permissions:
+  contents: write
+concurrency:
+  group: sa-cashflow-publish
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Select five missing stocks
+        id: select
+        run: |
+          node scripts/next-sa-cashflow-batch.mjs
+          echo "tickers=$(cat research/next-sa-cashflow-tickers.txt)" >> "$GITHUB_OUTPUT"
+      - name: Collect and check StockAnalysis cash flows
+        if: steps.select.outputs.tickers != ''
+        run: node scripts/collect-sa-cashflows.mjs ${{ steps.select.outputs.tickers }}
+      - name: Merge validated records and update live dashboard
+        if: steps.select.outputs.tickers != ''
+        run: |
+          node scripts/merge-sa-cashflows.mjs research/sa-cashflows-batch.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cashflow-data.json
+          git diff --cached --quiet || (git commit -m "Auto-publish validated SA cash-flow batch" && git push)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sa-cashflows-auto
+          path: research/sa-cashflows-batch.json
+          if-no-files-found: ignore
