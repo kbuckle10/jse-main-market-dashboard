@@ -174,7 +174,7 @@ const glossary=[['EPS','Earnings Per Share','Net income attributable to ordinary
 function renderGlossary(){if($('glossaryGrid'))$('glossaryGrid').innerHTML=glossary.map(g=>`<article class="panel glossary-card"><div class="term">${esc(g[0])}</div><h3>${esc(g[1])}</h3><div class="formula">${esc(g[2])}</div><p class="interpretation">${esc(g[3])}</p></article>`).join('');}
 function renderAll(){renderKpis();renderOverview();renderStocks();renderRatingCase();renderRankings();renderPortfolios();renderGlossary();}
 function setTab(name){
-  const valid=['overview','stocks','ratingcase','rankings','portfolios','glossary']; if(!valid.includes(name))name='overview';
+  const valid=['overview','stocks','ratingcase','rankings','portfolios','cashflow','glossary']; if(!valid.includes(name))name='overview';
   activeTab=name; localStorage.setItem('jse-main-tab',name);
   document.querySelectorAll('.tab-btn').forEach(b=>b.classList.toggle('active',b.dataset.tab===name));
   document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active',p.id===`tab-${name}`));
