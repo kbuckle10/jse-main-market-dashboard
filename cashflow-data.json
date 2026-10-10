@@ -20,6 +20,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 8256,
+          "unleveredFreeCashFlow": 8256,
           "method": "conventional_fcf"
         },
         {
@@ -31,6 +33,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 2671,
+          "unleveredFreeCashFlow": 2671,
           "method": "conventional_fcf"
         },
         {
@@ -42,6 +46,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 4610,
+          "unleveredFreeCashFlow": 4610,
           "method": "conventional_fcf"
         },
         {
@@ -53,6 +59,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 4464,
+          "unleveredFreeCashFlow": 4468,
           "method": "conventional_fcf"
         },
         {
@@ -64,6 +72,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 1509,
+          "unleveredFreeCashFlow": 1526,
           "method": "conventional_fcf"
         },
         {
@@ -75,6 +85,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 4426,
+          "unleveredFreeCashFlow": 4545,
           "method": "conventional_fcf"
         }
       ]
@@ -96,6 +108,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 7198,
+          "unleveredFreeCashFlow": 7240,
           "method": "conventional_fcf"
         },
         {
@@ -107,6 +121,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 6018,
+          "unleveredFreeCashFlow": 6065,
           "method": "conventional_fcf"
         },
         {
@@ -118,6 +134,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 5182,
+          "unleveredFreeCashFlow": 5203,
           "method": "conventional_fcf"
         },
         {
@@ -129,6 +147,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -140,6 +160,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 3363,
+          "unleveredFreeCashFlow": 3375,
           "method": "conventional_fcf"
         },
         {
@@ -151,6 +173,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 2844,
+          "unleveredFreeCashFlow": 2855,
           "method": "conventional_fcf"
         }
       ]
@@ -172,6 +196,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -13844,
+          "unleveredFreeCashFlow": -11311,
           "method": "conventional_fcf"
         },
         {
@@ -183,6 +209,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -13207,
+          "unleveredFreeCashFlow": -10677,
           "method": "conventional_fcf"
         },
         {
@@ -194,6 +222,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 2340,
+          "unleveredFreeCashFlow": 4851,
           "method": "conventional_fcf"
         },
         {
@@ -205,6 +235,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 2080,
+          "unleveredFreeCashFlow": 4068,
           "method": "conventional_fcf"
         },
         {
@@ -216,6 +248,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -13891,
+          "unleveredFreeCashFlow": -12390,
           "method": "conventional_fcf"
         },
         {
@@ -227,6 +261,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 2949,
+          "unleveredFreeCashFlow": 9034,
           "method": "conventional_fcf"
         }
       ]
@@ -248,6 +284,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 54.41,
+          "unleveredFreeCashFlow": 62.44,
           "method": "conventional_fcf"
         },
         {
@@ -259,6 +297,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 41.72,
+          "unleveredFreeCashFlow": 50.07,
           "method": "conventional_fcf"
         },
         {
@@ -270,6 +310,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 38.47,
+          "unleveredFreeCashFlow": 47.17,
           "method": "conventional_fcf"
         },
         {
@@ -281,6 +323,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 31.73,
+          "unleveredFreeCashFlow": 40.82,
           "method": "conventional_fcf"
         },
         {
@@ -292,6 +336,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 20.66,
+          "unleveredFreeCashFlow": 29.9,
           "method": "conventional_fcf"
         },
         {
@@ -303,6 +349,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 15.07,
+          "unleveredFreeCashFlow": 24.62,
           "method": "conventional_fcf"
         }
       ]
@@ -324,6 +372,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -335,6 +385,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -346,6 +398,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -357,6 +411,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -368,6 +424,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -379,6 +437,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         }
       ]
@@ -400,6 +460,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 3258,
+          "unleveredFreeCashFlow": 6260,
           "method": "conventional_fcf"
         },
         {
@@ -411,6 +473,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -1925,
+          "unleveredFreeCashFlow": 1056,
           "method": "conventional_fcf"
         },
         {
@@ -422,6 +486,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -9147,
+          "unleveredFreeCashFlow": -6690,
           "method": "conventional_fcf"
         },
         {
@@ -433,6 +499,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -58.36,
+          "unleveredFreeCashFlow": 1861,
           "method": "conventional_fcf"
         },
         {
@@ -444,6 +512,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -15537,
+          "unleveredFreeCashFlow": -14344,
           "method": "conventional_fcf"
         },
         {
@@ -455,6 +525,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -408.98,
+          "unleveredFreeCashFlow": 223.96,
           "method": "conventional_fcf"
         }
       ]
@@ -476,6 +548,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 722.77,
+          "unleveredFreeCashFlow": 970.95,
           "method": "conventional_fcf"
         },
         {
@@ -487,6 +561,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 846.95,
+          "unleveredFreeCashFlow": 1054,
           "method": "conventional_fcf"
         },
         {
@@ -498,6 +574,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -32.49,
+          "unleveredFreeCashFlow": 107.74,
           "method": "conventional_fcf"
         },
         {
@@ -509,6 +587,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -2714,
+          "unleveredFreeCashFlow": -2645,
           "method": "conventional_fcf"
         },
         {
@@ -520,6 +600,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 246.76,
+          "unleveredFreeCashFlow": 321.24,
           "method": "conventional_fcf"
         },
         {
@@ -531,6 +613,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 1913,
+          "unleveredFreeCashFlow": 1980,
           "method": "conventional_fcf"
         }
       ]
@@ -552,6 +636,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -18967,
+          "unleveredFreeCashFlow": -12860,
           "method": "conventional_fcf"
         },
         {
@@ -563,6 +649,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 13371,
+          "unleveredFreeCashFlow": 19478,
           "method": "conventional_fcf"
         },
         {
@@ -574,6 +662,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 354.97,
+          "unleveredFreeCashFlow": 6030,
           "method": "conventional_fcf"
         },
         {
@@ -585,6 +675,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -2584,
+          "unleveredFreeCashFlow": 2802,
           "method": "conventional_fcf"
         },
         {
@@ -596,6 +688,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 11948,
+          "unleveredFreeCashFlow": 15887,
           "method": "conventional_fcf"
         },
         {
@@ -607,6 +701,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 11373,
+          "unleveredFreeCashFlow": 14574,
           "method": "conventional_fcf"
         }
       ]
@@ -628,6 +724,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -639,6 +737,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -650,6 +750,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -661,6 +763,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -672,6 +776,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -683,6 +789,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         }
       ]
@@ -704,6 +812,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -9.75,
+          "unleveredFreeCashFlow": -7.46,
           "method": "conventional_fcf"
         },
         {
@@ -715,6 +825,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -23.48,
+          "unleveredFreeCashFlow": -21.07,
           "method": "conventional_fcf"
         },
         {
@@ -726,6 +838,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -737,6 +851,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 1.07,
+          "unleveredFreeCashFlow": 2.96,
           "method": "conventional_fcf"
         },
         {
@@ -748,6 +864,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -1.45,
+          "unleveredFreeCashFlow": 0.67,
           "method": "conventional_fcf"
         },
         {
@@ -759,6 +877,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -6.09,
+          "unleveredFreeCashFlow": -4.38,
           "method": "conventional_fcf"
         }
       ]
@@ -780,6 +900,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -12953,
+          "unleveredFreeCashFlow": -12953,
           "method": "conventional_fcf"
         },
         {
@@ -791,6 +913,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -7926,
+          "unleveredFreeCashFlow": -7926,
           "method": "conventional_fcf"
         },
         {
@@ -802,6 +926,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -703.97,
+          "unleveredFreeCashFlow": -703.97,
           "method": "conventional_fcf"
         },
         {
@@ -813,6 +939,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 205.04,
+          "unleveredFreeCashFlow": 205.04,
           "method": "conventional_fcf"
         },
         {
@@ -824,6 +952,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -6137,
+          "unleveredFreeCashFlow": -6137,
           "method": "conventional_fcf"
         },
         {
@@ -835,6 +965,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -242.16,
+          "unleveredFreeCashFlow": -237.54,
           "method": "conventional_fcf"
         }
       ]
@@ -856,6 +988,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 203.56,
+          "unleveredFreeCashFlow": 205.35,
           "method": "conventional_fcf"
         },
         {
@@ -867,6 +1001,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -17.81,
+          "unleveredFreeCashFlow": -16.03,
           "method": "conventional_fcf"
         },
         {
@@ -878,6 +1014,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 309.4,
+          "unleveredFreeCashFlow": 309.4,
           "method": "conventional_fcf"
         },
         {
@@ -889,6 +1027,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 29.65,
+          "unleveredFreeCashFlow": 29.65,
           "method": "conventional_fcf"
         },
         {
@@ -900,6 +1040,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 213.77,
+          "unleveredFreeCashFlow": 214.54,
           "method": "conventional_fcf"
         },
         {
@@ -911,6 +1053,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 15.33,
+          "unleveredFreeCashFlow": 15.86,
           "method": "conventional_fcf"
         }
       ]
@@ -932,6 +1076,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -943,6 +1089,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -954,6 +1102,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -965,6 +1115,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -976,6 +1128,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -987,6 +1141,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         }
       ]
@@ -1008,6 +1164,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1019,6 +1177,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1030,6 +1190,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1041,6 +1203,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1052,6 +1216,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1063,6 +1229,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         }
       ]
@@ -1084,6 +1252,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 7735,
+          "unleveredFreeCashFlow": 9201,
           "method": "conventional_fcf"
         },
         {
@@ -1095,6 +1265,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 5744,
+          "unleveredFreeCashFlow": 7200,
           "method": "conventional_fcf"
         },
         {
@@ -1106,6 +1278,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -3247,
+          "unleveredFreeCashFlow": -1766,
           "method": "conventional_fcf"
         },
         {
@@ -1117,6 +1291,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 21765,
+          "unleveredFreeCashFlow": 23379,
           "method": "conventional_fcf"
         },
         {
@@ -1128,6 +1304,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -9837,
+          "unleveredFreeCashFlow": -8722,
           "method": "conventional_fcf"
         },
         {
@@ -1139,6 +1317,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -2761,
+          "unleveredFreeCashFlow": -2139,
           "method": "conventional_fcf"
         }
       ]
@@ -1160,6 +1340,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 449.91,
+          "unleveredFreeCashFlow": 548.1,
           "method": "conventional_fcf"
         },
         {
@@ -1171,6 +1353,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 428.55,
+          "unleveredFreeCashFlow": 527.64,
           "method": "conventional_fcf"
         },
         {
@@ -1182,6 +1366,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 47.11,
+          "unleveredFreeCashFlow": 181.57,
           "method": "conventional_fcf"
         },
         {
@@ -1193,6 +1379,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 596.16,
+          "unleveredFreeCashFlow": 766.11,
           "method": "conventional_fcf"
         },
         {
@@ -1204,6 +1392,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 541.53,
+          "unleveredFreeCashFlow": 759.07,
           "method": "conventional_fcf"
         },
         {
@@ -1215,6 +1405,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 937.27,
+          "unleveredFreeCashFlow": 1211,
           "method": "conventional_fcf"
         }
       ]
@@ -1236,6 +1428,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1247,6 +1441,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -14.54,
+          "unleveredFreeCashFlow": -4.42,
           "method": "conventional_fcf"
         },
         {
@@ -1258,6 +1454,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -60.17,
+          "unleveredFreeCashFlow": -52.43,
           "method": "conventional_fcf"
         },
         {
@@ -1269,6 +1467,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 0.33,
+          "unleveredFreeCashFlow": 5.31,
           "method": "conventional_fcf"
         },
         {
@@ -1280,6 +1480,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         }
       ]
@@ -1301,6 +1503,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -82.55,
+          "unleveredFreeCashFlow": -79.22,
           "method": "conventional_fcf"
         },
         {
@@ -1312,6 +1516,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 118.77,
+          "unleveredFreeCashFlow": 122.1,
           "method": "conventional_fcf"
         },
         {
@@ -1323,6 +1529,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 38.45,
+          "unleveredFreeCashFlow": 40.98,
           "method": "conventional_fcf"
         },
         {
@@ -1334,6 +1542,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 5.83,
+          "unleveredFreeCashFlow": 9.53,
           "method": "conventional_fcf"
         },
         {
@@ -1345,6 +1555,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 26,
+          "unleveredFreeCashFlow": 27.24,
           "method": "conventional_fcf"
         },
         {
@@ -1356,6 +1568,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 22.61,
+          "unleveredFreeCashFlow": 24.72,
           "method": "conventional_fcf"
         }
       ]
@@ -1377,6 +1591,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1388,6 +1604,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1399,6 +1617,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1410,6 +1630,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1421,6 +1643,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1432,6 +1656,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         }
       ]
@@ -1453,6 +1679,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 32.09,
+          "unleveredFreeCashFlow": 45.12,
           "method": "conventional_fcf"
         },
         {
@@ -1464,6 +1692,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -52.66,
+          "unleveredFreeCashFlow": -42.43,
           "method": "conventional_fcf"
         },
         {
@@ -1475,6 +1705,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -3.71,
+          "unleveredFreeCashFlow": -3.71,
           "method": "conventional_fcf"
         }
       ]
@@ -1496,6 +1728,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -175.68,
+          "unleveredFreeCashFlow": -161.8,
           "method": "conventional_fcf"
         },
         {
@@ -1507,6 +1741,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 86.33,
+          "unleveredFreeCashFlow": 98.36,
           "method": "conventional_fcf"
         },
         {
@@ -1518,6 +1754,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 364.14,
+          "unleveredFreeCashFlow": 378.84,
           "method": "conventional_fcf"
         },
         {
@@ -1529,6 +1767,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 9155,
+          "unleveredFreeCashFlow": 9200,
           "method": "conventional_fcf"
         },
         {
@@ -1540,6 +1780,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 333.6,
+          "unleveredFreeCashFlow": 474.1,
           "method": "conventional_fcf"
         },
         {
@@ -1551,6 +1793,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 72.16,
+          "unleveredFreeCashFlow": 205.78,
           "method": "conventional_fcf"
         }
       ]
@@ -1572,6 +1816,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 943.76,
+          "unleveredFreeCashFlow": 977.79,
           "method": "conventional_fcf"
         },
         {
@@ -1583,6 +1829,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 848.64,
+          "unleveredFreeCashFlow": 877.34,
           "method": "conventional_fcf"
         },
         {
@@ -1594,6 +1842,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -242.24,
+          "unleveredFreeCashFlow": -231.77,
           "method": "conventional_fcf"
         },
         {
@@ -1605,6 +1855,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -95.08,
+          "unleveredFreeCashFlow": -94.76,
           "method": "conventional_fcf"
         },
         {
@@ -1616,6 +1868,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 407.14,
+          "unleveredFreeCashFlow": 409.81,
           "method": "conventional_fcf"
         },
         {
@@ -1627,6 +1881,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 121,
+          "unleveredFreeCashFlow": 122.21,
           "method": "conventional_fcf"
         }
       ]
@@ -1648,6 +1904,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 856.16,
+          "unleveredFreeCashFlow": 899,
           "method": "conventional_fcf"
         },
         {
@@ -1659,6 +1917,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -473.74,
+          "unleveredFreeCashFlow": -441.85,
           "method": "conventional_fcf"
         },
         {
@@ -1670,6 +1930,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 834.89,
+          "unleveredFreeCashFlow": 836.49,
           "method": "conventional_fcf"
         },
         {
@@ -1681,6 +1943,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 3017,
+          "unleveredFreeCashFlow": 3022,
           "method": "conventional_fcf"
         },
         {
@@ -1692,6 +1956,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 1469,
+          "unleveredFreeCashFlow": 1484,
           "method": "conventional_fcf"
         },
         {
@@ -1703,6 +1969,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 1162,
+          "unleveredFreeCashFlow": 1192,
           "method": "conventional_fcf"
         }
       ]
@@ -1724,6 +1992,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -0.39,
+          "unleveredFreeCashFlow": -0.38,
           "method": "conventional_fcf"
         },
         {
@@ -1735,6 +2005,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -0.41,
+          "unleveredFreeCashFlow": -0.4,
           "method": "conventional_fcf"
         },
         {
@@ -1746,6 +2018,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -0.27,
+          "unleveredFreeCashFlow": -0.26,
           "method": "conventional_fcf"
         },
         {
@@ -1757,6 +2031,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -1.16,
+          "unleveredFreeCashFlow": -1.15,
           "method": "conventional_fcf"
         },
         {
@@ -1768,6 +2044,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 0.12,
+          "unleveredFreeCashFlow": 0.12,
           "method": "conventional_fcf"
         }
       ]
@@ -1789,6 +2067,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1800,6 +2080,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1811,6 +2093,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1822,6 +2106,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1833,6 +2119,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -1844,6 +2132,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         }
       ]
@@ -1865,6 +2155,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -23.28,
+          "unleveredFreeCashFlow": 10.09,
           "method": "conventional_fcf"
         },
         {
@@ -1876,6 +2168,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -18.39,
+          "unleveredFreeCashFlow": 12.2,
           "method": "conventional_fcf"
         },
         {
@@ -1887,6 +2181,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 77.06,
+          "unleveredFreeCashFlow": 113.63,
           "method": "conventional_fcf"
         },
         {
@@ -1898,6 +2194,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 92.44,
+          "unleveredFreeCashFlow": 131.71,
           "method": "conventional_fcf"
         },
         {
@@ -1909,6 +2207,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -168.38,
+          "unleveredFreeCashFlow": -132.16,
           "method": "conventional_fcf"
         },
         {
@@ -1920,6 +2220,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 3.35,
+          "unleveredFreeCashFlow": 22.75,
           "method": "conventional_fcf"
         }
       ]
@@ -1941,6 +2243,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 12.86,
+          "unleveredFreeCashFlow": 8.89,
           "method": "conventional_fcf"
         },
         {
@@ -1952,6 +2256,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 42.43,
+          "unleveredFreeCashFlow": 38.46,
           "method": "conventional_fcf"
         },
         {
@@ -1963,6 +2269,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 304.31,
+          "unleveredFreeCashFlow": 300.51,
           "method": "conventional_fcf"
         },
         {
@@ -1974,6 +2282,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 307.54,
+          "unleveredFreeCashFlow": 303.36,
           "method": "conventional_fcf"
         },
         {
@@ -1985,6 +2295,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 407.13,
+          "unleveredFreeCashFlow": 428.96,
           "method": "conventional_fcf"
         },
         {
@@ -1996,6 +2308,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 271.71,
+          "unleveredFreeCashFlow": 290.18,
           "method": "conventional_fcf"
         }
       ]
@@ -2017,6 +2331,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -353.41,
+          "unleveredFreeCashFlow": -277.43,
           "method": "conventional_fcf"
         },
         {
@@ -2028,6 +2344,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -204.89,
+          "unleveredFreeCashFlow": -133.93,
           "method": "conventional_fcf"
         },
         {
@@ -2039,6 +2357,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -192.82,
+          "unleveredFreeCashFlow": -140.86,
           "method": "conventional_fcf"
         },
         {
@@ -2050,6 +2370,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -253.7,
+          "unleveredFreeCashFlow": -222.57,
           "method": "conventional_fcf"
         },
         {
@@ -2061,6 +2383,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -402.12,
+          "unleveredFreeCashFlow": -369.04,
           "method": "conventional_fcf"
         },
         {
@@ -2072,6 +2396,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -102.53,
+          "unleveredFreeCashFlow": -72.6,
           "method": "conventional_fcf"
         }
       ]
@@ -2093,6 +2419,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -614.4,
+          "unleveredFreeCashFlow": -242.16,
           "method": "conventional_fcf"
         },
         {
@@ -2104,6 +2432,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -327.34,
+          "unleveredFreeCashFlow": 8.73,
           "method": "conventional_fcf"
         },
         {
@@ -2115,6 +2445,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -271.72,
+          "unleveredFreeCashFlow": 39.47,
           "method": "conventional_fcf"
         },
         {
@@ -2126,6 +2458,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -190.88,
+          "unleveredFreeCashFlow": -144.28,
           "method": "conventional_fcf"
         },
         {
@@ -2137,6 +2471,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -141.49,
+          "unleveredFreeCashFlow": -109.8,
           "method": "conventional_fcf"
         },
         {
@@ -2148,6 +2484,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -99.4,
+          "unleveredFreeCashFlow": -71.51,
           "method": "conventional_fcf"
         }
       ]
@@ -2169,6 +2507,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -2180,6 +2520,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -2191,6 +2533,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -2202,6 +2546,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -2213,6 +2559,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -2224,6 +2572,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         }
       ]
@@ -2245,6 +2595,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         },
         {
@@ -2256,6 +2608,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 0.39,
+          "unleveredFreeCashFlow": 0.87,
           "method": "conventional_fcf"
         },
         {
@@ -2267,6 +2621,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -0.32,
+          "unleveredFreeCashFlow": 0.22,
           "method": "conventional_fcf"
         },
         {
@@ -2278,6 +2634,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -2.23,
+          "unleveredFreeCashFlow": -2,
           "method": "conventional_fcf"
         },
         {
@@ -2289,6 +2647,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
         }
       ]
@@ -2310,6 +2670,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 1184,
+          "unleveredFreeCashFlow": 1532,
           "method": "conventional_fcf"
         },
         {
@@ -2321,6 +2683,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 564.06,
+          "unleveredFreeCashFlow": 665.29,
           "method": "conventional_fcf"
         },
         {
@@ -2332,6 +2696,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -2101,
+          "unleveredFreeCashFlow": -2083,
           "method": "conventional_fcf"
         },
         {
@@ -2343,6 +2709,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 1125,
+          "unleveredFreeCashFlow": 1170,
           "method": "conventional_fcf"
         },
         {
@@ -2354,6 +2722,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 1754,
+          "unleveredFreeCashFlow": 1821,
           "method": "conventional_fcf"
         }
       ]
@@ -2375,6 +2745,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 183.2,
+          "unleveredFreeCashFlow": 183.2,
           "method": "conventional_fcf"
         },
         {
@@ -2386,6 +2758,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 330.61,
+          "unleveredFreeCashFlow": 330.61,
           "method": "conventional_fcf"
         },
         {
@@ -2397,6 +2771,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 227.24,
+          "unleveredFreeCashFlow": 227.24,
           "method": "conventional_fcf"
         },
         {
@@ -2408,6 +2784,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 71.36,
+          "unleveredFreeCashFlow": 71.36,
           "method": "conventional_fcf"
         },
         {
@@ -2419,6 +2797,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 339.89,
+          "unleveredFreeCashFlow": 339.89,
           "method": "conventional_fcf"
         },
         {
@@ -2430,6 +2810,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 317.56,
+          "unleveredFreeCashFlow": 317.56,
           "method": "conventional_fcf"
         }
       ]
@@ -2451,6 +2833,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 2255,
+          "unleveredFreeCashFlow": 2902,
           "method": "conventional_fcf"
         },
         {
@@ -2462,6 +2846,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 1607,
+          "unleveredFreeCashFlow": 2194,
           "method": "conventional_fcf"
         },
         {
@@ -2473,6 +2859,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 1251,
+          "unleveredFreeCashFlow": 1819,
           "method": "conventional_fcf"
         },
         {
@@ -2484,6 +2872,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -713,
+          "unleveredFreeCashFlow": -303.48,
           "method": "conventional_fcf"
         },
         {
@@ -2495,6 +2885,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 2103,
+          "unleveredFreeCashFlow": 2386,
           "method": "conventional_fcf"
         },
         {
@@ -2506,6 +2898,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -373.2,
+          "unleveredFreeCashFlow": -120.61,
           "method": "conventional_fcf"
         }
       ]
@@ -2527,6 +2921,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 801.01,
+          "unleveredFreeCashFlow": 961.48,
           "method": "conventional_fcf"
         },
         {
@@ -2538,6 +2934,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 523.91,
+          "unleveredFreeCashFlow": 684.39,
           "method": "conventional_fcf"
         },
         {
@@ -2549,6 +2947,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 381.61,
+          "unleveredFreeCashFlow": 563.89,
           "method": "conventional_fcf"
         },
         {
@@ -2560,6 +2960,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 106.53,
+          "unleveredFreeCashFlow": 242.57,
           "method": "conventional_fcf"
         },
         {
@@ -2571,6 +2973,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 593.47,
+          "unleveredFreeCashFlow": 683.7,
           "method": "conventional_fcf"
         },
         {
@@ -2582,6 +2986,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -1159,
+          "unleveredFreeCashFlow": -1058,
           "method": "conventional_fcf"
         }
       ]
@@ -2603,6 +3009,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 139.85,
+          "unleveredFreeCashFlow": 257.85,
           "method": "conventional_fcf"
         },
         {
@@ -2614,6 +3022,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -61.42,
+          "unleveredFreeCashFlow": 56.59,
           "method": "conventional_fcf"
         },
         {
@@ -2625,6 +3035,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 430.23,
+          "unleveredFreeCashFlow": 548.97,
           "method": "conventional_fcf"
         },
         {
@@ -2636,6 +3048,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 682,
+          "unleveredFreeCashFlow": 792.02,
           "method": "conventional_fcf"
         },
         {
@@ -2647,6 +3061,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": -2545,
+          "unleveredFreeCashFlow": -2417,
           "method": "conventional_fcf"
         },
         {
@@ -2658,6 +3074,8 @@
           "realEstateAcquisitions": null,
           "realEstateSales": null,
           "investingCashFlow": null,
+          "leveredFreeCashFlow": 1051,
+          "unleveredFreeCashFlow": 1176,
           "method": "conventional_fcf"
         }
       ]
@@ -2668,7 +3086,7 @@
       "unit": "millions",
       "source": "StockAnalysis",
       "url": "https://stockanalysis.com/quote/jmse/FIRSTROCKJMD/financials/cash-flow-statement/",
-      "verification": "SA real estate operating/investing history; FCF not asserted; JSE reconciliation pending",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
       "periods": [
         {
           "period": "TTM",
@@ -2679,7 +3097,9 @@
           "realEstateAcquisitions": -7,
           "realEstateSales": 3.94,
           "investingCashFlow": -6.71,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": -16.11,
+          "unleveredFreeCashFlow": -14.86,
+          "method": "operating_and_investing_disclosed"
         },
         {
           "period": "FY 2025",
@@ -2690,7 +3110,9 @@
           "realEstateAcquisitions": -6.3,
           "realEstateSales": 3.94,
           "investingCashFlow": -1.85,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": -8.02,
+          "unleveredFreeCashFlow": -6.94,
+          "method": "operating_and_investing_disclosed"
         },
         {
           "period": "FY 2024",
@@ -2701,7 +3123,9 @@
           "realEstateAcquisitions": -13.08,
           "realEstateSales": 5.25,
           "investingCashFlow": -2.51,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": 5.56,
+          "unleveredFreeCashFlow": 6.12,
+          "method": "operating_and_investing_disclosed"
         },
         {
           "period": "FY 2023",
@@ -2712,7 +3136,9 @@
           "realEstateAcquisitions": -3.11,
           "realEstateSales": 7.51,
           "investingCashFlow": 4.44,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": -14.73,
+          "unleveredFreeCashFlow": -14.24,
+          "method": "operating_and_investing_disclosed"
         },
         {
           "period": "FY 2022",
@@ -2723,7 +3149,9 @@
           "realEstateAcquisitions": -10.87,
           "realEstateSales": 4.75,
           "investingCashFlow": -4.73,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": -6.75,
+          "unleveredFreeCashFlow": -6.39,
+          "method": "operating_and_investing_disclosed"
         },
         {
           "period": "FY 2021",
@@ -2734,7 +3162,9 @@
           "realEstateAcquisitions": -11.58,
           "realEstateSales": 3.54,
           "investingCashFlow": -4.5,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": -10.15,
+          "unleveredFreeCashFlow": -9.97,
+          "method": "operating_and_investing_disclosed"
         }
       ]
     },
@@ -2744,7 +3174,7 @@
       "unit": "millions",
       "source": "StockAnalysis",
       "url": "https://stockanalysis.com/quote/jmse/KPREIT/financials/cash-flow-statement/",
-      "verification": "SA real estate operating/investing history; FCF not asserted; JSE reconciliation pending",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
       "periods": [
         {
           "period": "TTM",
@@ -2755,7 +3185,9 @@
           "realEstateAcquisitions": -5.64,
           "realEstateSales": 1.03,
           "investingCashFlow": -4.56,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": 0.52,
+          "unleveredFreeCashFlow": 1.83,
+          "method": "operating_and_investing_disclosed"
         },
         {
           "period": "FY 2025",
@@ -2766,7 +3198,9 @@
           "realEstateAcquisitions": -10.32,
           "realEstateSales": 1.57,
           "investingCashFlow": -8.72,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": -2.84,
+          "unleveredFreeCashFlow": -1.54,
+          "method": "operating_and_investing_disclosed"
         },
         {
           "period": "FY 2024",
@@ -2777,7 +3211,9 @@
           "realEstateAcquisitions": -14.09,
           "realEstateSales": 4.44,
           "investingCashFlow": -9.16,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": 0.32,
+          "unleveredFreeCashFlow": 1.23,
+          "method": "operating_and_investing_disclosed"
         },
         {
           "period": "FY 2023",
@@ -2788,7 +3224,9 @@
           "realEstateAcquisitions": -15.54,
           "realEstateSales": 2.46,
           "investingCashFlow": -12.84,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": 4.17,
+          "unleveredFreeCashFlow": 4.74,
+          "method": "operating_and_investing_disclosed"
         },
         {
           "period": "FY 2022",
@@ -2799,7 +3237,9 @@
           "realEstateAcquisitions": -1.6,
           "realEstateSales": 1.91,
           "investingCashFlow": -1.18,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": -1.92,
+          "unleveredFreeCashFlow": -1.54,
+          "method": "operating_and_investing_disclosed"
         },
         {
           "period": "FY 2021",
@@ -2810,7 +3250,788 @@
           "realEstateAcquisitions": -5.51,
           "realEstateSales": 1.43,
           "investingCashFlow": -6.88,
-          "method": "real_estate_operating_and_investing"
+          "leveredFreeCashFlow": -0.19,
+          "unleveredFreeCashFlow": 0.13,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "SCIJMD",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/SCIJMD/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "FY 2026",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": -18.96,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 5.63,
+          "unleveredFreeCashFlow": 14.73,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Jun 30, 2025",
+          "operatingCashFlow": -22.6,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -3.14,
+          "unleveredFreeCashFlow": 5.25,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Jun 30, 2024",
+          "operatingCashFlow": -29.58,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 9.31,
+          "unleveredFreeCashFlow": 15.74,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Jun 30, 2023",
+          "operatingCashFlow": -26.16,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 1.6,
+          "unleveredFreeCashFlow": 5.32,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Jun 30, 2022",
+          "operatingCashFlow": -1.73,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 5.13,
+          "unleveredFreeCashFlow": 6.53,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "138SL",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/138SL/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 628.23,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 971.51,
+          "unleveredFreeCashFlow": 1141,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Sep 30, 2025",
+          "operatingCashFlow": 618.92,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 221.64,
+          "unleveredFreeCashFlow": 406.93,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Sep 30, 2024",
+          "operatingCashFlow": 533.25,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 110.48,
+          "unleveredFreeCashFlow": 317.85,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Sep 30, 2023",
+          "operatingCashFlow": 600.24,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 329.08,
+          "unleveredFreeCashFlow": 554.62,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Sep 30, 2022",
+          "operatingCashFlow": 505.01,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 24.31,
+          "unleveredFreeCashFlow": 251.48,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Sep 30, 2021",
+          "operatingCashFlow": 141.37,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -27.9,
+          "unleveredFreeCashFlow": 123.48,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "MJE",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/MJE/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": -3.02,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -8.31,
+          "unleveredFreeCashFlow": -5.39,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Dec 31, 2025",
+          "operatingCashFlow": -3.01,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -20.85,
+          "unleveredFreeCashFlow": -18.23,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Dec 31, 2024",
+          "operatingCashFlow": -29.78,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -39.01,
+          "unleveredFreeCashFlow": -35.49,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Dec 31, 2023",
+          "operatingCashFlow": 15.22,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 20.26,
+          "unleveredFreeCashFlow": 22.87,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Dec 31, 2022",
+          "operatingCashFlow": 0.52,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 28.65,
+          "unleveredFreeCashFlow": 29.69,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Dec 31, 2021",
+          "operatingCashFlow": -6.14,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 11.57,
+          "unleveredFreeCashFlow": 12.44,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "MPCCEL",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/MPCCEL/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": -0.4,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -1.69,
+          "unleveredFreeCashFlow": -1.69,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Dec 31, 2025",
+          "operatingCashFlow": 4.51,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 4.65,
+          "unleveredFreeCashFlow": 4.65,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Dec 31, 2024",
+          "operatingCashFlow": 0.64,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -7.31,
+          "unleveredFreeCashFlow": -7.31,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Dec 31, 2023",
+          "operatingCashFlow": -0.16,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 1.06,
+          "unleveredFreeCashFlow": 1.06,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Dec 31, 2022",
+          "operatingCashFlow": -0.15,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -1.33,
+          "unleveredFreeCashFlow": -1.33,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Dec 31, 2021",
+          "operatingCashFlow": -10.18,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 0.76,
+          "unleveredFreeCashFlow": 0.76,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "PJAM",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/PJAM/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 7189,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 5952,
+          "unleveredFreeCashFlow": 7063,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Dec 31, 2025",
+          "operatingCashFlow": 8193,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 5086,
+          "unleveredFreeCashFlow": 6138,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Dec 31, 2024",
+          "operatingCashFlow": 6322,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 981.63,
+          "unleveredFreeCashFlow": 2012,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Dec 31, 2023",
+          "operatingCashFlow": 4057,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 1722,
+          "unleveredFreeCashFlow": 2582,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Dec 31, 2022",
+          "operatingCashFlow": 1561,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -2042,
+          "unleveredFreeCashFlow": -1404,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Dec 31, 2021",
+          "operatingCashFlow": 1138,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 3057,
+          "unleveredFreeCashFlow": 3626,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "PJX",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/PJX/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "TTM",
+          "periodEnding": "Nov 30, 2025",
+          "operatingCashFlow": 2.01,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -4.58,
+          "unleveredFreeCashFlow": -4.39,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Feb 28, 2025",
+          "operatingCashFlow": 1.96,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -2.16,
+          "unleveredFreeCashFlow": -1.97,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Feb 29, 2024",
+          "operatingCashFlow": -0.95,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -0.63,
+          "unleveredFreeCashFlow": -0.4,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Feb 28, 2023",
+          "operatingCashFlow": -6.12,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -4.83,
+          "unleveredFreeCashFlow": -4.52,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Feb 28, 2022",
+          "operatingCashFlow": 4.01,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 2.44,
+          "unleveredFreeCashFlow": 2.72,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Feb 28, 2021",
+          "operatingCashFlow": -0.52,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 1.38,
+          "unleveredFreeCashFlow": 1.6,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "QWI",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/QWI/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 267.24,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 240.49,
+          "unleveredFreeCashFlow": 261.63,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Sep 30, 2025",
+          "operatingCashFlow": 65.15,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -35.62,
+          "unleveredFreeCashFlow": -15.85,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Sep 30, 2024",
+          "operatingCashFlow": -56.94,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 129.97,
+          "unleveredFreeCashFlow": 149.68,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Sep 30, 2023",
+          "operatingCashFlow": 31.73,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 108.63,
+          "unleveredFreeCashFlow": 129.9,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Sep 30, 2022",
+          "operatingCashFlow": 152.38,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -91.6,
+          "unleveredFreeCashFlow": -73.82,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Sep 30, 2021",
+          "operatingCashFlow": -215.25,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 266.74,
+          "unleveredFreeCashFlow": 285.31,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "SML",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/SML/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 443.43,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 417.52,
+          "unleveredFreeCashFlow": 545.39,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Dec 31, 2025",
+          "operatingCashFlow": 633.48,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 581.78,
+          "unleveredFreeCashFlow": 666.23,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Dec 31, 2024",
+          "operatingCashFlow": 161.2,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 77.1,
+          "unleveredFreeCashFlow": 122.26,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Dec 31, 2023",
+          "operatingCashFlow": 516.88,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 307.25,
+          "unleveredFreeCashFlow": 354.17,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Dec 31, 2022",
+          "operatingCashFlow": 407.22,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 328.93,
+          "unleveredFreeCashFlow": 368.1,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Dec 31, 2021",
+          "operatingCashFlow": 327.78,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 174.17,
+          "unleveredFreeCashFlow": 209.41,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "SIL",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/SIL/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 47.39,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 2.06,
+          "unleveredFreeCashFlow": 10.64,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Dec 31, 2025",
+          "operatingCashFlow": 56.38,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 45.45,
+          "unleveredFreeCashFlow": 55.08,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Dec 31, 2024",
+          "operatingCashFlow": 29.89,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -58.74,
+          "unleveredFreeCashFlow": -42.06,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Dec 31, 2023",
+          "operatingCashFlow": 56.16,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 18.64,
+          "unleveredFreeCashFlow": 40.57,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Dec 31, 2022",
+          "operatingCashFlow": 73.88,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -1.28,
+          "unleveredFreeCashFlow": 9.01,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Dec 31, 2021",
+          "operatingCashFlow": -30.44,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 65.9,
+          "unleveredFreeCashFlow": 95.25,
+          "method": "operating_and_investing_disclosed"
         }
       ]
     }
