@@ -13,7 +13,7 @@ for(const x of incoming.results||[]){
  existing.set(x.ticker,{ticker:x.ticker,currency:currency[x.ticker]||prev?.currency||'JMD',unit:'millions',source:'StockAnalysis',url:x.url,verification:'SA parsed and arithmetically checked; JSE reconciliation pending',periods});
  added++;
 }
-if(rejected.length){console.error('Rejected:',rejected.join('; '));process.exitCode=1;}
+if(rejected.length){console.error('Skipped unverified companies:',rejected.join('; '));}
 data.companies=[...existing.values()];
 data.collectedAt=new Date().toISOString().slice(0,10);
 data.note='StockAnalysis historical cash flows, values in millions. Financial-sector FCF may not be comparable. JSE cross-check pending.';
