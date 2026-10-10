@@ -1,154 +1,159 @@
 {
-  "generatedAt": "2026-10-03T16:56:40.576Z",
-  "marketDataDate": "2026-10-02",
-  "previousSnapshot": "2026-09-29.json",
+  "generatedAt": "2026-10-10T17:37:32.877Z",
+  "marketDataDate": "2026-10-09",
+  "previousSnapshot": "2026-10-03.json",
   "universeCount": 54,
   "ratingChanges": [],
-  "zoneChanges": [],
+  "zoneChanges": [
+    {
+      "ticker": "NCBFG",
+      "from": "IN",
+      "to": "ABOVE",
+      "price": 72.41,
+      "buyZone": "J$62–72"
+    },
+    {
+      "ticker": "GHL",
+      "from": "IN",
+      "to": "ABOVE",
+      "price": 375.01,
+      "buyZone": "J$320–370"
+    },
+    {
+      "ticker": "LASM",
+      "from": "IN",
+      "to": "ABOVE",
+      "price": 7.92,
+      "buyZone": "J$6.50–7.80"
+    },
+    {
+      "ticker": "SELECTF",
+      "from": "IN",
+      "to": "ABOVE",
+      "price": 0.46,
+      "buyZone": "≤J$0.42"
+    }
+  ],
   "weeklyMoves": [
     {
       "ticker": "PULS",
-      "w1": 43.75,
-      "price": 1.4,
+      "w1": -23.7,
+      "price": 0.86,
       "rating": "AVOID"
     },
     {
-      "ticker": "MTL",
-      "w1": -38.59,
-      "price": 0.0501,
-      "rating": "WATCH"
-    },
-    {
-      "ticker": "BIL",
-      "w1": 24.47,
-      "price": 83.16,
-      "rating": "WATCH"
-    },
-    {
-      "ticker": "SGJ",
-      "w1": 18.64,
-      "price": 70.23,
-      "rating": "HOLD"
-    },
-    {
-      "ticker": "QWI",
-      "w1": 15.58,
-      "price": 0.82,
-      "rating": "BUY"
-    },
-    {
-      "ticker": "JMMBGL",
-      "w1": -15.18,
-      "price": 18.26,
-      "rating": "WATCH"
-    },
-    {
-      "ticker": "JBG",
-      "w1": 12.97,
-      "price": 14.82,
+      "ticker": "MJE",
+      "w1": 20.12,
+      "price": 7.24,
       "rating": "AVOID"
-    },
-    {
-      "ticker": "SVL",
-      "w1": 11.44,
-      "price": 18.24,
-      "rating": "WATCH"
-    },
-    {
-      "ticker": "GK",
-      "w1": 11.28,
-      "price": 88.48,
-      "rating": "HOLD"
-    },
-    {
-      "ticker": "MGL",
-      "w1": 9.62,
-      "price": 5.41,
-      "rating": "AVOID"
-    },
-    {
-      "ticker": "ASBH",
-      "w1": -9.52,
-      "price": 19,
-      "rating": "WATCH"
-    },
-    {
-      "ticker": "VMIL",
-      "w1": 9.47,
-      "price": 2.08,
-      "rating": "WATCH"
-    },
-    {
-      "ticker": "QAINC",
-      "w1": 8.74,
-      "price": 24.79,
-      "rating": "WATCH"
-    },
-    {
-      "ticker": "JSE",
-      "w1": 8.44,
-      "price": 9.18,
-      "rating": "HOLD"
-    },
-    {
-      "ticker": "CPJ",
-      "w1": -7.89,
-      "price": 7.2,
-      "rating": "BUY"
-    },
-    {
-      "ticker": "ENERGY",
-      "w1": 7.78,
-      "price": 0.97,
-      "rating": "AVOID"
-    },
-    {
-      "ticker": "KPREIT",
-      "w1": 7.57,
-      "price": 12.45,
-      "rating": "HOLD"
-    },
-    {
-      "ticker": "138SL",
-      "w1": 7.33,
-      "price": 3.22,
-      "rating": "WATCH"
     },
     {
       "ticker": "SRFJMD",
-      "w1": 6.88,
-      "price": 7.56,
+      "w1": -15.56,
+      "price": 7.9,
+      "rating": "WATCH"
+    },
+    {
+      "ticker": "138SL",
+      "w1": 14.91,
+      "price": 3.75,
       "rating": "WATCH"
     },
     {
       "ticker": "GENAC",
-      "w1": 6,
-      "price": 7.74,
+      "w1": 14.14,
+      "price": 7.99,
       "rating": "HOLD"
     },
     {
-      "ticker": "RJR",
-      "w1": -5.98,
-      "price": 1.23,
-      "rating": "AVOID"
-    },
-    {
       "ticker": "PAL",
-      "w1": -5.17,
-      "price": 0.33,
+      "w1": -12.73,
+      "price": 0.5,
       "rating": "AVOID"
     },
     {
-      "ticker": "PROVEN",
-      "w1": 5.13,
-      "price": 9.78,
+      "ticker": "VMIL",
+      "w1": 10.81,
+      "price": 1.79,
+      "rating": "WATCH"
+    },
+    {
+      "ticker": "BIL",
+      "w1": -10.7,
+      "price": 74.66,
+      "rating": "WATCH"
+    },
+    {
+      "ticker": "RJR",
+      "w1": -10.57,
+      "price": 1.1,
+      "rating": "AVOID"
+    },
+    {
+      "ticker": "ASBH",
+      "w1": -10.53,
+      "price": 17.73,
       "rating": "WATCH"
     },
     {
       "ticker": "SELECTF",
-      "w1": 5,
-      "price": 0.42,
+      "w1": 9.52,
+      "price": 0.46,
       "rating": "WATCH"
+    },
+    {
+      "ticker": "MTL",
+      "w1": 7.6,
+      "price": 0.0501,
+      "rating": "WATCH"
+    },
+    {
+      "ticker": "PROVEN",
+      "w1": -7.43,
+      "price": 9.67,
+      "rating": "WATCH"
+    },
+    {
+      "ticker": "MGL",
+      "w1": -6.95,
+      "price": 5.19,
+      "rating": "AVOID"
+    },
+    {
+      "ticker": "SVL",
+      "w1": 6.12,
+      "price": 19.95,
+      "rating": "WATCH"
+    },
+    {
+      "ticker": "TROPICAL",
+      "w1": 5.97,
+      "price": 1.4,
+      "rating": "WATCH"
+    },
+    {
+      "ticker": "NCBFG",
+      "w1": 5.74,
+      "price": 72.41,
+      "rating": "BUY"
+    },
+    {
+      "ticker": "JP",
+      "w1": 5.64,
+      "price": 18.98,
+      "rating": "WATCH"
+    },
+    {
+      "ticker": "QWI",
+      "w1": -5.62,
+      "price": 0.75,
+      "rating": "BUY"
+    },
+    {
+      "ticker": "JSE",
+      "w1": -5.1,
+      "price": 9.39,
+      "rating": "HOLD"
     }
   ],
   "valuationChanges": [],
@@ -185,7 +190,7 @@
       "now": [
         {
           "ticker": "GHL",
-          "pct": 17
+          "pct": 21
         },
         {
           "ticker": "JSE",
@@ -193,10 +198,6 @@
         },
         {
           "ticker": "SIL",
-          "pct": 15
-        },
-        {
-          "ticker": "SALF",
           "pct": 14
         },
         {
@@ -204,15 +205,26 @@
           "pct": 13
         },
         {
-          "ticker": "MASSY",
+          "ticker": "SALF",
           "pct": 13
         },
         {
-          "ticker": "SML",
+          "ticker": "MASSY",
           "pct": 12
+        },
+        {
+          "ticker": "SML",
+          "pct": 11
         }
       ],
-      "changes": [],
+      "changes": [
+        {
+          "ticker": "GHL",
+          "pct": 21,
+          "previousPct": 17,
+          "delta": 4
+        }
+      ],
       "exits": []
     },
     "growth": {
