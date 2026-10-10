@@ -1,5 +1,5 @@
 name: Collect All 54 StockAnalysis Cash Flows
-# Rerun with alternate disclosed cash-flow metrics (2026-10-10)
+# Rerun with period-level reconciliation (2026-10-10)
 on:
   workflow_dispatch:
   schedule:
