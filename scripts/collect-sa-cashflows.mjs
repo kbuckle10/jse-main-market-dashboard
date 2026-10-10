@@ -14,7 +14,8 @@ const toNumber = s => {
 };
 try {
   for(const ticker of tickers) {
-    const url = 'https://stockanalysis.com/quote/jmse/'+encodeURIComponent(ticker)+'/financials/cash-flow-statement/';
+    const exchange = ['MASSY','GHL'].includes(ticker) ? 'ttse' : 'jmse';
+    const url = 'https://stockanalysis.com/quote/'+exchange+'/'+encodeURIComponent(ticker)+'/financials/cash-flow-statement/';
     const page = await browser.newPage({userAgent:'Mozilla/5.0 (compatible; financial-research/1.0)'});
     const result = {ticker,url,source:'StockAnalysis / S&P Global Market Intelligence',status:'pending',periods:[]};
     try {
@@ -40,7 +41,7 @@ try {
         // SA represents capital expenditures as a negative cash-flow line.
         const discrepancy=Math.abs(operatingCashFlow+capitalExpenditures-freeCashFlow);
         const tolerance=Math.max(2,Math.abs(freeCashFlow)*0.002);
-        result.periods.push({period,periodEnding:end?.[i]??null,operatingCashFlow,capitalExpenditures,freeCashFlow,currency:'JMD',unit:'millions',fcfReconciles:discrepancy<=tolerance,sourceUrl:url});
+        result.periods.push({period,periodEnding:end?.[i]??null,operatingCashFlow,capitalExpenditures,freeCashFlow,currency:exchange==='ttse'?'TTD':['KPREIT','FIRSTROCKJMD'].includes(ticker)?'USD':'JMD',unit:'millions',fcfReconciles:discrepancy<=tolerance,sourceUrl:url});
       }
       result.status=result.periods.length?'parsed':'no_complete_periods';
     }catch(e){result.status='error';result.error=String(e.message||e)}
