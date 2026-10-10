@@ -59,7 +59,7 @@ jobs:
       - name: Enrich StockAnalysis published ratios and analyst metrics
         run: npm run refresh:sa-ratios
 
-      - name: Collect official JSE Trade Summary market data
+      - name: Collect five-stock cash-flow batch from StockAnalysis\n        run: node scripts/collect-cashflow-batch-01.mjs\n        continue-on-error: true\n\n      - name: Collect official JSE Trade Summary market data
         run: npm run refresh:jse
         continue-on-error: true
 
@@ -101,7 +101,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           cp data.json /tmp/data.json
-          cp weekly-report.json /tmp/weekly-report.json
+          cp weekly-report.json /tmp/weekly-report.json\n          if test -f research/cashflow-batch-01.json; then cp research/cashflow-batch-01.json /tmp/cashflow-batch-01.json; fi
           DATE=$(TZ=America/Jamaica date +%F)
           cp "history/${DATE}.json" "/tmp/history-${DATE}.json"
 
@@ -109,11 +109,11 @@ jobs:
           git reset --hard origin/main
 
           cp /tmp/data.json data.json
-          cp /tmp/weekly-report.json weekly-report.json
+          cp /tmp/weekly-report.json weekly-report.json\n          if test -f /tmp/cashflow-batch-01.json; then mkdir -p research; cp /tmp/cashflow-batch-01.json research/cashflow-batch-01.json; fi
           mkdir -p history
           cp "/tmp/history-${DATE}.json" "history/${DATE}.json"
 
-          git add data.json weekly-report.json "history/${DATE}.json"
+          git add data.json weekly-report.json "history/${DATE}.json"\n          if test -f research/cashflow-batch-01.json; then git add research/cashflow-batch-01.json; fi
           if git diff --cached --quiet; then
             echo "No dashboard data changes to commit."
           else
