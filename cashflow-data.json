@@ -1721,6 +1721,110 @@
           "freeCashFlow": 898.68
         }
       ]
+    },
+    {
+      "ticker": "MASSY",
+      "currency": "TTD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/ttse/MASSY/financials/cash-flow-statement/",
+      "verification": "SA parsed and arithmetically checked; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 1579,
+          "capitalExpenditures": -838.15,
+          "freeCashFlow": 740.76
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Sep 30, 2025",
+          "operatingCashFlow": 1670,
+          "capitalExpenditures": -838.15,
+          "freeCashFlow": 831.52
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Sep 30, 2024",
+          "operatingCashFlow": 1349,
+          "capitalExpenditures": -705.74,
+          "freeCashFlow": 643.22
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Sep 30, 2023",
+          "operatingCashFlow": 1018,
+          "capitalExpenditures": -518.07,
+          "freeCashFlow": 500.32
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Sep 30, 2022",
+          "operatingCashFlow": 681.11,
+          "capitalExpenditures": -700.84,
+          "freeCashFlow": -19.73
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Sep 30, 2021",
+          "operatingCashFlow": 414.04,
+          "capitalExpenditures": -423.78,
+          "freeCashFlow": -9.74
+        }
+      ]
+    },
+    {
+      "ticker": "GHL",
+      "currency": "TTD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/ttse/GHL/financials/cash-flow-statement/",
+      "verification": "SA parsed and arithmetically checked; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 1365,
+          "capitalExpenditures": -42.21,
+          "freeCashFlow": 1323
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Dec 31, 2025",
+          "operatingCashFlow": -542.63,
+          "capitalExpenditures": -40.54,
+          "freeCashFlow": -583.17
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Dec 31, 2024",
+          "operatingCashFlow": 1121,
+          "capitalExpenditures": -31.78,
+          "freeCashFlow": 1089
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Dec 31, 2023",
+          "operatingCashFlow": -458.91,
+          "capitalExpenditures": -48.39,
+          "freeCashFlow": -507.3
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Dec 31, 2022",
+          "operatingCashFlow": 281.12,
+          "capitalExpenditures": -63.7,
+          "freeCashFlow": 217.41
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Dec 31, 2021",
+          "operatingCashFlow": -342.59,
+          "capitalExpenditures": -57.77,
+          "freeCashFlow": -400.35
+        }
+      ]
     }
   ]
 }
