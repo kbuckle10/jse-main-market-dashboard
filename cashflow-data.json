@@ -19,7 +19,7 @@
           "freeCashFlow": 10528,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1810,
           "leveredFreeCashFlow": 8256,
           "unleveredFreeCashFlow": 8256,
           "method": "conventional_fcf"
@@ -32,7 +32,7 @@
           "freeCashFlow": 4764,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -4572,
           "leveredFreeCashFlow": 2671,
           "unleveredFreeCashFlow": 2671,
           "method": "conventional_fcf"
@@ -45,7 +45,7 @@
           "freeCashFlow": 6231,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -5764,
           "leveredFreeCashFlow": 4610,
           "unleveredFreeCashFlow": 4610,
           "method": "conventional_fcf"
@@ -58,7 +58,7 @@
           "freeCashFlow": 5760,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1748,
           "leveredFreeCashFlow": 4464,
           "unleveredFreeCashFlow": 4468,
           "method": "conventional_fcf"
@@ -71,7 +71,7 @@
           "freeCashFlow": 2955,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1304,
           "leveredFreeCashFlow": 1509,
           "unleveredFreeCashFlow": 1526,
           "method": "conventional_fcf"
@@ -84,7 +84,7 @@
           "freeCashFlow": 5399,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1686,
           "leveredFreeCashFlow": 4426,
           "unleveredFreeCashFlow": 4545,
           "method": "conventional_fcf"
@@ -107,7 +107,7 @@
           "freeCashFlow": 8609,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -32.96,
           "leveredFreeCashFlow": 7198,
           "unleveredFreeCashFlow": 7240,
           "method": "conventional_fcf"
@@ -120,7 +120,7 @@
           "freeCashFlow": 7215,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -84.12,
           "leveredFreeCashFlow": 6018,
           "unleveredFreeCashFlow": 6065,
           "method": "conventional_fcf"
@@ -133,7 +133,7 @@
           "freeCashFlow": 6409,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -151.19,
           "leveredFreeCashFlow": 5182,
           "unleveredFreeCashFlow": 5203,
           "method": "conventional_fcf"
@@ -146,7 +146,7 @@
           "freeCashFlow": 3846,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 10.18,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -159,7 +159,7 @@
           "freeCashFlow": 4083,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -82.44,
           "leveredFreeCashFlow": 3363,
           "unleveredFreeCashFlow": 3375,
           "method": "conventional_fcf"
@@ -172,7 +172,7 @@
           "freeCashFlow": 3584,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -157.03,
           "leveredFreeCashFlow": 2844,
           "unleveredFreeCashFlow": 2855,
           "method": "conventional_fcf"
@@ -195,7 +195,7 @@
           "freeCashFlow": 15833,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -5475,
           "leveredFreeCashFlow": -13844,
           "unleveredFreeCashFlow": -11311,
           "method": "conventional_fcf"
@@ -208,7 +208,7 @@
           "freeCashFlow": 12615,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2672,
           "leveredFreeCashFlow": -13207,
           "unleveredFreeCashFlow": -10677,
           "method": "conventional_fcf"
@@ -221,7 +221,7 @@
           "freeCashFlow": 15335,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -13770,
           "leveredFreeCashFlow": 2340,
           "unleveredFreeCashFlow": 4851,
           "method": "conventional_fcf"
@@ -234,7 +234,7 @@
           "freeCashFlow": 15162,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -11741,
           "leveredFreeCashFlow": 2080,
           "unleveredFreeCashFlow": 4068,
           "method": "conventional_fcf"
@@ -247,7 +247,7 @@
           "freeCashFlow": -1981,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -622.83,
           "leveredFreeCashFlow": -13891,
           "unleveredFreeCashFlow": -12390,
           "method": "conventional_fcf"
@@ -260,7 +260,7 @@
           "freeCashFlow": 15346,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -9644,
           "leveredFreeCashFlow": 2949,
           "unleveredFreeCashFlow": 9034,
           "method": "conventional_fcf"
@@ -283,7 +283,7 @@
           "freeCashFlow": 64.87,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -24.03,
           "leveredFreeCashFlow": 54.41,
           "unleveredFreeCashFlow": 62.44,
           "method": "conventional_fcf"
@@ -296,7 +296,7 @@
           "freeCashFlow": 50.21,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -19.72,
           "leveredFreeCashFlow": 41.72,
           "unleveredFreeCashFlow": 50.07,
           "method": "conventional_fcf"
@@ -309,7 +309,7 @@
           "freeCashFlow": 42.53,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -12.79,
           "leveredFreeCashFlow": 38.47,
           "unleveredFreeCashFlow": 47.17,
           "method": "conventional_fcf"
@@ -322,7 +322,7 @@
           "freeCashFlow": 41.22,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -17.07,
           "leveredFreeCashFlow": 31.73,
           "unleveredFreeCashFlow": 40.82,
           "method": "conventional_fcf"
@@ -335,7 +335,7 @@
           "freeCashFlow": 7.18,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 5.12,
           "leveredFreeCashFlow": 20.66,
           "unleveredFreeCashFlow": 29.9,
           "method": "conventional_fcf"
@@ -348,7 +348,7 @@
           "freeCashFlow": 13.8,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2.74,
           "leveredFreeCashFlow": 15.07,
           "unleveredFreeCashFlow": 24.62,
           "method": "conventional_fcf"
@@ -371,7 +371,7 @@
           "freeCashFlow": 11534,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -11664,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -384,7 +384,7 @@
           "freeCashFlow": 41209,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -24335,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -397,7 +397,7 @@
           "freeCashFlow": 64916,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -53081,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -410,7 +410,7 @@
           "freeCashFlow": 32700,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -123512,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -423,7 +423,7 @@
           "freeCashFlow": -21957,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -102901,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -436,7 +436,7 @@
           "freeCashFlow": -39031,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -40046,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -459,7 +459,7 @@
           "freeCashFlow": 9534,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1575,
           "leveredFreeCashFlow": 3258,
           "unleveredFreeCashFlow": 6260,
           "method": "conventional_fcf"
@@ -472,7 +472,7 @@
           "freeCashFlow": 5671,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -3791,
           "leveredFreeCashFlow": -1925,
           "unleveredFreeCashFlow": 1056,
           "method": "conventional_fcf"
@@ -485,7 +485,7 @@
           "freeCashFlow": 2698,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -3712,
           "leveredFreeCashFlow": -9147,
           "unleveredFreeCashFlow": -6690,
           "method": "conventional_fcf"
@@ -498,7 +498,7 @@
           "freeCashFlow": 5006,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2353,
           "leveredFreeCashFlow": -58.36,
           "unleveredFreeCashFlow": 1861,
           "method": "conventional_fcf"
@@ -511,7 +511,7 @@
           "freeCashFlow": -2271,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 4318,
           "leveredFreeCashFlow": -15537,
           "unleveredFreeCashFlow": -14344,
           "method": "conventional_fcf"
@@ -524,7 +524,7 @@
           "freeCashFlow": 1021,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1068,
           "leveredFreeCashFlow": -408.98,
           "unleveredFreeCashFlow": 223.96,
           "method": "conventional_fcf"
@@ -547,7 +547,7 @@
           "freeCashFlow": 2017,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2025,
           "leveredFreeCashFlow": 722.77,
           "unleveredFreeCashFlow": 970.95,
           "method": "conventional_fcf"
@@ -560,7 +560,7 @@
           "freeCashFlow": 1888,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2181,
           "leveredFreeCashFlow": 846.95,
           "unleveredFreeCashFlow": 1054,
           "method": "conventional_fcf"
@@ -573,7 +573,7 @@
           "freeCashFlow": 765.85,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2000,
           "leveredFreeCashFlow": -32.49,
           "unleveredFreeCashFlow": 107.74,
           "method": "conventional_fcf"
@@ -586,7 +586,7 @@
           "freeCashFlow": -2011,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -5233,
           "leveredFreeCashFlow": -2714,
           "unleveredFreeCashFlow": -2645,
           "method": "conventional_fcf"
@@ -599,7 +599,7 @@
           "freeCashFlow": 1086,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2316,
           "leveredFreeCashFlow": 246.76,
           "unleveredFreeCashFlow": 321.24,
           "method": "conventional_fcf"
@@ -612,7 +612,7 @@
           "freeCashFlow": 2686,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -728.62,
           "leveredFreeCashFlow": 1913,
           "unleveredFreeCashFlow": 1980,
           "method": "conventional_fcf"
@@ -635,7 +635,7 @@
           "freeCashFlow": -19302,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -900.51,
           "leveredFreeCashFlow": -18967,
           "unleveredFreeCashFlow": -12860,
           "method": "conventional_fcf"
@@ -648,7 +648,7 @@
           "freeCashFlow": -32764,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1166,
           "leveredFreeCashFlow": 13371,
           "unleveredFreeCashFlow": 19478,
           "method": "conventional_fcf"
@@ -661,7 +661,7 @@
           "freeCashFlow": -4880,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -914.43,
           "leveredFreeCashFlow": 354.97,
           "unleveredFreeCashFlow": 6030,
           "method": "conventional_fcf"
@@ -674,7 +674,7 @@
           "freeCashFlow": -3027,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -469.4,
           "leveredFreeCashFlow": -2584,
           "unleveredFreeCashFlow": 2802,
           "method": "conventional_fcf"
@@ -687,7 +687,7 @@
           "freeCashFlow": -28916,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2413,
           "leveredFreeCashFlow": 11948,
           "unleveredFreeCashFlow": 15887,
           "method": "conventional_fcf"
@@ -700,7 +700,7 @@
           "freeCashFlow": 2523,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 12910,
           "leveredFreeCashFlow": 11373,
           "unleveredFreeCashFlow": 14574,
           "method": "conventional_fcf"
@@ -723,7 +723,7 @@
           "freeCashFlow": -44608,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -16145,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -736,7 +736,7 @@
           "freeCashFlow": -47143,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 11955,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -749,7 +749,7 @@
           "freeCashFlow": -69644,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -21110,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -762,7 +762,7 @@
           "freeCashFlow": -25322,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 5257,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -775,7 +775,7 @@
           "freeCashFlow": -16157,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -17823,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -788,7 +788,7 @@
           "freeCashFlow": 6556,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -27887,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -811,7 +811,7 @@
           "freeCashFlow": 11.22,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -9,
           "leveredFreeCashFlow": -9.75,
           "unleveredFreeCashFlow": -7.46,
           "method": "conventional_fcf"
@@ -824,7 +824,7 @@
           "freeCashFlow": 3.9,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -10.95,
           "leveredFreeCashFlow": -23.48,
           "unleveredFreeCashFlow": -21.07,
           "method": "conventional_fcf"
@@ -837,7 +837,7 @@
           "freeCashFlow": 2.82,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -7.5,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -850,7 +850,7 @@
           "freeCashFlow": 2.35,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -7.86,
           "leveredFreeCashFlow": 1.07,
           "unleveredFreeCashFlow": 2.96,
           "method": "conventional_fcf"
@@ -863,7 +863,7 @@
           "freeCashFlow": 0.16,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1.83,
           "leveredFreeCashFlow": -1.45,
           "unleveredFreeCashFlow": 0.67,
           "method": "conventional_fcf"
@@ -876,7 +876,7 @@
           "freeCashFlow": -4.02,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2.96,
           "leveredFreeCashFlow": -6.09,
           "unleveredFreeCashFlow": -4.38,
           "method": "conventional_fcf"
@@ -899,7 +899,7 @@
           "freeCashFlow": 559.64,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -154.04,
           "leveredFreeCashFlow": -12953,
           "unleveredFreeCashFlow": -12953,
           "method": "conventional_fcf"
@@ -912,7 +912,7 @@
           "freeCashFlow": 2188,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -597.28,
           "leveredFreeCashFlow": -7926,
           "unleveredFreeCashFlow": -7926,
           "method": "conventional_fcf"
@@ -925,7 +925,7 @@
           "freeCashFlow": 994.2,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 344.42,
           "leveredFreeCashFlow": -703.97,
           "unleveredFreeCashFlow": -703.97,
           "method": "conventional_fcf"
@@ -938,7 +938,7 @@
           "freeCashFlow": 150.26,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 349.72,
           "leveredFreeCashFlow": 205.04,
           "unleveredFreeCashFlow": 205.04,
           "method": "conventional_fcf"
@@ -951,7 +951,7 @@
           "freeCashFlow": -426.49,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -86.89,
           "leveredFreeCashFlow": -6137,
           "unleveredFreeCashFlow": -6137,
           "method": "conventional_fcf"
@@ -964,7 +964,7 @@
           "freeCashFlow": -382.55,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 1192,
           "leveredFreeCashFlow": -242.16,
           "unleveredFreeCashFlow": -237.54,
           "method": "conventional_fcf"
@@ -987,7 +987,7 @@
           "freeCashFlow": 240.29,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -88.11,
           "leveredFreeCashFlow": 203.56,
           "unleveredFreeCashFlow": 205.35,
           "method": "conventional_fcf"
@@ -1000,7 +1000,7 @@
           "freeCashFlow": 57.42,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -106.28,
           "leveredFreeCashFlow": -17.81,
           "unleveredFreeCashFlow": -16.03,
           "method": "conventional_fcf"
@@ -1013,7 +1013,7 @@
           "freeCashFlow": 348.74,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -72.94,
           "leveredFreeCashFlow": 309.4,
           "unleveredFreeCashFlow": 309.4,
           "method": "conventional_fcf"
@@ -1026,7 +1026,7 @@
           "freeCashFlow": 58.05,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -58.75,
           "leveredFreeCashFlow": 29.65,
           "unleveredFreeCashFlow": 29.65,
           "method": "conventional_fcf"
@@ -1039,7 +1039,7 @@
           "freeCashFlow": 242.29,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -98.21,
           "leveredFreeCashFlow": 213.77,
           "unleveredFreeCashFlow": 214.54,
           "method": "conventional_fcf"
@@ -1052,7 +1052,7 @@
           "freeCashFlow": 47.02,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -15.18,
           "leveredFreeCashFlow": 15.33,
           "unleveredFreeCashFlow": 15.86,
           "method": "conventional_fcf"
@@ -1075,7 +1075,7 @@
           "freeCashFlow": -5561,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1595,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1088,7 +1088,7 @@
           "freeCashFlow": 4494,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -4786,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1101,7 +1101,7 @@
           "freeCashFlow": -5604,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 1451,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1114,7 +1114,7 @@
           "freeCashFlow": 10687,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -15424,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1127,7 +1127,7 @@
           "freeCashFlow": 25972,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -24185,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1140,7 +1140,7 @@
           "freeCashFlow": 7904,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -16221,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1163,7 +1163,7 @@
           "freeCashFlow": 10075,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -19943,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1176,7 +1176,7 @@
           "freeCashFlow": 17509,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -38198,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1189,7 +1189,7 @@
           "freeCashFlow": -1183,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 3875,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1202,7 +1202,7 @@
           "freeCashFlow": -15595,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 26208,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1215,7 +1215,7 @@
           "freeCashFlow": 692.46,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -16973,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1228,7 +1228,7 @@
           "freeCashFlow": 70146,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -88002,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1251,7 +1251,7 @@
           "freeCashFlow": 2985,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 6128,
           "leveredFreeCashFlow": 7735,
           "unleveredFreeCashFlow": 9201,
           "method": "conventional_fcf"
@@ -1264,7 +1264,7 @@
           "freeCashFlow": 640.3,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 7171,
           "leveredFreeCashFlow": 5744,
           "unleveredFreeCashFlow": 7200,
           "method": "conventional_fcf"
@@ -1277,7 +1277,7 @@
           "freeCashFlow": -5683,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2528,
           "leveredFreeCashFlow": -3247,
           "unleveredFreeCashFlow": -1766,
           "method": "conventional_fcf"
@@ -1290,7 +1290,7 @@
           "freeCashFlow": -2189,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 683.37,
           "leveredFreeCashFlow": 21765,
           "unleveredFreeCashFlow": 23379,
           "method": "conventional_fcf"
@@ -1303,7 +1303,7 @@
           "freeCashFlow": -6930,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -8427,
           "leveredFreeCashFlow": -9837,
           "unleveredFreeCashFlow": -8722,
           "method": "conventional_fcf"
@@ -1316,7 +1316,7 @@
           "freeCashFlow": -691.84,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -3180,
           "leveredFreeCashFlow": -2761,
           "unleveredFreeCashFlow": -2139,
           "method": "conventional_fcf"
@@ -1339,7 +1339,7 @@
           "freeCashFlow": 292.43,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 51.71,
           "leveredFreeCashFlow": 449.91,
           "unleveredFreeCashFlow": 548.1,
           "method": "conventional_fcf"
@@ -1352,7 +1352,7 @@
           "freeCashFlow": 520.74,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -158.42,
           "leveredFreeCashFlow": 428.55,
           "unleveredFreeCashFlow": 527.64,
           "method": "conventional_fcf"
@@ -1365,7 +1365,7 @@
           "freeCashFlow": 389.65,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -420.38,
           "leveredFreeCashFlow": 47.11,
           "unleveredFreeCashFlow": 181.57,
           "method": "conventional_fcf"
@@ -1378,7 +1378,7 @@
           "freeCashFlow": 762.07,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 284.87,
           "leveredFreeCashFlow": 596.16,
           "unleveredFreeCashFlow": 766.11,
           "method": "conventional_fcf"
@@ -1391,7 +1391,7 @@
           "freeCashFlow": 1556,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -446.4,
           "leveredFreeCashFlow": 541.53,
           "unleveredFreeCashFlow": 759.07,
           "method": "conventional_fcf"
@@ -1404,7 +1404,7 @@
           "freeCashFlow": 1356,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -247.8,
           "leveredFreeCashFlow": 937.27,
           "unleveredFreeCashFlow": 1211,
           "method": "conventional_fcf"
@@ -1427,7 +1427,7 @@
           "freeCashFlow": 39.45,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -13.07,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1440,7 +1440,7 @@
           "freeCashFlow": 27.08,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -12.53,
           "leveredFreeCashFlow": -14.54,
           "unleveredFreeCashFlow": -4.42,
           "method": "conventional_fcf"
@@ -1453,7 +1453,7 @@
           "freeCashFlow": 6.04,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -39.58,
           "leveredFreeCashFlow": -60.17,
           "unleveredFreeCashFlow": -52.43,
           "method": "conventional_fcf"
@@ -1466,7 +1466,7 @@
           "freeCashFlow": 12.26,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -6.72,
           "leveredFreeCashFlow": 0.33,
           "unleveredFreeCashFlow": 5.31,
           "method": "conventional_fcf"
@@ -1479,7 +1479,7 @@
           "freeCashFlow": -46.6,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 0.86,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1502,7 +1502,7 @@
           "freeCashFlow": -91.87,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -6.77,
           "leveredFreeCashFlow": -82.55,
           "unleveredFreeCashFlow": -79.22,
           "method": "conventional_fcf"
@@ -1515,7 +1515,7 @@
           "freeCashFlow": 138.44,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -30.39,
           "leveredFreeCashFlow": 118.77,
           "unleveredFreeCashFlow": 122.1,
           "method": "conventional_fcf"
@@ -1528,7 +1528,7 @@
           "freeCashFlow": 57.5,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -30.01,
           "leveredFreeCashFlow": 38.45,
           "unleveredFreeCashFlow": 40.98,
           "method": "conventional_fcf"
@@ -1541,7 +1541,7 @@
           "freeCashFlow": -77.55,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -219.87,
           "leveredFreeCashFlow": 5.83,
           "unleveredFreeCashFlow": 9.53,
           "method": "conventional_fcf"
@@ -1554,7 +1554,7 @@
           "freeCashFlow": -0.62,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -20.45,
           "leveredFreeCashFlow": 26,
           "unleveredFreeCashFlow": 27.24,
           "method": "conventional_fcf"
@@ -1567,7 +1567,7 @@
           "freeCashFlow": 86.24,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -129.35,
           "leveredFreeCashFlow": 22.61,
           "unleveredFreeCashFlow": 24.72,
           "method": "conventional_fcf"
@@ -1590,7 +1590,7 @@
           "freeCashFlow": -1244,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -826.25,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1603,7 +1603,7 @@
           "freeCashFlow": -561.65,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -939.68,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1616,7 +1616,7 @@
           "freeCashFlow": 418.32,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -348.7,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1629,7 +1629,7 @@
           "freeCashFlow": -58.23,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 189.82,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1642,7 +1642,7 @@
           "freeCashFlow": 562.66,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 29.97,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1655,7 +1655,7 @@
           "freeCashFlow": -962.85,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -97.92,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -1678,7 +1678,7 @@
           "freeCashFlow": 30.3,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 0.2,
           "leveredFreeCashFlow": 32.09,
           "unleveredFreeCashFlow": 45.12,
           "method": "conventional_fcf"
@@ -1691,7 +1691,7 @@
           "freeCashFlow": 34.66,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 14.43,
           "leveredFreeCashFlow": -52.66,
           "unleveredFreeCashFlow": -42.43,
           "method": "conventional_fcf"
@@ -1704,7 +1704,7 @@
           "freeCashFlow": 0.09,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.27,
           "leveredFreeCashFlow": -3.71,
           "unleveredFreeCashFlow": -3.71,
           "method": "conventional_fcf"
@@ -1727,7 +1727,7 @@
           "freeCashFlow": -555.06,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -9.07,
           "leveredFreeCashFlow": -175.68,
           "unleveredFreeCashFlow": -161.8,
           "method": "conventional_fcf"
@@ -1740,7 +1740,7 @@
           "freeCashFlow": -97.95,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 446.33,
           "leveredFreeCashFlow": 86.33,
           "unleveredFreeCashFlow": 98.36,
           "method": "conventional_fcf"
@@ -1753,7 +1753,7 @@
           "freeCashFlow": -209.61,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 622.39,
           "leveredFreeCashFlow": 364.14,
           "unleveredFreeCashFlow": 378.84,
           "method": "conventional_fcf"
@@ -1766,7 +1766,7 @@
           "freeCashFlow": -1253,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -855.56,
           "leveredFreeCashFlow": 9155,
           "unleveredFreeCashFlow": 9200,
           "method": "conventional_fcf"
@@ -1779,7 +1779,7 @@
           "freeCashFlow": 466.27,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -3007,
           "leveredFreeCashFlow": 333.6,
           "unleveredFreeCashFlow": 474.1,
           "method": "conventional_fcf"
@@ -1792,7 +1792,7 @@
           "freeCashFlow": 3288,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -3991,
           "leveredFreeCashFlow": 72.16,
           "unleveredFreeCashFlow": 205.78,
           "method": "conventional_fcf"
@@ -1815,7 +1815,7 @@
           "freeCashFlow": 1321,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -543.48,
           "leveredFreeCashFlow": 943.76,
           "unleveredFreeCashFlow": 977.79,
           "method": "conventional_fcf"
@@ -1828,7 +1828,7 @@
           "freeCashFlow": 1167,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -611.23,
           "leveredFreeCashFlow": 848.64,
           "unleveredFreeCashFlow": 877.34,
           "method": "conventional_fcf"
@@ -1841,7 +1841,7 @@
           "freeCashFlow": 91.85,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1145,
           "leveredFreeCashFlow": -242.24,
           "unleveredFreeCashFlow": -231.77,
           "method": "conventional_fcf"
@@ -1854,7 +1854,7 @@
           "freeCashFlow": 251,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -102.86,
           "leveredFreeCashFlow": -95.08,
           "unleveredFreeCashFlow": -94.76,
           "method": "conventional_fcf"
@@ -1867,7 +1867,7 @@
           "freeCashFlow": 764.93,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -372.33,
           "leveredFreeCashFlow": 407.14,
           "unleveredFreeCashFlow": 409.81,
           "method": "conventional_fcf"
@@ -1880,7 +1880,7 @@
           "freeCashFlow": 311.12,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -188.92,
           "leveredFreeCashFlow": 121,
           "unleveredFreeCashFlow": 122.21,
           "method": "conventional_fcf"
@@ -1903,7 +1903,7 @@
           "freeCashFlow": 1658,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1398,
           "leveredFreeCashFlow": 856.16,
           "unleveredFreeCashFlow": 899,
           "method": "conventional_fcf"
@@ -1916,7 +1916,7 @@
           "freeCashFlow": 264.51,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1421,
           "leveredFreeCashFlow": -473.74,
           "unleveredFreeCashFlow": -441.85,
           "method": "conventional_fcf"
@@ -1929,7 +1929,7 @@
           "freeCashFlow": 1195,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1228,
           "leveredFreeCashFlow": 834.89,
           "unleveredFreeCashFlow": 836.49,
           "method": "conventional_fcf"
@@ -1942,7 +1942,7 @@
           "freeCashFlow": 3370,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1525,
           "leveredFreeCashFlow": 3017,
           "unleveredFreeCashFlow": 3022,
           "method": "conventional_fcf"
@@ -1955,7 +1955,7 @@
           "freeCashFlow": 1853,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1004,
           "leveredFreeCashFlow": 1469,
           "unleveredFreeCashFlow": 1484,
           "method": "conventional_fcf"
@@ -1968,7 +1968,7 @@
           "freeCashFlow": 1495,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -602.35,
           "leveredFreeCashFlow": 1162,
           "unleveredFreeCashFlow": 1192,
           "method": "conventional_fcf"
@@ -1991,7 +1991,7 @@
           "freeCashFlow": 0.1,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.05,
           "leveredFreeCashFlow": -0.39,
           "unleveredFreeCashFlow": -0.38,
           "method": "conventional_fcf"
@@ -2004,7 +2004,7 @@
           "freeCashFlow": 0.14,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.12,
           "leveredFreeCashFlow": -0.41,
           "unleveredFreeCashFlow": -0.4,
           "method": "conventional_fcf"
@@ -2017,7 +2017,7 @@
           "freeCashFlow": -0.02,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.05,
           "leveredFreeCashFlow": -0.27,
           "unleveredFreeCashFlow": -0.26,
           "method": "conventional_fcf"
@@ -2030,7 +2030,7 @@
           "freeCashFlow": 0.07,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.09,
           "leveredFreeCashFlow": -1.16,
           "unleveredFreeCashFlow": -1.15,
           "method": "conventional_fcf"
@@ -2043,7 +2043,7 @@
           "freeCashFlow": -0.25,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.01,
           "leveredFreeCashFlow": 0.12,
           "unleveredFreeCashFlow": 0.12,
           "method": "conventional_fcf"
@@ -2066,7 +2066,7 @@
           "freeCashFlow": 6035,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -873.24,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2079,7 +2079,7 @@
           "freeCashFlow": 3249,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -825.2,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2092,7 +2092,7 @@
           "freeCashFlow": -4310,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -300.05,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2105,7 +2105,7 @@
           "freeCashFlow": -4838,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -286.76,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2118,7 +2118,7 @@
           "freeCashFlow": -1539,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 392.54,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2131,7 +2131,7 @@
           "freeCashFlow": 686.49,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -377.78,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2154,7 +2154,7 @@
           "freeCashFlow": -46.21,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 21.98,
           "leveredFreeCashFlow": -23.28,
           "unleveredFreeCashFlow": 10.09,
           "method": "conventional_fcf"
@@ -2167,7 +2167,7 @@
           "freeCashFlow": -49.52,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 10.69,
           "leveredFreeCashFlow": -18.39,
           "unleveredFreeCashFlow": 12.2,
           "method": "conventional_fcf"
@@ -2180,7 +2180,7 @@
           "freeCashFlow": -58.26,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 206.22,
           "leveredFreeCashFlow": 77.06,
           "unleveredFreeCashFlow": 113.63,
           "method": "conventional_fcf"
@@ -2193,7 +2193,7 @@
           "freeCashFlow": 176.86,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -3.44,
           "leveredFreeCashFlow": 92.44,
           "unleveredFreeCashFlow": 131.71,
           "method": "conventional_fcf"
@@ -2206,7 +2206,7 @@
           "freeCashFlow": 8.85,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -215.15,
           "leveredFreeCashFlow": -168.38,
           "unleveredFreeCashFlow": -132.16,
           "method": "conventional_fcf"
@@ -2219,7 +2219,7 @@
           "freeCashFlow": -91.84,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2.31,
           "leveredFreeCashFlow": 3.35,
           "unleveredFreeCashFlow": 22.75,
           "method": "conventional_fcf"
@@ -2242,7 +2242,7 @@
           "freeCashFlow": -12.37,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.43,
           "leveredFreeCashFlow": 12.86,
           "unleveredFreeCashFlow": 8.89,
           "method": "conventional_fcf"
@@ -2255,7 +2255,7 @@
           "freeCashFlow": -9.19,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.35,
           "leveredFreeCashFlow": 42.43,
           "unleveredFreeCashFlow": 38.46,
           "method": "conventional_fcf"
@@ -2268,7 +2268,7 @@
           "freeCashFlow": -82.18,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1,
           "leveredFreeCashFlow": 304.31,
           "unleveredFreeCashFlow": 300.51,
           "method": "conventional_fcf"
@@ -2281,7 +2281,7 @@
           "freeCashFlow": 286.73,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -490.7,
           "leveredFreeCashFlow": 307.54,
           "unleveredFreeCashFlow": 303.36,
           "method": "conventional_fcf"
@@ -2294,7 +2294,7 @@
           "freeCashFlow": 107.93,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -124.01,
           "leveredFreeCashFlow": 407.13,
           "unleveredFreeCashFlow": 428.96,
           "method": "conventional_fcf"
@@ -2307,7 +2307,7 @@
           "freeCashFlow": 650.89,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -845.53,
           "leveredFreeCashFlow": 271.71,
           "unleveredFreeCashFlow": 290.18,
           "method": "conventional_fcf"
@@ -2330,7 +2330,7 @@
           "freeCashFlow": -426.24,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 51.58,
           "leveredFreeCashFlow": -353.41,
           "unleveredFreeCashFlow": -277.43,
           "method": "conventional_fcf"
@@ -2343,7 +2343,7 @@
           "freeCashFlow": -313.82,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 30.66,
           "leveredFreeCashFlow": -204.89,
           "unleveredFreeCashFlow": -133.93,
           "method": "conventional_fcf"
@@ -2356,7 +2356,7 @@
           "freeCashFlow": -264.24,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -40.98,
           "leveredFreeCashFlow": -192.82,
           "unleveredFreeCashFlow": -140.86,
           "method": "conventional_fcf"
@@ -2369,7 +2369,7 @@
           "freeCashFlow": -414.83,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 47.78,
           "leveredFreeCashFlow": -253.7,
           "unleveredFreeCashFlow": -222.57,
           "method": "conventional_fcf"
@@ -2382,7 +2382,7 @@
           "freeCashFlow": -648.03,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -98.58,
           "leveredFreeCashFlow": -402.12,
           "unleveredFreeCashFlow": -369.04,
           "method": "conventional_fcf"
@@ -2395,7 +2395,7 @@
           "freeCashFlow": 4.81,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -922.34,
           "leveredFreeCashFlow": -102.53,
           "unleveredFreeCashFlow": -72.6,
           "method": "conventional_fcf"
@@ -2418,7 +2418,7 @@
           "freeCashFlow": -65.39,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 937.37,
           "leveredFreeCashFlow": -614.4,
           "unleveredFreeCashFlow": -242.16,
           "method": "conventional_fcf"
@@ -2431,7 +2431,7 @@
           "freeCashFlow": -82.56,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -137.64,
           "leveredFreeCashFlow": -327.34,
           "unleveredFreeCashFlow": 8.73,
           "method": "conventional_fcf"
@@ -2444,7 +2444,7 @@
           "freeCashFlow": -490.55,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -3271,
           "leveredFreeCashFlow": -271.72,
           "unleveredFreeCashFlow": 39.47,
           "method": "conventional_fcf"
@@ -2457,7 +2457,7 @@
           "freeCashFlow": -94.23,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -100.69,
           "leveredFreeCashFlow": -190.88,
           "unleveredFreeCashFlow": -144.28,
           "method": "conventional_fcf"
@@ -2470,7 +2470,7 @@
           "freeCashFlow": -49.06,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -13.8,
           "leveredFreeCashFlow": -141.49,
           "unleveredFreeCashFlow": -109.8,
           "method": "conventional_fcf"
@@ -2483,7 +2483,7 @@
           "freeCashFlow": -60.57,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -37.43,
           "leveredFreeCashFlow": -99.4,
           "unleveredFreeCashFlow": -71.51,
           "method": "conventional_fcf"
@@ -2506,7 +2506,7 @@
           "freeCashFlow": 9422,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -8418,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2519,7 +2519,7 @@
           "freeCashFlow": 4793,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -3936,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2532,7 +2532,7 @@
           "freeCashFlow": 1402,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -485.92,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2545,7 +2545,7 @@
           "freeCashFlow": -3049,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 153.11,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2558,7 +2558,7 @@
           "freeCashFlow": -2024,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 532.67,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2571,7 +2571,7 @@
           "freeCashFlow": 1187,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -5058,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2594,7 +2594,7 @@
           "freeCashFlow": 3.38,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.09,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2607,7 +2607,7 @@
           "freeCashFlow": 1.87,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.35,
           "leveredFreeCashFlow": 0.39,
           "unleveredFreeCashFlow": 0.87,
           "method": "conventional_fcf"
@@ -2620,7 +2620,7 @@
           "freeCashFlow": 1.41,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.81,
           "leveredFreeCashFlow": -0.32,
           "unleveredFreeCashFlow": 0.22,
           "method": "conventional_fcf"
@@ -2633,7 +2633,7 @@
           "freeCashFlow": -1.6,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -0.93,
           "leveredFreeCashFlow": -2.23,
           "unleveredFreeCashFlow": -2,
           "method": "conventional_fcf"
@@ -2646,7 +2646,7 @@
           "freeCashFlow": -0.4,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 2.5,
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "conventional_fcf"
@@ -2669,7 +2669,7 @@
           "freeCashFlow": 2810,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -4948,
           "leveredFreeCashFlow": 1184,
           "unleveredFreeCashFlow": 1532,
           "method": "conventional_fcf"
@@ -2682,7 +2682,7 @@
           "freeCashFlow": 1554,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -4680,
           "leveredFreeCashFlow": 564.06,
           "unleveredFreeCashFlow": 665.29,
           "method": "conventional_fcf"
@@ -2695,7 +2695,7 @@
           "freeCashFlow": -827.61,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -10092,
           "leveredFreeCashFlow": -2101,
           "unleveredFreeCashFlow": -2083,
           "method": "conventional_fcf"
@@ -2708,7 +2708,7 @@
           "freeCashFlow": 1989,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2675,
           "leveredFreeCashFlow": 1125,
           "unleveredFreeCashFlow": 1170,
           "method": "conventional_fcf"
@@ -2721,7 +2721,7 @@
           "freeCashFlow": 2684,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -376.41,
           "leveredFreeCashFlow": 1754,
           "unleveredFreeCashFlow": 1821,
           "method": "conventional_fcf"
@@ -2744,7 +2744,7 @@
           "freeCashFlow": 525.77,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -248.19,
           "leveredFreeCashFlow": 183.2,
           "unleveredFreeCashFlow": 183.2,
           "method": "conventional_fcf"
@@ -2757,7 +2757,7 @@
           "freeCashFlow": 414.44,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -162.79,
           "leveredFreeCashFlow": 330.61,
           "unleveredFreeCashFlow": 330.61,
           "method": "conventional_fcf"
@@ -2770,7 +2770,7 @@
           "freeCashFlow": 460.3,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -291.18,
           "leveredFreeCashFlow": 227.24,
           "unleveredFreeCashFlow": 227.24,
           "method": "conventional_fcf"
@@ -2783,7 +2783,7 @@
           "freeCashFlow": 241.35,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -207.6,
           "leveredFreeCashFlow": 71.36,
           "unleveredFreeCashFlow": 71.36,
           "method": "conventional_fcf"
@@ -2796,7 +2796,7 @@
           "freeCashFlow": 376.43,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -225.77,
           "leveredFreeCashFlow": 339.89,
           "unleveredFreeCashFlow": 339.89,
           "method": "conventional_fcf"
@@ -2809,7 +2809,7 @@
           "freeCashFlow": 355.67,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -156.94,
           "leveredFreeCashFlow": 317.56,
           "unleveredFreeCashFlow": 317.56,
           "method": "conventional_fcf"
@@ -2832,7 +2832,7 @@
           "freeCashFlow": 2716,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1159,
           "leveredFreeCashFlow": 2255,
           "unleveredFreeCashFlow": 2902,
           "method": "conventional_fcf"
@@ -2845,7 +2845,7 @@
           "freeCashFlow": 2159,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1333,
           "leveredFreeCashFlow": 1607,
           "unleveredFreeCashFlow": 2194,
           "method": "conventional_fcf"
@@ -2858,7 +2858,7 @@
           "freeCashFlow": 646.1,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -958.39,
           "leveredFreeCashFlow": 1251,
           "unleveredFreeCashFlow": 1819,
           "method": "conventional_fcf"
@@ -2871,7 +2871,7 @@
           "freeCashFlow": -183.32,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1922,
           "leveredFreeCashFlow": -713,
           "unleveredFreeCashFlow": -303.48,
           "method": "conventional_fcf"
@@ -2884,7 +2884,7 @@
           "freeCashFlow": 2166,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2238,
           "leveredFreeCashFlow": 2103,
           "unleveredFreeCashFlow": 2386,
           "method": "conventional_fcf"
@@ -2897,7 +2897,7 @@
           "freeCashFlow": 898.68,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -3145,
           "leveredFreeCashFlow": -373.2,
           "unleveredFreeCashFlow": -120.61,
           "method": "conventional_fcf"
@@ -2920,7 +2920,7 @@
           "freeCashFlow": 740.76,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -212.5,
           "leveredFreeCashFlow": 801.01,
           "unleveredFreeCashFlow": 961.48,
           "method": "conventional_fcf"
@@ -2933,7 +2933,7 @@
           "freeCashFlow": 831.52,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -503.7,
           "leveredFreeCashFlow": 523.91,
           "unleveredFreeCashFlow": 684.39,
           "method": "conventional_fcf"
@@ -2946,7 +2946,7 @@
           "freeCashFlow": 643.22,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 175.23,
           "leveredFreeCashFlow": 381.61,
           "unleveredFreeCashFlow": 563.89,
           "method": "conventional_fcf"
@@ -2959,7 +2959,7 @@
           "freeCashFlow": 500.32,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1990,
           "leveredFreeCashFlow": 106.53,
           "unleveredFreeCashFlow": 242.57,
           "method": "conventional_fcf"
@@ -2972,7 +2972,7 @@
           "freeCashFlow": -19.73,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1557,
           "leveredFreeCashFlow": 593.47,
           "unleveredFreeCashFlow": 683.7,
           "method": "conventional_fcf"
@@ -2985,7 +2985,7 @@
           "freeCashFlow": -9.74,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 221.89,
           "leveredFreeCashFlow": -1159,
           "unleveredFreeCashFlow": -1058,
           "method": "conventional_fcf"
@@ -3008,7 +3008,7 @@
           "freeCashFlow": 1323,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -265.34,
           "leveredFreeCashFlow": 139.85,
           "unleveredFreeCashFlow": 257.85,
           "method": "conventional_fcf"
@@ -3021,7 +3021,7 @@
           "freeCashFlow": -583.17,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 642.75,
           "leveredFreeCashFlow": -61.42,
           "unleveredFreeCashFlow": 56.59,
           "method": "conventional_fcf"
@@ -3034,7 +3034,7 @@
           "freeCashFlow": 1089,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -39.03,
           "leveredFreeCashFlow": 430.23,
           "unleveredFreeCashFlow": 548.97,
           "method": "conventional_fcf"
@@ -3047,7 +3047,7 @@
           "freeCashFlow": -507.3,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -71.45,
           "leveredFreeCashFlow": 682,
           "unleveredFreeCashFlow": 792.02,
           "method": "conventional_fcf"
@@ -3060,7 +3060,7 @@
           "freeCashFlow": 217.41,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -112.84,
           "leveredFreeCashFlow": -2545,
           "unleveredFreeCashFlow": -2417,
           "method": "conventional_fcf"
@@ -3073,7 +3073,7 @@
           "freeCashFlow": -400.35,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -125.49,
           "leveredFreeCashFlow": 1051,
           "unleveredFreeCashFlow": 1176,
           "method": "conventional_fcf"
@@ -3324,7 +3324,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -29.69,
           "leveredFreeCashFlow": 5.13,
           "unleveredFreeCashFlow": 6.53,
           "method": "operating_and_investing_disclosed"
@@ -3347,7 +3347,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -7.46,
           "leveredFreeCashFlow": 971.51,
           "unleveredFreeCashFlow": 1141,
           "method": "operating_and_investing_disclosed"
@@ -3360,7 +3360,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -29.21,
           "leveredFreeCashFlow": 221.64,
           "unleveredFreeCashFlow": 406.93,
           "method": "operating_and_investing_disclosed"
@@ -3373,7 +3373,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -38.45,
           "leveredFreeCashFlow": 110.48,
           "unleveredFreeCashFlow": 317.85,
           "method": "operating_and_investing_disclosed"
@@ -3386,7 +3386,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -32.57,
           "leveredFreeCashFlow": 329.08,
           "unleveredFreeCashFlow": 554.62,
           "method": "operating_and_investing_disclosed"
@@ -3399,7 +3399,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -27.02,
           "leveredFreeCashFlow": 24.31,
           "unleveredFreeCashFlow": 251.48,
           "method": "operating_and_investing_disclosed"
@@ -3412,7 +3412,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 252,
           "leveredFreeCashFlow": -27.9,
           "unleveredFreeCashFlow": 123.48,
           "method": "operating_and_investing_disclosed"
@@ -3609,9 +3609,9 @@
           "operatingCashFlow": 7189,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
-          "realEstateSales": null,
-          "investingCashFlow": null,
+          "realEstateAcquisitions": -3859,
+          "realEstateSales": 18.92,
+          "investingCashFlow": -2369,
           "leveredFreeCashFlow": 5952,
           "unleveredFreeCashFlow": 7063,
           "method": "operating_and_investing_disclosed"
@@ -3622,9 +3622,9 @@
           "operatingCashFlow": 8193,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
-          "realEstateSales": null,
-          "investingCashFlow": null,
+          "realEstateAcquisitions": -3623,
+          "realEstateSales": 18.92,
+          "investingCashFlow": -2531,
           "leveredFreeCashFlow": 5086,
           "unleveredFreeCashFlow": 6138,
           "method": "operating_and_investing_disclosed"
@@ -3635,9 +3635,9 @@
           "operatingCashFlow": 6322,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
-          "realEstateSales": null,
-          "investingCashFlow": null,
+          "realEstateAcquisitions": -3702,
+          "realEstateSales": 464.46,
+          "investingCashFlow": -558.08,
           "leveredFreeCashFlow": 981.63,
           "unleveredFreeCashFlow": 2012,
           "method": "operating_and_investing_disclosed"
@@ -3648,9 +3648,9 @@
           "operatingCashFlow": 4057,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
-          "realEstateSales": null,
-          "investingCashFlow": null,
+          "realEstateAcquisitions": -5466,
+          "realEstateSales": 2.05,
+          "investingCashFlow": 7668,
           "leveredFreeCashFlow": 1722,
           "unleveredFreeCashFlow": 2582,
           "method": "operating_and_investing_disclosed"
@@ -3661,9 +3661,9 @@
           "operatingCashFlow": 1561,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
-          "realEstateSales": null,
-          "investingCashFlow": null,
+          "realEstateAcquisitions": -2212,
+          "realEstateSales": 0.57,
+          "investingCashFlow": 1585,
           "leveredFreeCashFlow": -2042,
           "unleveredFreeCashFlow": -1404,
           "method": "operating_and_investing_disclosed"
@@ -3674,9 +3674,9 @@
           "operatingCashFlow": 1138,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
-          "realEstateSales": null,
-          "investingCashFlow": null,
+          "realEstateAcquisitions": -2687,
+          "realEstateSales": 2.8,
+          "investingCashFlow": 1426,
           "leveredFreeCashFlow": 3057,
           "unleveredFreeCashFlow": 3626,
           "method": "operating_and_investing_disclosed"
@@ -3699,7 +3699,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -3.46,
           "leveredFreeCashFlow": -4.58,
           "unleveredFreeCashFlow": -4.39,
           "method": "operating_and_investing_disclosed"
@@ -3712,7 +3712,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 0.35,
           "leveredFreeCashFlow": -2.16,
           "unleveredFreeCashFlow": -1.97,
           "method": "operating_and_investing_disclosed"
@@ -3725,7 +3725,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 3.72,
           "leveredFreeCashFlow": -0.63,
           "unleveredFreeCashFlow": -0.4,
           "method": "operating_and_investing_disclosed"
@@ -3738,7 +3738,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 5.97,
           "leveredFreeCashFlow": -4.83,
           "unleveredFreeCashFlow": -4.52,
           "method": "operating_and_investing_disclosed"
@@ -3751,7 +3751,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -9.27,
           "leveredFreeCashFlow": 2.44,
           "unleveredFreeCashFlow": 2.72,
           "method": "operating_and_investing_disclosed"
@@ -3873,9 +3873,9 @@
           "operatingCashFlow": 443.43,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
+          "realEstateAcquisitions": -118.93,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -118.91,
           "leveredFreeCashFlow": 417.52,
           "unleveredFreeCashFlow": 545.39,
           "method": "operating_and_investing_disclosed"
@@ -3886,9 +3886,9 @@
           "operatingCashFlow": 633.48,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
+          "realEstateAcquisitions": -399.55,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -399.53,
           "leveredFreeCashFlow": 581.78,
           "unleveredFreeCashFlow": 666.23,
           "method": "operating_and_investing_disclosed"
@@ -3899,9 +3899,9 @@
           "operatingCashFlow": 161.2,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
+          "realEstateAcquisitions": -602.46,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -602.43,
           "leveredFreeCashFlow": 77.1,
           "unleveredFreeCashFlow": 122.26,
           "method": "operating_and_investing_disclosed"
@@ -3912,9 +3912,9 @@
           "operatingCashFlow": 516.88,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
+          "realEstateAcquisitions": -1171,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -1171,
           "leveredFreeCashFlow": 307.25,
           "unleveredFreeCashFlow": 354.17,
           "method": "operating_and_investing_disclosed"
@@ -3925,9 +3925,9 @@
           "operatingCashFlow": 407.22,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
+          "realEstateAcquisitions": -83.36,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -83.28,
           "leveredFreeCashFlow": 328.93,
           "unleveredFreeCashFlow": 368.1,
           "method": "operating_and_investing_disclosed"
@@ -3938,9 +3938,9 @@
           "operatingCashFlow": 327.78,
           "capitalExpenditures": null,
           "freeCashFlow": null,
-          "realEstateAcquisitions": null,
+          "realEstateAcquisitions": -45.82,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -45.69,
           "leveredFreeCashFlow": 174.17,
           "unleveredFreeCashFlow": 209.41,
           "method": "operating_and_investing_disclosed"
@@ -4126,7 +4126,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -11.85,
           "leveredFreeCashFlow": -20.31,
           "unleveredFreeCashFlow": -20.31,
           "method": "operating_and_investing_disclosed"
@@ -4139,7 +4139,7 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": -2.28,
           "leveredFreeCashFlow": -5.45,
           "unleveredFreeCashFlow": -5.45,
           "method": "operating_and_investing_disclosed"
@@ -4152,9 +4152,110 @@
           "freeCashFlow": null,
           "realEstateAcquisitions": null,
           "realEstateSales": null,
-          "investingCashFlow": null,
+          "investingCashFlow": 2.26,
           "leveredFreeCashFlow": 2.55,
           "unleveredFreeCashFlow": 2.55,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Jun 30, 2023",
+          "operatingCashFlow": -6.12,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": -17.09,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "SRFJMD",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/SRFJMD/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "TTM",
+          "periodEnding": "May 31, 2026",
+          "operatingCashFlow": -855.01,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": -237.42,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Aug 31, 2025",
+          "operatingCashFlow": -982.25,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": -624.89,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Aug 31, 2024",
+          "operatingCashFlow": -1595,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": 1194,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Aug 31, 2023",
+          "operatingCashFlow": -182.48,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": -990.99,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Aug 31, 2022",
+          "operatingCashFlow": 1147,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": -3383,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Aug 31, 2021",
+          "operatingCashFlow": 8.52,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": 179.27,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
           "method": "operating_and_investing_disclosed"
         }
       ]
