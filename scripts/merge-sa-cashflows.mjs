@@ -8,10 +8,15 @@ for(const x of incoming.results||[]){
  if(x.status!=='parsed'||!Array.isArray(x.periods)||x.periods.length<3){rejected.push(x.ticker+': missing periods');continue;}
  const flexible=x.periods.some(p=>p.method==='operating_and_investing_disclosed'||p.method==='real_estate_operating_and_investing');
  const periods=x.periods.map(p=>({period:p.period,periodEnding:p.periodEnding,operatingCashFlow:p.operatingCashFlow,capitalExpenditures:p.capitalExpenditures,freeCashFlow:p.freeCashFlow,realEstateAcquisitions:p.realEstateAcquisitions??null,realEstateSales:p.realEstateSales??null,investingCashFlow:p.investingCashFlow??null,leveredFreeCashFlow:p.leveredFreeCashFlow??null,unleveredFreeCashFlow:p.unleveredFreeCashFlow??null,method:p.method||'conventional_fcf'}));
- if(periods.some(p=>!p.periodEnding||!Number.isFinite(p.operatingCashFlow)||(flexible?(![p.realEstateAcquisitions,p.investingCashFlow,p.leveredFreeCashFlow,p.unleveredFreeCashFlow,p.freeCashFlow].some(Number.isFinite)):(![p.capitalExpenditures,p.freeCashFlow].every(Number.isFinite)||Math.abs(p.operatingCashFlow+p.capitalExpenditures-p.freeCashFlow)>Math.max(2,Math.abs(p.freeCashFlow)*.002))))){rejected.push(x.ticker+': invalid/reconciliation');continue;}
+ const validPeriods=periods.filter(p=>{
+  if(!p.periodEnding||!Number.isFinite(p.operatingCashFlow))return false;
+  if(flexible)return [p.realEstateAcquisitions,p.investingCashFlow,p.leveredFreeCashFlow,p.unleveredFreeCashFlow,p.freeCashFlow].some(Number.isFinite);
+  return [p.capitalExpenditures,p.freeCashFlow].every(Number.isFinite)&&Math.abs(p.operatingCashFlow+p.capitalExpenditures-p.freeCashFlow)<=Math.max(2,Math.abs(p.freeCashFlow)*.002);
+ });
+ if(validPeriods.length<3){rejected.push(x.ticker+': only '+validPeriods.length+'/'+periods.length+' valid periods');continue;}
  if(!/^https:\/\/stockanalysis\.com\/quote\/(jmse|ttse)\//.test(x.url)){rejected.push(x.ticker+': invalid source');continue;}
  const prev=existing.get(x.ticker);
- existing.set(x.ticker,{ticker:x.ticker,currency:currency[x.ticker]||prev?.currency||'JMD',unit:'millions',source:'StockAnalysis',url:x.url,verification:flexible?'SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending':'SA parsed and arithmetically checked; JSE reconciliation pending',periods});
+ existing.set(x.ticker,{ticker:x.ticker,currency:currency[x.ticker]||prev?.currency||'JMD',unit:'millions',source:'StockAnalysis',url:x.url,verification:flexible?'SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending':'SA parsed and arithmetically checked; JSE reconciliation pending',periods:validPeriods});
  added++;
 }
 if(rejected.length){console.error('Skipped unverified companies:',rejected.join('; '));}
