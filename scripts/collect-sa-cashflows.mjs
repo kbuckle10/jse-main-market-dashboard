@@ -33,15 +33,19 @@ try {
       const ocf = find('Operating Cash Flow');
       const capex = find('Capital Expenditures');
       const fcf = find('Free Cash Flow');
-      if(!fy||!ocf||!capex||!fcf) throw Error('Required rows absent; possible layout change or access restriction');
-      const count=Math.min(fy.length,ocf.length,capex.length,fcf.length);
+      const realEstate = ['KPREIT','FIRSTROCKJMD'].includes(ticker);
+      const acquisition = find('Acquisition of Real Estate Assets');
+      const sales = find('Sale of Real Estate Assets');
+      const investing = find('Investing Cash Flow');
+      if(!fy||!ocf||(!realEstate&&(!capex||!fcf))||(realEstate&&!acquisition&&!investing)) throw Error('Required rows absent; possible layout change or access restriction');
+      const count=realEstate?Math.min(fy.length,ocf.length,(acquisition||investing).length):Math.min(fy.length,ocf.length,capex.length,fcf.length);
       for(let i=1;i<count;i++){
-        const period=fy[i], operatingCashFlow=toNumber(ocf[i]), capitalExpenditures=toNumber(capex[i]), freeCashFlow=toNumber(fcf[i]);
-        if(!period || operatingCashFlow===null || capitalExpenditures===null || freeCashFlow===null) continue;
+        const period=fy[i], operatingCashFlow=toNumber(ocf[i]), capitalExpenditures=capex?toNumber(capex[i]):null, freeCashFlow=fcf?toNumber(fcf[i]):null;
+        if(!period || operatingCashFlow===null || (!realEstate&&(capitalExpenditures===null||freeCashFlow===null))) continue;
         // SA represents capital expenditures as a negative cash-flow line.
-        const discrepancy=Math.abs(operatingCashFlow+capitalExpenditures-freeCashFlow);
+        const discrepancy=capitalExpenditures!==null&&freeCashFlow!==null?Math.abs(operatingCashFlow+capitalExpenditures-freeCashFlow):null;
         const tolerance=Math.max(2,Math.abs(freeCashFlow)*0.002);
-        result.periods.push({period,periodEnding:end?.[i]??null,operatingCashFlow,capitalExpenditures,freeCashFlow,currency:exchange==='ttse'?'TTD':['KPREIT','FIRSTROCKJMD'].includes(ticker)?'USD':'JMD',unit:'millions',fcfReconciles:discrepancy<=tolerance,sourceUrl:url});
+        result.periods.push({period,periodEnding:end?.[i]??null,operatingCashFlow,capitalExpenditures,freeCashFlow,realEstateAcquisitions:realEstate&&acquisition?toNumber(acquisition[i]):null,realEstateSales:realEstate&&sales?toNumber(sales[i]):null,investingCashFlow:realEstate&&investing?toNumber(investing[i]):null,method:realEstate?'real_estate_operating_and_investing':'conventional_fcf',currency:exchange==='ttse'?'TTD':['KPREIT','FIRSTROCKJMD'].includes(ticker)?'USD':'JMD',unit:'millions',fcfReconciles:discrepancy===null?null:discrepancy<=tolerance,sourceUrl:url});
       }
       result.status=result.periods.length?'parsed':'no_complete_periods';
     }catch(e){result.status='error';result.error=String(e.message||e)}
