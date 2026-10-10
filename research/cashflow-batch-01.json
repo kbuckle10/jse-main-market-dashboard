@@ -1,0 +1,264 @@
+{
+  "generatedAt": "2026-10-10T22:25:04.485Z",
+  "sourcePriority": [
+    "StockAnalysis",
+    "JSE"
+  ],
+  "results": [
+    {
+      "ticker": "CCC",
+      "status": "parsed",
+      "url": "https://stockanalysis.com/quote/jmse/CCC/financials/cash-flow-statement/",
+      "currency": "JMD",
+      "units": "millions",
+      "records": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 12338,
+          "capitalExpenditures": -1810,
+          "freeCashFlow": 10528
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Dec 31, 2025",
+          "operatingCashFlow": 9336,
+          "capitalExpenditures": -4572,
+          "freeCashFlow": 4764
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Dec 31, 2024",
+          "operatingCashFlow": 11995,
+          "capitalExpenditures": -5764,
+          "freeCashFlow": 6231
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Dec 31, 2023",
+          "operatingCashFlow": 7508,
+          "capitalExpenditures": -1748,
+          "freeCashFlow": 5760
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Dec 31, 2022",
+          "operatingCashFlow": 4214,
+          "capitalExpenditures": -1259,
+          "freeCashFlow": 2955
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Dec 31, 2021",
+          "operatingCashFlow": 7086,
+          "capitalExpenditures": -1686,
+          "freeCashFlow": 5399
+        }
+      ]
+    },
+    {
+      "ticker": "CAR",
+      "status": "parsed",
+      "url": "https://stockanalysis.com/quote/jmse/CAR/financials/cash-flow-statement/",
+      "currency": "JMD",
+      "units": "millions",
+      "records": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 8647,
+          "capitalExpenditures": -37.68,
+          "freeCashFlow": 8609
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Dec 31, 2025",
+          "operatingCashFlow": 7304,
+          "capitalExpenditures": -88.84,
+          "freeCashFlow": 7215
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Dec 31, 2024",
+          "operatingCashFlow": 6572,
+          "capitalExpenditures": -162.25,
+          "freeCashFlow": 6409
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Dec 31, 2023",
+          "operatingCashFlow": 3960,
+          "capitalExpenditures": -113.89,
+          "freeCashFlow": 3846
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Mar 31, 2023",
+          "operatingCashFlow": 4171,
+          "capitalExpenditures": -88.59,
+          "freeCashFlow": 4083
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Mar 31, 2022",
+          "operatingCashFlow": 3785,
+          "capitalExpenditures": -200.46,
+          "freeCashFlow": 3584
+        }
+      ]
+    },
+    {
+      "ticker": "GK",
+      "status": "parsed",
+      "url": "https://stockanalysis.com/quote/jmse/GK/financials/cash-flow-statement/",
+      "currency": "JMD",
+      "units": "millions",
+      "records": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 18330,
+          "capitalExpenditures": -2497,
+          "freeCashFlow": 15833
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Dec 31, 2025",
+          "operatingCashFlow": 15255,
+          "capitalExpenditures": -2640,
+          "freeCashFlow": 12615
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Dec 31, 2024",
+          "operatingCashFlow": 18090,
+          "capitalExpenditures": -2755,
+          "freeCashFlow": 15335
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Dec 31, 2023",
+          "operatingCashFlow": 17427,
+          "capitalExpenditures": -2265,
+          "freeCashFlow": 15162
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Dec 31, 2022",
+          "operatingCashFlow": -51.25,
+          "capitalExpenditures": -1930,
+          "freeCashFlow": -1981
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Dec 31, 2021",
+          "operatingCashFlow": 17067,
+          "capitalExpenditures": -1722,
+          "freeCashFlow": 15346
+        }
+      ]
+    },
+    {
+      "ticker": "TJH",
+      "status": "parsed",
+      "url": "https://stockanalysis.com/quote/jmse/TJH/financials/cash-flow-statement/",
+      "currency": "JMD",
+      "units": "millions",
+      "records": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 65.69,
+          "capitalExpenditures": -0.83,
+          "freeCashFlow": 64.87
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Dec 31, 2025",
+          "operatingCashFlow": 52.47,
+          "capitalExpenditures": -2.26,
+          "freeCashFlow": 50.21
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Dec 31, 2024",
+          "operatingCashFlow": 43.87,
+          "capitalExpenditures": -1.34,
+          "freeCashFlow": 42.53
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Dec 31, 2023",
+          "operatingCashFlow": 41.67,
+          "capitalExpenditures": -0.46,
+          "freeCashFlow": 41.22
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Dec 31, 2022",
+          "operatingCashFlow": 7.25,
+          "capitalExpenditures": -0.07,
+          "freeCashFlow": 7.18
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Dec 31, 2021",
+          "operatingCashFlow": 13.99,
+          "capitalExpenditures": -0.19,
+          "freeCashFlow": 13.8
+        }
+      ]
+    },
+    {
+      "ticker": "NCBFG",
+      "status": "parsed",
+      "url": "https://stockanalysis.com/quote/jmse/NCBFG/financials/cash-flow-statement/",
+      "currency": "JMD",
+      "units": "millions",
+      "records": [
+        {
+          "period": "TTM",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": 13998,
+          "capitalExpenditures": -2464,
+          "freeCashFlow": 11534
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Sep 30, 2025",
+          "operatingCashFlow": 43440,
+          "capitalExpenditures": -2232,
+          "freeCashFlow": 41209
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Sep 30, 2024",
+          "operatingCashFlow": 67953,
+          "capitalExpenditures": -3037,
+          "freeCashFlow": 64916
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Sep 30, 2023",
+          "operatingCashFlow": 35853,
+          "capitalExpenditures": -3153,
+          "freeCashFlow": 32700
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Sep 30, 2022",
+          "operatingCashFlow": -18864,
+          "capitalExpenditures": -3093,
+          "freeCashFlow": -21957
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Sep 30, 2021",
+          "operatingCashFlow": -35590,
+          "capitalExpenditures": -3441,
+          "freeCashFlow": -39031
+        }
+      ]
+    }
+  ]
+}
