@@ -15,5 +15,6 @@ fetch('cashflow-data.json?v=20261010-1',{cache:'no-store'}).then(r=>{if(!r.ok)th
   table.innerHTML='<table style="width:100%;margin-top:20px"><thead><tr><th>Period</th><th>Ending</th><th>Operating CF</th><th>CapEx</th><th>Free CF</th></tr></thead><tbody>'+c.periods.map(p=>'<tr><td>'+esc(p.period)+'</td><td>'+esc(p.periodEnding)+'</td><td>'+fmt(p.operatingCashFlow)+'</td><td>'+fmt(p.capitalExpenditures)+'</td><td>'+fmt(p.freeCashFlow)+'</td></tr>').join('')+'</tbody></table>';
  }
  select.addEventListener('change',render);render();
+ document.addEventListener('click',event=>{const btn=event.target.closest?.('.cashflow-jump');if(!btn)return;const ticker=btn.dataset.cfTicker;if(!d.companies.some(c=>c.ticker===ticker)){status.textContent='Cash-flow history not yet available for '+ticker;document.querySelector('[data-tab="cashflow"]')?.click();return;}select.value=ticker;document.querySelector('[data-tab="cashflow"]')?.click();render();document.getElementById('tab-cashflow')?.scrollIntoView({behavior:'smooth',block:'start'});});
 }).catch(e=>{status.textContent='Cash-flow data unavailable: '+e.message});
 })();
