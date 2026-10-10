@@ -4034,6 +4034,130 @@
           "method": "operating_and_investing_disclosed"
         }
       ]
+    },
+    {
+      "ticker": "SELECTF",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/SELECTF/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "FY 2025",
+          "periodEnding": "Dec 31, 2025",
+          "operatingCashFlow": 73.39,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -73.65,
+          "unleveredFreeCashFlow": -73.65,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Dec 31, 2024",
+          "operatingCashFlow": 56.18,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -13.73,
+          "unleveredFreeCashFlow": -13.73,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Dec 31, 2023",
+          "operatingCashFlow": 39.4,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -326.34,
+          "unleveredFreeCashFlow": -326.34,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2022",
+          "periodEnding": "Dec 31, 2022",
+          "operatingCashFlow": 55.47,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -288.57,
+          "unleveredFreeCashFlow": -288.57,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2021",
+          "periodEnding": "Dec 31, 2021",
+          "operatingCashFlow": 59.62,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -76.31,
+          "unleveredFreeCashFlow": -76.07,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "QAINC",
+      "currency": "JMD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/QAINC/financials/cash-flow-statement/",
+      "verification": "SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "FY 2026",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": -3.23,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -20.31,
+          "unleveredFreeCashFlow": -20.31,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Jun 30, 2025",
+          "operatingCashFlow": -5.99,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": -5.45,
+          "unleveredFreeCashFlow": -5.45,
+          "method": "operating_and_investing_disclosed"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Jun 30, 2024",
+          "operatingCashFlow": -2.92,
+          "capitalExpenditures": null,
+          "freeCashFlow": null,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": null,
+          "leveredFreeCashFlow": 2.55,
+          "unleveredFreeCashFlow": 2.55,
+          "method": "operating_and_investing_disclosed"
+        }
+      ]
     }
   ]
 }
