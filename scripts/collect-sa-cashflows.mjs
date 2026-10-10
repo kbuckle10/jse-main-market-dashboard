@@ -33,7 +33,7 @@ try {
       const ocf = find('Operating Cash Flow');
       const capex = find('Capital Expenditures');
       const fcf = find('Free Cash Flow');
-      const realEstate = ['KPREIT','FIRSTROCKJMD'].includes(ticker);
+      const realEstate = ['KPREIT','FIRSTROCKJMD','SRFJMD'].includes(ticker);
       const flexible = realEstate || !capex || !fcf;
       const levered = find('Levered Free Cash Flow');
       const unlevered = find('Unlevered Free Cash Flow');
@@ -48,7 +48,7 @@ try {
         // SA represents capital expenditures as a negative cash-flow line.
         const discrepancy=capitalExpenditures!==null&&freeCashFlow!==null?Math.abs(operatingCashFlow+capitalExpenditures-freeCashFlow):null;
         const tolerance=freeCashFlow===null?null:Math.max(2,Math.abs(freeCashFlow)*0.002);
-        result.periods.push({period,periodEnding:end?.[i]??null,operatingCashFlow,capitalExpenditures,freeCashFlow,realEstateAcquisitions:realEstate&&acquisition?toNumber(acquisition[i]):null,realEstateSales:realEstate&&sales?toNumber(sales[i]):null,investingCashFlow:realEstate&&investing?toNumber(investing[i]):null,leveredFreeCashFlow:levered?toNumber(levered[i]):null,unleveredFreeCashFlow:unlevered?toNumber(unlevered[i]):null,method:flexible?'operating_and_investing_disclosed':'conventional_fcf',currency:exchange==='ttse'?'TTD':['KPREIT','FIRSTROCKJMD'].includes(ticker)?'USD':'JMD',unit:'millions',fcfReconciles:discrepancy===null?null:discrepancy<=tolerance,sourceUrl:url});
+        result.periods.push({period,periodEnding:end?.[i]??null,operatingCashFlow,capitalExpenditures,freeCashFlow,realEstateAcquisitions:acquisition?toNumber(acquisition[i]):null,realEstateSales:sales?toNumber(sales[i]):null,investingCashFlow:investing?toNumber(investing[i]):null,leveredFreeCashFlow:levered?toNumber(levered[i]):null,unleveredFreeCashFlow:unlevered?toNumber(unlevered[i]):null,method:flexible?'operating_and_investing_disclosed':'conventional_fcf',currency:exchange==='ttse'?'TTD':['KPREIT','FIRSTROCKJMD'].includes(ticker)?'USD':'JMD',unit:'millions',fcfReconciles:discrepancy===null?null:discrepancy<=tolerance,sourceUrl:url});
       }
       result.status=result.periods.length?'parsed':'no_complete_periods';
     }catch(e){result.status='error';result.error=String(e.message||e)}
