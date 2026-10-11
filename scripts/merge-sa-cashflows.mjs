@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 const file='cashflow-data.json', input=process.argv[2]||'research/sa-cashflows-batch.json';
 const data=JSON.parse(fs.readFileSync(file,'utf8')), incoming=JSON.parse(fs.readFileSync(input,'utf8'));
-const currency={TJH:'USD',CPJ:'USD',MASSY:'TTD',GHL:'TTD',KPREIT:'USD',FIRSTROCKJMD:'USD'};
+const currency={PROVEN:'USD',TJH:'USD',CPJ:'USD',MASSY:'TTD',GHL:'TTD',KPREIT:'USD',FIRSTROCKJMD:'USD'};
 const existing=new Map(data.companies.map(x=>[x.ticker,x]));
 let added=0, rejected=[];
 for(const x of incoming.results||[]){
