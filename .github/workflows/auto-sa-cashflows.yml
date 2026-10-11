@@ -1,5 +1,5 @@
 name: Collect JSE Main Market Cash Flows
-# Rerun with SRFJMD investing cash-flow capture (2026-10-10)
+# Monthly full-universe collection; workflow change triggers one validation run.
 on:
   workflow_dispatch:
   schedule:
