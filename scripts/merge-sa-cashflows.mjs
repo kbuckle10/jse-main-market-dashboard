@@ -4,6 +4,8 @@ const data=JSON.parse(fs.readFileSync(file,'utf8')), incoming=JSON.parse(fs.read
 const currency={PROVEN:'USD',TJH:'USD',CPJ:'USD',MASSY:'TTD',GHL:'TTD',KPREIT:'USD',FIRSTROCKJMD:'USD'};
 const existing=new Map(data.companies.map(x=>[x.ticker,x]));
 let added=0, rejected=[];
+const attempted=new Set((incoming.results||[]).map(x=>x.ticker));
+const refreshed=[];
 for(const x of incoming.results||[]){
  if(x.status!=='parsed'||!Array.isArray(x.periods)||x.periods.length<3){rejected.push(x.ticker+': missing periods');continue;}
  const flexible=x.periods.some(p=>p.method==='operating_and_investing_disclosed'||p.method==='real_estate_operating_and_investing');
@@ -18,6 +20,7 @@ for(const x of incoming.results||[]){
  const prev=existing.get(x.ticker);
  existing.set(x.ticker,{ticker:x.ticker,currency:currency[x.ticker]||prev?.currency||'JMD',unit:'millions',source:'StockAnalysis',url:x.url,verification:flexible?'SA operating/investing or separately disclosed FCF; conventional FCF not inferred; JSE reconciliation pending':'SA parsed and arithmetically checked; JSE reconciliation pending',periods:validPeriods});
  added++;
+ refreshed.push(x.ticker);
 }
 if(rejected.length){console.error('Skipped unverified companies:',rejected.join('; '));}
 data.companies=[...existing.values()];
@@ -25,3 +28,10 @@ data.collectedAt=new Date().toISOString().slice(0,10);
 data.note='StockAnalysis historical cash flows, values in millions. Financial-sector FCF may not be comparable. JSE cross-check pending.';
 fs.writeFileSync(file,JSON.stringify(data,null,2)+'\n');
 console.log('Merged',added,'companies; dashboard now has',data.companies.length);
+
+const universe=JSON.parse(fs.readFileSync('data.json','utf8')).stocks.map(x=>x.ticker);
+const covered=new Set(data.companies.filter(x=>Array.isArray(x.periods)&&x.periods.length>0).map(x=>x.ticker));
+const report={generatedAt:new Date().toISOString(),universe:universe.length,attempted:attempted.size,refreshed:refreshed.length,retained:universe.filter(t=>covered.has(t)&&!refreshed.includes(t)).length,missing:universe.filter(t=>!covered.has(t)),refreshedTickers:refreshed,rejected};
+fs.mkdirSync('research',{recursive:true});
+fs.writeFileSync('research/sa-cashflow-collection-report.json',JSON.stringify(report,null,2)+'\n');
+console.log('Coverage report:',JSON.stringify({universe:report.universe,attempted:report.attempted,refreshed:report.refreshed,retained:report.retained,missing:report.missing.length}));
