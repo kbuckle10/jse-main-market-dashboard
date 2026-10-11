@@ -15,7 +15,8 @@ const toNumber = s => {
 try {
   for(const ticker of tickers) {
     const exchange = ['MASSY','GHL'].includes(ticker) ? 'ttse' : 'jmse';
-    const url = 'https://stockanalysis.com/quote/'+exchange+'/'+encodeURIComponent(ticker)+'/financials/cash-flow-statement/';
+    const saTicker = ticker === 'PROVEN' ? 'PROVENJA' : ticker;
+    const url = 'https://stockanalysis.com/quote/'+exchange+'/'+encodeURIComponent(saTicker)+'/financials/cash-flow-statement/';
     const page = await browser.newPage({userAgent:'Mozilla/5.0 (compatible; financial-research/1.0)'});
     const result = {ticker,url,source:'StockAnalysis / S&P Global Market Intelligence',status:'pending',periods:[]};
     try {
@@ -48,7 +49,7 @@ try {
         // SA represents capital expenditures as a negative cash-flow line.
         const discrepancy=capitalExpenditures!==null&&freeCashFlow!==null?Math.abs(operatingCashFlow+capitalExpenditures-freeCashFlow):null;
         const tolerance=freeCashFlow===null?null:Math.max(2,Math.abs(freeCashFlow)*0.002);
-        result.periods.push({period,periodEnding:end?.[i]??null,operatingCashFlow,capitalExpenditures,freeCashFlow,realEstateAcquisitions:acquisition?toNumber(acquisition[i]):null,realEstateSales:sales?toNumber(sales[i]):null,investingCashFlow:investing?toNumber(investing[i]):null,leveredFreeCashFlow:levered?toNumber(levered[i]):null,unleveredFreeCashFlow:unlevered?toNumber(unlevered[i]):null,method:flexible?'operating_and_investing_disclosed':'conventional_fcf',currency:exchange==='ttse'?'TTD':['KPREIT','FIRSTROCKJMD'].includes(ticker)?'USD':'JMD',unit:'millions',fcfReconciles:discrepancy===null?null:discrepancy<=tolerance,sourceUrl:url});
+        result.periods.push({period,periodEnding:end?.[i]??null,operatingCashFlow,capitalExpenditures,freeCashFlow,realEstateAcquisitions:acquisition?toNumber(acquisition[i]):null,realEstateSales:sales?toNumber(sales[i]):null,investingCashFlow:investing?toNumber(investing[i]):null,leveredFreeCashFlow:levered?toNumber(levered[i]):null,unleveredFreeCashFlow:unlevered?toNumber(unlevered[i]):null,method:flexible?'operating_and_investing_disclosed':'conventional_fcf',currency:exchange==='ttse'?'TTD':['KPREIT','FIRSTROCKJMD','PROVEN'].includes(ticker)?'USD':'JMD',unit:'millions',fcfReconciles:discrepancy===null?null:discrepancy<=tolerance,sourceUrl:url});
       }
       result.status=result.periods.length?'parsed':'no_complete_periods';
     }catch(e){result.status='error';result.error=String(e.message||e)}
