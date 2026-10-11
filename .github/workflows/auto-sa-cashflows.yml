@@ -1,9 +1,10 @@
-name: Collect All 54 StockAnalysis Cash Flows
+name: Collect JSE Main Market Cash Flows
 # Rerun with SRFJMD investing cash-flow capture (2026-10-10)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 7 * * *'
+    # First day of each month, 2:15 AM Jamaica (UTC-5)
+    - cron: '15 7 1 * *'
   push:
     paths:
       - '.github/workflows/auto-sa-cashflows.yml'
@@ -25,7 +26,7 @@ jobs:
           node-version: '22'
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - name: Select all 54 JSE stocks
+      - name: Select current JSE Main Market universe
         id: select
         run: |
           node -e "const d=require('./data.json'); console.log('Collecting',d.stocks.length,'JSE companies'); require('fs').writeFileSync('research/next-sa-cashflow-tickers.txt',d.stocks.map(x=>x.ticker).join(' '))"
@@ -39,11 +40,13 @@ jobs:
           node scripts/merge-sa-cashflows.mjs research/sa-cashflows-batch.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cashflow-data.json
+          git add cashflow-data.json research/sa-cashflow-collection-report.json
           git diff --cached --quiet || (git commit -m "Auto-publish validated SA cash-flow batch" && git push)
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: sa-cashflows-all-54
-          path: research/sa-cashflows-batch.json
+          name: sa-cashflows-monthly-report
+          path: |
+            research/sa-cashflows-batch.json
+            research/sa-cashflow-collection-report.json
           if-no-files-found: ignore
