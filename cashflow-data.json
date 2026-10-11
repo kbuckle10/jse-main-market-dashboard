@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-10",
+  "collectedAt": "2026-10-11",
   "sourceRun": "https://github.com/kbuckle10/jse-main-market-dashboard/actions/runs/38086561367",
   "note": "StockAnalysis historical cash flows, values in millions. Financial-sector FCF may not be comparable. JSE cross-check pending.",
   "companies": [
@@ -4257,6 +4257,81 @@
           "leveredFreeCashFlow": null,
           "unleveredFreeCashFlow": null,
           "method": "operating_and_investing_disclosed"
+        }
+      ]
+    },
+    {
+      "ticker": "PROVEN",
+      "currency": "USD",
+      "unit": "millions",
+      "source": "StockAnalysis",
+      "url": "https://stockanalysis.com/quote/jmse/PROVENJA/financials/cash-flow-statement/",
+      "verification": "SA parsed and arithmetically checked; JSE reconciliation pending",
+      "periods": [
+        {
+          "period": "FY 2026",
+          "periodEnding": "Jun 30, 2026",
+          "operatingCashFlow": -61.56,
+          "capitalExpenditures": -6.73,
+          "freeCashFlow": -68.29,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": -5.87,
+          "leveredFreeCashFlow": -90.92,
+          "unleveredFreeCashFlow": -74.71,
+          "method": "conventional_fcf"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Jun 30, 2025",
+          "operatingCashFlow": -45.15,
+          "capitalExpenditures": -4.38,
+          "freeCashFlow": -49.53,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": -1.56,
+          "leveredFreeCashFlow": null,
+          "unleveredFreeCashFlow": null,
+          "method": "conventional_fcf"
+        },
+        {
+          "period": "FY 2025",
+          "periodEnding": "Mar 31, 2025",
+          "operatingCashFlow": -45.15,
+          "capitalExpenditures": -0.12,
+          "freeCashFlow": -45.27,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": -1.56,
+          "leveredFreeCashFlow": 76.54,
+          "unleveredFreeCashFlow": 91.35,
+          "method": "conventional_fcf"
+        },
+        {
+          "period": "FY 2024",
+          "periodEnding": "Mar 31, 2024",
+          "operatingCashFlow": 9.67,
+          "capitalExpenditures": -0.88,
+          "freeCashFlow": 8.79,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": -10.47,
+          "leveredFreeCashFlow": 20.89,
+          "unleveredFreeCashFlow": 34.85,
+          "method": "conventional_fcf"
+        },
+        {
+          "period": "FY 2023",
+          "periodEnding": "Mar 31, 2023",
+          "operatingCashFlow": -146.03,
+          "capitalExpenditures": -2.4,
+          "freeCashFlow": -148.42,
+          "realEstateAcquisitions": null,
+          "realEstateSales": null,
+          "investingCashFlow": -6.95,
+          "leveredFreeCashFlow": -393.77,
+          "unleveredFreeCashFlow": -383.75,
+          "method": "conventional_fcf"
         }
       ]
     }
