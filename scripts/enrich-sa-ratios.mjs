@@ -69,6 +69,8 @@ function extractStats(text){return{
 function mark(stock,key,state,detail=null){stock.metricStatus??={};stock.metricStatus[key]={state,detail,checkedAt:new Date().toISOString()}}
 function setSa(stock,key,val,detail='Published by StockAnalysis'){if(val==null)return false;stock[key]=Number(val.toFixed(4));stock[`${key}Source`]=stock.saMarket&&stock.saMarket!=='jmse'?`SA ${stock.saMarket.toUpperCase()}`:'SA';mark(stock,key,'ok',detail);return true}
 function calcFallback(stock,key){
+ // Never combine a JMD JSE quote with TTD/USD primary-listing per-share data.
+ if(String(stock.saMarket||stock.primaryListing?.market||'jmse').toLowerCase()!=='jmse')return null;
  if(key==='pe'&&stock.price!=null&&stock.eps>0)return Number((stock.price/stock.eps).toFixed(2));
  if(key==='pb'&&stock.price!=null&&stock.bvps!==0&&stock.bvps!=null)return Number((stock.price/stock.bvps).toFixed(2));
  if(key==='divYield'&&stock.price>0&&stock.dps!=null)return Number((stock.dps/stock.price*100).toFixed(2));
@@ -76,27 +78,34 @@ function calcFallback(stock,key){
 }
 const browser=await chromium.launch({headless:true});
 const ctx=await browser.newContext({viewport:{width:1600,height:1100},userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/151 Safari/537.36'});
-let checked=0,failed=0;
+let checked=0,failed=0,partialFailures=0;
 for(const stock of data.stocks){
  const market=(stock.saMarket||stock.primaryListing?.market||'jmse').toLowerCase();
  const ticker=encodeURIComponent(stock.primaryListing?.ticker||stock.saTicker||stock.ticker);
  const base=`https://stockanalysis.com/quote/${market}/${ticker}/`;
  console.log(`\n=== ${stock.ticker} SA (${market.toUpperCase()}) ===`);
- const pages={};const errors=[];
- for(const [name,suffix] of [['overview',''],['statistics','statistics/'],['ratios','financials/ratios/'],['dividend','dividend/']]){
+ const pages={};const errors=[];stock.saPagesChecked={};
+ for(const [name,suffix] of [['overview',''],['statistics','statistics/'],['financials','financials/'],['ratios','financials/ratios/'],['dividend','dividend/']]){
    const p=await ctx.newPage();
-   try{if(await go(p,base+suffix)){pages[name]=await p.locator('body').innerText().catch(()=>'')}else errors.push(name)}finally{await p.close()}
+   try{if(await go(p,base+suffix)){
+     const body=await p.locator('body').innerText().catch(()=>null);
+     if(body&&body.trim().length>100&&!/just a moment|access denied|captcha|verify you are human/i.test(body.slice(0,500))){pages[name]=body;stock.saPagesChecked[name]='VALUE'}
+     else {errors.push(name);stock.saPagesChecked[name]='ERROR'}
+   }else{errors.push(name);stock.saPagesChecked[name]='ERROR'}}finally{await p.close()}
  }
+ stock.saPageErrors=errors;
+ if(errors.length)partialFailures++;
  if(!pages.statistics&&!pages.overview){failed++;for(const k of ['pe','pb','roe','epsGrowth','divYield'])mark(stock,k,'error',`StockAnalysis core pages failed: ${errors.join(', ')}`);continue}
  checked++;
  const st=extractStats(pages.statistics||'');
  const rt=extractStats(pages.ratios||'');
+ const fn=extractStats(pages.financials||'');
  const ov=extractStats(pages.overview||'');
  const dv=extractStats(pages.dividend||'');
  const epsGrowth=epsGrowthFromOverview(pages.overview||'');
  const pick=(...vals)=>vals.find(v=>v!=null)??null;
  const m={
-   pe:pick(st.pe,ov.pe,rt.pe),forwardPe:pick(st.forwardPe,ov.forwardPe,rt.forwardPe),ps:pick(st.ps,rt.ps),pb:pick(st.pb,rt.pb),pfcf:pick(st.pfcf,rt.pfcf),peg:pick(st.peg,rt.peg),
+   pe:pick(st.pe,ov.pe,rt.pe,fn.pe),forwardPe:pick(st.forwardPe,ov.forwardPe,rt.forwardPe,fn.forwardPe),ps:pick(st.ps,rt.ps,fn.ps),pb:pick(st.pb,rt.pb,fn.pb),pfcf:pick(st.pfcf,rt.pfcf,fn.pfcf),peg:pick(st.peg,rt.peg,fn.peg),
    evSales:pick(st.evSales,rt.evSales),evEbitda:pick(st.evEbitda,rt.evEbitda),evFcf:pick(st.evFcf,rt.evFcf),earningsYield:pick(st.earningsYield,rt.earningsYield),fcfYield:pick(st.fcfYield,rt.fcfYield),
    dividendYield:pick(st.dividendYield,dv.dividendYield,ov.dividendYield),roe:pick(st.roe,rt.roe),roa:pick(st.roa,rt.roa),roic:pick(st.roic,rt.roic),currentRatio:pick(st.currentRatio,rt.currentRatio),quickRatio:pick(st.quickRatio,rt.quickRatio),
    debtEquity:pick(st.debtEquity,rt.debtEquity),interestCoverage:pick(st.interestCoverage,rt.interestCoverage),assetTurnover:pick(st.assetTurnover,rt.assetTurnover),grossMargin:pick(st.grossMargin,rt.grossMargin),operatingMargin:pick(st.operatingMargin,rt.operatingMargin),netMargin:pick(st.netMargin,rt.netMargin),
@@ -124,5 +133,5 @@ for(const stock of data.stocks){
 await browser.close();
 data.saRatiosUpdated=new Date().toISOString();data.refreshedAt=data.saRatiosUpdated;
 fs.writeFileSync(FILE,JSON.stringify(data,null,2)+'\n');
-console.log(`SUCCESS: SA enrichment checked ${checked}/${data.stocks.length}; core page failures ${failed}. SA-published values take precedence; CALC is fallback only.`);
+console.log(`SA enrichment checked ${checked}/${data.stocks.length}; core failures ${failed}; securities with any page failure ${partialFailures}. Missing metrics from incomplete relevant pages must be ERROR, not N/A. SA-published values take precedence; CALC is fallback only.`);
 // Collector self-test trigger: explicit push after workflow trigger activation 2026-08-21
