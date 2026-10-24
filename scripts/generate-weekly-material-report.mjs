@@ -18,8 +18,8 @@ for(const x of cur.stocks||[]){
   const p=pm.get(x.ticker);
   if(p&&p.rating!==x.rating)ratingChanges.push({ticker:x.ticker,from:p.rating,to:x.rating,scoreFrom:p.score,scoreTo:x.score});
   const zs=zoneState(x), ps=zoneState(p);
-  if(p&&zs&&ps&&zs!==ps)zoneChanges.push({ticker:x.ticker,from:ps,to:zs,price:x.price,buyZone:x.buyZone});
-  if(Number.isFinite(Number(x.w1))&&Math.abs(Number(x.w1))>=5)weeklyMoves.push({ticker:x.ticker,w1:Number(x.w1),price:x.price,rating:x.rating});
+  if(p&&zs&&ps&&zs!==ps)zoneChanges.push({ticker:x.ticker,from:ps,to:zs,price:x.price,buyZone:x.buyZone,priceDate:x.priceDate||null,officialFridayPrice:x.priceSource==='JSE'&&x.priceDate===cur.asOf});
+  if(Number.isFinite(Number(x.w1))&&Math.abs(Number(x.w1))>=5)weeklyMoves.push({ticker:x.ticker,w1:Number(x.w1),price:x.price,rating:x.rating,performanceSource:x.performanceSource||null,priceDate:x.priceDate||null});
   if(p&&(String(p.fairValue||'')!==String(x.fairValue||'')||String(p.buyZone||'')!==String(x.buyZone||'')))valuationChanges.push({ticker:x.ticker,fairValueFrom:p.fairValue??null,fairValueTo:x.fairValue??null,buyZoneFrom:p.buyZone??null,buyZoneTo:x.buyZone??null});
 }
 const top=a=>[...(a||[])].filter(x=>Number.isFinite(Number(x.score))).sort((a,b)=>Number(b.score)-Number(a.score)).slice(0,10).map(x=>x.ticker);
@@ -34,7 +34,12 @@ for(const type of ['income','growth','balanced']){
  portfolios[type]={now,changes,exits};
 }
 const errors=[];
-for(const x of cur.stocks||[]){for(const [k,v] of Object.entries(x.metricStatus||{})){if(String(v?.state||'').toLowerCase()==='error')errors.push({ticker:x.ticker,metric:k,detail:v.detail||null})}}
-const report={generatedAt:new Date().toISOString(),marketDataDate:cur.asOf||null,previousSnapshot:previousFile,universeCount:(cur.stocks||[]).length,ratingChanges,zoneChanges,weeklyMoves:weeklyMoves.sort((a,b)=>Math.abs(b.w1)-Math.abs(a.w1)),valuationChanges,top10:{current:topNow,previous:topPrev,entered:enteredTop10,exited:exitedTop10},portfolios,collectionErrors:errors};
+for(const x of cur.stocks||[]){
+  for(const [k,v] of Object.entries(x.metricStatus||{}))if(String(v?.state||'').toUpperCase()==='ERROR')errors.push({ticker:x.ticker,metric:k,scope:'display',detail:v.detail||null});
+  for(const [k,v] of Object.entries(x.saAnalystMetricStatus||{}))if(String(v?.state||'').toUpperCase()==='ERROR')errors.push({ticker:x.ticker,metric:k,scope:'SA analyst',detail:v.detail||null});
+  for(const page of x.saPageErrors||[])errors.push({ticker:x.ticker,page,scope:'SA page',detail:'Page fetch or body validation failed'});
+}
+const priceCoverage={verifiedFriday:(cur.stocks||[]).filter(x=>x.priceSource==='JSE'&&x.priceDate===cur.asOf).length,unverified:(cur.stocks||[]).filter(x=>x.priceSource!=='JSE'||x.priceDate!==cur.asOf).map(x=>({ticker:x.ticker,priceDate:x.priceDate||null,priceSource:x.priceSource||null}))};
+const report={generatedAt:new Date().toISOString(),marketDataDate:cur.asOf||null,previousSnapshot:previousFile,universeCount:(cur.stocks||[]).length,ratingChanges,zoneChanges,weeklyMoves:weeklyMoves.sort((a,b)=>Math.abs(b.w1)-Math.abs(a.w1)),valuationChanges,top10:{current:topNow,previous:topPrev,entered:enteredTop10,exited:exitedTop10},portfolios,priceCoverage,collectionErrors:errors};
 fs.writeFileSync('weekly-report.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report,null,2));
