@@ -27,6 +27,13 @@ for(const [ticker,cfg] of Object.entries(CONFIG)){
   const dp=await ctx.newPage();try{if(await go(dp,`https://stockanalysis.com/quote/${cfg.market}/${cfg.primaryTicker}/dividend/`))dividend=await dp.locator('body').innerText().catch(()=>'')}finally{await dp.close()}
   const hp=await ctx.newPage();try{if(await go(hp,`https://stockanalysis.com/quote/${cfg.market}/${cfg.primaryTicker}/history/`)){await hp.waitForSelector('table tbody tr',{timeout:12000}).catch(()=>{});const rows=await historyRows(hp),w1=histReturn(rows,7);if(Number.isFinite(w1))s.w1=Number(w1.toFixed(2))}}finally{await hp.close()}
   const st=parseStats(statsText+'\n'+overviewText),ov=parseStats(overviewText),dv=parseDividend(statsText+'\n'+dividend);
+  // A previous JMSE quote/per-share calculation must not survive when switching
+  // to the TTD primary listing. Missing TTSE values remain unavailable.
+  for(const k of ['pe','pb','roe','eps','bvps','dps','epsGrowth','divYield']){
+    s[k]=null;
+    s[k+'Source']=null;
+  }
+  s.saPrimaryPageErrors=[!overviewText?'overview':null,!statsText?'statistics':null,!dividend?'dividend':null].filter(Boolean);
   s.saMarket=cfg.market;s.saTicker=cfg.primaryTicker;s.saUrl=`https://stockanalysis.com/quote/${cfg.market}/${cfg.primaryTicker}/`;
   s.domicile=cfg.country;s.saCountry=cfg.country;s.domicileStatus='verified-primary-listing';s.primaryListing={market:cfg.market.toUpperCase(),ticker:cfg.primaryTicker,currency:cfg.nativeCurrency,source:'StockAnalysis',url:s.saUrl};
   s.fundamentalSource=`SA ${cfg.market.toUpperCase()} primary`;s.performanceSource=`SA ${cfg.market.toUpperCase()} primary`;s.nativeCurrency=cfg.nativeCurrency;
