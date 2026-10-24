@@ -14,6 +14,10 @@ function momentum(x){const vals=[[x.w1,.2],[x.m1,.3],[x.m3,.5]];let sum=0,w=0;fo
 const d=JSON.parse(fs.readFileSync('data.json','utf8'));
 let derived=0,explicit=0,revised=0;
 for(const x of d.stocks||[]){
+  if(!x.fairValue&&!x.buyZone&&!x.valuationStatus){
+    x.valuationStatus='VALUATION REVIEW';
+    x.valuationReviewReason='Insufficient verified normalized earnings, NAV/book value, cash flow or peer valuation evidence to support a defensible fair-value and buy-zone estimate.';
+  }
   let c=x.scoreComponents;
   const valid=c&&['valuation','quality','growth','financialStrength','dividend','momentum'].every(k=>Number.isFinite(Number(c[k])));
   if(valid && x.scoreComponentMethod==='analyst-explicit'){explicit++;c={valuation:Number(c.valuation),quality:Number(c.quality),growth:Number(c.growth),financialStrength:Number(c.financialStrength),dividend:Number(c.dividend),momentum:Number(c.momentum)};x.scoreComponents=c;x.scoreComponentMethod=x.scoreComponentMethod||'analyst-explicit';}
