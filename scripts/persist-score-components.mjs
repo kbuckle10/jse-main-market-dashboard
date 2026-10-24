@@ -18,15 +18,16 @@ for(const x of d.stocks||[]){
     x.valuationStatus='VALUATION REVIEW';
     x.valuationReviewReason='Insufficient verified normalized earnings, NAV/book value, cash flow or peer valuation evidence to support a defensible fair-value and buy-zone estimate.';
   }
+  const oldScore=Number(x.score);
   let c=x.scoreComponents;
   const valid=c&&['valuation','quality','growth','financialStrength','dividend','momentum'].every(k=>Number.isFinite(Number(c[k])));
   if(valid && x.scoreComponentMethod==='analyst-explicit'){explicit++;c={valuation:Number(c.valuation),quality:Number(c.quality),growth:Number(c.growth),financialStrength:Number(c.financialStrength),dividend:Number(c.dividend),momentum:Number(c.momentum)};x.scoreComponents=c;x.scoreComponentMethod=x.scoreComponentMethod||'analyst-explicit';}
   else {c={valuation:valuation(x),quality:quality(x),growth:growth(x),financialStrength:strength(x),dividend:dividend(x),momentum:momentum(x)};x.scoreComponents=c;x.scoreComponentMethod='metric-evidence-v2';x.scoreComponentReviewedAt=new Date().toISOString();derived++;}
   const sum=Object.values(c).reduce((a,b)=>a+Number(b),0);
-  if(Math.round(Number(x.score))!==sum){x.priorScore=x.score;x.score=sum;revised++;}
+  if(Math.round(oldScore)!==sum){x.previousWeeklyScore=x.score;x.score=sum;revised++;}
   // Scores are recalculated from this week's metrics; ratings remain analyst decisions.
   // Flag large score shifts or unsupported valuations rather than silently reclassifying.
-  if(x.valuationStatus==='VALUATION REVIEW'||(Number.isFinite(Number(x.priorScore))&&Math.abs(sum-Number(x.priorScore))>=8)){
+  if(x.valuationStatus==='VALUATION REVIEW'||(Number.isFinite(oldScore)&&Math.abs(sum-oldScore)>=8)){
     x.ratingReviewStatus='ANALYST REVIEW REQUIRED';
     x.ratingReviewReason=x.valuationReviewReason||'Evidence-derived score differs materially from prior reviewed score; re-evaluate rating and valuation.';
   }else{x.ratingReviewStatus='CURRENT MODEL SCORE';}
