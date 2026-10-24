@@ -65,7 +65,8 @@ jobs:
 
       - name: Collect official JSE Trade Summary market data
         run: npm run refresh:jse
-        continue-on-error: true
+        # Never publish a supposedly refreshed official-price dataset if this step fails.
+        continue-on-error: false
 
       - name: Persist auditable six-part Opportunity Scores
         run: npm run refresh:scores
@@ -84,6 +85,14 @@ jobs:
           if(badLinks.length) throw new Error('Missing direct JSE instrument URLs: '+badLinks.map(x=>x.ticker).join(','));
           const badScores=d.stocks.filter(x=>{const c=x.scoreComponents||{};const vals=[c.valuation,c.quality,c.growth,c.financialStrength,c.dividend,c.momentum];return vals.some(v=>!Number.isFinite(Number(v)))||vals.reduce((a,b)=>a+Number(b),0)!==Math.round(Number(x.score));});
           if(badScores.length) throw new Error('Invalid scoreComponents: '+badScores.map(x=>x.ticker).join(','));
+          const caps={valuation:25,quality:20,growth:20,financialStrength:15,dividend:10,momentum:10};
+          const outOfBounds=d.stocks.filter(x=>Object.entries(caps).some(([k,max])=>Number(x.scoreComponents?.[k])<0||Number(x.scoreComponents?.[k])>max));
+          if(outOfBounds.length)throw new Error('Score component exceeds maximum: '+outOfBounds.map(x=>x.ticker).join(','));
+          const official=d.stocks.filter(x=>x.priceSource==='JSE'&&x.priceDate===d.asOf).length;
+          if(official<Math.ceil(d.stocks.length*.7))throw new Error('Insufficient fresh official JSE price coverage: '+official+'/'+d.stocks.length);
+          const unclassified=d.stocks.filter(x=>!x.fairValue&&!x.buyZone&&x.valuationStatus!=='VALUATION REVIEW');
+          if(unclassified.length)throw new Error('Unflagged valuation gaps: '+unclassified.map(x=>x.ticker).join(','));
+          console.log('Official Friday price coverage',official,'/',d.stocks.length);
           const ghl=d.stocks.find(x=>x.ticker==='GHL');
           if(ghl && !String(ghl.saUrl||'').includes('/quote/ttse/GHL/')) throw new Error('GHL is not using TTSE StockAnalysis primary listing');
           console.log(`Validated ${d.stocks.length} stocks, direct links, scoreComponents and GHL provenance`);
