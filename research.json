@@ -684,17 +684,22 @@
     },
     {
       "ticker": "SGJ",
-      "ratingBasis": "Conditional J$75 cash scheme / court-approval and completion-risk spread",
+      "ratingBasis": "Court-sanctioned J$75 cash scheme effective 2026-10-30; no longer a normal investable listed-equity opportunity",
       "fairValue": null,
       "buyZone": null,
       "rating": "HOLD",
       "valuationStatus": "VALUATION REVIEW",
-      "valuationReviewReason": "Previous J$60–68 fair value and J$50–57 buy zone are obsolete after September 29 revised offer. J$75/share is conditional cash scheme consideration, not a standalone intrinsic valuation. Shareholders approved October 7; final court sanction scheduled October 30, subject to completion conditions. No defensible new buy zone without downside and timing analysis.",
+      "valuationReviewReason": "The Supreme Court sanctioned the J$75 cash scheme on 2026-10-30 and the court order was filed the same day, making the scheme effective. Minority equity rights have converted into the right to receive J$75 per unit. The prior standalone fair value and buy zone are inapplicable; do not publish a new entry range or recommend purchases. Preserve Friday's historical JSE close and direct instrument link until the official JSE universe confirms delisting.",
       "transactionOfferJmd": 75,
-      "transactionOfferStatus": "Shareholder-approved; pending final court sanction and closing",
-      "transactionOfferSource": "https://jm.scotiabank.com/about-scotiabank/media-centre/news-releases/scotia-group-jamaica-limited-scheme-of-arrangement-approved-by-shareholders.html",
-      "transactionReviewDate": "2026-10-24"
+      "transactionOfferStatus": "COURT SANCTIONED AND EFFECTIVE 2026-10-30; J$75 cash payable within ten business days; delisting expected",
+      "transactionOfferSource": "https://jm.scotiabank.com/about-scotiabank/media-centre/news-releases/scheme-of-arrangement-sanctioned-by-supreme-court.html",
+      "transactionReviewDate": "2026-10-31",
+      "transactionEffectiveDate": "2026-10-30",
+      "corporateActionStatus": "SCHEME_EFFECTIVE_PENDING_DELISTING",
+      "eligibleForNewInvestment": false,
+      "portfolioEligible": false,
+      "corporateActionNote": "As of 2026-10-30, minority holders cease to have shareholder rights other than the right to J$75 cash consideration. Treat as a settlement receivable, not a BUY/HOLD equity opportunity. Suspend new model-portfolio allocations and investment rankings pending official delisting."
     }
   ],
-  "analystReviewAsOf": "2026-10-24"
+  "analystReviewAsOf": "2026-10-31"
 }
