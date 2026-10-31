@@ -124,7 +124,7 @@ function renderStocks(){
   setView(view);
 }
 function rankStocks(mode){
-  const a=[...stocks];
+  const a=stocks.filter(x=>x.portfolioEligible!==false && x.eligibleForNewInvestment!==false);
   if(mode==='dividend')return a.filter(x=>num(x.divYield)!=null).sort((x,y)=>num(y.divYield)-num(x.divYield)).slice(0,10);
   if(mode==='growth')return a.filter(x=>num(x.epsGrowth)!=null).sort((x,y)=>num(y.epsGrowth)-num(x.epsGrowth)).slice(0,10);
   if(mode==='value')return a.filter(x=>num(x.pe)>0).sort((x,y)=>num(x.pe)-num(y.pe)).slice(0,10);
@@ -161,7 +161,7 @@ function renderRatingCase(){
   $('ratingCaseGrid').innerHTML=stocks.filter(x=>(!q||`${x.ticker} ${x.company}`.toLowerCase().includes(q))&&(!r||x.rating===r)).sort((a,b)=>(num(b.score)||0)-(num(a.score)||0)).map(caseCard).join('');
 }
 function portfolioCard(title,type,copy){
-  let pool=stocks.filter(x=>x.rating==='BUY'||x.rating==='HOLD');
+  let pool=stocks.filter(x=>(x.rating==='BUY'||x.rating==='HOLD') && x.portfolioEligible!==false && x.eligibleForNewInvestment!==false);
   pool.sort((a,b)=>type==='income'?(num(b.divYield)||0)-(num(a.divYield)||0):type==='growth'?(num(b.epsGrowth)??-999)-(num(a.epsGrowth)??-999):(num(b.score)||0)-(num(a.score)||0));
   pool=pool.slice(0,7);
   const raw=pool.map(x=>type==='income'?Math.max(1,num(x.divYield)||1):type==='growth'?Math.max(1,Math.min(30,(num(x.epsGrowth)||0)+10)):Math.max(1,num(x.score)||1));
