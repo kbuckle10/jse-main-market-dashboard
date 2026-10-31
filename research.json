@@ -1,6 +1,6 @@
 {
   "asOf": "2026-08-18",
-  "note": "Research completion overlay for securities that were pending in the baseline dataset. SA prices are delayed fallbacks where an official JSE close was not directly retrievable in this run. SGJ transaction correction reviewed 2026-10-24: J$75 is conditional scheme consideration, not standalone intrinsic fair value; no supported Buy Zone pending completion-risk analysis. Existing other valuations retain their original review date.",
+  "note": "Research assumptions overlay; original valuation estimates retain their historical review dates unless individually revised. SGJ materially updated 2026-10-31: the J$75 cash scheme was court sanctioned and became effective on 2026-10-30; minority equity rights converted to a cash receivable. SGJ is ineligible for new investments and model portfolios pending official delisting. Do not treat its historical score or Friday close as an actionable investment opportunity. Official JSE prices remain authoritative; SA prices are delayed fallbacks when a verified JSE row is unavailable.",
   "stocks": [
     {
       "ticker": "138SL",
