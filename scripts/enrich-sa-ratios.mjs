@@ -114,11 +114,25 @@ for(const stock of data.stocks){
  stock.saUrl=base;stock.saMarket=market;
  stock.saAnalystMetrics={source:'StockAnalysis',market:market.toUpperCase(),url:base,updatedAt:new Date().toISOString(),...m};
  const cross=stock.crossListed||market!=='jmse';
- if(m.pe!=null)setSa(stock,'pe',m.pe,`Published by StockAnalysis ${market.toUpperCase()} Statistics`);else{const f=calcFallback(stock,'pe');if(f!=null){stock.pe=f;stock.peSource='CALC';mark(stock,'pe','fallback','StockAnalysis P/E not published; calculated fallback used')}else mark(stock,'pe','na','StockAnalysis checked; P/E not published and no fallback')}
- if(m.pb!=null)setSa(stock,'pb',m.pb,`Published by StockAnalysis ${market.toUpperCase()} Statistics`);else{const f=calcFallback(stock,'pb');if(f!=null){stock.pb=f;stock.pbSource='CALC';mark(stock,'pb','fallback','StockAnalysis P/B not published; calculated fallback used')}else mark(stock,'pb','na','StockAnalysis checked; P/B not published and no fallback')}
+ // Do not retain unsourced legacy per-share or profitability figures as current VALUE.
+ // If the relevant SA pages were checked and the new value is absent, discard only
+ // legacy values without an attributable SA/CALC provenance. This also prevents
+ // fabricated zero-dividend yields and P/B ratios based on unsourced old inputs.
+ for(const k of ['eps','bvps','dps','roe','epsGrowth']){
+   const src=String(stock[`${k}Source`]||'');
+   if(m[k]==null && stock[k]!=null && !/^(SA(?:\s|$)|CALC(?:\s|$))/i.test(src)){
+     stock.metricProvenanceAudit??={};
+     stock.metricProvenanceAudit[k]='Prior unsourced value cleared after current StockAnalysis pages did not publish this metric';
+     stock[k]=null;
+     delete stock[`${k}Source`];
+     mark(stock,k,'na','StockAnalysis checked; unsourced legacy value discarded');
+   }
+ }
+ if(m.pe!=null)setSa(stock,'pe',m.pe,`Published by StockAnalysis ${market.toUpperCase()} Statistics`);else{const f=calcFallback(stock,'pe');if(f!=null){stock.pe=f;stock.peSource='CALC';mark(stock,'pe','fallback','StockAnalysis P/E not published; calculated fallback used')}else {stock.pe=null;delete stock.peSource;mark(stock,'pe','na','StockAnalysis checked; P/E not published and no fallback')}}
+ if(m.pb!=null)setSa(stock,'pb',m.pb,`Published by StockAnalysis ${market.toUpperCase()} Statistics`);else{const f=calcFallback(stock,'pb');if(f!=null){stock.pb=f;stock.pbSource='CALC';mark(stock,'pb','fallback','StockAnalysis P/B not published; calculated fallback used')}else {stock.pb=null;delete stock.pbSource;mark(stock,'pb','na','StockAnalysis checked; P/B not published and no fallback')}}
  if(m.roe!=null)setSa(stock,'roe',m.roe,`Published by StockAnalysis ${market.toUpperCase()} Statistics`);else if(stock.roe!=null)mark(stock,'roe','fallback','Retaining previously sourced ROE');else mark(stock,'roe','na','StockAnalysis checked; ROE not published')
  if(m.epsGrowth!=null)setSa(stock,'epsGrowth',m.epsGrowth,`Published by StockAnalysis ${market.toUpperCase()} Overview`);else if(stock.epsGrowth!=null)mark(stock,'epsGrowth','fallback','Retaining previously sourced EPS growth');else mark(stock,'epsGrowth','na','StockAnalysis Overview checked; EPS growth not published')
- if(m.dividendYield!=null)setSa(stock,'divYield',m.dividendYield,`Published by StockAnalysis ${market.toUpperCase()} Statistics/Dividend`);else{const f=calcFallback(stock,'divYield');if(f!=null){stock.divYield=f;stock.divYieldSource='CALC';mark(stock,'divYield','fallback','StockAnalysis dividend yield not published; calculated fallback used')}else mark(stock,'divYield','na','StockAnalysis checked; dividend yield not published')}
+ if(m.dividendYield!=null)setSa(stock,'divYield',m.dividendYield,`Published by StockAnalysis ${market.toUpperCase()} Statistics/Dividend`);else{const f=calcFallback(stock,'divYield');if(f!=null){stock.divYield=f;stock.divYieldSource='CALC';mark(stock,'divYield','fallback','StockAnalysis dividend yield not published; calculated fallback used')}else {stock.divYield=null;delete stock.divYieldSource;mark(stock,'divYield','na','StockAnalysis checked; dividend yield not published')}}
  if(cross){
    if(m.eps!=null){stock.eps=Number(m.eps.toFixed(4));stock.epsSource=`SA ${market.toUpperCase()}`;stock.epsCurrency=stock.nativeCurrency||stock.primaryListing?.currency||null;mark(stock,'eps','ok',`Published by StockAnalysis ${market.toUpperCase()} Statistics`)}
    if(m.bvps!=null){stock.bvps=Number(m.bvps.toFixed(4));stock.bvpsSource=`SA ${market.toUpperCase()}`;stock.bvpsCurrency=stock.nativeCurrency||stock.primaryListing?.currency||null;mark(stock,'bvps','ok',`Published by StockAnalysis ${market.toUpperCase()} Statistics`)}
