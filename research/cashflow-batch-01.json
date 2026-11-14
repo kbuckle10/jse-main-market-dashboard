@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T17:59:58.913Z",
+  "generatedAt": "2026-11-14T18:40:34.396Z",
   "sourcePriority": [
     "StockAnalysis",
     "JSE"
@@ -116,10 +116,10 @@
       "records": [
         {
           "period": "TTM",
-          "periodEnding": "Jun 30, 2026",
-          "operatingCashFlow": 18330,
-          "capitalExpenditures": -2497,
-          "freeCashFlow": 15833
+          "periodEnding": "Sep 30, 2026",
+          "operatingCashFlow": 14326,
+          "capitalExpenditures": -2306,
+          "freeCashFlow": 12021
         },
         {
           "period": "FY 2025",
@@ -167,10 +167,10 @@
       "records": [
         {
           "period": "TTM",
-          "periodEnding": "Jun 30, 2026",
-          "operatingCashFlow": 65.69,
-          "capitalExpenditures": -0.83,
-          "freeCashFlow": 64.87
+          "periodEnding": "Sep 30, 2026",
+          "operatingCashFlow": 69.23,
+          "capitalExpenditures": -0.95,
+          "freeCashFlow": 68.28
         },
         {
           "period": "FY 2025",
@@ -217,11 +217,11 @@
       "units": "millions",
       "records": [
         {
-          "period": "TTM",
-          "periodEnding": "Jun 30, 2026",
-          "operatingCashFlow": 13998,
-          "capitalExpenditures": -2464,
-          "freeCashFlow": 11534
+          "period": "FY 2026",
+          "periodEnding": "Sep 30, 2026",
+          "operatingCashFlow": 1110,
+          "capitalExpenditures": -2648,
+          "freeCashFlow": -1538
         },
         {
           "period": "FY 2025",
@@ -250,13 +250,6 @@
           "operatingCashFlow": -18864,
           "capitalExpenditures": -3093,
           "freeCashFlow": -21957
-        },
-        {
-          "period": "FY 2021",
-          "periodEnding": "Sep 30, 2021",
-          "operatingCashFlow": -35590,
-          "capitalExpenditures": -3441,
-          "freeCashFlow": -39031
         }
       ]
     }
