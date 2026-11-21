@@ -1,139 +1,206 @@
 {
-  "generatedAt": "2026-11-14T18:40:39.828Z",
-  "marketDataDate": "2026-11-13",
-  "previousSnapshot": "2026-11-07.json",
+  "generatedAt": "2026-11-21T19:57:46.013Z",
+  "marketDataDate": "2026-11-20",
+  "previousSnapshot": "2026-11-14.json",
   "universeCount": 54,
   "ratingChanges": [],
   "zoneChanges": [
     {
-      "ticker": "SJ",
-      "from": "IN",
-      "to": "ABOVE",
-      "price": 42.35,
-      "buyZone": "J$36–41",
-      "priceDate": "2026-11-13",
-      "officialFridayPrice": true
-    },
-    {
-      "ticker": "CCC",
+      "ticker": "SEP",
       "from": "ABOVE",
-      "to": "IN",
-      "price": 110,
-      "buyZone": "J$100–115",
-      "priceDate": "2026-11-13",
+      "to": "BELOW",
+      "price": 18.83,
+      "buyZone": "J$65–75",
+      "priceDate": "2026-11-20",
       "officialFridayPrice": true
     },
     {
       "ticker": "EPLY",
-      "from": "ABOVE",
-      "to": "IN",
-      "price": 31.68,
+      "from": "IN",
+      "to": "ABOVE",
+      "price": 34.94,
       "buyZone": "J$28–32",
-      "priceDate": "2026-11-13",
+      "priceDate": "2026-11-20",
       "officialFridayPrice": true
     }
   ],
   "weeklyMoves": [
     {
-      "ticker": "LASD",
-      "w1": 42.86,
-      "price": 5.28,
-      "rating": "BUY",
+      "ticker": "MPCCEL",
+      "w1": 78.06,
+      "price": 69.02,
+      "rating": "AVOID",
       "performanceSource": "SA",
-      "priceDate": "2026-11-13"
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "SALF",
+      "w1": 44.82,
+      "price": 4.18,
+      "rating": "HOLD",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
     },
     {
       "ticker": "VMIL",
-      "w1": 14.83,
-      "price": 2.41,
+      "w1": 37.5,
+      "price": 3.24,
       "rating": "WATCH",
       "performanceSource": "SA",
-      "priceDate": "2026-11-13"
+      "priceDate": "2026-11-20"
     },
     {
-      "ticker": "KPREIT",
-      "w1": -13.41,
-      "price": 10.66,
-      "rating": "HOLD",
-      "performanceSource": "SA",
-      "priceDate": "2026-11-13"
-    },
-    {
-      "ticker": "RJR",
-      "w1": 12.39,
-      "price": 1.27,
-      "rating": "AVOID",
-      "performanceSource": "SA",
-      "priceDate": "2026-11-13"
-    },
-    {
-      "ticker": "PAL",
-      "w1": -12.28,
-      "price": 0.58,
-      "rating": "AVOID",
-      "performanceSource": "SA",
-      "priceDate": "2026-11-13"
-    },
-    {
-      "ticker": "QWI",
-      "w1": -10.59,
-      "price": 0.75,
+      "ticker": "SEP",
+      "w1": 21.25,
+      "price": 18.83,
       "rating": "BUY",
       "performanceSource": "SA",
-      "priceDate": "2026-11-13"
-    },
-    {
-      "ticker": "MPCCEL",
-      "w1": 10.49,
-      "price": 45.99,
-      "rating": "AVOID",
-      "performanceSource": "SA",
-      "priceDate": "2026-11-13"
-    },
-    {
-      "ticker": "ASBH",
-      "w1": 10,
-      "price": 15.03,
-      "rating": "WATCH",
-      "performanceSource": "SA",
-      "priceDate": "2026-11-13"
-    },
-    {
-      "ticker": "PROVEN",
-      "w1": 7.69,
-      "price": 11.53,
-      "rating": "WATCH",
-      "performanceSource": "SA",
-      "priceDate": "2026-11-13"
+      "priceDate": "2026-11-20"
     },
     {
       "ticker": "LASM",
-      "w1": 6.79,
-      "price": 8.5,
+      "w1": 17.2,
+      "price": 10,
       "rating": "BUY",
       "performanceSource": "SA",
-      "priceDate": "2026-11-13"
+      "priceDate": "2026-11-20"
     },
     {
-      "ticker": "MTL",
-      "w1": -6.69,
-      "price": 11.99,
+      "ticker": "KPREIT",
+      "w1": 14.55,
+      "price": 12.3,
+      "rating": "HOLD",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "NCBFG",
+      "w1": 12.02,
+      "price": 76.97,
+      "rating": "BUY",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "XFUND",
+      "w1": -10.51,
+      "price": 9,
       "rating": "WATCH",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "BRG",
+      "w1": 9.65,
+      "price": 6.62,
+      "rating": "AVOID",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "CAR",
+      "w1": 9.56,
+      "price": 31.33,
+      "rating": "WATCH",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "PROVEN",
+      "w1": -7.94,
+      "price": 10.68,
+      "rating": "WATCH",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "WIPT",
+      "w1": 7.14,
+      "price": 9.91,
+      "rating": "AVOID",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "138SL",
+      "w1": 7,
+      "price": 4.29,
+      "rating": "WATCH",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "SVL",
+      "w1": 6.95,
+      "price": 20.14,
+      "rating": "WATCH",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "JSE",
+      "w1": 6.64,
+      "price": 9.93,
+      "rating": "HOLD",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "SRFJMD",
+      "w1": 6.26,
+      "price": 9,
+      "rating": "WATCH",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "LASD",
+      "w1": 6,
+      "price": 5.62,
+      "rating": "BUY",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "TJH",
+      "w1": 5.56,
+      "price": 10.5,
+      "rating": "WATCH",
+      "performanceSource": "SA",
+      "priceDate": "2026-11-20"
+    },
+    {
+      "ticker": "RJR",
+      "w1": -5.51,
+      "price": 1.17,
+      "rating": "AVOID",
       "performanceSource": "SA",
       "priceDate": "2026-11-13"
     },
     {
       "ticker": "JMMBGL",
-      "w1": 6.67,
-      "price": 19.81,
+      "w1": -5,
+      "price": 18.97,
       "rating": "WATCH",
       "performanceSource": "SA",
-      "priceDate": "2026-11-13"
+      "priceDate": "2026-11-20"
     }
   ],
   "valuationChanges": [],
   "top10": {
     "current": [
+      "SCIJMD",
+      "SELECTF",
+      "SML",
+      "CCC",
+      "LASM",
+      "SALF",
+      "JSE",
+      "CAR",
+      "LASD",
+      "QAINC"
+    ],
+    "previous": [
       "SCIJMD",
       "SML",
       "CCC",
@@ -145,27 +212,17 @@
       "TJH",
       "EPLY"
     ],
-    "previous": [
-      "SCIJMD",
-      "SML",
-      "LASM",
-      "SALF",
-      "CCC",
-      "EPLY",
-      "GHL",
-      "QWI",
-      "CAR",
-      "SIL"
-    ],
     "entered": [
-      "LASD",
-      "WISYNCO",
-      "TJH"
+      "SELECTF",
+      "JSE",
+      "CAR",
+      "QAINC"
     ],
     "exited": [
-      "QWI",
-      "CAR",
-      "SIL"
+      "GHL",
+      "WISYNCO",
+      "TJH",
+      "EPLY"
     ]
   },
   "portfolios": {
@@ -173,48 +230,60 @@
       "now": [
         {
           "ticker": "GHL",
-          "pct": 23
+          "pct": 22
+        },
+        {
+          "ticker": "SIL",
+          "pct": 15
         },
         {
           "ticker": "JSE",
           "pct": 15
         },
         {
-          "ticker": "SIL",
+          "ticker": "MASSY",
           "pct": 14
         },
         {
-          "ticker": "EPLY",
-          "pct": 13
-        },
-        {
-          "ticker": "MASSY",
-          "pct": 13
-        },
-        {
-          "ticker": "SALF",
-          "pct": 11
-        },
-        {
           "ticker": "SML",
-          "pct": 11
+          "pct": 12
+        },
+        {
+          "ticker": "EPLY",
+          "pct": 12
+        },
+        {
+          "ticker": "QWI",
+          "pct": 10
         }
       ],
-      "changes": [],
-      "exits": []
+      "changes": [
+        {
+          "ticker": "QWI",
+          "pct": 10,
+          "previousPct": 0,
+          "delta": 10
+        }
+      ],
+      "exits": [
+        {
+          "ticker": "SALF",
+          "previousPct": 11
+        }
+      ]
     },
     "growth": {
       "now": [
         {
-          "ticker": "SEP",
+          "ticker": "EPLY",
           "pct": 16
         },
         {
-          "ticker": "GENAC",
+          "ticker": "SML",
           "pct": 14
         },
         {
-          "ticker": "SML",
+          "ticker": "GENAC",
           "pct": 14
         },
         {
@@ -226,17 +295,23 @@
           "pct": 14
         },
         {
-          "ticker": "SIL",
+          "ticker": "KPREIT",
           "pct": 14
         },
         {
-          "ticker": "LASD",
+          "ticker": "SEP",
           "pct": 14
         }
       ],
       "changes": [
         {
-          "ticker": "LASD",
+          "ticker": "EPLY",
+          "pct": 16,
+          "previousPct": 0,
+          "delta": 16
+        },
+        {
+          "ticker": "KPREIT",
           "pct": 14,
           "previousPct": 0,
           "delta": 14
@@ -244,8 +319,12 @@
       ],
       "exits": [
         {
-          "ticker": "LASM",
-          "previousPct": 11
+          "ticker": "SIL",
+          "previousPct": 14
+        },
+        {
+          "ticker": "LASD",
+          "previousPct": 14
         }
       ]
     },
@@ -253,7 +332,7 @@
       "now": [
         {
           "ticker": "SML",
-          "pct": 15
+          "pct": 16
         },
         {
           "ticker": "CCC",
@@ -261,34 +340,34 @@
         },
         {
           "ticker": "LASM",
-          "pct": 15
+          "pct": 14
         },
         {
           "ticker": "SALF",
-          "pct": 15
+          "pct": 14
+        },
+        {
+          "ticker": "JSE",
+          "pct": 14
         },
         {
           "ticker": "LASD",
           "pct": 14
         },
         {
-          "ticker": "GHL",
-          "pct": 13
-        },
-        {
-          "ticker": "WISYNCO",
+          "ticker": "KPREIT",
           "pct": 13
         }
       ],
       "changes": [
         {
-          "ticker": "LASD",
+          "ticker": "JSE",
           "pct": 14,
           "previousPct": 0,
           "delta": 14
         },
         {
-          "ticker": "WISYNCO",
+          "ticker": "KPREIT",
           "pct": 13,
           "previousPct": 0,
           "delta": 13
@@ -296,18 +375,18 @@
       ],
       "exits": [
         {
-          "ticker": "EPLY",
+          "ticker": "GHL",
           "previousPct": 13
         },
         {
-          "ticker": "QWI",
+          "ticker": "WISYNCO",
           "previousPct": 13
         }
       ]
     }
   },
   "priceCoverage": {
-    "verifiedFriday": 50,
+    "verifiedFriday": 48,
     "unverified": [
       {
         "ticker": "SGJ",
@@ -320,6 +399,11 @@
         "priceSource": "SA"
       },
       {
+        "ticker": "RJR",
+        "priceDate": "2026-11-13",
+        "priceSource": "SA"
+      },
+      {
         "ticker": "SELECTF",
         "priceDate": "2026-11-06",
         "priceSource": "SA"
@@ -327,6 +411,11 @@
       {
         "ticker": "SELECTMD",
         "priceDate": "2026-11-06",
+        "priceSource": "SA"
+      },
+      {
+        "ticker": "SML",
+        "priceDate": "2026-11-13",
         "priceSource": "SA"
       }
     ]

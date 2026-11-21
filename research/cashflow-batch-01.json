@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:40:34.396Z",
+  "generatedAt": "2026-11-21T19:57:38.527Z",
   "sourcePriority": [
     "StockAnalysis",
     "JSE"
@@ -65,10 +65,10 @@
       "records": [
         {
           "period": "TTM",
-          "periodEnding": "Jun 30, 2026",
-          "operatingCashFlow": 8647,
-          "capitalExpenditures": -37.68,
-          "freeCashFlow": 8609
+          "periodEnding": "Sep 30, 2026",
+          "operatingCashFlow": 8935,
+          "capitalExpenditures": -62.93,
+          "freeCashFlow": 8873
         },
         {
           "period": "FY 2025",
